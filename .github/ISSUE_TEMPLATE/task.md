@@ -1,3 +1,12 @@
+---
+name: Template de tarefas
+about: Template para definir a tarefa para algum membro
+title: 'Título da tarefa'
+labels: ''
+assignees: ''
+
+---
+
 ## Descrição
 
 Insira a descrição da task.
