@@ -1,3 +1,12 @@
+---
+name: Reportar Bug
+about: Reporte um bug
+title: ''
+labels: bug
+assignees: ''
+
+---
+
 ## Descrição do problema
 
 Insira uma descrição clara e concisa sobre o problema
