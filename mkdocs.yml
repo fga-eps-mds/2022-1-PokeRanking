@@ -1,0 +1,22 @@
+site_name: PokéRanking
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/git-alt 
+ 
+
+repo_url: https://github.com/fga-eps-mds/2022-1-PokeRanking
+repo_name: fga-eps-mds/2022-1-PokeRanking
+ 
+ 
+
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
