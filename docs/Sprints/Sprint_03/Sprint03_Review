@@ -9,6 +9,8 @@ Início | Fim | Duração
 ------ | --- | -------
 28/06 | 05/07 | 7 dias
 
+---------
+
 ## 2. Conclusão
 <!-- adicionar a issue, sua descrição, o responsavel e se a issue foi terminada ou não -->
 Issues | Descrição | Resposáveis | Status
@@ -21,6 +23,8 @@ Issues | Descrição | Resposáveis | Status
 06 | Definir as tecnologias | Toda a equipe | Completa
 07 | Adicionar Código de Conduta | [Kallyne](https://github.com/kazpmcd/) | Completa
 08 | Documentar a Sprint 03 | [João](https://github.com/JoaoSchmitz) | Completa
+
+---------
 
 ## 3. FeedBack
 <!--
@@ -41,9 +45,17 @@ Pontos positivos e negativos da Sprint
 * A criação das issues no GitHub ocorreu tardiamente.
 * Algumas issues não estão sendo editas de modo total, podendo prejudicar os gráficos de BurnDown e Velocity.
 
+---------
+
 ## 4. Tecnologias e Requisitos definidos
 ![Tecnologias e Requisitos](Imagens/Tecnologias_e_Requisitos.png)
 
+---------
+
 ## 5. Gráfico - BurnDown
+![BurnDown](Imagens/BurndownReport.png)
+
+---------
 
 ## 6. Gráfico - Velocity
+![Velocity](Imagens/VelocityReport.png)
