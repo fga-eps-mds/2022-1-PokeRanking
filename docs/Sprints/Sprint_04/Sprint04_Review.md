@@ -49,4 +49,4 @@ O Backlog do Produto pode ser visualizado neste [link](https://github.com/fga-ep
 ---------
 
 ## 6. Gráfico - Velocity
-![Velocity](Imagens/VelocityReport.PNG)
+![Velocity](Imagens/VelocityReport.png)
