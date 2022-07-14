@@ -1,6 +1,6 @@
-# 1. Planning
+# Planning
 
-## 1.1. Visão Geral
+## 1. Visão Geral
 <!-- data de inicio da sprint
      data de finalização da sprint
      duraração da sprint
@@ -9,7 +9,7 @@
  ------ | --- | -------
  05/07 | 12/07 | 7 dias
 
-## 1.2. Papéis
+## 2. Papéis
 <!-- Papeis que cada membro exerceu durante essa sprint -->
 
 <table>
@@ -53,14 +53,14 @@
   
 </table>
 
-## 1.3. Objetivos da Sprint
+## 3. Objetivos da Sprint
 <!-- descrever de forma geral o objetivo da sprint -->
 * Consolidar Backlog do Produto e requisitos;
 * Treinamentos nas tecnologias escolhidas para o desenvolvimento do produto;
 * Testes de desenvolvimento e ferramentas utilizadas;
 * Ter uma proposta de Protótipo de Baixa Fidelidade
 
-## 1.4. Issues
+## 4. Issues
 <!-- descrever as issues que definimos para essa sprint e alocar um responsavel por ela -->
 Issues | Descrição | Responsáveis
 ------ | --------- | -----------
@@ -73,7 +73,7 @@ Issues | Descrição | Responsáveis
 07 | Estudo de tecnologias back-end | [Maciel](https://github.com/macieljuniormax), [Kallyne](https://github.com/kazpmcd/), [João](https://github.com/JoaoSchmitz) e [Artur](https://github.com/artur-seppa)
 08 | Estudo e testes da API | [Artur](https://github.com/artur-seppa) e [Maciel](https://github.com/macieljuniormax)
 
-## 1.5. Planning Poker
+## 5. Planning Poker
 ![Planning Poker](Imagens/PlanningPoker.png)
 
 ![Padrao de Estimativa](Imagens/padrao_estimativa_complexidade.jpeg)
