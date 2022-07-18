@@ -3,9 +3,7 @@ import './style.css';
 
 function Home() {
   return (
-    <div>
-      
-    </div>
+    <h1>PokeRanking</h1>
   );
 }
 
