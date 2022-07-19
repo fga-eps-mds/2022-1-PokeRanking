@@ -19,7 +19,7 @@ Este protocolo tem como objetivo facilitar a atualização da documentação no 
 
 Para facilitar a integração do GitHub Pages com o que é atualizado no repositório, é importante seguir os padrões de commit e nomeações de arquivos, a exemplo do que é feito com a documentação das Sprints:
 
-![Exemplo de organização de arquivos](Imagens\exemplo-arquivos.PNG)
+![Exemplo de organização de arquivos](https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/ec8efc3119dd9713a08141017952f0b1e835939d/docs/Documenta%C3%A7%C3%A3o/Imagens/exemplo-arquivos.PNG)
 
 <br>
 
