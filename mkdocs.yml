@@ -1,22 +1,89 @@
 site_name: PokéRanking
+site_author: Squad 3 - 2022.1 - MDS - FGA - UnB
+copyright: |
+  &copy; 2022.1 <a href="https://github.com/fga-eps-mds/2022-1-PokeRanking.git"  target="_blank" rel="noopener">Squad 3 - MDS - FGA - UnB</a>
+
+
 theme:
   name: material
   language: pt-BR
   features:
     - navigation.tabs
     - navigation.top
+    - navigation.sections
+    - toc.integrate
   icon:
-    repo: fontawesome/brands/git-alt 
- 
+    repo: fontawesome/brands/git-alt
+  logo: "icon-640.png"
+  favicon: "icon-640.png"
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: red
+      accent: amber 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: red
+      accent: amber
+      
+
+nav:
+  - Início: "index.md"
+  - Documentação:
+    - Termo de Abertura do Projeto: "Documentação/Termo-de-Abertura.md"
+    - Documento de Visão: "Documentação/documento-de-visao.md"
+    - Documento de Arquitetura: "Documentação/documento-de-arquitetura.md"
+    - Backlog do Produto: "Documentação/product-backlog.md"
+    - Protótipo de Baixa Fidelidade: "Protótipos/prototipo-de-baixa-fidelidade.md"
+    - Código de Conduta para Colaboradores: "Documentação/codigo-de-conduta.md"
+  - Sprints:
+    - Sprint 00:
+      - Planning: "Sprints/Sprint_00/planning.md"
+      - Review: "Sprints/Sprint_00/review.md"
+    - Sprint 01:
+      - Planning: "Sprints/Sprint_01/Sprint01_Planning.md"
+      - Review: "Sprints/Sprint_01/Sprint01_Review.md"
+    - Sprint 02:
+      - Planning: "Sprints/Sprint_02/Sprint02_Planning.md"
+      - Review: "Sprints/Sprint_02/Sprint02_Review.md"
+    - Sprint 03:
+      - Planning: "Sprints/Sprint_03/Sprint03_Planning.md"
+      - Review: "Sprints/Sprint_03/Sprint03_Review.md"
+    - Sprint 04:
+      - Planning: "Sprints/Sprint_04/Sprint04_Planning.md"
+      - Review: "Sprints/Sprint_04/Sprint04_Review.md"
+    - Sprint 05:
+      - Planning: "Sprints/Sprint_05/Sprint05_Planning.md"
+      - Review: "Sprints/Sprint_05/Sprint05_Review.md"
+    - Sprint 06:
+      - Planning: "Sprints/Sprint_06/Sprint06_Planning.md"
+      - Review: "Sprints/Sprint_06/Sprint06_Review.md"
+    - Sprint 07:
+      - Planning: "Sprints/Sprint_07/Sprint07_Planning.md"
+      - Review: "Sprints/Sprint_07/Sprint07_Review.md"
+    
 
 repo_url: https://github.com/fga-eps-mds/2022-1-PokeRanking
 repo_name: fga-eps-mds/2022-1-PokeRanking
  
  
-
 markdown_extensions:
   - pymdownx.emoji
   - pymdownx.tasklist
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+
