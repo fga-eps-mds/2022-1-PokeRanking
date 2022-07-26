@@ -9,8 +9,22 @@ const mongoose = require('mongoose')
 *   pode receber
 */
 const Criatura = mongoose.model('Criatura', {
+    codigo: Number,
     name: String,
-    codigo: Number
+    type_1: String,
+    type_2: String,
+    Total: Number,
+    hp: Number,
+    attack: Number,
+    defense: Number,
+    special_attack: Number,
+    special_defense: Number,
+    speed: Number,
+    generation: String,
+    Legendary: String,
+    url_image: String,
+    shape: String,
+    total: Number
 })
 
 // Exporta a Class para ser utilizada em outras paginas
