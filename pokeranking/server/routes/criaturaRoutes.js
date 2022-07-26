@@ -10,19 +10,34 @@ const Criatura = require('../models/Criatura')
 *   no MongoDB.
 */
 
-//CREATE DE CRIATURAS
+//CREATE DE CRIATURA
 
 router.post('/', (req,res) => {
-    const {name, codigo} = req.body
+    const {
+        codigo, name, type_1, type_2, Total,
+        HP, Attack, Defense, Sp_Atk, Sp_Def,
+        Speed, Generation, Legendary 
+    } = req.body
 
-    if(!name){
-        res.status(422).send("O nome é obrigatório")
+    if(!codigo){
+        res.status(422).send("O codigo é obrigatório")
         return
     }
     
     const obj = {
-        name,
-        codigo
+        codigo, 
+        name, 
+        type_1, 
+        type_2, 
+        Total,
+        HP, 
+        Attack, 
+        Defense, 
+        Sp_Atk, 
+        Sp_Def,
+        Speed, 
+        Generation, 
+        Legendary
     }
 
     try {
@@ -31,6 +46,36 @@ router.post('/', (req,res) => {
     } catch (error) {
         res.status(500).send(error)        
     }
+})
+
+// CREATE PARSER DE CRIATURA(S)
+
+/*
+*   Parser de arquivo csv para json. O arquivo results obtem o valor convertido em JSON
+*   das criaturas,  que por fim sao alocadas para o banco de dados.
+*/
+
+router.post('/CSV_file', (req,res) => {
+    
+    const csv = require('csv-parser');
+    const fs = require('fs')
+    const results = [];
+
+    fs.createReadStream('./Parser_file/pokemon_definitivo(url).csv')
+    .pipe(csv({}))
+    .on('data', (data) => results.push(data))
+    .on('end', () => {
+        //console.log(results)
+        try {
+            Criatura.insertMany(results, (erro, resultado)=>{
+                res.status(201).send('Criatura(s) criadas com sucesso')
+            })
+    
+        } catch (error) {
+            res.status(500).send(error)        
+        }
+    })
+
 })
 
 // BUSCA DE CRIATURAS
