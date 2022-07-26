@@ -12,4 +12,4 @@ Este documento tem como objetivo facilitar a visualização do escopo do projeto
 
 ## 2. Diagrama
 
-![Diagrama Estrutura Analítica](imagens/estrutura-analitica.jpeg)
+![Diagrama Estrutura Analítica](Imagens/estrutura-analitica.jpeg)
