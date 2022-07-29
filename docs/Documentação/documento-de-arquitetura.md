@@ -5,16 +5,27 @@
 |-------------|---------|------------------|----------------------------------------------------------|
 | 24/06/2022  | 0.1     | Abertura do documento  |[Kallyne M. Passos](https://github.com/kazpmcd)|
 | 06/07/2022  | 0.2     | Adição de tópicos da representação arquitetural |[Leonardo Sobrinho](https://github.com/Leonardo0o0)|
+| 29/07/2022  | 0.3     | Inclusão da introdução  |[Kallyne M. Passos](https://github.com/kazpmcd)|
 
 
 ## 1. Introdução
 
 ### 1.1. Objetivo
 
+O documento presente objetiva trazer à vista o panorama arquitetural do sistema desenvolvido para que se torne de conhecimento público e interno os processos que envolvem o projeto, as decisões tomadas e as funções desempenhadas por cada componente.
+
 ### 1.2. Escopo
+
+O documento presente trata do projeto PokéRanking, idealizado e desenvolvido por alunos da disciplina de Métodos de Desenvolvimento de Software, lecionada na Universidade de Brasília - Faculdade do Gama, que consiste em um sistema cuja meta é proporcionar aos seus usuários a possibilidade de classificação e ranqueamento entre diversos Pokemóns da franquia Pokémon-Nintendo®.
 
 ### 1.3. Definições, acrônimos e abreviações
 
+|  Sigla/Termo/Acrônimo     | Definição   |
+|-------------|--------------------|
+|MDS	|Métodos de Desenvolvimento de Software|
+|FGA	|Faculdade do Gama|
+|UnB	|Universidade de Brasília|
+|MVC	|Model View Controller|
 
 ## 2. Representação arquitetural
 
