@@ -2,39 +2,57 @@ import React from 'react';
 import './style.css';
 
 function Home() {
-  const getPokemonUrl = id => `https://localhost:5000/criaturas/${id}`
+  const url = 'http://localhost:5000/criaturas'
 
-  const generatePokemonPromises = () => Array(150).fill().map((_, index) =>
-    fetch(getPokemonUrl(index + 1)).then(response => response.json()))
+  fetch(url)
+  .then(response => response.json())
+  .then(data => {
+      const list = document.querySelector('#pokemon');
 
-  const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types }) => {
-    const elemenTypes = types.map(typeInfo => typeInfo.type.name)
+      data.map((item) => {
+          const card = document.createElement('li')
+          const h2 = document.createElement('span');
+          const br = document.createElement('br')
+          const id = document.createElement('span');
+          const icon = document.createElement('img');
+          const tipo_1 = document.createElement('p')
+          const tipo_2 = document.createElement('p')
 
-    accumulator += `
-        <li class = "card ${elemenTypes[0]}">
-            <img class="card-image" alt="${name}" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg" /> 
-            <h2 class = "card-title">${id}. ${name}</h2>
-            <p class ="card-subtitle">${elemenTypes.join(' | ')}</p>
-        </li>
-        `
-    return accumulator
-  }, '')
+          list.setAttribute('class', "PokeRanking")
+          card.setAttribute('class', `card ${item.type_1}`)
+          icon.setAttribute('class', "card-image") 
+          h2.setAttribute('class', "card-title")
+          id.setAttribute('class', "card-title")
+          tipo_1.setAttribute('class', "card-subtitle")
+          tipo_2.setAttribute('class', "card-subtitle")
 
-  const insetPokemonsIntoPage = pokemons => {
-    const ul = document.querySelector('[data-js="PokeRanking"]')
-    ul.innerHTML = pokemons
-  }
+          id.textContent = `${item.codigo}. `
+          icon.src = item.url_image      
+          h2.textContent = item.name;
+          tipo_1.textContent = item.type_1
+          
+          if(item.type_2 !== "NA"){
+            tipo_2.textContent = item.type_2
+          }
+          
+          card.appendChild(id); 
+          card.appendChild(h2);
+          card.appendChild(br)
+          card.appendChild(icon)
+          card.appendChild(tipo_1)
+          card.appendChild(tipo_2)
 
-  const pokemonPromises = generatePokemonPromises()
+         
 
-  Promise.all(pokemonPromises)
-    .then(generateHTML)
-    .then(insetPokemonsIntoPage)
+          list.appendChild(card)
+      })
+  })
+  .catch(error => console.log(error))
 
   return (
-    <div class="container">
+    <div class="container" id='container'>
       <h1>PokeRanking</h1>
-      <ul data-js="PokeRanking" class="PokeRanking"></ul>
+      <div id="pokemon"></div>
     </div>
   );
 }

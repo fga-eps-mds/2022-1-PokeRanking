@@ -17,10 +17,11 @@ h1 {
 }
 
 .PokeRanking {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	grid-gap: 20px;
-	padding-inline-start: 0;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .card {
@@ -30,6 +31,9 @@ h1 {
 	text-align: center;
 	border-radius: 20px;
 	position: relative;
+
+    margin: 1%;
+    width: 20%;
 }
 
 .card::after {
@@ -111,7 +115,7 @@ h1 {
 
 .card-title {
 	text-transform: capitalize;
-	margin-bottom: 0px;
+	margin: 0px;
 	font-size: 32px;
 	font-weight: normal;
 	position: relative;
@@ -128,6 +132,7 @@ h1 {
 
 .card-image {
 	height: 180px;
+    width: 180px;
 	position: relative;
 	z-index: 2;
 }
