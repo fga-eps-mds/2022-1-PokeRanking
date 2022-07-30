@@ -2,6 +2,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
+const cors = require('cors')
 
 //middlewares -> permite enviar e receber arquivos JSON na API
 app.use(
@@ -11,6 +12,20 @@ app.use(
 )
 
 app.use(express.json())
+
+//CORS -> versiona o funcionamento de acesso da API
+app.use((req, res, next) => {
+
+    /*
+    *  Access-Control-Allow-Origin -> determina a url(frontend) que pode se comunicar com a API.
+    *  Access-Control-Allow-Methods -> determina o metodo HTTP que a url pode utilizar
+    *  na aplicacao
+    */
+    res.header("Access-Control-Allow-Origin", "*")
+    res.header("Access-Control-Allow-Methods", 'GET')
+    app.use(cors());
+    next();
+})
 
 //Rotas da API
 
