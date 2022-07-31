@@ -1,4 +1,5 @@
 # Sobre
+
 O PokéRanking é uma aplicação que fornece um sistema de ranqueamento e classificação de pokémons de todas as gerações! <img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="15" />
 
 Com ele você pode rankear os pokémons aplicando filtros, fazer comparações entre criaturas diversas, além de visualizar informações e detalhes individuais dos pokémons e fazer uma simulação de equipe!
@@ -6,6 +7,7 @@ Com ele você pode rankear os pokémons aplicando filtros, fazer comparações e
 O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Software do curso de Engenharia de Software da Universidade de Brasília (UnB), Campus Gama. Para mais informações, consulte a aba [Documentação](Documentação/Termo-de-Abertura.md).
 
 # Equipe
+
 <style>
    @font-face {
         font-family: 'Flexo Bold';
@@ -97,11 +99,11 @@ O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Softwar
         width: 150px;
         border-radius: 5px;
         height: 25px;
-        align-content: center;
         line-height: 25px;
         text-align: center;
         margin-left: 7.67px;
         font-family: 'Flexo Medium', Arial, sans-serif;
+        font-size: 16px;
     }
 
     .poke-container {
@@ -169,7 +171,7 @@ O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Softwar
     <a href="https://github.com/Julio-eng">
         <div class="card card-julio-maciel">
             <img src="https://avatars.githubusercontent.com/u/78378116?v=4" alt="julio" class="pic">
-            <p class="num">Nº001 </p>
+            <p class="num">Nº006 </p>
             <p class="name">Júlio César</p>
             <p class="role julio-maciel">Product Owner</p>
             <div class="poke-container"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="" class="pokemon"></div>
@@ -178,7 +180,7 @@ O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Softwar
     <a href="https://github.com/charles-serafim">
         <div class="card card-charles">
             <img src="https://avatars.githubusercontent.com/u/75335915?v=4" alt="charles" class="pic">
-            <p class="num">Nº001 </p>
+            <p class="num">Nº054 </p>
             <p class="name">Charles</p>
             <p class="role charles">Product Owner</p>
             <div class="poke-container"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/054.png" alt="" class="pokemon"></div>
@@ -187,7 +189,7 @@ O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Softwar
     <a href="https://github.com/kazpmcd">
         <div class="card card-kallyne">
             <img src="https://avatars.githubusercontent.com/u/71143609?v=4" alt="kallyne" class="pic">
-            <p class="num">Nº001 </p>
+            <p class="num">Nº094 </p>
             <p class="name">Kallyne</p>
             <p class="role kallyne">Software Architect</p>
             <div class="poke-container"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/094.png" alt="" class="pokemon"></div>
@@ -196,7 +198,7 @@ O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Softwar
     <a href="https://github.com/Leonardo0o0">
         <div class="card card-thiago-leo">
             <img src="https://avatars.githubusercontent.com/u/82467659?v=4" alt="leo" class="pic">
-            <p class="num">Nº001 </p>
+            <p class="num">Nº745 </p>
             <p class="name">Leonardo</p>
             <p class="role thiago-leo">Software Architect</p>
             <div class="poke-container"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/745.png" alt="" class="pokemon"></div>
@@ -205,7 +207,7 @@ O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Softwar
     <a href="https://github.com/artur-seppa">
         <div class="card card-artur">
             <img src="https://avatars.githubusercontent.com/u/82611794?v=4" alt="artur" class="pic">
-            <p class="num">Nº001 </p>
+            <p class="num">Nº149 </p>
             <p class="name">Artur Seppa</p>
             <p class="role artur">Developer</p>
             <div class="poke-container"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/149.png" alt="" class="pokemon"></div>
@@ -214,10 +216,11 @@ O projeto foi criado para a disciplina de Métodos de Desenvolvimento de Softwar
     <a href="https://github.com/macieljuniormax">
         <div class="card card-julio-maciel">
             <img src="https://avatars.githubusercontent.com/u/66387901?v=4" alt="maciel" class="pic">
-            <p class="num">Nº001 </p>
+            <p class="num">Nº004 </p>
             <p class="name">Maciel Júnior</p>
             <p class="role julio-maciel">Developer</p>
             <div class="poke-container"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" alt="" class="pokemon"></div>
         </div>
     </a>
 </div>
+
