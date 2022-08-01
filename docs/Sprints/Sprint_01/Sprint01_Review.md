@@ -40,4 +40,4 @@ Pontos positivos e negativos da Sprint
 
 ## 4. Quadro de Conhecimento
 <!-- Adicionar o quadro de conhecimentos atualizados da equipe -->
-![Quadro de Conhecimento](Mapa_de_Conhecimentos.png)
+![Quadro de Conhecimento](Imagens/Mapa_de_Conhecimentos.png)

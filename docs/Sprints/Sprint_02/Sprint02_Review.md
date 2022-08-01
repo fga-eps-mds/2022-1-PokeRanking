@@ -41,9 +41,9 @@ Pontos positivos e negativos da Sprint
 
 ## 4. Planning Poker das Issues
 <!-- Adicionar o quadro de conhecimentos atualizados da equipe -->
-![planning poker](imagens/planningPoker.png)
+![planning poker](Imagens/planningPoker.png)
 
 
 ## 5. Padrão de estimativa de complexidade da issue
 <!-- Adicionar o quadro de conhecimentos atualizados da equipe -->
-![estimativa de complexidade](imagens/padrao_estimativa_complexidade.jpeg)
+![estimativa de complexidade](Imagens/padrao_estimativa_complexidade.jpeg)
