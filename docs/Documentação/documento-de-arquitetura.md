@@ -7,6 +7,8 @@
 | 06/07/2022  | 0.2     | Adição de tópicos da representação arquitetural |[Leonardo Sobrinho](https://github.com/Leonardo0o0)|
 | 29/07/2022  | 0.3     | Inclusão da introdução  |[Kallyne M. Passos](https://github.com/kazpmcd)|
 | 31/07/2022  | 0.4     | Atualização do tópico 2 e adição dos tópicos 3 e 4   |[Leonardo Sobrinho](https://github.com/Leonardo0o0), [Kallyne M. Passos](https://github.com/kazpmcd)|
+| 01/08/2022  | 0.5     | Adição do tópico 5   |[Kallyne M. Passos](https://github.com/kazpmcd)|
+
 
 ## 1. Introdução
 
@@ -26,16 +28,18 @@ O documento presente trata do projeto PokéRanking, idealizado e desenvolvido po
 |FGA	|Faculdade do Gama|
 |UnB	|Universidade de Brasília|
 |MVC	|Model View Controller|
+|MERN   |MongoDB, Express.js, React e Node.js
+
 
 ## 2. Representação arquitetural
 
-### 2.1 JavaScript
+### 2.1 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 JavaScript é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, e é usada tanto em ambientes com ou sem browser apesar de ser mais conhecida como a linguagem de script para páginas Web.
 
 O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, que suporta tanto estilos imperativos e declarativos quanto estilos orientados a objetos.
 
-#### 2.1.1 Node.js
+#### 2.1.1 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 O Node.js é um ambiente de execução Javascript server-side, ou seja, a partir dele é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina.
 
@@ -45,25 +49,25 @@ Uma de suas principais vantagens é a sua alta capacidade de escala. Além disso
 
 Mongoose é uma biblioteca de programação orientada a objetos JavaScript, ela cria uma ponte entre o MongoDB e o ambiente de tempo de execução JavaScript Node.js.
 
-#### 2.1.3 Express.js
+#### 2.1.3 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel. O Express fornece um incremento de funcionalidades fundamentais para aplicativos da web, sem interferir com os recursos do Node.js.
 
-#### 2.1.2 React
+#### 2.1.2 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 	
 Uma biblioteca JavaScript para criar interfaces de usuário.
 
 O React surgiu com o objetivo de otimizar a atualização e a sincronização de atividades simultâneas no feed de notícias da rede social, entre eles chat, status, listagem de contatos e outros.
 
-A princípio,essas atividades tinham uma descrição muito complexa. O React deixa esta descrição mais simples, assim como, a conexão entre HTML, CSS e JavaScript e todos os componentes de uma página, também é simplificada
+A princípio, essas atividades tinham uma descrição muito complexa. O React deixa esta descrição mais simples, assim como a conexão entre HTML, CSS e JavaScript e todos os componentes de uma página também é simplificada.
 
-### 2.2 CSS
+### 2.2 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 CSS (Folhas de Estilo em Cascata) é uma linguagem usada para descrever a apresentação de um documento escrito em HTML ou em XML, ou seja, descreve como elementos são mostrados na tela.
 
 CSS é uma das principais linguagens da open web e é padronizada em navegadores web de acordo com as especificações da WC3.
 
-### 2.3 HTML
+### 2.3 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web que define o significado e a estrutura do conteúdo da web. 
 
@@ -71,7 +75,7 @@ HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais bá
 
 Pode ser usado em conjunto com CSS, para descrever a aparência/apresentação de uma página da web, e JavaScript, para descrever a funcionalidade/comportamento de uma página da web.
 
-### 2.4 Mongodb
+### 2.4 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 O MongoDB é um banco de dados orientado a documentos que possui código aberto (open source) e foi projetado para armazenar uma grande escala de dados, além de permitir que se trabalhe de forma eficiente com grandes volumes.
 
@@ -79,17 +83,18 @@ Ele é categorizado no banco de dados NoSQL (not only SQL) pois o armazenamento 
 
 O banco de dados também fornece suporte oficial de driver para todas as linguagens populares como C, C ++, C # e .Net, Go, Java, Node.js, Perl, PHP, Python, Motor, Ruby, Scala, Swift, Mongoid. Assim, pode-se criar um aplicativo usando qualquer uma dessas linguagens.
 
-### 2.5 Metabase
+### 2.5 ![metabase](https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff)
 
 O Metabase é uma ferramenta que permite coletar, processar e analisar dados. A ferramenta é capaz de transformar os dados e suas estruturas em algo palpável através de filtros orgânicos e uma estética confortável para a visualização. 
 
 Nela os dados são transformados em dashboards atualizadas, e em relatórios e gráficos simples e rápidos, facilmente entendidos.
 
+
 ## 3. Metas e Restrições arquiteturais
 
 ### 3.1 Suportabilidade
 
-Dada a natureza de um ranking online, o software deve ser suportado pelos principais navegadores de internet (2022) para maior comodidade do usuário.
+Por ter a natureza de um ranking online, o software deve ser suportado pelos principais navegadores de internet (2022) para maior comodidade do usuário.
 
 ### 3.2 Usabilidade
 
@@ -105,7 +110,10 @@ O gerenciamento dos dados deve ser realizado por meio do MongoDB, que permite ar
 
 É estimado que o sistema tenha uma cobertura de testes de 90%, buscando garantir que suas funcionalidades foram suficientemente testadas e tenham uma garantia de funcionalidade.
 
+
 ## 4. Visão de Casos de Uso
+
+Lista de casos de uso: 
 
 - Ver o ranking de Pokémons através dos filtros disponíveis
 - Montar uma equipe de até 6 Pokémons
@@ -117,9 +125,18 @@ O gerenciamento dos dados deve ser realizado por meio do MongoDB, que permite ar
 
 O usuário da aplicação deve ser capaz de interagir com ela conforme as visões de casos de uso e ter uma experiência no site conforme descrito na Usabilidade.
 
+
 ## 5. Visão Lógica
 
+![image](https://iili.io/SU992a.png)
 
+A aplicação é desenvolvida a partir da combinação MERN (MongoDB, Express.js, React e Node.js), com base JavaScript.
+
+A parte majoritária das ações tomadas pelo usuário precisarão consultar o banco de dados, através do servidor, para serem concluídas, o que torna necessário o envio uma solicitação (request) ao servidor pelo cliente React, utilizando o protocolo de comunicação HTTP.
+
+Na execução do software, o  Node.js aparece como forma de executar o JavaScript do lado do servidor (server-side) da aplicação, na qual interage com uma base de dados MongoDB por meio do Mongoose.
+
+Assim que a solicitação é processada, o servidor deve interpretá-la e produzir uma resposta a partir das informações recebidas e, neste ponto, o cliente React recupera o que foi requisitado, respeitando o protocolo HTTP. A partir disso, o React cria um template que permite a visualização e interação com os dados pelo usuário. 
 
 ## 6. Visão de implementação
 
