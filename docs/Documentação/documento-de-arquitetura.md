@@ -6,7 +6,7 @@
 | 24/06/2022  | 0.1     | Abertura do documento  |[Kallyne M. Passos](https://github.com/kazpmcd)|
 | 06/07/2022  | 0.2     | Adição de tópicos da representação arquitetural |[Leonardo Sobrinho](https://github.com/Leonardo0o0)|
 | 29/07/2022  | 0.3     | Inclusão da introdução  |[Kallyne M. Passos](https://github.com/kazpmcd)|
-
+| 31/07/2022  | 0.4     | Atualização do tópico 2 e adição dos tópicos 3 e 4   |[Leonardo Sobrinho](https://github.com/Leonardo0o0), [Kallyne M. Passos](https://github.com/kazpmcd)|
 
 ## 1. Introdução
 
@@ -40,6 +40,14 @@ O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmic
 O Node.js é um ambiente de execução Javascript server-side, ou seja, a partir dele é possível criar aplicações Javascript para rodar como uma aplicação standalone em uma máquina.
 
 Uma de suas principais vantagens é a sua alta capacidade de escala. Além disso, sua arquitetura, flexibilidade e baixo custo, o tornam uma boa escolha para implementação de Microsserviços e componentes da arquitetura Serverless.
+
+#### 2.1.2 Mongoose
+
+Mongoose é uma biblioteca de programação orientada a objetos JavaScript, ela cria uma ponte entre o MongoDB e o ambiente de tempo de execução JavaScript Node.js.
+
+#### 2.1.3 Express.js
+
+O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel. O Express fornece um incremento de funcionalidades fundamentais para aplicativos da web, sem interferir com os recursos do Node.js.
 
 #### 2.1.2 React
 	
@@ -81,15 +89,33 @@ Nela os dados são transformados em dashboards atualizadas, e em relatórios e g
 
 ### 3.1 Suportabilidade
 
+Dada a natureza de um ranking online, o software deve ser suportado pelos principais navegadores de internet (2022) para maior comodidade do usuário.
+
 ### 3.2 Usabilidade
+
+A interface do sistema deve ser intuitiva, de facil acesso, sem a neecessidade de realizar login ou cadastro para desfrutar de todas as funcionalidades.
 
 ### 3.3 Ferramentas de Desenvolvimento
 
+O projeto deve ser desenvolvido com HTML, CSS e JavaScript, com o uso da biblioteca React para a criação da interface e Express.js, que é um framework para Node.js utilizados no back-end.
+
+O gerenciamento dos dados deve ser realizado por meio do MongoDB, que permite armazenar um banco de dados não relacional, e o Mongoose que faz a ligação entre o banco de dados e o back-end.
+
 ### 3.4 Confiabilidade
 
+É estimado que o sistema tenha uma cobertura de testes de 90%, buscando garantir que suas funcionalidades foram suficientemente testadas e tenham uma garantia de funcionalidade.
 
 ## 4. Visão de Casos de Uso
 
+- Ver o ranking de Pokémons através dos filtros disponíveis
+- Montar uma equipe de até 6 Pokémons
+- Comparar 2 Pokémons entre si 
+- Visualizar os Pokémons por ordem de pokédex
+- Visualizar o mapa de regiões
+
+### 4.1 Usuário
+
+O usuário da aplicação deve ser capaz de interagir com ela conforme as visões de casos de uso e ter uma experiência no site conforme descrito na Usabilidade.
 
 ## 5. Visão Lógica
 
