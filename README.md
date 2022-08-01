@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/82467659/182036907-358c2a0b-0dcf-40a5-afde-f07139004d02.png)
+![image](https://user-images.githubusercontent.com/82467659/182052506-180e65ac-719e-4d3d-a1aa-c60f8a3d8755.png)
+
 
 
 <p align="center">
@@ -28,14 +29,45 @@ O projeto tem como intuito promover uma melhor experiência para Jogadores de Po
     <a href="https://fga-eps-mds.github.io/2022-1-PokeRanking/"><strong>PokeRanking Docs</strong></a> <img src="https://media.giphy.com/media/8YEgM3ih5TdJOIMxzf/giphy.gif" width="20" height="20" />
 </p>
 
-## <img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="26" height="20" /> Como usufruir
+## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Como usufruir
 
-1<img src="https://media.giphy.com/media/cJ5tJAaqaqBJCckOft/giphy.gif" width="20" height="18" /> Crie uma pasta onde voce queira guardar a aplicação
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 1. Crie uma pasta onde voce queira guardar a aplicação
 
-2<img src="https://media.giphy.com/media/46gMxxuM631CbHHjQ0/giphy.gif" width="20" height="18" /> Abra um terminal com o nome dessa pasta e insira o codigo: 
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 2. Abra um terminal com o nome dessa pasta e insira o codigo: 
 ```
 git clone https://github.com/fga-eps-mds/2022-1-PokeRanking.git
 ```
-3<img src="https://media.giphy.com/media/1SBOO49zr9Kuj0hlQT/giphy.gif" width="20" height="18" /> Puxe todo o conteúdo para sua máquina
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 3. Entre na pasta do projeto 
+```
+cd 2022-1-PokeRanking
+```
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 4. Entre na pasta pokeranking 
+```
+cd pokeranking
+```
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 5. Instale as dependencias do front
+```
+npm install
+```
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 6. Entre na pasta server
+```
+cd server
+```
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 7. Instale as dependencias do server
+```
+npm install
+```
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 8. Inicie o server
+```
+node .
+```
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 9. Volte para a pasta pokeranking
+```
+cd ..
+```
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 10. Inicie o front
+```
+npm start
+```
 
-4<img src="https://media.giphy.com/media/4Zs0CLPh5Jw0VXd6r5/giphy.gif" width="20" height="18" /> Depois basta rodar a aplicação e aproveitar
+Após iniciar o server e o front o programa vai iniciar e sempre que voce quiser roda-lo de novo basta fazer apenas os passos 6, 8, 9 e 10.
