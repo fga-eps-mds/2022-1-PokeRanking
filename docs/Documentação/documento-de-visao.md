@@ -8,7 +8,6 @@
 | 01/08/2022  |1.0      |Atualização dos tópicos: Introdução, Posicionamento, Descrições do Usuário, Envolvidos, visão geral do produto, Recursos do produto, Restrições, Requisitos funcionais e não funcionais, Outros requisitos do produto |[Charles M. S. Morais](https://github.com/charles-serafim)|
 
 
-Introdução, Posicionamento, Descrições do Usuário, Envolvidos, visão geral do produto, Recursos do produto, Restrições, Requisitos funcionais e não funcionais, Outros requisitos do produto
 
 ## 1. Introdução
 Este documento tem como objetivo apresentar o PokéRanking, explicando pontos sobre o escopo, posicionamento, requisitos e recursos para auxiliar desenvolvedores e usuários a compreender o produto e suas especificidades.
@@ -110,7 +109,6 @@ Site (aplicação web) acessível através de navegadores/browsers diversos.
 
 
 ## 4. Envolvidos
-Envolvidos: equipe responsável pelo desenvolvimento do produto.
 
 | Nome            | Descrição             | Principais responsabilidades |
 |-----------------|-----------------------|------------------------------|
@@ -134,7 +132,6 @@ Assim, desdobram-se objetivos específicos, como: fornecer informações individ
 
 
 ## 6. Recursos do Produto
-
 O usuário do site PokéRanking pode fazer a utilização dos diversos recursos da plataforma:
 * Visualizar lista dos pokémons por ordem da Pokédex
 * Pesquisar um pokémon pelo seu número da Pokédex ou pelo seu nome
