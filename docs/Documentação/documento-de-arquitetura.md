@@ -125,6 +125,9 @@ Lista de casos de uso:
 
 O usuário da aplicação deve ser capaz de interagir com ela conforme as visões de casos de uso e ter uma experiência no site conforme descrito na Usabilidade.
 
+### 4.2 Diagrama de casos de uso
+![photo_2022-08-02_08-37-34](https://user-images.githubusercontent.com/65683663/182368258-6da7bd21-94da-421a-bbb2-e1d28495122c.jpg)
+
 
 ## 5. Visão Lógica
 
