@@ -1,25 +1,25 @@
 # Logotipo
 
-![Logo Principal](docs/Protótipos/Imagens/logo-principal.png)
+![Logo Principal](Imagens/logo-principal.png)
 
 
 # Telas
 
-![tela01](docs/Protótipos/Imagens/tela01.png)
+![tela01](Imagens/tela01.png)
 
-![tela02](docs/Protótipos/Imagens/tela02.png)
+![tela02](Imagens/tela02.png)
 
-![tela03](docs/Protótipos/Imagens/tela03.png)
+![tela03](Imagens/tela03.png)
 
-![tela04](docs/Protótipos/Imagens/tela04.png)
+![tela04](Imagens/tela04.png)
 
-![tela05](docs/Protótipos/Imagens/tela05.png)
+![tela05](Imagens/tela05.png)
 
-![tela06](docs/Protótipos/Imagens/tela06.png)
+![tela06](Imagens/tela06.png)
 
-![tela07](docs/Protótipos/Imagens/tela07.png)
+![tela07](Imagens/tela07.png)
 
-![tela08](docs/Protótipos/Imagens/tela08.png)
+![tela08](Imagens/tela08.png)
 
 
 
