@@ -1,4 +1,4 @@
-<img src='https://bettercodehub.com/edge/badge/Thiago-Cerq/2022-1-PokeRanking?branch=main'>
+
 
 ![image](https://user-images.githubusercontent.com/82467659/182052506-180e65ac-719e-4d3d-a1aa-c60f8a3d8755.png)
 
@@ -21,6 +21,7 @@
         <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
     </a>
     <a href="ttps://coveralls.io/github/fga-eps-mds/2022-1-PokeRanking?branch=main"><img src="https://coveralls.io/repos/github/fga-eps-mds/2022-1-PokeRanking/badge.svg?branch=main" alt="Coverage Status" /></a>
+    <img src='https://bettercodehub.com/edge/badge/Thiago-Cerq/2022-1-PokeRanking?branch=main'>
 </p>
 
 ## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Sobre o projeto
@@ -31,15 +32,20 @@ O projeto tem como intuito promover uma melhor experiência para Jogadores de Po
     <a href="https://fga-eps-mds.github.io/2022-1-PokeRanking/"><strong>PokeRanking Docs</strong></a> <img src="https://media.giphy.com/media/8YEgM3ih5TdJOIMxzf/giphy.gif" width="20" height="20" />
 </p>
 
+## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Tecnologias utilizadas
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![metabase](https://img.shields.io/badge/Metabase-509EE3?style=for-the-badge&logo=metabase&logoColor=fff)
+
+
 ## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Como usufruir
 
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 1. Crie uma pasta onde voce queira guardar a aplicação
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 1. Crie uma pasta onde voce queira guardar a aplicação.
 
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 2. Abra um terminal com o nome dessa pasta e insira o codigo: 
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 2. Abra um terminal com o nome dessa pasta e insira o código: 
 ```
 git clone https://github.com/fga-eps-mds/2022-1-PokeRanking.git
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 3. Entre na pasta do projeto 
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 3. Entre na pasta do projeto:
 ```
 cd 2022-1-PokeRanking
 ```
@@ -47,29 +53,32 @@ cd 2022-1-PokeRanking
 ```
 cd pokeranking
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 5. Instale as dependencias do front
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 5. Instale as dependências do front-end:
 ```
 npm install
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 6. Entre na pasta server
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 6. Entre na pasta server:
 ```
 cd server
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 7. Instale as dependencias do server
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 7. Instale as dependências do servidor:
 ```
 npm install
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 8. Inicie o server
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 8. Inicie o servidor:
 ```
 node .
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 9. Volte para a pasta pokeranking
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 9. Volte para a pasta pokeranking:
 ```
 cd ..
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 10. Inicie o front
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 10. Inicie o front-end:
 ```
 npm start
 ```
 
-Após iniciar o server e o front o programa vai iniciar e sempre que voce quiser roda-lo de novo basta fazer apenas os passos 6, 8, 9 e 10.
+Após iniciar o servidor e o front-end, o programa irá iniciar e sempre que quiser rodá-lo de novo, basta repetir apenas os passos 6, 8, 9 e 10.
+
+## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Licença
+Este projeto está licenciado sob os termos estabelecidos pela MIT License.
