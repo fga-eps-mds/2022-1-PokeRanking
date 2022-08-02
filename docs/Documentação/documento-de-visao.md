@@ -128,7 +128,7 @@ Assim, desdobram-se objetivos específicos, como: fornecer informações individ
 | Facilidade em consultar informações sobre um pokémon através do número da Pokédex ou nome | A aplicação fornece um campo de pesquisa para consultas de informações individuais dos pokémons    |
 | Possibilidade a classificação de um pokémon em relação ao total de atributos ou em relação a um atributo ou tipo específico | A partir dos dados sobre os atributos, a aplicação fornece uma interface de visualização de ranking pokémon, que conta com filtros disponíveis para customização da visualização |
 | Possibilidade de montar uma equipe com 6 pokémons, visualizando seu desempenho | A aplicação fornece a simulação de equipes e a visualização das suas métricas, atributos e qualidade geral |
-| Possobilidade de visualizar o mapa Pokémon e ver os pokémons da região | É fornecido também o recurso do mapa, onde pode-se visualizar os pokémons de diversas regiões |
+| Possibilidade de visualizar o mapa Pokémon e ver os pokémons da região | É fornecido também o recurso do mapa, onde pode-se visualizar os pokémons de diversas regiões |
 
 
 ## 6. Recursos do Produto
@@ -158,23 +158,26 @@ Lista de categorias de prioridades para requisitos:
 | Útil	        | Requisitos que não são usados com tanta frequência e não são tão significativos na satisfação que o usuário tem sobre o sistema |
 
 Lista de requisitos:
-| Identificador | Requisito                                                                      | Depende de | Prioridade |
-|---------------|--------------------------------------------------------------------------------|------------|------------|
-| RF01          | Fornecer a visualização dos pokémons por ordem da Pokedex                      | ---        | Alta       |
-| RF02          | Permitir a filtragem dos pokémons por tipo                                     | RF01       | Alta       |
-| RF03          | Fornecer o ranking dos pokémons pelo total de atributos                        | ---        | Alta       |
-| RF04          | Fornecer o ranking dos pokémons por atributos especificos                      | RF03       | Alta       |
-| RF05          | Permitir a pesquisa de pokémons pelo nome                                      | RF01       | Média      |
-| RF06          | Permitir a pesquisa de pokémons pelo número da Pokédex                         | RF01       | Baixa      |
-| RF07          | Permitir a visualização de detalhes de um pokémon ao clicar sobre ele          | RF01       | Média      |
-| RF08          | Permitir a adição de um pokémon à equipe pelo card de detalhes                 | RF07       | Baixa      |
-| RF09          | Fornecer a visualização do mapa geral das regiões                              | ---        | Média      |
-| RF10          | Permitir a visualização dos pokémons de uma região do mapa ao clicar sobre ela | RF09       | Baixa      |
-| RF11          | Permitir a seleção de pokémons para comparação                                 | RF01       | Média      |
-| RF12          | Permitir a retirada de um pokémon da lista de comparação                       | RF11       | Baixa      |
-| RF13          | Permitir a adição de pokémons à uma simulação de equipe                        | RF01       | Média      |
-| RF14          | Permitir a retirada de pokémons de uma simulação de equipe                     | RF13       | Baixa      |
-| RF15          | Fornecer a visualização das métricas da equipe                                 | RF13       | Baixa      |
-| RF16          | Fornecer a visualização do(s) atributo(s) foco da equipe                       | RF13       | Baixa      |
-| RF17          | Fornecer a visualização da qualidade geral da equipe                           | RF13       | Média      |
-| RNF18         | Suporte para principais navegadores web atuais                                 | ---        | Média      |
+| Identificador | Requisito                                                                                               | Depende de | Prioridade |
+|---------------|---------------------------------------------------------------------------------------------------------|------------|------------|
+| RF01          | Fornecer a visualização dos pokémons por ordem da Pokedex                                               | ---        | Alta       |
+| RF02          | Permitir a filtragem dos pokémons por tipo                                                              | RF01       | Alta       |
+| RF03          | Fornecer o ranking dos pokémons pelo total de atributos                                                 | ---        | Alta       |
+| RF04          | Fornecer o ranking dos pokémons por atributos especificos                                               | RF03       | Alta       |
+| RF05          | Permitir a pesquisa de pokémons pelo nome                                                               | RF01       | Média      |
+| RF06          | Permitir a pesquisa de pokémons pelo número da Pokédex                                                  | RF01       | Baixa      |
+| RF07          | Permitir a visualização de detalhes de um pokémon ao clicar sobre ele                                   | RF01       | Média      |
+| RF08          | Permitir a adição de um pokémon à equipe pelo card de detalhes                                          | RF07       | Baixa      |
+| RF09          | Fornecer a visualização do mapa geral das regiões                                                       | ---        | Média      |
+| RF10          | Permitir a visualização dos pokémons de uma região do mapa ao clicar sobre ela                          | RF09       | Baixa      |
+| RF11          | Permitir a seleção de pokémons para comparação                                                          | RF01       | Média      |
+| RF12          | Permitir a retirada de um pokémon da lista de comparação                                                | RF11       | Baixa      |
+| RF13          | Permitir a adição de pokémons à uma simulação de equipe                                                 | RF01       | Média      |
+| RF14          | Permitir a retirada de pokémons de uma simulação de equipe                                              | RF13       | Baixa      |
+| RF15          | Fornecer a visualização das métricas da equipe                                                          | RF13       | Baixa      |
+| RF16          | Fornecer a visualização do(s) atributo(s) foco da equipe                                                | RF13       | Baixa      |
+| RF17          | Fornecer a visualização da qualidade geral da equipe                                                    | RF13       | Média      |
+| RNF18         | Suporte para principais navegadores web atuais                                                          | ---        | Média      |
+| RNF19         | O ambiente de produção deve ser configurado de modo que sempre contenha uma versão testada e estável    | ---        | Média      |
+| RNF20         | A aplicação deve possuir mecanismos que permitam a acessibilidade de diversos grupos de usuários        | ---        | Média      |
+| RNF21         | A aplicação deve ter uma experiência de uso simples e familiar, de linguagem e design fácil e intuitivo | ---        | Média      |
