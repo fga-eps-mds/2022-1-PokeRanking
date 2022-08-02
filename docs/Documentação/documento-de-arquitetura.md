@@ -141,10 +141,7 @@ Na execução do software, o  Node.js aparece como forma de executar o JavaScrip
 
 Assim que a solicitação é processada, o servidor deve interpretá-la e produzir uma resposta a partir das informações recebidas e, neste ponto, o cliente React recupera o que foi requisitado, respeitando o protocolo HTTP. A partir disso, o React cria um template que permite a visualização e interação com os dados pelo usuário. 
 
-## 6. Visão de implementação
-
-### 6.1 Diagrama de classes 
-
-### 6.2 Banco de Dados
 
 ## Referências
+
+MDN Web Docs. Disponível em: https://developer.mozilla.org/pt-br/. Acesso em 06 jul 2022.
