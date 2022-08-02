@@ -22,13 +22,13 @@ Prover informações úteis para Jogadores da franquia Pokémon-Nintendo® nos q
   - Formação de equipes de pokémons
   - Comparação de pokémons
 
-# 5. Escopo do Projeto
+# 4. Escopo do Projeto
 
 A plataforma desenvolvida é uma aplicação web, que busca fornecer informações sobre os jogos da franquia Pokémon-Nintendo® de todas as gerações. Nela será Exibido um ranking de pokémons, fornecido um mapa das regiões, um comparador de pokémons e uma interface em que poderá ser montada uma equipe de pokémons tendo um feedback de qualidade da mesma. 
 
-# 6. Equipe e Papéis
+# 5. Equipe e Papéis
 
-## 6.1. Envolvidos
+## 5.1. Envolvidos
 
 A equipe é composta por alunos da disciplina de Métodos de Desenvolvimento de Software (MDS), do semestre 2022.1 da Universidade de Braília Faculdade do Gama (UnB-FGA).
 
@@ -46,15 +46,15 @@ A equipe é composta por alunos da disciplina de Métodos de Desenvolvimento de 
 
 Tendo em vista que todos os membros ativos participam no desenvolvimento do software.
 
-## 6.2. Usuários
+## 5.2. Usuários
 
 O Software desenvolvido é voltado para jogadores entusiastas do universo de Pokémon.
 
-# 7. Metodologia de Desenvolvimento
+# 6. Metodologia de Desenvolvimento
 
 O processo do desenvolvimento deste projeto é baseado na metodologia ágil Scrum. Ela é utilizada conforme o contexto da disciplina, com espaço para adaptações às necessidades da equipe.
 
-# 8. Cronograma
+# 7. Cronograma
 
 | Marco | Data | Atividade | 
 | :--: | :---: | :--------: | 
@@ -62,7 +62,7 @@ O processo do desenvolvimento deste projeto é baseado na metodologia ágil Scru
 | Release 01 |  | Primeiro ponto de avaliação do projeto | 
 | Release 02 |  | Segundo ponto de avaliação do projeto | 
 
-# 9. Estratégia de Comunicação
+# 8. Estratégia de Comunicação
 
 Para comunicação interna da equipe são utilizados: o aplicativo Telegram e reuniões, tanto na faculdade quanto no ambiente Teams.
 
