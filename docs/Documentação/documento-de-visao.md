@@ -47,23 +47,23 @@ Termos, acrônimos e abreviações utilizados no desenvolvimento deste documento
 ### 1.5. Visão geral
 Este documento é dividido em 9 tópicos, nos quais descrevem em detalhes as características do software proposto. Sendo composto por:
 
-* Introdução: Fornece uma visão geral sobre o todo o documento;
+- Introdução: Fornece uma visão geral sobre o todo o documento;
 
-* Posicionamento: Descreve a situação problema do projeto, abordando sobre o público alvo, oportunidade de negócio e a solução trazida pelo PokeRanking.
+- Posicionamento: Descreve a situação problema do projeto, abordando sobre o público alvo, oportunidade de negócio e a solução trazida pelo PokeRanking.
 
-* Descrição do Usúario: Descreve os grupos, entidades e/ou pessoas que utilizarão o produto.
+- Descrição do Usúario: Descreve os grupos, entidades e/ou pessoas que utilizarão o produto.
 
-* Envolvidos: Descreve a equipe responsável pelo desenvolvimento do produto.
+- Envolvidos: Descreve a equipe responsável pelo desenvolvimento do produto.
 
-* Visão Geral do Produto: Descreve um breve resumo do que consiste o projeto e o que ele faz. Capacidades do produto, interfaces para outros aplicativos e configurações dos sistemas.
+- Visão Geral do Produto: Descreve um breve resumo do que consiste o projeto e o que ele faz. Capacidades do produto, interfaces para outros aplicativos e configurações dos sistemas.
 
-* Recursos do Produto: Descreve as capacidades de alto nível do sistema que são necessários para entregar benefícios aos usuários.
+- Recursos do Produto: Descreve as capacidades de alto nível do sistema que são necessários para entregar benefícios aos usuários.
 
-* Restrições: Retrata sobre as diversas restrições da aplicação.
+- Restrições: Retrata sobre as diversas restrições da aplicação.
 
-* Requisistos Funcionais e não Funcionais: Descreve os requisitos funcionais e não funcionais, dependências e prioridades do software.
+- Requisistos Funcionais e não Funcionais: Descreve os requisitos funcionais e não funcionais, dependências e prioridades do software.
 
-* Outros Requisitos do Produto: lista os padrões aplicáveis, os requisitos de hardware ou plataforma, sistema, os requisitos de desempenho e os requisitos ambientais.
+- Outros Requisitos do Produto: lista os padrões aplicáveis, os requisitos de hardware ou plataforma, sistema, os requisitos de desempenho e os requisitos ambientais.
 
 
 ## 2. Posicionamento
@@ -89,6 +89,7 @@ Desta forma, ter à disposição informações sobre os atributos e pontuações
 
 ### 2.3. Descrição da posição do produto
 Para jogadores de Pokémon que tem a necessidade de obter informações sobre pokémons e seus atributos, assim como comparações entre o poder dos diversos pokémons, o PokéRanking é uma aplicação web que oferece recursos de ranqueamento, comparação e simulação de equipes pokémon.  
+
 De outro modo, há alternativas na web que contém informações sobre pokémons, como o [site oficial de Pokémon](https://www.pokemon.com/br/), que apresenta notícias e artigos relacionados ao universo Pokémon, além de informações sobre cada pokémon presente na Pokédex, permitindo buscas individuais sobre as criaturas. Nosso produto se diferencia da solução atual na medida em que fornece recursos extras, como o ranqueamento e classificação de poder das criaturas e também a simulação de montagem de equipe.
 
 
@@ -120,7 +121,8 @@ Site (aplicação web) acessível através de navegadores/browsers diversos.
 
 ### 5.1. Perspectiva do Produto
 O PokéRanking tem como objetivo principal ser uma ferramenta utilizada por jogadores de Pokémon que fornece aos seus usuários um ambiente com ferramentas de ranqueamento e classificação de pokémons.  
-Assim, desdobram-se objetivos específicos, como: fornecer informações individuais sobre pokémons e seus atributos; permitir a visualização dos pokémons em uma lista ranqueada onde podem-se aplicar filtros diversos; possibilitar a comparação entre os atributos de um pokémon específico com outro; oferecer o recurso de simulação de uma equipe de seis pokémons com informações sobre o poder da equipe.
+
+Neste contexto, desdobram-se objetivos específicos, como: fornecer informações individuais sobre pokémons e seus atributos; permitir a visualização dos pokémons em uma lista ranqueada onde podem-se aplicar filtros diversos; possibilitar a comparação entre os atributos de um pokémon específico com outro; oferecer o recurso de simulação de uma equipe de seis pokémons com informações sobre o poder da equipe.
 
 ### 5.2. Resumo das capacidades
 | Benefício para o usuário                                           | Recursos de Suporte                                                                                         |
@@ -132,14 +134,16 @@ Assim, desdobram-se objetivos específicos, como: fornecer informações individ
 
 
 ## 6. Recursos do Produto
+
 O usuário do site PokéRanking pode fazer a utilização dos diversos recursos da plataforma:
-* Visualizar lista dos pokémons por ordem da Pokédex
-* Pesquisar um pokémon pelo seu número da Pokédex ou pelo seu nome
-* Visualizar detalhes individuais de cada pokémon, seu tipo e atributos
-* Ranquear os pokémons de acordo com seu poder total de atributos
-* Customizar o ranking de pokémons de acordo com um atributo ou tipo específico
-* Adicionar pokémons a uma equipe simulada e visualizar detalhes sobre o poder e qualidade da equipe
-* Visualizar o mapa das regiões pokémon, podendo consultar quais são os pokémons de cada região
+
+- Visualizar lista dos pokémons por ordem da Pokédex
+- Pesquisar um pokémon pelo seu número da Pokédex ou pelo seu nome
+- Visualizar detalhes individuais de cada pokémon, seu tipo e atributos
+- Ranquear os pokémons de acordo com seu poder total de atributos
+- Customizar o ranking de pokémons de acordo com um atributo ou tipo específico
+- Adicionar pokémons a uma equipe simulada e visualizar detalhes sobre o poder e qualidade da equipe
+- Visualizar o mapa das regiões pokémon, podendo consultar quais são os pokémons de cada região
 
 
 ## 7. Restrições
@@ -151,13 +155,15 @@ O usuário do site PokéRanking pode fazer a utilização dos diversos recursos 
 Requisitos funcionais e não funcionais, dependências e prioridades.
 
 Lista de categorias de prioridades para requisitos:
-| Tipo          | Descrição                                                                                                                       |
+
+| Tipo          | Descrição                                                                                                                       |  
 |---------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Alta	        | Requisitos indispensáveis para o funcionamento do sistema                                                                       |
 | Intermediária	| Requisitos importantes para o sistema, mas caso não sejam implementados não resultará em um mal funcionamento do sistema        |
 | Útil	        | Requisitos que não são usados com tanta frequência e não são tão significativos na satisfação que o usuário tem sobre o sistema |
 
 Lista de requisitos:
+
 | Identificador | Requisito                                                                                               | Depende de | Prioridade |
 |---------------|---------------------------------------------------------------------------------------------------------|------------|------------|
 | RF01          | Fornecer a visualização dos pokémons por ordem da Pokedex                                               | ---        | Alta       |

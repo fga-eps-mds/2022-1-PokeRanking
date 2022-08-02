@@ -1,5 +1,7 @@
-# Sobre
-
+![image](https://user-images.githubusercontent.com/82467659/182052506-180e65ac-719e-4d3d-a1aa-c60f8a3d8755.png)
+  
+  
+  
 O PokéRanking é uma aplicação que fornece um sistema de ranqueamento e classificação de pokémons de todas as gerações! <img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="15" />
 
 Com ele você pode rankear os pokémons aplicando filtros, fazer comparações entre criaturas diversas, além de visualizar informações e detalhes individuais dos pokémons e fazer uma simulação de equipe!

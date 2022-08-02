@@ -15,7 +15,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   logo: "icon-640.png"
-  favicon: "icon-640.png"
+  favicon: "favicon-640.png"
   palette:
     - scheme: default
       toggle:
