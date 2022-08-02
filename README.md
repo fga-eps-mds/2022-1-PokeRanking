@@ -1,3 +1,5 @@
+<img src='https://bettercodehub.com/edge/badge/Thiago-Cerq/2022-1-PokeRanking?branch=main'>
+
 ![image](https://user-images.githubusercontent.com/82467659/182052506-180e65ac-719e-4d3d-a1aa-c60f8a3d8755.png)
 
 
