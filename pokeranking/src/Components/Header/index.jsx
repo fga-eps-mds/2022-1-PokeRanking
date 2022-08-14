@@ -9,7 +9,7 @@ function Header() {
     <div className="header">
       <img className="menu" src={shape} alt="shape" />
       <Link to="/">
-        <img className="logo" src={logoBranco} alt="logo" />
+        <img className="logo-branco" src={logoBranco} alt="logo" />
       </Link>
       <input className="search" type="text" placeholder="Search" />
     </div>
