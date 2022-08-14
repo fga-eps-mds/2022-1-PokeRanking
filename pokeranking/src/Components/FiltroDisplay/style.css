@@ -1,0 +1,60 @@
+.bodyFiltro {
+    background: linear-gradient(to bottom, #3B859D, #63337A);
+    height: 100px;
+    color: black;
+    text-align: center;
+    font: normal 35px Arial;
+
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: black;
+
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.filtro {
+    display: flex;
+    flex-direction: row;
+
+    width: 1460px;
+    height: 100px;
+    gap: 22px;
+
+    justify-content: center;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textoFiltro {
+    width: 265px;
+}
+
+.textoOrdenaPor {
+    padding: 30px;
+    width: 265px;
+    height: auto;
+    text-align: center;
+}
+
+.botaoFiltro {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+
+    width: 265px;
+    height: auto;
+    background: #F8C658;
+    text-align: center;
+    
+    border-radius:50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
