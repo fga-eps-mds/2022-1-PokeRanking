@@ -1,11 +1,11 @@
-.body {
-    background: linear-gradient(#3B9D7A, #2e3f7cb7);
+.bodyLogo {
+    background: linear-gradient(to top, #2F1212, #C63838, #2F1212);
     height: 721px;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-.logo {
+.logoPrincipal {
     height: 721px;
     width: auto;
     margin: auto;

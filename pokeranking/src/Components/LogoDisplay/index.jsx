@@ -5,9 +5,9 @@ import Logo_Principal from "../../Assets/Logo_Principal.png";
 function LogoDisplay() {
 
     return (
-        <ul className="body">
+        <ul className="bodyLogo">
             <img
-                className="logo"
+                className="logoPrincipal"
                 src={Logo_Principal}
                 alt="Logo Principal"
             />

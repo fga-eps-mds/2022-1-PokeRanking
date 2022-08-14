@@ -1,6 +1,6 @@
 body {
   background: #020202;
-  background: linear-gradient(to right, rgb(235, 235, 235), rgb(255, 255, 255));
+  background: linear-gradient(to bottom, #3B859D, #63337A);
   color: rgb(0, 0, 0);
   margin: 0;
   font-family: rubik;
@@ -22,10 +22,23 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+
   gap: 22px;
-  width: 1489px;
+  width: 1589px;
+  background: white;
+  
+  padding-top: 22px;
+  padding-bottom: 22px;
+
   margin-left: auto;
   margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+
+  border-radius: 30px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
 }
 
 .card {
