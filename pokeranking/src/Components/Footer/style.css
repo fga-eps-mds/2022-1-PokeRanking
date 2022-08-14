@@ -1,0 +1,50 @@
+.main-footer {
+  background: linear-gradient(180deg, #3b859d 0%, #63337a 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 25px;
+}
