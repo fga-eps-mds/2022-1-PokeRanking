@@ -12,20 +12,22 @@ function PokemonDisplay() {
 
   return (
     <ul className="PokeRanking">
-      {pokemonData.map((pokemon) => {
-        const liCss = "card " + pokemon.type_1;
-        return (
-          <li className={liCss} key={pokemon._id}>
-            <p className="card-title number">#{pokemon.codigo}</p>
-            <img
-              className="card-image"
-              src={pokemon.url_image}
-              alt={pokemon.name}
-            />
-            <p className="card-title">{pokemon.name}</p>
-          </li>
-        );
-      })}
+      {pokemonData
+        .map((pokemon) => {
+          const liCss = "card " + pokemon.type_1;
+          return (
+            <li className={liCss} key={pokemon._id}>
+              <p className="card-title number">#{pokemon.codigo}</p>
+              <img
+                className="card-image"
+                src={pokemon.url_image}
+                alt={pokemon.name}
+              />
+              <p className="card-title">{pokemon.name}</p>
+            </li>
+          );
+        })
+        .slice(0, 12)}
     </ul>
   );
 }
