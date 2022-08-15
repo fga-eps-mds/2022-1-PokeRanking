@@ -5,8 +5,8 @@ function FiltroDisplay () {
     return (
         <ul className="bodyFiltro">
             <div className="filtro">
-                <div className="textoOrdenaPor">
-                    <p className="textoFiltro">
+                <div className="boxOrdenaPor">
+                    <p className="textoOrdena">
                         Ordenar por:
                     </p>
                 </div>

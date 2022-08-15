@@ -4,6 +4,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 .menu {
