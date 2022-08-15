@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./style.css";
 import Logo_Principal from "../../Assets/Logo_Principal.png";
 

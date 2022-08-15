@@ -4,25 +4,14 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Home from "./Pages/Home";
+import App from "./App";
 
 import reportWebVitals from './reportWebVitals';
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Ranking from "./Pages/Ranking";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/ranking" element={<Ranking/>}/>
-        <Route path="/equipe" element={""}/>
-        <Route path="/comparar" element={""}/>
-        <Route path="/como-usar" element={""}/>
-      </Routes>
-    </Router>
+    <App />
   </React.StrictMode>
 );
 
