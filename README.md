@@ -22,6 +22,9 @@
     </a>
     <a href="ttps://coveralls.io/github/fga-eps-mds/2022-1-PokeRanking?branch=main"><img src="https://coveralls.io/repos/github/fga-eps-mds/2022-1-PokeRanking/badge.svg?branch=main" alt="Coverage Status" /></a>
     <img src='https://bettercodehub.com/edge/badge/Thiago-Cerq/2022-1-PokeRanking?branch=main'>
+    <a href="https://www.codacy.com/gh/Thiago-Cerq/2022-1-PokeRanking/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Thiago-Cerq/2022-1-PokeRanking&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/47d88209fd5c41a98808ebfa6ba8286d"/></a>
+    <a href="https://sonarcloud.io/api/project_badges/measure?project=Thiago-Cerq_2022-1-PokeRanking&metric=alert_status"></a>
+    <img src='https://sonarcloud.io/api/project_badges/measure?project=Thiago-Cerq_2022-1-PokeRanking&metric=alert_status'>
 </p>
 
 ## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Sobre o projeto
