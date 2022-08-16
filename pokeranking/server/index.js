@@ -30,9 +30,9 @@ app.use((req, res, next) => {
 //Rotas da API
 
 /*
-*   criaturaRoutes = exerce um require da page criaturaRoutes.
-*   app.use() = o localhost acessa essa page (criaturaRoutes) 
-*   com a extensao localhost ... /criaturas  
+*   criaturaRoutes = exerce um require do arquivo criaturaRoutes.
+*   app.use() = o localhost acessa o arquivo criaturaRoutes
+*   com a extensao http://localhost:5000/criaturas  
 */
 const criaturaRoutes = require('./routes/criaturaRoutes')
 
