@@ -10,6 +10,11 @@
   border-bottom-color: black;
 }
 
+.container-menu,
+.container-logo {
+  width: 315.13px;
+}
+
 .menu {
   width: 20px;
   height: 16px;
@@ -20,10 +25,22 @@
   height: 43.5px;
 }
 
+.menu,
+.logo-branco {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .search {
   width: 315.13px;
   height: 38px;
   border-radius: 10px;
   text-align: center;
   font-size: 17px;
+  border: none;
+}
+
+.search:focus {
+  outline: none;
 }

@@ -7,9 +7,13 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-      <img className="menu" src={shape} alt="shape" />
+      <div className="container-menu">
+        <img className="menu" src={shape} alt="shape" />
+      </div>
       <Link to="/">
-        <img className="logo-branco" src={logoBranco} alt="logo" />
+        <div className="container-logo">
+          <img className="logo-branco" src={logoBranco} alt="logo" />
+        </div>
       </Link>
       <input className="search" type="text" placeholder="Search" />
     </div>

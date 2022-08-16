@@ -4,7 +4,7 @@ body {
   Colocar uma imagem de fundo no site.
   background: url();
   */
-  background: linear-gradient(to bottom, #3B859D, #63337A);
+  background: linear-gradient(to bottom, #3b859d, #63337a);
   color: rgb(0, 0, 0);
   margin: 0;
   font-family: rubik;
@@ -30,7 +30,7 @@ h1 {
   gap: 22px;
   width: 1589px;
   background: white;
-  
+
   padding-top: 22px;
   padding-bottom: 22px;
 
@@ -75,7 +75,7 @@ h1 {
 
 .fire {
   background-color: #fd7d24ad;
-  box-shadow: rgba(139, 79, 44, 0.788)5px 5px 5px;
+  box-shadow: rgba(139, 79, 44, 0.788) 5px 5px 5px;
 }
 
 .grass {

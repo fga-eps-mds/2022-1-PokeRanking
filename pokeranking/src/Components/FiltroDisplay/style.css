@@ -1,61 +1,55 @@
 .bodyFiltro {
-    background: linear-gradient(to top, #63337a, #3b859d);
-    height: 65px;
-    color: black;
-    text-align: center;
-    font: normal 30px Arial;
+  height: 65px;
+  background: linear-gradient(to top, #63337a, #3b859d);
 
-    border-top-width: 2px;
-    border-top-style: solid;
-    border-top-color: black;
+  font: normal 30px Arial;
+  text-align: center;
+  color: black;
 
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .filtro {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    width: 1460px;
-    height: 75px;
-    gap: 22px;
+  width: 1460px;
+  height: 75px;
+  gap: 22px;
 
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .textoFiltro {
-    width: 265px;
+  width: 265px;
 }
 
 .boxOrdenaPor {
-    padding: 10px;
-    padding-top: 15px;
-    width: 265px;
-    height: auto;
-    text-align: center;
+  padding: 10px;
+  padding-top: 15px;
+  width: 265px;
+  height: auto;
+  text-align: center;
 }
 
 .botaoFiltro {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
 
-    width: 265px;
-    height: auto;
-    background: #F8C658;
-    text-align: center;
-    
-    border-radius:50px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
+  width: 265px;
+  height: auto;
+  background: #f8c658;
+  text-align: center;
+
+  border: 2px solid black;
+  border-radius: 50px;
 }
