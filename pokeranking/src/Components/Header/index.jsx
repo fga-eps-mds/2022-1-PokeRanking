@@ -1,22 +1,82 @@
 import "./style.css";
 
-import shape from "../../Assets/shape.png";
+import menuIcon from "../../Assets/menu.png";
 import logoBranco from "../../Assets/logo-branco.png";
+
+import { SidebarData, SidebarDataBottom } from "./SidebarData";
+
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Header() {
+  const [sidebar, setSidebar] = useState(false);
+
+  const showSidebar = () => setSidebar(!sidebar);
+
+  console.log(sidebar);
+
   return (
-    <div className="header">
-      <div className="container-menu">
-        <img className="menu" src={shape} alt="shape" />
-      </div>
-      <Link to="/">
-        <div className="container-logo">
-          <img className="logo-branco" src={logoBranco} alt="logo" />
+    <>
+      <header className="header">
+        <div className="container-menu">
+          <Link to="#">
+            <img
+              className="menu"
+              src={menuIcon}
+              alt="shape"
+              onClick={showSidebar}
+            />
+          </Link>
         </div>
-      </Link>
-      <input className="search" type="text" placeholder="Search" />
-    </div>
+        <Link to="/">
+          <div className="container-logo">
+            <img className="logo-branco" src={logoBranco} alt="logo" />
+          </div>
+        </Link>
+        <input className="search" type="text" placeholder="Search" />
+      </header>
+
+      {/* Sidebar */}
+      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+        <ul className="nav-menu-items" onClick={showSidebar}>
+          {SidebarData.map((item, index) => {
+            return (
+              <li key={index} className={item.Cname}>
+                <Link to={item.path}>
+                  <img src={item.icon} alt={item.title} />
+                  <span className="nav-title">{item.title}</span>
+                </Link>
+              </li>
+            );
+          })}
+
+          {/* <li className="nav-text">
+            <Link to="#" className="menu-bars">
+              <img src={closeIcon} alt="close" />
+              <span className="nav-title">Fechar Menu</span>
+            </Link>
+          </li>
+          <li className="nav-text">
+            <Link to="#" className="menu-bars">
+              <img src={closeIcon} alt="close" />
+              <span className="nav-title">Fechar Menu</span>
+            </Link>
+          </li> */}
+        </ul>
+        <ul className="nav-menu-items" onClick={showSidebar}>
+          {SidebarDataBottom.map((item, index) => {
+            return (
+              <li key={index} className={item.Cname}>
+                <Link to={item.path}>
+                  <img src={item.icon} alt={item.title} />
+                  <span className="nav-title">{item.title}</span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+    </>
   );
 }
 
