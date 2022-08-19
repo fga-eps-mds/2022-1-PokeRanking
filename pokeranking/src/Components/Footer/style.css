@@ -2,26 +2,25 @@
 
 .main-footer {
   background-color: #363b81;
-  color: #aeb3f2;
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  font-family: "Roboto", sans-serif;
-  border-top: 2px solid black;
+  /* gap: 5px; */
+  /* font-family: "Roboto", sans-serif; */
+  /* border-top: 2px solid black; */
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 20px;
+  padding: 15px;
 }
 
 .col {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .footer-title {
@@ -31,7 +30,7 @@
 .container-link {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .link {
