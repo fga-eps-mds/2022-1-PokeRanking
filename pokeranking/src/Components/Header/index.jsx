@@ -2,6 +2,7 @@ import "./style.css";
 
 import menuIcon from "../../Assets/menu.png";
 import logoBranco from "../../Assets/logo-branco.png";
+import sidebarLogo from "../../Assets/sidebar-logo.png";
 
 import { SidebarData, SidebarDataBottom } from "./SidebarData";
 
@@ -39,6 +40,9 @@ function Header() {
       {/* Sidebar */}
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items" onClick={showSidebar}>
+          <li className="sidebar-logo">
+            <img src={sidebarLogo} alt="" />
+          </li>
           {SidebarData.map((item, index) => {
             return (
               <li key={index} className={item.Cname}>
@@ -49,19 +53,6 @@ function Header() {
               </li>
             );
           })}
-
-          {/* <li className="nav-text">
-            <Link to="#" className="menu-bars">
-              <img src={closeIcon} alt="close" />
-              <span className="nav-title">Fechar Menu</span>
-            </Link>
-          </li>
-          <li className="nav-text">
-            <Link to="#" className="menu-bars">
-              <img src={closeIcon} alt="close" />
-              <span className="nav-title">Fechar Menu</span>
-            </Link>
-          </li> */}
         </ul>
         <ul className="nav-menu-items" onClick={showSidebar}>
           {SidebarDataBottom.map((item, index) => {
