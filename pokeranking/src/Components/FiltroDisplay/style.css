@@ -1,0 +1,55 @@
+.bodyFiltro {
+  height: 65px;
+  background: linear-gradient(to top, #63337a, #3b859d);
+
+  font: normal 30px Arial;
+  text-align: center;
+  color: black;
+
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.filtro {
+  display: flex;
+  flex-direction: row;
+
+  width: 1460px;
+  height: 75px;
+  gap: 22px;
+
+  justify-content: center;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textoFiltro {
+  width: 265px;
+}
+
+.boxOrdenaPor {
+  padding: 10px;
+  padding-top: 15px;
+  width: 265px;
+  height: auto;
+  text-align: center;
+}
+
+.botaoFiltro {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+
+  width: 265px;
+  height: auto;
+  background: #f8c658;
+  text-align: center;
+
+  border: 2px solid black;
+  border-radius: 50px;
+}

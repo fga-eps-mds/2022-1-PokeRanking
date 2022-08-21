@@ -1,13 +1,17 @@
+import "./Assets/reset.css"
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Index from './pages/Home/Index';
+
+import App from "./App";
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Index />
+    <App />
   </React.StrictMode>
 );
 
