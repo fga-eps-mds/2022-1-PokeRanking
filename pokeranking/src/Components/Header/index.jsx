@@ -42,6 +42,14 @@ function Header() {
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="sidebar-logo">
             <img src={sidebarLogo} alt="" />
+            <Link to="#">
+              <img
+                className="menu"
+                src={menuIcon}
+                alt="shape"
+                onClick={showSidebar}
+              />
+            </Link>
           </li>
           {SidebarData.map((item, index) => {
             return (

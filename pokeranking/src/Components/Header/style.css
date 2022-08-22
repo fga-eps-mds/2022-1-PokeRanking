@@ -105,12 +105,11 @@
 }
 
 .sidebar-logo {
-  width: 62;
-  height: 50;
+  height: 65px;
 
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
-  padding: 21px 0px 50px 16px;
+  padding: 0px 0px 40px 0px;
   list-style: none;
 }
