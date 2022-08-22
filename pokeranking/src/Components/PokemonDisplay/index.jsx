@@ -11,8 +11,8 @@ function PokemonDisplay(props) {
       .then((data) => setPokemonData(data));
   }, []);
 
-  const pokemonDataFilter = pokemonData.filter((e) =>
-    e.name.startsWith(props.pokemonName)
+  const pokemonDataFilter = pokemonData.filter(
+    (e) => e.name.startsWith(props.pokemonName) || e.codigo == props.pokemonName
   );
 
   return (
