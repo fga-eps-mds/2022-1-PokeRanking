@@ -3,12 +3,12 @@ import FiltroDisplay from "../../Components/FiltroDisplay";
 import PokemonDisplay from "../../Components/PokemonDisplay";
 import "./style.css";
 
-function Home() {
+function Home(props) {
   return (
     <>
       <LogoDisplay />
       <FiltroDisplay />
-      <PokemonDisplay />
+      <PokemonDisplay pokemonName={props.pokemonName} />
     </>
   );
 }
