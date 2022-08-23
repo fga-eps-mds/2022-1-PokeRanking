@@ -12,7 +12,9 @@ function PokemonDisplay(props) {
   }, []);
 
   const pokemonDataFilter = pokemonData.filter(
-    (e) => e.name.startsWith(props.pokemonName) || e.codigo == props.pokemonName
+    (e) =>
+      e.name.startsWith(props.pokemonName.toLowerCase()) ||
+      e.codigo == props.pokemonName
   );
 
   return (
