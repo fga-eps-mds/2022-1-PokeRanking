@@ -5,6 +5,7 @@
 
 | Data   | Versão | Modificação  | Autor  |
 | :- | :- | :- | :- |
+| 25/08/2022 | 0.3 | Legendas, descrições e componentes | Kallyne M. Passos |
 | 20/08/2022 | 0.2 | Estruturação do Guia | Kallyne M. Passos |
 | 08/08/2022 | 0.1 | Criação da versão inicial do documento | Leonardo S. Aguiar |
 
@@ -39,9 +40,10 @@ Para instalar as fontes em máquina local, baixe o arquivo desejado, descompacte
  ### Utilização no projeto:
 Antes de alterar o HTML e o CSS, é necessária a adição da pasta contendo a fonte no repositório local do projeto. 
 
+
 #### Incluindo no HTML
 
-No <head>, adicione:
+No <__head__>, adicione:
 
 	<link href="caminho_da_fonte*" rel="stylesheet">
 * Caminho em texto da pasta onde foi realizada a instalação da fonte. Ex: "C:\Users\usuario1\Fonts\Inter-3.19\Inter Desktop"
@@ -55,27 +57,47 @@ Coloca-se no css, para a utilização da fonte:
     font-family: 'Inter';
 	font-style: normal;
 
+	font-family: 'Press Start 2P';
+	font-style: normal;
+
 ## 2.3 Logo
-![Logo](https://user-images.githubusercontent.com/82467659/182052506-180e65ac-719e-4d3d-a1aa-c60f8a3d8755.png)
-	
+| ![img](https://i.ibb.co/CBhpzZM/Frame-3.png) |
+| :- | 
+| <b><center>Logotipo - Variação Branca </center></b> |
+
 A logo foi desenhada de maneira a transmitir a essência da aplicação, contendo seu nome por extenso e a imagem do pokemón Lugia, que leva junto consigo uma pokébola "vitoriosa", em representação da ideia de estar no topo dos rankings gerados, ou seja, de ser o pokémon mais forte entre os demais, conforme suas características e status.
 	
-Variação: 
-![img](https://i.ibb.co/CBhpzZM/Frame-3.png)
+### 2.3.1 Variação
 
-# 3.2. Paleta de cores
+Para melhor adaptação visual e configuração de contrastes na página, a logotipo é primariamente exibida na sua variação branca. Entretanto, também conta com a versão vermelha, vista no README e em documentações. 
 
-![img]https://i.ibb.co/V3kHmNL/pokeranking.png
-
-A paleta de cores foi desenvolvida de forma com que seu estilo remetesse ao original Pokémon mas também adicionasse a própria identidade do projeto, destoando de aplicativos similares.
+| ![Logo](https://user-images.githubusercontent.com/82467659/182052506-180e65ac-719e-4d3d-a1aa-c60f8a3d8755.png)| 
+| :- | 
+| <b><center>Logotipo - Variação Vermelha </center></b> |
 	
-As cores __#63337A__ e __#3B9D8B__ aparecem no fundo de páginas e cartões de detalhes, enquanto __#2E3F7C__ é referência no menu e __#41BC52__ e __#C63838__ são cores de acento. As cores bases são utilizadas também com gradientes.
+
+# 3. Paleta de cores
+
+| ![img](https://i.ibb.co/V3kHmNL/pokeranking.png) |
+| :- | 
+| <b><center>Paleta de Cores - PokéRanking </center></b> |
+
+A paleta de cores foi desenvolvida de forma com que seu estilo remetesse ao original Pokémon mas também adicionasse a própria identidade do projeto, destoando de aplicativos similares. A ferramenta coolors foi utilizada para sua criação.
 	
-## Adicionais: 
+As cores __#63337A__ (_Eminence_) e __#3B9D8B__ (_Persian Green_) aparecem no fundo de páginas e cartões de detalhes, enquanto __#2E3F7C__ (_Dark Cornflower Blue_) é referência no menu e rodapé, ao passo que __#41BC52__ (_Dark Pastel Green_) e __#C63838__ (_Madder Lake_) são cores de acento, vísiveis nos filtros e na descrição de status de cada Pokémon. As cores bases são utilizadas também com gradientes, e as tipografias segue a tonalidades __#F5F5F5__ (_Whitesmoke_), cor secundária no projeto. 
+
+## 3.1 Acessibilidade
+
+Foram realizados testes de contraste, que obtiveram como resultado __ e testes de daltonismo, que garantiram distinção entre cores e tonalidades para as oito principais variações da pertubação visual.  
+
+
+## 3.2 Adicionais
 
 Dado em conta que cada tipo de Pokémon requer uma representação visual diferente, indicando sua maior fonte de poder, também são utilizados no fundo da aplicação as cores referência: 
 	
-![tipos](https://i.ibb.co/dmh2Kx6/Tipos-Pokemon.png)
+| ![tipos](https://i.ibb.co/dmh2Kx6/Tipos-Pokemon.png) |
+| :- | 
+| <b><center>Cores que representam os tipos de Pokémon, traduzidos, da esquerda para direita: Ferro, fogo, grama, elétrico, água, gelo, terra, pedra, fada, veneno, inseto, dragão, psíquico, voador, lutador, fantasma, sombrio e normal. </center></b> |
 	
 <!-- # 4. Componentes
 
