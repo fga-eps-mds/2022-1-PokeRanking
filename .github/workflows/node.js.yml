@@ -13,10 +13,14 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    defaults:
+       run:
+         working-directory: ./pokeranking/server
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -26,14 +30,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    
-    - name: busca o diretorio de backend
-    - run: cd server
-    
+        cache-dependency-path: './pokeranking/server/package.json'
     - run: npm ci
-    
-    - name: build project
     - run: npm run build --if-present
-    
-    - name: executa os testes
     - run: npm test
