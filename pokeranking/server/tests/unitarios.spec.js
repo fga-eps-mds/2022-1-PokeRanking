@@ -8,7 +8,7 @@ describe("testes unitários de funções", () => {
             let atributo = "total"; forma_de_ordenacao = -1;
             const response = Ordenacao_de_pokemon_por_status(atributo, forma_de_ordenacao)
 
-            expect(response).toStrictEqual({ "total": "-1" })
+            expect(response).toStrictEqual({ "total": "-1" , "name": 1})
         });
 
         it("ERRO: deve retornar um valor igual a false no caso de atributo inexistente no sistema", async () => {

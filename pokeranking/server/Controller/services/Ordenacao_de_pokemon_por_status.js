@@ -6,6 +6,9 @@ module.exports = {
         *  no qual os pokemons serao organizados.
         *  -> ordena de forma decrescente : forma_de_ordenacao = -1
         *  -> ordena de forma crescente : forma_de_ordenacao = 1
+        * 
+        *  o valor de name realiza o desempate de criaturas com mesmo valor de atributo,
+        *  dando preferencia para ordem alfabetica neste caso.
         */
 
         let ordenacao;
@@ -15,7 +18,7 @@ module.exports = {
 
         for (let contador = 0; contador < 8; contador++) {
             if (atributo == possiveisStatus[contador]) {
-                ordenacao = { [atributo]: `${forma_de_ordenacao}` };
+                ordenacao = { [atributo]: `${forma_de_ordenacao}`, name: 1 };
                 return ordenacao;
             }
         }
