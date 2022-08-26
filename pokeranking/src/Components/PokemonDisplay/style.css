@@ -20,29 +20,26 @@ h1 {
   font-size: 54px;
 }
 
+.display-container {
+  width: 1589px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
 .PokeRanking {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-
   gap: 22px;
-  width: 1589px;
-  background: white;
-
-  padding-top: 22px;
-  padding-bottom: 22px;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 22px;
-  margin-bottom: 22px;
-
-  border-radius: 30px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: black;
 }
 
 .card {
@@ -184,6 +181,26 @@ h1 {
   width: 180px;
   position: relative;
   z-index: 2;
+}
+
+.show-more-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 22px;
+}
+
+.show-more {
+  background-color: #f8c658;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 @keyframes bounce {
