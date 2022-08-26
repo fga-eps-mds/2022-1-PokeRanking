@@ -3,13 +3,16 @@ module.exports = {
 
         let type = dado_extraido_pela_URL;
 
-        if (type == "normal" || type == "fire" || type == "water" || type == "grass" || type == "NA" ||
-            type == "flying" || type == "fighting" || type == "poison" || type == "eletric" ||
-            type == "ground" || type == "bug" || type == "ghost" || type == "steel" || type == "dragon" ||
-            type == "dark" || type == "fairy" || type == "rock" || type == "psychic" || type == "ice") {
-            return true;
-        } else {
-            return false
+        possiveisTipos = ["normal", "fire", "water", "grass", "NA", "flying", "fighting",
+            "poison", "eletric", "ground", "bug", "ghost", "steel", "dragon", "dark", "fairy",
+            "rock", "psychic", "ice"];
+
+        for (let contador = 0; contador < 18; contador++) {
+            if (type == possiveisTipos[contador]) {
+                return true;
+            }
         }
+
+        return false;
     }
 }
