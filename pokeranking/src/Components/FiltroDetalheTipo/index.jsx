@@ -2,11 +2,17 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 function FiltroDetalheTipo() {
-  
+
+  /*
+    Criar um link diferente para cada botão ??
+    Ex:
+      <Link to="/ranking/steel/total" style={{ textDecoration: 'none' }}>
+        <div className="cardTipoSteel"> Ferro </div>
+      </Link>
+  */
   return (
     <ul className="bodyFiltroDetalhesTipo">
       <div className="Tipos">
-
         <Link to="/ranking" style={{ textDecoration: 'none' }}>
           <div className="cardTipoSteel"> Ferro </div>
         </Link>
@@ -69,5 +75,5 @@ function FiltroDetalheTipo() {
     </ul>
   );
 }
-  
+
 export default FiltroDetalheTipo;

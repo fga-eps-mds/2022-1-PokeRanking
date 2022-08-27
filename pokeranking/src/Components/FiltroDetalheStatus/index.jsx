@@ -2,7 +2,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 function FiltroDetalheStatus() {
-  
+
   return (
     <ul className="bodyFiltroDetalhesStatus">
       <div className="Status">

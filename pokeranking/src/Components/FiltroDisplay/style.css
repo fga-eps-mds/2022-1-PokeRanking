@@ -1,5 +1,5 @@
 .bodyFiltro {
-  height: 65px;
+  min-height: 65px;
   background: linear-gradient(to top, rgb(56, 56, 56), rgb(95, 95, 95), rgb(56, 56, 56));
 
   font: normal 30px Arial;
@@ -7,30 +7,12 @@
   color: black;
 
   border-top: 2px solid black;
+  border-bottom: 2px solid black;
   margin-bottom: 0px;
 
   box-shadow: inset 0px 0px 10px #000;
 }
-/*
-.bodyFiltroDetalhesTipo {
-  height: 700px;
-  width: 1595px;
-  margin: auto;
-  background: linear-gradient(to right, rgb(56, 56, 56), rgb(95, 95, 95), rgb(56, 56, 56));
 
-  font: normal 30px Arial;
-  line-height: 60px;
-  text-align: center;
-  color: black;
-
-  border-right: 3px solid black;
-  border-left: 3px solid black;
-  border-bottom: 3px solid black;
-  border-radius: 0px 0px 30px 30px;
-
-  box-shadow: inset 0px 0px 10px #000;
-}
-*/
 .filtro {
   display: flex;
   flex-direction: row;

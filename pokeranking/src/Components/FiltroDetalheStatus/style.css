@@ -2,7 +2,9 @@
     height: 360px;
     width: 1595px;
     margin: auto;
-    background: linear-gradient(to right, rgb(56, 56, 56), rgb(95, 95, 95), rgb(56, 56, 56));
+    margin-bottom: 22px;
+    margin-top: 22px;
+    background: linear-gradient(to right, rgb(82, 74, 74), rgb(136, 128, 128), rgb(82, 74, 74));
   
     font: normal 30px Arial;
     line-height: 60px;
@@ -12,7 +14,8 @@
     border-right: 3px solid black;
     border-left: 3px solid black;
     border-bottom: 3px solid black;
-    border-radius: 0px 0px 30px 30px;
+    border-top: 3px solid black;
+    border-radius: 30px 30px 30px 30px;
   
     box-shadow: inset 0px 0px 10px #000;
 /*

@@ -3,7 +3,7 @@ import "./style.css";
 function FiltroDetalheRegiao() {
   
     return (
-      <ul className="bodyFiltroDetalhesTipo">
+      <ul className="bodyFiltroDetalhesRegiao">
       <div className="Tipos">
 
         <p>Mapa Pokemon</p>
