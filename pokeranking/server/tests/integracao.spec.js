@@ -1,5 +1,5 @@
 const request = require('supertest')
-const {app, url, mongoose} = require('../index')
+const { app, url, mongoose } = require('../index')
 
 //MOCKS
 const allPokemons = require('./mocks/allPokemons')
@@ -7,12 +7,22 @@ const pokemon_001 = require('./mocks/pokemon_001')
 const pokemons_type_ranking = require('./mocks/pokemon_type_ranking')
 const pokemon_type = require('./mocks/pokemon_type')
 
+beforeAll(done => {
+    done()
+})
+
+afterAll(done => {
+    // Closing the DB connection allows Jest to exit successfully.
+    mongoose.connection.close()
+    done()
+})
+
 describe("teste de conexão", () => {
     const MOONGO_URL = url;
 
-    it("deve realizar a conexao com o banco de dados Atlas MongoDB", async() => {
+    it("deve realizar a conexao com o banco de dados Atlas MongoDB", async () => {
         await mongoose.connect(MOONGO_URL,
-        { useNewUrlParser: true, useUnifiedTopology: true }, (err, db) => {});
+            { useNewUrlParser: true, useUnifiedTopology: true }, (err, db) => { });
     });
 })
 
@@ -21,7 +31,7 @@ describe("listagem de pokemons", () => {
 
     //cada it representa um teste na aplicacao
     it("deve ser possivel visualizar todos os Pokémons", async () => {
-        
+
         //busca a resposta dada pelo path "http://localhost:5000/criaturas"
         const response = await request(app).get("/criaturas")
 
@@ -30,7 +40,7 @@ describe("listagem de pokemons", () => {
     });
 
     it("deve ser possivel visualizar todas as criaturas dado um de mesmo tipo", async () => {
-        
+
         const response = await request(app).get("/criaturas/tipo/fire")
 
         expect(response.statusCode).toEqual(200)
@@ -38,8 +48,8 @@ describe("listagem de pokemons", () => {
     });
 
     it("deve ser possivel visualizar todas as criaturas por ranking de atributo e dado um de mesmo tipo", async () => {
-        
-        const response = await request(app).get("/criaturas/water/Ranking/total")
+
+        const response = await request(app).get("/criaturas/NA/Ranking/total")
 
         expect(response.statusCode).toEqual(200)
         expect(response.body).toStrictEqual(pokemons_type_ranking)
@@ -49,7 +59,7 @@ describe("listagem de pokemons", () => {
 //VERIFICACAO DE ERROS DE LISTAGEM
 describe("Verificação de erros: listagem de pokemons", () => {
     it("Deve retornar uma mensagem em caso de listagem de Pokémons com valor de atributo incorreto", async () => {
-        
+
         const response = await request(app).get("/criaturas/water/Ranking/test")
 
         expect(response.statusCode).toEqual(422)
@@ -57,7 +67,7 @@ describe("Verificação de erros: listagem de pokemons", () => {
     });
 
     it("Deve retornar uma mensagem em caso de listagem de Pokémons com valor de tipo incorreto", async () => {
-        
+
         const response = await request(app).get("/criaturas/tipo/test")
 
         expect(response.statusCode).toEqual(422)
