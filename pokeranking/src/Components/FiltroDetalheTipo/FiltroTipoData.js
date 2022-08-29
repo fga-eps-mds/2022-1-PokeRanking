@@ -16,6 +16,7 @@ import TypePsychic from "../../Assets/PokemonTypeIcons/TypePsychic.png"
 import TypeRock from "../../Assets/PokemonTypeIcons/TypeRock.png"
 import TypeSteel from "../../Assets/PokemonTypeIcons/TypeSteel.png"
 import TypeWater from "../../Assets/PokemonTypeIcons/TypeWater.png"
+import PokeballIcon from "../../Assets/Pokeball-Icon.png"
 
 export const FiltroTipoData = [
     {
@@ -147,7 +148,7 @@ export const FiltroTipoData = [
     {
         title: "Todos os tipos",
         path: "/ranking",
-        icon: "",
+        icon: PokeballIcon,
         Cname: "cardTipoTodos"
     }
 

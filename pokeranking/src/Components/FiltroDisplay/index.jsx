@@ -6,37 +6,23 @@ import FiltroDetalheRegiao from "../FiltroDetalheRegiao";
 
 function FiltroDisplay() {
 // Criando constantes para guardar o estado atual de cada filtro.
-  const [showElementType, setShowElementType] = useState(false)
-  const [showElementStats, setShowElementStats] = useState(false)
-  const [showElementRegion, setShowElementRegion] = useState(false)
+  const [showElement, setShowElement] = useState("")
 
 // Definindo as funcoes que irao mudar o estado atual de cada filtro.
   // Mudar o estado atual do filtro Tipo
   const showOrHideType = () => {
-    if (showElementType === false) {
-      setShowElementType(true)
-      setShowElementStats(false)
-      setShowElementRegion(false)
-    }
-    else setShowElementType(false)
+    if (showElement !== "tipo") setShowElement("tipo")
+    else setShowElement("")
   }
   // Mudar o estado atual do filtro Status
   const showOrHideStats = () => {
-    if (showElementStats === false) {
-      setShowElementType(false)
-      setShowElementStats(true)
-      setShowElementRegion(false)
-    }
-    else setShowElementStats(false)
+    if (showElement !== "status") setShowElement("status")
+    else setShowElement("")
   }
   // Mudar o estado atual do filtro Regiao
   const showOrHideRegion = () => {
-    if (showElementRegion === false) {
-      setShowElementType(false)
-      setShowElementStats(false)
-      setShowElementRegion(true)
-    }
-    else setShowElementRegion(false)
+    if (showElement !== "regiao") setShowElement("regiao")
+    else setShowElement("")
   }
 
 // Retorno da funcao
@@ -61,9 +47,9 @@ function FiltroDisplay() {
         </button>
 
       </div>
-      {showElementType ? <FiltroDetalheTipo /> : null}
-      {showElementStats ? <FiltroDetalheStatus /> : null}
-      {showElementRegion ? <FiltroDetalheRegiao /> : null}
+      {showElement==="tipo" ? <FiltroDetalheTipo /> : null}
+      {showElement==="status" ? <FiltroDetalheStatus /> : null}
+      {showElement==="regiao" ? <FiltroDetalheRegiao /> : null}
     </ul>
   );
 }
