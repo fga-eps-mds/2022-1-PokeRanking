@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coveralls": "--coverage && coveralls < coverage/lcov.info"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
