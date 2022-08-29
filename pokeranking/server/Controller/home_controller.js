@@ -79,7 +79,7 @@ module.exports = {
             return
         }
 
-        // ordena pela ordem crescente criatura_tipo_verficadodo atributo "codigo"
+        // ordena pela ordem crescente de atributo "codigo"
         let ordenacao = { codigo: 1 }
         try {
 
