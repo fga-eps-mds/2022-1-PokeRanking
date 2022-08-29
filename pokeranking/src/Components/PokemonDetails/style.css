@@ -1,4 +1,6 @@
+
 .modal {
+  display: flex;
   position: fixed; /* Stay in place */
   z-index: 1000; /* Sit on top */
   left: 0;
@@ -8,22 +10,62 @@
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
 }
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+background: linear-gradient(180deg, #3B9D7A 0%, #2E3F7C 100%);
+border: 3px solid #083543;
+border-radius: 0px 20px;
+margin: 6% auto; /* 15% from the top and centered */
+padding: 20px;
+
+width: 766px;
+height: 720px; /* Could be more or less, depending on screen size */
+box-sizing: border-box;
 }
 
+.space {
+  /*background-color: aquamarine;*/
+  width: 150px;
+  height: 50px; /* Full height */ 
+ }
+
+
+.modal-body {
+ /*background-color: aquamarine;*/
+ width: 50%;
+ float: left; 
+ 
+}
+
+.Info {
+  width: 30%;
+  float: left; 
+  margin-left: 100px;
+  margin-right: auto; 
+ }
+
+ .modal-footer {
+ background-color: #ffffff;
+ width: 100%;
+ height: 50px;
+ clear: both;
+ }
+
+ .modal-table {
+ background-color: #083543;
+ width: 100%;
+ height: 400px;
+ clear: both;
+ }
+ 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: rgba(252, 247, 0, 0.897);
   float: right;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -33,3 +75,181 @@
   text-decoration: none;
   cursor: pointer;
 }
+.card-title-number{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 12px;
+/* identical to box height, or 60% */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #00D1FF;
+
+text-shadow: 
+-1px -1px 0px rgb(0, 0, 0), 
+-1px 1px 0px rgb(0, 0, 0),                    
+ 1px -1px 0px rgb(0, 0, 0),                  
+ 1px 0px 0px rgb(0, 0, 0);
+}
+
+.card-image-modal {
+  padding-left: 110px;
+  height: 250px;
+  width: 250px;
+  align-items: center;
+  
+}
+
+.card-title-name {
+  width: 206px;
+  height: 33px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 16px;
+  /* or 80% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 
+  -1px -1px 0px rgb(0, 0, 0), 
+  -1px 1px 0px rgb(0, 0, 0),                    
+  1px -1px 0px rgb(0, 0, 0),                  
+  1px 0px 0px rgb(0, 0, 0);
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card-image-type {
+  align-items: end;
+  text-transform: capitalize;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: normal;
+  position: relative;
+  z-index: 2;
+}
+
+
+.modal-table1{
+font-family: "Press Start 2P";
+width: 66%;
+height: 370px;
+float: left;
+text-align: center;
+}
+
+
+.modal-table2{
+width: 34%;
+height: 370px;
+float: left;
+text-align: center;
+}
+
+.bot1{
+width: 195.95px;
+height: 50px;
+/* coiso */
+background: linear-gradient(180deg, #3B859D 0%, #63337A 100%);
+border: 2px solid #000000;
+border-radius: 50px;
+font-family: "Press Start 2P";
+color: #FFEE59;
+text-shadow: 
+-1px -1px 0px rgb(0, 0, 0), 
+-1px 1px 0px rgb(0, 0, 0),                    
+1px -1px 0px rgb(0, 0, 0),                  
+1px 0px 0px rgb(0, 0, 0);
+}
+
+.bot2{
+  width: 145px;
+  height: 37px;
+  /* Linear Verde */
+  background: linear-gradient(180deg, #41BC52 0%, #113516 100%);
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-family: "Press Start 2P";
+  color: #FFEE59;
+  text-shadow: 
+  -1px -1px 0px rgb(0, 0, 0), 
+  -1px 1px 0px rgb(0, 0, 0),                    
+  1px -1px 0px rgb(0, 0, 0),                  
+  1px 0px 0px rgb(0, 0, 0);
+  }
+
+.bot3{
+width: 145px;
+height: 37px;
+/* Linear Vermelho */
+background: linear-gradient(180deg, #C63838 0%, #2F1212 100%);
+border: 2px solid #000000;
+border-radius: 50px;
+font-family: "Press Start 2P";
+color: #FFEE59;
+text-shadow: 
+-1px -1px 0px rgb(0, 0, 0), 
+-1px 1px 0px rgb(0, 0, 0),                    
+1px -1px 0px rgb(0, 0, 0),                  
+1px 0px 0px rgb(0, 0, 0);
+  }
+
+.bot4{
+  width: 145px;
+  height: 37px;
+  /* Linear Ranking */
+  background: linear-gradient(180deg, #3B9D8B 0%, #2D2121 100%);
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-family: "Press Start 2P";
+  color: #FFEE59;
+  text-shadow: 
+  -1px -1px 0px rgb(0, 0, 0), 
+  -1px 1px 0px rgb(0, 0, 0),                    
+  1px -1px 0px rgb(0, 0, 0),                  
+  1px 0px 0px rgb(0, 0, 0);
+  }
+
+.container{
+padding: 16px;
+display: flex;
+gap:5px 20px;
+justify-content: space-around;
+align-items:flex-start;
+flex-wrap: wrap;
+align-content: flex-start ;
+}
+
+.titulo{
+width: 100%;
+height: 34px;
+font-family: 'Poppins';
+font-size: 32px;
+/* or 50% */
+color: #BD8518;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+text-shadow: 
+-1px -1px 0px rgb(0, 0, 0), 
+-1px 1px 0px rgb(0, 0, 0),                    
+1px -1px 0px rgb(0, 0, 0),                  
+1px 0px 0px rgb(0, 0, 0);
+
+
+}
+
