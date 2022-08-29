@@ -1,5 +1,6 @@
 import "./style.css";
 import { Link } from "react-router-dom";
+import { FiltroStatusData } from "./FiltroStatusData"
 
 function FiltroDetalheStatus() {
 
@@ -7,27 +8,15 @@ function FiltroDetalheStatus() {
     <ul className="bodyFiltroDetalhesStatus">
       <div className="Status">
 
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="StatusHP"> Vida </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="StatusAtaque"> Ataque </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="StatusDefesa"> Defesa </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="StatusAtqEspecial"> Atq. Especial </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="StatusDefEspecial"> Def. Especial </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="StatusVelocidade"> Velocidade </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="StatusTodos"> Ranking Geral </div>
-        </Link>
+        {FiltroStatusData.map((item, index) => {
+          return (
+            <Link to={item.path} style={{ textDecoration: 'none', color: 'black' }}>
+              <li key={index} className={item.Cname}>
+                <span>{item.title}</span>
+              </li>
+            </Link>
+          );
+        })}
 
       </div>
     </ul>

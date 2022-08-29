@@ -1,75 +1,23 @@
 import "./style.css";
 import { Link } from "react-router-dom";
+import { FiltroTipoData } from "./FiltroTipoData"
 
 function FiltroDetalheTipo() {
 
-  /*
-    Criar um link diferente para cada botão ??
-    Ex:
-      <Link to="/ranking/steel/total" style={{ textDecoration: 'none' }}>
-        <div className="cardTipoSteel"> Ferro </div>
-      </Link>
-  */
   return (
     <ul className="bodyFiltroDetalhesTipo">
       <div className="Tipos">
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoSteel"> Ferro </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoFire"> Fogo </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoGrass"> Grama </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoEletric"> Elétrico </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoWater"> Água </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoIce"> Gelo </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoGround"> Terra </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoRock"> Pedra </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoFairy"> Fada </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoPoison"> Veneno </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoBug"> Inseto </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoDragon"> Dragão </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoPsychic"> Psíquico </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoFlying"> Voador </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoFighting"> Lutador </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoGhost"> Fantasma </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoDark"> Sombrio </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoNormal"> Normal </div>
-        </Link>
-        <Link to="/ranking" style={{ textDecoration: 'none' }}>
-          <div className="cardTipoTodos"> Todos os tipos </div>
-        </Link>
+        
+        {FiltroTipoData.map((item, index) => {
+          return (
+            <Link to={item.path} style={{ textDecoration: 'none', color: 'black' }}>
+              <li key={index} className={item.Cname}>
+                <img src={item.icon} alt={""} />
+                <span>{item.title}</span>
+              </li>
+            </Link>
+          );
+        })}
 
       </div>
     </ul>

@@ -77,8 +77,8 @@
 
     color: #000;
     border: 2px solid #cccccc;
-    background-color: #fdb9e9;
-    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+    background-color: #b97fc9;
+    box-shadow: rgba(56, 24, 71, 0.788) 5px 5px 5px;
 
     cursor: pointer;
 }
@@ -94,8 +94,8 @@
 
     color: #000;
     border: 2px solid #cccccc;
-    background-color: #a38c21;
-    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+    background-color: #fd7d24;
+    box-shadow: rgba(139, 79, 44, 0.788) 5px 5px 5px;
 
     cursor: pointer;
 }
@@ -112,7 +112,7 @@
     color: #000;
     border: 2px solid #cccccc;
     background-color: #4592c4;
-    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+    box-shadow: rgba(24, 43, 71, 0.788) 5px 5px 5px;
 
     cursor: pointer;
 }
@@ -129,7 +129,7 @@
     color: #000;
     border: 2px solid #cccccc;
     background-color: #f16e57;
-    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+    box-shadow: #58281f 5px 5px 5px;
 
     cursor: pointer;
 }
@@ -145,8 +145,8 @@
 
     color: #000;
     border: 2px solid #cccccc;
-    background-color: #9eb7b8;
-    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+    background-color: #729f3f;
+    box-shadow: rgba(41, 71, 24, 0.788) 5px 5px 5px;
 
     cursor: pointer;
 }
@@ -162,8 +162,8 @@
 
     color: #000;
     border: 2px solid #cccccc;
-    background-color: #9acc50;
-    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+    background-color: #eed535;
+    box-shadow: rgba(122, 121, 38, 0.788) 5px 5px 5px;
 
     cursor: pointer;
 }
