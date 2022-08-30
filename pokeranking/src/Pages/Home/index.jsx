@@ -11,7 +11,7 @@ function Home({configFiltro}, props) {
   return (
     <>
       <LogoDisplay />
-      <FiltroDisplay configFiltro={configFiltro}/>
+      <FiltroDisplay configFiltro={props.configFiltro}/>
       <PokemonDisplay pokemonName={props.pokemonName}/>
     </>
   );

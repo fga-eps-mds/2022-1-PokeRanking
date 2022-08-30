@@ -7,7 +7,6 @@ import Home from "./Pages/Home";
 import Ranking from "./Pages/Ranking";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import { useState } from "react";
 
 function App() {
 

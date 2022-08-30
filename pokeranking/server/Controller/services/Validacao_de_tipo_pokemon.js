@@ -4,10 +4,10 @@ module.exports = {
         let type = dado_extraido_pela_URL;
 
         possiveisTipos = ["normal", "fire", "water", "grass", "NA", "flying", "fighting",
-            "poison", "eletric", "ground", "bug", "ghost", "steel", "dragon", "dark", "fairy",
+            "poison", "electric", "ground", "bug", "ghost", "steel", "dragon", "dark", "fairy",
             "rock", "psychic", "ice"];
 
-        for (let contador = 0; contador < 18; contador++) {
+        for (let contador = 0; contador <= 19; contador++) {
             if (type == possiveisTipos[contador]) {
                 return true;
             }
