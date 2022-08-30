@@ -3,7 +3,7 @@ import FiltroDisplay from "../../Components/FiltroDisplay";
 import PokemonDisplay from "../../Components/PokemonDisplay";
 import "./style.css";
 
-function Home({configFiltro}) {
+function Home({configFiltro}, props) {
   
   configFiltro.alteraFiltro("NA")
   configFiltro.alteraStatus("total")
@@ -12,7 +12,7 @@ function Home({configFiltro}) {
     <>
       <LogoDisplay />
       <FiltroDisplay configFiltro={configFiltro}/>
-      <PokemonDisplay />
+      <PokemonDisplay pokemonName={props.pokemonName}/>
     </>
   );
 }
