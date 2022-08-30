@@ -22,14 +22,14 @@ export const FiltroStatusData = [
 
     {
         title: "Ataque Especial",
-        pathAPI: "",
+        pathAPI: "special_attack",
         path: "/ranking",
         Cname: "StatusAtqEspecial"
     },
 
     {
         title: "Defesa Especial",
-        pathAPI: "",
+        pathAPI: "special_defense",
         path: "/ranking",
         Cname: "StatusDefEspecial"
     },
