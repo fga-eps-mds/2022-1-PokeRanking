@@ -38,9 +38,13 @@ nav:
     - Documento de Visão: "Documentação/documento-de-visao.md"
     - Documento de Arquitetura: "Documentação/documento-de-arquitetura.md"
     - Backlog do Produto: "Documentação/product-backlog.md"
+    - Gerenciamento de riscos: "Documentação/Doc-risks.md"
+    - Estrutura Analítica do Projeto: "Documentação/estrutura-analitica.md"
+    - Roadmaps: "Documentação/roadmap.md"
     - Protótipo de Baixa Fidelidade: "Protótipos/prototipo-de-baixa-fidelidade.md"
     - Protótipo de Alta Fidelidade: "Protótipos/prototipo-de-alta-fidelidade.md"
-    - Código de Conduta para Colaboradores: "Documentação/codigo-de-conduta.md"
+    - Código de Conduta para Colaboradores: "Documentação/CODE_OF_CONDUCT.md"
+    - Canvas: "Documentação/canvas.md"
   - Sprints:
     - Sprint 00:
       - Planning: "Sprints/Sprint_00/planning.md"
@@ -66,6 +70,24 @@ nav:
     - Sprint 07:
       - Planning: "Sprints/Sprint_07/Sprint07_Planning.md"
       - Review: "Sprints/Sprint_07/Sprint07_Review.md"
+    - Sprint 08:
+      - Planning: "Sprints/Sprint_08/Sprint08_Planning.md"
+      - Review: "Sprints/Sprint_08/Sprint08_Review.md"
+    - Sprint 09:
+      - Planning: "Sprints/Sprint_09/Sprint09_Planning.md"
+      - Review: "Sprints/Sprint_09/Sprint09_Review.md"
+    - Sprint 10:
+      - Planning: "Sprints/Sprint_10/Sprint10_Planning.md"
+      - Review: "Sprints/Sprint_10/Sprint10_Review.md"
+    - Sprint 11:
+      - Planning: "Sprints/Sprint_11/Sprint11_Planning.md"
+      - Review: "Sprints/Sprint_11/Sprint11_Review.md"
+    - Sprint 12:
+      - Planning: "Sprints/Sprint_12/Sprint12_Planning.md"
+      - Review: "Sprints/Sprint_12/Sprint12_Review.md"
+    - Sprint 13:
+      - Planning: "Sprints/Sprint_13/Sprint13_Planning.md"
+      - Review: "Sprints/Sprint_13/Sprint13_Review.md"
     
 
 repo_url: https://github.com/fga-eps-mds/2022-1-PokeRanking

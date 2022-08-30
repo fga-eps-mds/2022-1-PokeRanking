@@ -1,5 +1,10 @@
 //acessa o model de criaturas
-const Criatura = require('../Models/Criatura')
+const Criatura = require('../Models/Criatura');
+
+//Algoritmos
+const {Validacao_de_tipo_pokemon} = require('../Controller/services/Validacao_de_tipo_pokemon')
+const {Ranking_de_pokemon_por_atributo} = require('../Controller/services/Ranking_de_pokemon_por_atributo')
+const {Ordenacao_de_pokemon_por_status} = require('./services/Ordenacao_de_pokemon_por_status')
 
 module.exports = {
 
@@ -7,7 +12,8 @@ module.exports = {
     async busca_criaturas(req, res) {
 
         // ordena pela ordem crescente do atributo "codigo"
-        let ordenacao = { codigo: 1 }
+        const tipo_de_ordenacao = 1, status = "codigo";
+        let ordenacao = Ordenacao_de_pokemon_por_status(status, tipo_de_ordenacao);
 
         //busca todas as criaturas por ordem da pokedex, iniciando pelo codigo = 1
         try {
@@ -18,8 +24,8 @@ module.exports = {
         }
     },
 
-    //BUSCA DE CRIATURA POR ID OU NOME
-    async busca_criatura_id_nome(req, res) {
+    // BUSCA DE CRIATURA POR ID OU NOME
+    async busca_criatura_por_id_nome(req, res) {
 
         // extrai o dado da requisicao pela url = req.params
         const id = req.params.codigo
@@ -47,46 +53,33 @@ module.exports = {
                 return
             }
 
-            // busca os pokemons com valor de atributo acima do pokemon selecionado 
-            let comparacao_total = await Criatura.find({ total: { $gt: `${pokemon.total}` } })
-            let comparacao_attack = await Criatura.find({ attack: { $gt: `${pokemon.attack}` } })
-            let comparacao_defense = await Criatura.find({ defense: { $gt: `${pokemon.defense}` } })
-            let comparacao_hp = await Criatura.find({ hp: { $gt: `${pokemon.hp}` } })
-            let comparacao_special_attack = await Criatura.find({ special_attack: { $gt: `${pokemon.special_attack}` } })
-            let comparacao_special_defense = await Criatura.find({ special_defense: { $gt: `${pokemon.special_defense}` } })
-            let comparacao_speed = await Criatura.find({ speed: { $gt: `${pokemon.speed}` } })
-
-            /*  
-            * -> A variavel de (comparacao_atributo.length + 1) recebe a qtde de criaturas 
-            * a frente do pokemon selecionado.  
-            * -> O array JSON "rank" unifica as colocacoes do pokemon em cada atributo
-            */
-            let rank = {
-                "colocado_total": `${(comparacao_total.length + 1)}`,
-                "colocado_attack": `${(comparacao_attack.length + 1)}`,
-                "colocado_defense": `${(comparacao_defense.length + 1)}`,
-                "colocado_hp": `${(comparacao_hp.length + 1)}`,
-                "colocado_special_attack": `${(comparacao_special_attack.length + 1)}`,
-                "colocado_special_defense": `${(comparacao_special_defense.length + 1)}`,
-                "colocado_speed": `${(comparacao_speed.length + 1)}`
-            }
+            // o metodo busca os pokemons com valor de atributo superior ao do pokemon selecionado 
+            let Ranking = await Ranking_de_pokemon_por_atributo(pokemon)
 
             //Unifica os status do pokemon selecionado com a chave "rank"
-            let Pokemon_Ranking = Object.assign([{ pokemon, rank }])
+            let Pokemon_Ranking = Object.assign({}, pokemon._doc, { Ranking })
 
-            res.status(200).json(Pokemon_Ranking)
+            res.status(200).json([Pokemon_Ranking])
         } catch (error) {
             res.status(500).json({ error: error })
         }
     },
 
     // BUSCA DE CRIATURAS POR TIPO
-    async busca_criaturas_tipo(req, res) {
+    async busca_criaturas_por_tipo(req, res) {
 
         // extrai o dado da requisicao pela url = req.params
         const type = req.params.type
 
-        // ordena pela ordem crescente do atributo "codigo"
+        //const criatura_tipo_verficado = Verificao_de_tipo(type)
+        const criatura_tipo_verficado = Validacao_de_tipo_pokemon(type)
+
+        if (!criatura_tipo_verficado) {
+            res.status(422).json({ message: "tipo de pokémon não encontrado" })
+            return
+        }
+
+        // ordena pela ordem crescente de atributo "codigo"
         let ordenacao = { codigo: 1 }
         try {
 
@@ -106,8 +99,8 @@ module.exports = {
         }
     },
 
-    // BUSCA DE CRIATURAS POR RANKING E TIPO
-    async busca_criaturas_tipo_ranking(req, res) {
+    // BUSCA DE CRIATURAS POR TIPO E COM ORDENACAO DE RANKING POR ATRIBUTO
+    async busca_criaturas_por_tipo_atributo(req, res) {
 
         // extrai o dado da requisicao pela url = req.params
         const type = req.params.type
@@ -115,47 +108,19 @@ module.exports = {
 
         try {
 
-            /*
-            *  A variavel ordenacao recebe pelo switch o valor de qual sera o atributo,
-            *  no qual os pokemons serao organizados.
-            *  -> ordena de forma decrescente : {atributo: -1}
-            *  -> ordena de forma crescente : {atributo: 1}
-            */
-            let ordenacao;
+            const tipo_de_ordenacao = -1;
+            let ordenacao = Ordenacao_de_pokemon_por_status(atributo, tipo_de_ordenacao);
 
-            switch (atributo) {
-                case "total":
-                    ordenacao = { total: -1 }
-                    break;
+            if (!ordenacao) {
+                res.status(422).json({ message: "atributo não encontrado" })
+                return
+            }
 
-                case "attack":
-                    ordenacao = { attack: -1 }
-                    break;
+            const criatura_tipo_verficado = Validacao_de_tipo_pokemon(type)
 
-                case "defense":
-                    ordenacao = { defense: -1 }
-                    break;
-
-                case "hp":
-                    ordenacao = { hp: -1 }
-                    break;
-
-                case "special_attack":
-                    ordenacao = { special_attack: -1 }
-                    break;
-
-                case "special_defense":
-                    ordenacao = { special_defense: -1 }
-                    break;
-
-                case "speed":
-                    ordenacao = { speed: -1 }
-                    break;
-
-                default:
-                    res.status(422).json({ message: "atributo não encontrado" })
-                    return
-                    break;
+            if (!criatura_tipo_verficado) {
+                res.status(422).json({ message: "tipo de pokémon não encontrado" })
+                return
             }
 
             /*
@@ -179,7 +144,7 @@ module.exports = {
         }
     },
 
-    //CREATE DE CRIATURA
+    // CREATE DE CRIATURA
     async Create(req, res) {
         const {
             codigo, name, type_1, type_2, Total,
@@ -193,19 +158,9 @@ module.exports = {
         }
 
         const obj = {
-            codigo,
-            name,
-            type_1,
-            type_2,
-            Total,
-            HP,
-            Attack,
-            Defense,
-            Sp_Atk,
-            Sp_Def,
-            Speed,
-            Generation,
-            Legendary
+            codigo, name, type_1, type_2, Total,
+            HP, Attack, Defense, Sp_Atk, Sp_Def,
+            Speed, Generation, Legendary
         }
 
         try {

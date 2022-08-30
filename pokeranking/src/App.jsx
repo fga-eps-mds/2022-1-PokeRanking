@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Ranking from "./Pages/Ranking";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import { useState } from "react";
 
 function App() {
 
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className="page-container">
       <Router>
-        <Header />
+        <Header setPokemonName={setPokemonName} />
         <Routes>
           <Route path="/" element={<Home configFiltro={configFiltro} pokemonName={pokemonName}/>} />
           <Route path="/ranking" element={<Ranking configFiltro={configFiltro} tipoSelecionado={tipoSelecionado} statusSelecionado={statusSelecionado}/>} />
