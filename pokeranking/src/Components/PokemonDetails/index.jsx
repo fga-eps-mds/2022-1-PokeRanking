@@ -66,7 +66,7 @@ function PokemonDetails({ opened, setOpened, pokemonInfo }) {
           <br/>
           <div className="card-modal-types">
             <img
-              className="card-modal-element-icon"
+              className="card-modal-element-icon1"
               src={elementsIcons[pokemonInfo.type_1]}
               alt={pokemonInfo.type_1}
               title={pokemonInfo.type_1}
