@@ -71,20 +71,16 @@ cd server
 ```
 npm install
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 8. Inicie o servidor:
-```
-node .
-```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 9. Volte para a pasta pokeranking:
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 8. Volte para a pasta pokeranking:
 ```
 cd ..
 ```
-<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 10. Inicie o front-end:
+<img src="https://thumbs.gfycat.com/SharpBriefAsianlion.webp" width="20" height="18" /> 9. Inicie o projeto:
 ```
-npm start
+npm run dev
 ```
 
-Após iniciar o servidor e o front-end, o programa irá iniciar e sempre que quiser rodá-lo de novo, basta repetir apenas os passos 6, 8, 9 e 10.
+Após iniciar o servidor e o front-end, o programa irá iniciar e sempre que quiser rodá-lo de novo, basta repetir apenas os passos 4 e 9.
 
 ## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Licença
 Este projeto está licenciado sob os termos estabelecidos pela MIT License.
