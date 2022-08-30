@@ -1,0 +1,369 @@
+.bodyFiltroDetalhesTipo {
+    width: 1595px;
+    margin: auto;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    background: linear-gradient(to right, rgb(82, 74, 74), rgb(136, 128, 128), rgb(82, 74, 74));
+  
+    font: normal 30px Arial;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+  
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-radius: 30px 30px 30px 30px;
+  
+    box-shadow: inset 0px 0px 10px #000;
+}
+
+
+.Tipos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 22px;
+    column-gap: 132px;
+    width: 1590px;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.cardTipoTodos {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 50px;
+
+    margin-top: 50px;
+    position: relative;
+    width: 550px;
+    height: 50px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background: linear-gradient(to top, #2f1212, #c63838, #2f1212);
+    box-shadow: rgba(0, 0, 0, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoSteel {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #9eb7b8;
+    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoFire {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+    
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #fd7d24;
+    box-shadow: rgba(139, 79, 44, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoGrass {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #9acc50;
+    box-shadow: rgba(24, 71, 31, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoElectric {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #eed535;
+    box-shadow: rgba(122, 121, 38, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoWater {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #4592c4;
+    box-shadow: rgba(24, 43, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoIce {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #51c4e7;
+    box-shadow: rgba(24, 54, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoGround {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    background-color: #f7de3f;
+    box-shadow: rgba(71, 62, 24, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoRock {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #a38c21;
+    box-shadow: rgba(71, 54, 24, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoFairy {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #fdb9e9;
+    box-shadow: rgba(71, 24, 55, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoPoison {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #b97fc9;
+    box-shadow: rgba(56, 24, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoBug {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #729f3f;
+    box-shadow: rgba(41, 71, 24, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoDragon {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background: linear-gradient(to bottom, #53a4cf 50%, #f16e57 50%);
+    background-color: #53a4cf;
+    box-shadow: rgba(24, 39, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoPsychic {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #f366b9;
+    box-shadow: rgba(95, 29, 90, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoFlying {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background-color: #3dc7ef;
+    box-shadow: rgba(68, 104, 98, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoFighting {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #d56723;
+    box-shadow: rgba(129, 81, 35, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoGhost {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #7b62a3;
+    box-shadow: rgba(82, 24, 116, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoDark {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #707070;
+    box-shadow: rgba(46, 46, 46, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.cardTipoNormal {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #a4acaf;
+    box-shadow: rgba(101, 102, 102, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}

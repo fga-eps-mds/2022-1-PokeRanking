@@ -1,6 +1,6 @@
 .bodyFiltro {
-  height: 65px;
-  background: linear-gradient(to top, #63337a, #3b859d);
+  min-height: 65px;
+  background: linear-gradient(to top, rgb(56, 56, 56), rgb(95, 95, 95), rgb(56, 56, 56));
 
   font: normal 30px Arial;
   text-align: center;
@@ -8,6 +8,9 @@
 
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  margin-bottom: 0px;
+
+  box-shadow: inset 0px 0px 10px #000;
 }
 
 .filtro {
@@ -15,7 +18,7 @@
   flex-direction: row;
 
   width: 1460px;
-  height: 75px;
+  height: 43px;
   gap: 22px;
 
   justify-content: center;
@@ -26,11 +29,11 @@
 }
 
 .textoFiltro {
-  width: 265px;
+  width: auto;
+  font: normal 25px Arial;
 }
 
 .boxOrdenaPor {
-  padding: 10px;
   padding-top: 15px;
   width: 265px;
   height: auto;
@@ -39,17 +42,17 @@
 
 .botaoFiltro {
   margin-top: 10px;
-  margin-bottom: 10px;
 
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 5px;
 
   width: 265px;
-  height: auto;
-  background: #f8c658;
+  height: 45px;
+  background: linear-gradient(to top, #2f1212, #c63838, #2f1212);
   text-align: center;
 
   border: 2px solid black;
   border-radius: 50px;
+
+  cursor: pointer;
 }
