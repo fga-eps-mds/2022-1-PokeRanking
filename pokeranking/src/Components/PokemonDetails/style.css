@@ -256,6 +256,11 @@ text-shadow:
   height:64px;
 }
 
+.card-modal-element-icon2{
+  width:64px;
+  height:64px;
+}
+
 .adicionar{
   display: flex;
   flex-direction: row;

@@ -74,7 +74,7 @@ function PokemonDetails({ opened, setOpened, pokemonInfo }) {
 
             {(pokemonInfo.type_2 && pokemonInfo.type_2 !== 'NA') && (
               <img
-                className="card-modal-element-icon" 
+                className="card-modal-element-icon2" 
                 src={elementsIcons[pokemonInfo.type_2]}
                 alt={pokemonInfo.type_2}
                 title={pokemonInfo.type_2}
