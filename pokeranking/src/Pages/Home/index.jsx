@@ -3,12 +3,16 @@ import FiltroDisplay from "../../Components/FiltroDisplay";
 import PokemonDisplay from "../../Components/PokemonDisplay";
 import "./style.css";
 
-function Home(props) {
+function Home({configFiltro}, props) {
+  
+  configFiltro.alteraFiltro("NA")
+  configFiltro.alteraStatus("total")
+
   return (
     <>
       <LogoDisplay />
-      <FiltroDisplay />
-      <PokemonDisplay pokemonName={props.pokemonName} />
+      <FiltroDisplay configFiltro={configFiltro}/>
+      <PokemonDisplay pokemonName={props.pokemonName}/>
     </>
   );
 }

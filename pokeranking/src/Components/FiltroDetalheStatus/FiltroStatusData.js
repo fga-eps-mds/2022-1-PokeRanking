@@ -1,42 +1,49 @@
 export const FiltroStatusData = [
     {
-        title: "HP",
+        title: "Vida",
+        pathAPI: "hp",
         path: "/ranking",
         Cname: "StatusHP"
     },
 
     {
-        title: "Attack",
+        title: "Ataque",
+        pathAPI: "attack",
         path: "/ranking",
         Cname: "StatusAtaque"
     },
 
     {
-        title: "Defense",
+        title: "Defesa",
+        pathAPI: "defense",
         path: "/ranking",
         Cname: "StatusDefesa"
     },
 
     {
-        title: "Special Attack",
+        title: "Ataque Especial",
+        pathAPI: "special_attack",
         path: "/ranking",
         Cname: "StatusAtqEspecial"
     },
 
     {
-        title: "Special Defense",
+        title: "Defesa Especial",
+        pathAPI: "special_defense",
         path: "/ranking",
         Cname: "StatusDefEspecial"
     },
 
     {
-        title: "Speed",
+        title: "Velocidade",
+        pathAPI: "speed",
         path: "/ranking",
         Cname: "StatusVelocidade"
     },
 
     {
         title: "Ranking Geral",
+        pathAPI: "total",
         path: "/ranking",
         Cname: "StatusTodos"
     },

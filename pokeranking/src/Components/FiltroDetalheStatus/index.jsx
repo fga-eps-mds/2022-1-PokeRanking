@@ -2,7 +2,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import { FiltroStatusData } from "./FiltroStatusData"
 
-function FiltroDetalheStatus() {
+function FiltroDetalheStatus(props) {
 
   return (
     <ul className="bodyFiltroDetalhesStatus">
@@ -11,7 +11,7 @@ function FiltroDetalheStatus() {
         {FiltroStatusData.map((item, index) => {
           return (
             <Link to={item.path} style={{ textDecoration: 'none', color: 'black' }}>
-              <li key={index} className={item.Cname}>
+              <li key={index} className={item.Cname} onClick={() => props.alteraStatus(item.pathAPI)}>
                 <span>{item.title}</span>
               </li>
             </Link>

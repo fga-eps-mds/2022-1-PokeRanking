@@ -20,119 +20,136 @@ import PokeballIcon from "../../Assets/Pokeball-Icon.png"
 
 export const FiltroTipoData = [
     {
-        title: "Steel",
+        title: "Ferro",
+        pathAPI: "steel",
         path: "/ranking",
         icon: TypeSteel,
         Cname: "cardTipoSteel"
     },
 
     {
-        title: "Fire",
+        title: "Fogo",
+        pathAPI: "fire",
         path: "/ranking",
         icon: TypeFire,
         Cname: "cardTipoFire"
     },
     
     {
-        title: "Grass",
+        title: "Grama",
+        pathAPI: "grass",
         path: "/ranking",
         icon: TypeGrass,
         Cname: "cardTipoGrass"
     },
     
     {
-        title: "Electric",
+        title: "Elétrico",
+        pathAPI: "electric",
         path: "/ranking",
         icon: TypeElectric,
         Cname: "cardTipoElectric"
     },
     
     {
-        title: "Water",
+        title: "Água",
+        pathAPI: "water",
         path: "/ranking",
         icon: TypeWater,
         Cname: "cardTipoWater"
     },
     
     {
-        title: "Ice",
+        title: "Gelo",
+        pathAPI: "ice",
         path: "/ranking",
         icon: TypeIce,
         Cname: "cardTipoIce"
     },
     
     {
-        title: "Ground",
+        title: "Terra",
+        pathAPI: "ground",
         path: "/ranking",
         icon: TypeGround,
         Cname: "cardTipoGround"
     },
     
     {
-        title: "Rock",
+        title: "Pedra",
+        pathAPI: "rock",
         path: "/ranking",
         icon: TypeRock,
         Cname: "cardTipoRock"
     },
     
     {
-        title: "Fairy",
+        title: "Fada",
+        pathAPI: "fairy",
         path: "/ranking",
         icon: TypeFairy,
         Cname: "cardTipoFairy"
     },
     
     {
-        title: "Poison",
+        title: "Veneno",
+        pathAPI: "poison",
         path: "/ranking",
         icon: TypePoison,
         Cname: "cardTipoPoison"
     },
     
     {
-        title: "Bug",
+        title: "Inseto",
+        pathAPI: "bug",
         path: "/ranking",
         icon: TypeBug,
         Cname: "cardTipoBug"
     },
     
     {
-        title: "Dragon",
+        title: "Dragão",
+        pathAPI: "dragon",
         path: "/ranking",
         icon: TypeDragon,
         Cname: "cardTipoDragon"
     },
     
     {
-        title: "Psychic",
+        title: "Psíquico",
+        pathAPI: "psychic",
         path: "/ranking",
         icon: TypePsychic,
         Cname: "cardTipoPsychic"
     },
     
     {
-        title: "Flying",
+        title: "Voador",
+        pathAPI: "flying",
         path: "/ranking",
         icon: TypeFlying,
         Cname: "cardTipoFlying"
     },
     
     {
-        title: "Fighting",
+        title: "Lutador",
+        pathAPI: "fighting",
         path: "/ranking",
         icon: TypeFighting,
         Cname: "cardTipoFighting"
     },
     
     {
-        title: "Ghost",
+        title: "Fantasma",
+        pathAPI: "ghost",
         path: "/ranking",
         icon: TypeGhost,
         Cname: "cardTipoGhost"
     },
     
     {
-        title: "Dark",
+        title: "Sombrio",
+        pathAPI: "dark",
         path: "/ranking",
         icon: TypeDark,
         Cname: "cardTipoDark"
@@ -140,6 +157,7 @@ export const FiltroTipoData = [
     
     {
         title: "Normal",
+        pathAPI: "normal",
         path: "/ranking",
         icon: TypeNormal,
         Cname: "cardTipoNormal"
@@ -147,6 +165,7 @@ export const FiltroTipoData = [
 
     {
         title: "Todos os tipos",
+        pathAPI: "NA",
         path: "/ranking",
         icon: PokeballIcon,
         Cname: "cardTipoTodos"
