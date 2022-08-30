@@ -3,10 +3,10 @@ import FiltroDisplay from "../../Components/FiltroDisplay";
 import PokemonDisplay from "../../Components/PokemonDisplay";
 import "./style.css";
 
-function Home({configFiltro}, props) {
+function Home(props) {
   
-  configFiltro.alteraFiltro("NA")
-  configFiltro.alteraStatus("total")
+  props.configFiltro.alteraFiltro("NA")
+  props.configFiltro.alteraStatus("total")
 
   return (
     <>
