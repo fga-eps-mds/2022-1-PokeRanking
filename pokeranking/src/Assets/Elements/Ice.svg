@@ -1,0 +1,31 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_82_167)">
+<circle cx="25" cy="25" r="15" fill="url(#paint0_linear_82_167)"/>
+</g>
+<g clip-path="url(#clip0_82_167)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.8099 18.5725L28.8136 22.6423L25.3268 24.2919V20.5124L28.8099 18.5725Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.3139 24.976L28.8099 26.6865L25.3268 24.976L28.8099 23.3001L32.3139 24.976Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.6875 24.976L21.186 26.6865L17.6861 24.9728L21.1485 23.3001L24.6875 24.976Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.1485 18.5725L24.6875 20.5124L24.6881 24.2919L21.1485 22.5647V18.5725Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.8136 31.4275L25.3268 29.5117V25.5987L28.8136 27.2973V31.4275Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.186 31.4275V27.2973L24.6875 25.5987V29.5117L21.186 31.4275Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_82_167" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.494118 0 0 0 0 0.831373 0 0 0 0 0.788235 0 0 0 0.7 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_82_167"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_82_167" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_82_167" x1="10" y1="10" x2="10" y2="40" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8CDDD4"/>
+<stop offset="1" stop-color="#70CCBD"/>
+</linearGradient>
+<clipPath id="clip0_82_167">
+<rect width="15" height="15" fill="white" transform="translate(17.5 17.5)"/>
+</clipPath>
+</defs>
+</svg>

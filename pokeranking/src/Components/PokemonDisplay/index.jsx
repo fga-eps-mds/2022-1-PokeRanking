@@ -1,9 +1,9 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import "./style.css";
 import PokemonDetails from "../PokemonDetails";
 
 function PokemonDisplay() {
-  const [pokemonInfo, setPokemonInfo] = useState({});
+  const [pokemonInfo, setPokemonInfo] = useState(null);
   const [pokemonData, setPokemonData] = useState([]);
   const [modalOpened, setModalOpened] = useState(false);
 

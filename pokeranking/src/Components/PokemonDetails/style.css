@@ -6,7 +6,9 @@
   left: 0;
   top: 0;
   width: 100%; /* Full width */
+  min-width: 720px;
   height: 100%; /* Full height */
+  min-height: 720px;
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -45,13 +47,6 @@ box-sizing: border-box;
   float: left; 
   margin-left: 100px;
   margin-right: auto; 
- }
-
- .modal-footer {
- background-color: #ffffff;
- width: 100%;
- height: 50px;
- clear: both;
  }
 
  .modal-table {
@@ -158,6 +153,7 @@ width: 34%;
 height: 370px;
 float: left;
 text-align: center;
+border-left: doli;
 }
 
 .bot1{
@@ -249,7 +245,63 @@ text-shadow:
 -1px 1px 0px rgb(0, 0, 0),                    
 1px -1px 0px rgb(0, 0, 0),                  
 1px 0px 0px rgb(0, 0, 0);
+}
 
+.card-modal-types {
+  display: flex;
+}
+
+.card-modal-element-icon{
+  width:64px;
+  height:64px;
+}
+
+.adicionar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 29px;
+  height: 29px;
+  color: #ffffff;
+  font-size: 30px;
+  background: #B3A125;
+  border-radius: 2px;
+  font-family: 'Poppins';
 
 }
 
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  height: 50px;
+  clear: both;
+  font-family: 'Poppins';
+  font-size: 20px;
+  gap: 10px;
+  color: #ffffff;
+  flex-wrap: wrap;
+  }
+
+  .textFoot{
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0px rgb(0, 0, 0), 
+    -1px 1px 0px rgb(0, 0, 0),                    
+    1px -1px 0px rgb(0, 0, 0),                  
+    1px 0px 0px rgb(0, 0, 0); 
+  }
+
+  .linha-horizontal{
+    align-items: flex-start;
+    width: 100%;
+    border: 1px solid #083543;
+    border-radius: 0px 20px;
+  }
+
+  

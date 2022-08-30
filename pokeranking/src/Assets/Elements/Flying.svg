@@ -1,0 +1,26 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_82_203)">
+<circle cx="25" cy="25" r="15" fill="url(#paint0_linear_82_203)"/>
+</g>
+<g clip-path="url(#clip0_82_203)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M22.7357 31.5C24.9331 31.5 26.8143 30.2787 27.5909 28.5475C27.6004 28.5264 24.4729 29.3603 24.5726 29.0655C24.6171 28.9339 26.5343 28.2335 27.9311 27.4166C28.7339 26.9471 29.1036 25.9531 29.1036 25.9531C29.1036 25.9531 27.7511 26.6098 27.0673 26.7764C25.6894 27.1121 24.4765 27.076 24.4765 27.041C24.4765 26.9654 26.4905 26.5827 29.2898 24.8769C30.6065 24.0745 30.9641 22.6925 30.9641 22.6925C30.9641 22.6925 29.5165 23.5547 28.6414 23.8394C26.5661 24.5145 24.6723 24.7179 24.6723 24.6266C24.6723 24.431 26.3389 23.9727 28.1059 23.1165C29.0247 22.6713 29.8204 22.0897 30.7424 21.443C32.2512 20.3847 32.5 18.5 32.5 18.5C32.5 18.5 31.0119 19.4598 30.2857 19.7785C27.2893 21.0937 24.6434 21.7836 22.7357 21.9329C19.8559 22.1584 17.5 24.1677 17.5 26.7764C17.5 29.3852 19.8441 31.5 22.7357 31.5Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_82_203" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.615686 0 0 0 0 0.709804 0 0 0 0 0.894118 0 0 0 0.7 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_82_203"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_82_203" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_82_203" x1="10" y1="10" x2="10" y2="40" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A6C2F2"/>
+<stop offset="1" stop-color="#90A7DA"/>
+</linearGradient>
+<clipPath id="clip0_82_203">
+<rect width="15" height="15" fill="white" transform="translate(17.5 17.5)"/>
+</clipPath>
+</defs>
+</svg>
