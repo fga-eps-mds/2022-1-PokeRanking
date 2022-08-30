@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      Codecov_Token: ${{ secrets.CODECOV_TOKEN }}
     
     defaults:
        run:
@@ -43,8 +43,9 @@ jobs:
 
     - name: Check tests
       run: npm test --coverage
-
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
+      
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.Codecov_Token }}
+        path-to-lcov: ${{ github.workspace }}/pokeranking/server/coverage/lcov.info
