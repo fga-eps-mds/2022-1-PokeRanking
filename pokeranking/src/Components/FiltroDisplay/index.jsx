@@ -4,7 +4,7 @@ import FiltroDetalheTipo from "../FiltroDetalheTipo";
 import FiltroDetalheStatus from "../FiltroDetalheStatus";
 import FiltroDetalheRegiao from "../FiltroDetalheRegiao";
 
-function FiltroDisplay() {
+function FiltroDisplay({configFiltro}) {
 // Criando constantes para guardar o estado atual de cada filtro.
   const [showElement, setShowElement] = useState("")
 
@@ -47,8 +47,8 @@ function FiltroDisplay() {
         </button>
 
       </div>
-      {showElement==="tipo" ? <FiltroDetalheTipo /> : null}
-      {showElement==="status" ? <FiltroDetalheStatus /> : null}
+      {showElement==="tipo" ? <FiltroDetalheTipo alteraFiltro={configFiltro.alteraFiltro}/> : null}
+      {showElement==="status" ? <FiltroDetalheStatus alteraStatus={configFiltro.alteraStatus}/> : null}
       {showElement==="regiao" ? <FiltroDetalheRegiao /> : null}
     </ul>
   );
