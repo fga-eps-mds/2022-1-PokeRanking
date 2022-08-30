@@ -5,6 +5,9 @@ import "./style.css";
 
 function Home({configFiltro}) {
   
+  configFiltro.alteraFiltro("NA")
+  configFiltro.alteraStatus("total")
+
   return (
     <>
       <LogoDisplay />
