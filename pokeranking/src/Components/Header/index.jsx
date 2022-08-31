@@ -9,12 +9,14 @@ import { SidebarData, SidebarDataBottom } from "./SidebarData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-function Header() {
+function Header(props) {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
 
-  console.log(sidebar);
+  const setPokemonName = (e) => {
+    props.setPokemonName(e.target.value);
+  };
 
   return (
     <>
@@ -34,7 +36,12 @@ function Header() {
             <img className="logo-branco" src={logoBranco} alt="logo" />
           </div>
         </Link>
-        <input className="search" type="text" placeholder="Search" />
+        <input
+          className="search"
+          type="text"
+          placeholder="Search"
+          onChange={setPokemonName}
+        />
       </header>
 
       {/* Sidebar */}

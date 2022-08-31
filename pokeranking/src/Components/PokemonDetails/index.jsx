@@ -66,7 +66,7 @@ function PokemonDetails({ opened, setOpened, pokemonInfo }) {
           <br/>
           <div className="card-modal-types">
             <img
-              className="card-modal-element-icon1"
+              className="card-modal-element-icon"
               src={elementsIcons[pokemonInfo.type_1]}
               alt={pokemonInfo.type_1}
               title={pokemonInfo.type_1}
@@ -74,7 +74,7 @@ function PokemonDetails({ opened, setOpened, pokemonInfo }) {
 
             {(pokemonInfo.type_2 && pokemonInfo.type_2 !== 'NA') && (
               <img
-                className="card-modal-element-icon2" 
+                className="card-modal-element-icon" 
                 src={elementsIcons[pokemonInfo.type_2]}
                 alt={pokemonInfo.type_2}
                 title={pokemonInfo.type_2}
