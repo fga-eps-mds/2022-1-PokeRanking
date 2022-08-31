@@ -13,6 +13,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    env:
+      Codecov_Token: ${{ secrets.CODECOV_TOKEN }}
     
     defaults:
        run:
@@ -31,6 +34,18 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: './pokeranking/server/package.json'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+    
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build
+      run: npm run build --if-present
+
+    - name: Check tests
+      run: npm test --coverage
+      
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.Codecov_Token }}
+        path-to-lcov: ${{ github.workspace }}/pokeranking/server/coverage/lcov.info
