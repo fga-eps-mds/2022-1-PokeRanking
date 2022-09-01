@@ -251,11 +251,15 @@ text-shadow:
   display: flex;
 }
 
-.card-modal-element-icon{
+.card-modal-element-icon1{
   width:64px;
   height:64px;
 }
 
+.card-modal-element-icon2{
+  width:64px;
+  height:64px;
+}
 
 .adicionar{
   display: flex;
