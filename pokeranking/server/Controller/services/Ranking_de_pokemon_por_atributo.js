@@ -4,14 +4,16 @@ const Criatura = require('../../Models/Criatura');
 module.exports = {
     async Ranking_de_pokemon_por_atributo(pokemon) {
 
-        // o metodo busca os pokemons com valor de atributo superior ao do pokemon selecionado 
-        let comparacao_total = await Criatura.find({ total: { $gt: `${pokemon.total}` } })
-        let comparacao_attack = await Criatura.find({ attack: { $gt: `${pokemon.attack}` } })
-        let comparacao_defense = await Criatura.find({ defense: { $gt: `${pokemon.defense}` } })
-        let comparacao_hp = await Criatura.find({ hp: { $gt: `${pokemon.hp}` } })
-        let comparacao_special_attack = await Criatura.find({ special_attack: { $gt: `${pokemon.special_attack}` } })
-        let comparacao_special_defense = await Criatura.find({ special_defense: { $gt: `${pokemon.special_defense}` } })
-        let comparacao_speed = await Criatura.find({ speed: { $gt: `${pokemon.speed}` } })
+        /* 
+        *  O metodo busca os pokemons com valor de atributo superior ao do pokemon selecionado.
+        */
+        let comparacao_total = await Criatura.find({ total: { $gt: `${pokemon.total}` } }).distinct("total")
+        let comparacao_attack = await Criatura.find({ attack: { $gt: `${pokemon.attack}` } }).distinct("attack")
+        let comparacao_defense = await Criatura.find({ defense: { $gt: `${pokemon.defense}` } }).distinct("defense")
+        let comparacao_hp = await Criatura.find({ hp: { $gt: `${pokemon.hp}` } }).distinct("hp")
+        let comparacao_special_attack = await Criatura.find({ special_attack: { $gt: `${pokemon.special_attack}` } }).distinct("special_attack")
+        let comparacao_special_defense = await Criatura.find({ special_defense: { $gt: `${pokemon.special_defense}` } }).distinct("special_defense")
+        let comparacao_speed = await Criatura.find({ speed: { $gt: `${pokemon.speed}` } }).distinct("speed")
 
         /*  
         * -> A variavel de (comparacao_atributo.length + 1) recebe a qtde de criaturas 

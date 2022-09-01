@@ -17,13 +17,13 @@ const pokemon_001 = [
         "total": 318,
         "__v": 0,
         "Ranking": {
-            "colocado_total": "548",
-            "colocado_attack": "591",
-            "colocado_defense": "561",
-            "colocado_hp": "583",
-            "colocado_special_attack": "328",
-            "colocado_special_defense": "344",
-            "colocado_speed": "526"
+            "colocado_total": "126",
+            "colocado_attack": "76",
+            "colocado_defense": "74",
+            "colocado_hp": "77",
+            "colocado_special_attack": "53",
+            "colocado_special_defense": "53",
+            "colocado_speed": "77"
         }
     }
 ]
