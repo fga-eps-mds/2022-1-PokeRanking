@@ -1,0 +1,169 @@
+.bodyFiltroDetalhesStatus {
+    height: 360px;
+    width: 1595px;
+    margin: auto;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    background: linear-gradient(to right, rgb(82, 74, 74), rgb(136, 128, 128), rgb(82, 74, 74));
+  
+    font: normal 30px Arial;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+  
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    border-radius: 30px 30px 30px 30px;
+  
+    box-shadow: inset 0px 0px 10px #000;
+/*
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    z-index: -1;
+*/
+}
+
+.Status {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 22px;
+    column-gap: 132px;
+    width: 1590px;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.StatusTodos {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 50px;
+
+    margin-top: 50px;
+    position: relative;
+    width: 550px;
+    height: 50px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background: linear-gradient(to top, #2f1212, #c63838, #2f1212);
+    box-shadow: rgba(0, 0, 0, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.StatusHP {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #b97fc9;
+    box-shadow: rgba(56, 24, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.StatusAtaque {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #fd7d24;
+    box-shadow: rgba(139, 79, 44, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.StatusDefesa {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #4592c4;
+    box-shadow: rgba(24, 43, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.StatusAtqEspecial {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #f16e57;
+    box-shadow: #58281f 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.StatusDefEspecial {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #729f3f;
+    box-shadow: rgba(41, 71, 24, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.StatusVelocidade {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #eed535;
+    box-shadow: rgba(122, 121, 38, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
