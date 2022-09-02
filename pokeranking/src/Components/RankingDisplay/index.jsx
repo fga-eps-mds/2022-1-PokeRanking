@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import "./style.css";
 
-function RankingDisplay({tipoSelecionado, statusSelecionado}) {
+function RankingDisplay(props) {
   const [pokemonData, setPokemonData] = useState([]);
-  let tipo = tipoSelecionado
-  let status = statusSelecionado
+  let tipo = props.tipoSelecionado
+  let status = props.statusSelecionado
 
   useEffect(() => {
     fetch(`http://localhost:5000/criaturas/`+tipo+`/Ranking/`+status)
