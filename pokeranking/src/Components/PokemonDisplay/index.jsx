@@ -23,7 +23,8 @@ function PokemonDisplay(props) {
   const pokemonDataFilter = pokemonData.filter(
     (e) =>
       e.name.startsWith(props.pokemonName.toLowerCase()) ||
-      e.codigo === props.pokemonName
+      // eslint-disable-next-line eqeqeq
+      e.codigo == props.pokemonName
   );
 
   return (
