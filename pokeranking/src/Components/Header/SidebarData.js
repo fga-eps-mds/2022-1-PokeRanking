@@ -1,6 +1,5 @@
 import homeIcon from "../../Assets/home.png"
 import rankingIcon from "../../Assets/ranking.png"
-import equipeIcon from "../../Assets/equipe.png"
 import compararIcon from "../../Assets/comparacao.png"
 
 import comoUsarIcon from "../../Assets/como-usar.png"
@@ -18,13 +17,6 @@ export const SidebarData = [
     title: "Ranking",
     path: "/ranking",
     icon: rankingIcon,
-    Cname: "nav-text"
-  },
-
-  {
-    title: "Equipe",
-    path: "/equipe",
-    icon: equipeIcon,
     Cname: "nav-text"
   },
 

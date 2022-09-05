@@ -52,7 +52,91 @@ h1 {
   width: 264.75px;
 }
 
+.cardPrimeiro {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  position: absolute;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 42px;
+  margin-top: 42px;
+  border-radius: 20px 0px 20px 0px;
+  border: 10px ridge #d4af37;
+  position: relative;
+  width: 344.75px;
+}
+
+.cardSegundo {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  position: absolute;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 42px;
+  margin-top: 42px;
+  border-radius: 20px 0px 20px 0px;
+  border: 10px ridge #BCC6CC;
+  position: relative;
+  width: 344.75px;
+}
+
+.cardTerceiro {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  position: absolute;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 42px;
+  margin-top: 42px;
+  border-radius: 20px 0px 20px 0px;
+  border: 10px ridge #CD7F32;
+  position: relative;
+  width: 344.75px;
+}
+
 .card::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.cardPrimeiro::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.cardSegundo::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.cardTerceiro::after {
   content: "";
   display: block;
   width: 50%;
@@ -162,6 +246,18 @@ h1 {
   animation: bounce 0.5s linear;
 }
 
+.cardPrimeiro:hover {
+  animation: bounce 0.5s linear;
+}
+
+.cardSegundo:hover {
+  animation: bounce 0.5s linear;
+}
+
+.cardTerceiro:hover {
+  animation: bounce 0.5s linear;
+}
+
 .card-title {
   text-transform: capitalize;
   margin: 0px;
@@ -174,6 +270,15 @@ h1 {
 .number {
   display: flex;
   justify-content: flex-end;
+}
+
+.medal {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  width: 70px;
+  position: absolute;
+  z-index: 2;
 }
 
 .card-image {
