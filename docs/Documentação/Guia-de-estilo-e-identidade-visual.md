@@ -96,6 +96,7 @@ Foram realizados testes de contraste, que obtiveram resultados satisfatórios, e
 <a href="https://ibb.co/h2Djpgf"><img src="https://i.ibb.co/MPM4qg6/contrast4.png" alt="contrast4" border="0" width="200" height="40"></a>
 <a href="https://ibb.co/QMD9kkV"><img src="https://i.ibb.co/bXb1FFV/contrast5.png" alt="contrast5" border="0" width="200" height="40"></a>
 <a href="https://ibb.co/25b9w5n"><img src="https://i.ibb.co/nRWGTRg/contrast6.png" alt="contrast6" border="0" width="200" height="40"></a></center> 
+
 <b><center>Testes de contraste</center></b>
 
 <br/>
@@ -108,6 +109,7 @@ Foram realizados testes de contraste, que obtiveram resultados satisfatórios, e
 <a href="https://ibb.co/fkZvYSx"><img src="https://i.ibb.co/N9fS63y/daltonismo6.png" alt="daltonismo6" border="0" width="200" height="100"></a>
 <a href="https://ibb.co/Hxgbtyv"><img src="https://i.ibb.co/jW4QyYK/daltonismo7.png" alt="daltonismo7" border="0" width="200" height="100"></a>
 <a href="https://ibb.co/PM9xDHD"><img src="https://i.ibb.co/vhQ1XnX/daltonismo8.png" alt="daltonismo8" border="0" width="200" height="100"></a></center>
+
 <b><center>Testes de daltonismo, da esquerda para a direita: protanopia, deuteranopia, tritanopia, acromatopsia, protanomalia, deuteranomalia, tritanomalia, acromatomalia.</center></b>
 
 
@@ -123,13 +125,14 @@ Dado em conta que cada tipo de Pokémon requer uma representação visual difere
 Para que não ocorra disturbância visual ou quebra de identidade, as cores apresentadas são exibidas com contraste e opacidade reduzidas. 
 
 	
-<!-- # 4. Componentes
+# 4. Componentes
 
 ## 4.1. Botões
 
-## 4.2. Navbar
+## 4.2. Ícones
+
+## 4.3. Navbar
 
 ## 4.4. Footer
 
-### Para website --!>
 
