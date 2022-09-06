@@ -1,204 +1,325 @@
 body {
-    background: #020202;
-    /*
-    Colocar uma imagem de fundo no site.
-    background: url();
-    */
-    background: linear-gradient(to bottom, #3b859d, #63337a);
-    color: rgb(0, 0, 0);
-    margin: 0;
-    font-family: rubik;
+  background: #020202;
+  /*
+  Colocar uma imagem de fundo no site.
+  background: url();
+  */
+  background: linear-gradient(to bottom, #3b859d, #63337a);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-family: rubik;
+}
+
+.container {
+  padding: 40px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 54px;
+}
+
+.display-container {
+  width: 1589px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+.PokeRanking {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 22px;
+}
+
+.card {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  width: 264.75px;
+}
+
+.cardPrimeiro {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  position: absolute;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 42px;
+  margin-top: 42px;
+  border-radius: 20px 0px 20px 0px;
+  border: 10px ridge #d4af37;
+  position: relative;
+  width: 344.75px;
+}
+
+.cardSegundo {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  position: absolute;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 42px;
+  margin-top: 42px;
+  border-radius: 20px 0px 20px 0px;
+  border: 10px ridge #BCC6CC;
+  position: relative;
+  width: 344.75px;
+}
+
+.cardTerceiro {
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  position: absolute;
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 42px;
+  margin-top: 42px;
+  border-radius: 20px 0px 20px 0px;
+  border: 10px ridge #CD7F32;
+  position: relative;
+  width: 344.75px;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.cardPrimeiro::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.cardSegundo::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.cardTerceiro::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.steel {
+  background-color: #9eb7b8ad;
+  box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
+}
+
+.fire {
+  background-color: #fd7d24ad;
+  box-shadow: rgba(139, 79, 44, 0.788) 5px 5px 5px;
+}
+
+.grass {
+  background-color: #9acc50ad;
+  box-shadow: rgba(24, 71, 31, 0.788) 5px 5px 5px;
+}
+
+.electric {
+  background-color: #eed535ad;
+  box-shadow: rgba(122, 121, 38, 0.788) 5px 5px 5px;
+}
+
+.water {
+  background-color: #4592c4ad;
+  box-shadow: rgba(24, 43, 71, 0.788) 5px 5px 5px;
+}
+
+.ice {
+  background-color: #51c4e7ad;
+  box-shadow: rgba(24, 54, 71, 0.788) 5px 5px 5px;
+}
+
+.ground {
+  background: linear-gradient(180deg, #f7de3fad 50%, #ab9842ad 50%);
+  background-color: #f7de3fad;
+  box-shadow: rgba(71, 62, 24, 0.788) 5px 5px 5px;
+}
+
+.rock {
+  background-color: #a38c21ad;
+  box-shadow: rgba(71, 54, 24, 0.788) 5px 5px 5px;
+}
+
+.fairy {
+  background-color: #fdb9e9ad;
+  box-shadow: rgba(71, 24, 55, 0.788) 5px 5px 5px;
+}
+
+.poison {
+  background-color: #b97fc9ad;
+  box-shadow: rgba(56, 24, 71, 0.788) 5px 5px 5px;
+}
+
+.bug {
+  background-color: #729f3fad;
+  box-shadow: rgba(41, 71, 24, 0.788) 5px 5px 5px;
+}
+
+.dragon {
+  background: linear-gradient(to bottom, #53a4cfad 50%, #f16e57ad 50%);
+  background-color: #53a4cfad;
+  box-shadow: rgba(24, 39, 71, 0.788) 5px 5px 5px;
+}
+
+.psychic {
+  background-color: #f366b9ad;
+  box-shadow: rgba(95, 29, 90, 0.788) 5px 5px 5px;
+}
+
+.flying {
+  background: linear-gradient(180deg, #3dc7efad 50%, #bdb9b8ad 50%);
+  background-color: #3dc7efad;
+  box-shadow: rgba(68, 104, 98, 0.788) 5px 5px 5px;
+}
+
+.fighting {
+  background-color: #d56723ad;
+  box-shadow: rgba(129, 81, 35, 0.788) 5px 5px 5px;
+}
+
+.ghost {
+  background-color: #7b62a3ad;
+  box-shadow: rgba(82, 24, 116, 0.788) 5px 5px 5px;
+}
+
+.dark {
+  background-color: #707070ad;
+  box-shadow: rgba(46, 46, 46, 0.788) 5px 5px 5px;
+}
+
+.normal {
+  background-color: #a4acafad;
+  box-shadow: rgba(101, 102, 102, 0.788) 5px 5px 5px;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+.cardPrimeiro:hover {
+  animation: bounce 0.5s linear;
+}
+
+.cardSegundo:hover {
+  animation: bounce 0.5s linear;
+}
+
+.cardTerceiro:hover {
+  animation: bounce 0.5s linear;
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin: 0px;
+  font-size: 32px;
+  font-weight: normal;
+  position: relative;
+  z-index: 2;
+}
+
+.number {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.medal {
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  width: 70px;
+  position: absolute;
+  z-index: 2;
+}
+
+.card-image {
+  height: 180px;
+  width: 180px;
+  position: relative;
+  z-index: 2;
+}
+
+.show-more-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 22px;
+}
+
+.show-more {
+  background-color: #f8c658;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
   }
-  
-  .container {
-    padding: 40px;
-    margin: 0 auto;
+  40% {
+    transform: translateY(0px);
   }
-  
-  h1 {
-    text-align: center;
-    font-size: 54px;
+
+  80% {
+    transform: translateY(-2px);
   }
-  
-  .PokeRanking {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-  
-    gap: 22px;
-    width: 1589px;
-    background: white;
-  
-    padding-top: 22px;
-    padding-bottom: 22px;
-  
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 22px;
-    margin-bottom: 22px;
-  
-    border-radius: 30px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: black;
+  100% {
+    transform: translateY(0);
   }
-  
-  .card {
-    list-style: none;
-    padding: 40px;
-    color: #222;
-    text-align: center;
-    border-radius: 20px;
-    position: relative;
-    width: 264.75px;
-  }
-  
-  .card::after {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 45%;
-    border-radius: 100%;
-    background-color: #fff;
-    opacity: 0.7;
-    position: absolute;
-    top: 15%;
-    left: 25%;
-  }
-  
-  .steel {
-    background-color: #9eb7b8ad;
-    box-shadow: rgba(24, 71, 57, 0.788) 5px 5px 5px;
-  }
-  
-  .fire {
-    background-color: #fd7d24ad;
-    box-shadow: rgba(139, 79, 44, 0.788) 5px 5px 5px;
-  }
-  
-  .grass {
-    background-color: #9acc50ad;
-    box-shadow: rgba(24, 71, 31, 0.788) 5px 5px 5px;
-  }
-  
-  .electric {
-    background-color: #eed535ad;
-    box-shadow: rgba(122, 121, 38, 0.788) 5px 5px 5px;
-  }
-  
-  .water {
-    background-color: #4592c4ad;
-    box-shadow: rgba(24, 43, 71, 0.788) 5px 5px 5px;
-  }
-  
-  .ice {
-    background-color: #51c4e7ad;
-    box-shadow: rgba(24, 54, 71, 0.788) 5px 5px 5px;
-  }
-  
-  .ground {
-    background: linear-gradient(180deg, #f7de3fad 50%, #ab9842ad 50%);
-    background-color: #f7de3fad;
-    box-shadow: rgba(71, 62, 24, 0.788) 5px 5px 5px;
-  }
-  
-  .rock {
-    background-color: #a38c21ad;
-    box-shadow: rgba(71, 54, 24, 0.788) 5px 5px 5px;
-  }
-  
-  .fairy {
-    background-color: #fdb9e9ad;
-    box-shadow: rgba(71, 24, 55, 0.788) 5px 5px 5px;
-  }
-  
-  .poison {
-    background-color: #b97fc9ad;
-    box-shadow: rgba(56, 24, 71, 0.788) 5px 5px 5px;
-  }
-  
-  .bug {
-    background-color: #729f3fad;
-    box-shadow: rgba(41, 71, 24, 0.788) 5px 5px 5px;
-  }
-  
-  .dragon {
-    background: linear-gradient(to bottom, #53a4cfad 50%, #f16e57ad 50%);
-    background-color: #53a4cfad;
-    box-shadow: rgba(24, 39, 71, 0.788) 5px 5px 5px;
-  }
-  
-  .psychic {
-    background-color: #f366b9ad;
-    box-shadow: rgba(95, 29, 90, 0.788) 5px 5px 5px;
-  }
-  
-  .flying {
-    background: linear-gradient(180deg, #3dc7efad 50%, #bdb9b8ad 50%);
-    background-color: #3dc7efad;
-    box-shadow: rgba(68, 104, 98, 0.788) 5px 5px 5px;
-  }
-  
-  .fighting {
-    background-color: #d56723ad;
-    box-shadow: rgba(129, 81, 35, 0.788) 5px 5px 5px;
-  }
-  
-  .ghost {
-    background-color: #7b62a3ad;
-    box-shadow: rgba(82, 24, 116, 0.788) 5px 5px 5px;
-  }
-  
-  .dark {
-    background-color: #707070ad;
-    box-shadow: rgba(46, 46, 46, 0.788) 5px 5px 5px;
-  }
-  
-  .normal {
-    background-color: #a4acafad;
-    box-shadow: rgba(101, 102, 102, 0.788) 5px 5px 5px;
-  }
-  
-  .card:hover {
-    animation: bounce 0.5s linear;
-  }
-  
-  .card-title {
-    text-transform: capitalize;
-    margin: 0px;
-    font-size: 32px;
-    font-weight: normal;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .number {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .card-image {
-    height: 180px;
-    width: 180px;
-    position: relative;
-    z-index: 2;
-  }
-  
-  @keyframes bounce {
-    20% {
-      transform: translateY(-6px);
-    }
-    40% {
-      transform: translateY(0px);
-    }
-  
-    80% {
-      transform: translateY(-2px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
+}
