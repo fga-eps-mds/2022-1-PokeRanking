@@ -8,6 +8,7 @@ import Ranking from "./Pages/Ranking";
 import Equipe from "./Pages/Equipe";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Comparar from "./Pages/Comparar";
 
 function App() {
   const [tipoSelecionado, setTipoSelecionado] = useState("NA");
@@ -50,7 +51,7 @@ function App() {
             }
           />
           <Route path="/equipe" element={<Equipe />} />
-          <Route path="/comparar" element={""} />
+          <Route path="/comparar" element={<Comparar />} />
           <Route path="/como-usar" element={""} />
         </Routes>
         <Footer />

@@ -1,0 +1,42 @@
+.attribute-wraper {
+  /* width: 796px; */
+  width: 927.34px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.attribute-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 11px;
+}
+
+.attribute-name {
+  width: 145px;
+  height: 37px;
+  background-color: #41BC52;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribute-value{
+  width: 101px;
+  height: 37px;
+  background-color: #C63838;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percentage-bar{
+  width: 249px;
+  height: 37px;
+  border-radius: 50px;
+}
