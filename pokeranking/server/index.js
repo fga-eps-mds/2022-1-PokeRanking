@@ -1,6 +1,5 @@
 const app = require('./server')
 const mongoose = require('mongoose')
-require('dotenv').config()
 
 //Configuracao de porta de servidor e Banco de Dados
 const DB_USER = 'usuario'
