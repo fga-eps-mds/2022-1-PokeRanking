@@ -1,44 +1,44 @@
 export const FiltroRegiaoData = [
     {
-        title: "Vida",
-        pathAPI: "hp",
+        title: "Kanto",
+        pathAPI: "1",
         path: "/ranking",
-        Cname: "StatusHP"
+        Cname: "RegKanto"
     },
 
     {
-        title: "Ataque",
+        title: "Johto",
         pathAPI: "attack",
         path: "/ranking",
-        Cname: "StatusAtaque"
+        Cname: "RegJohto"
     },
 
     {
-        title: "Defesa",
+        title: "Hoenn",
         pathAPI: "defense",
         path: "/ranking",
-        Cname: "StatusDefesa"
+        Cname: "RegHoenn"
     },
 
     {
-        title: "Ataque Especial",
+        title: "Sinnoh",
         pathAPI: "special_attack",
         path: "/ranking",
-        Cname: "StatusAtqEspecial"
+        Cname: "RegSinnoh"
     },
 
     {
-        title: "Defesa Especial",
+        title: "Unnova",
         pathAPI: "special_defense",
         path: "/ranking",
-        Cname: "StatusDefEspecial"
+        Cname: "RegUnnova"
     },
 
     {
-        title: "Velocidade",
+        title: "Kalos",
         pathAPI: "speed",
         path: "/ranking",
-        Cname: "StatusVelocidade"
+        Cname: "RegKalos"
     },
 
     {

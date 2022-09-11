@@ -1,21 +1,27 @@
 import "./style.css";
+import { Link } from "react-router-dom";
+import { FiltroRegiaoData } from "./FiltroRegiaoData"
 
-function FiltroDetalheRegiao() {
+
+function FiltroDetalheRegiao(props) {
   
     return (
       <ul className="bodyFiltroDetalhesRegiao">
-      <div className="Mapa">
-
-      <imagemap className="html">
-      <area shape="rect" coords="0,0,100,100" href="https://www.google.com.br/" alt="Google" />
-      
-      </imagemap>
-
-     
+      <div className="Regiao">
+        
+        {FiltroRegiaoData.map((item, index) => {
+          return (
+            <Link to={item.path} style={{ textDecoration: 'none', color: 'black' }}>
+              <li key={index} className={item.Cname} onClick= {() => props.alteraRegiao(item.pathAPI)}>
+                <span>{item.title}</span>
+              </li>
+            </Link>
+          );
+        })}
 
       </div>
     </ul>
     );
   }
-  
+
   export default FiltroDetalheRegiao;
