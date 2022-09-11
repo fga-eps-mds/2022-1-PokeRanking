@@ -4,15 +4,14 @@ import PokemonDisplay from "../../Components/PokemonDisplay";
 import "./style.css";
 
 function Home(props) {
-  
-  props.configFiltro.alteraFiltro("NA")
-  props.configFiltro.alteraStatus("total")
+  props.configFiltro.alteraFiltro("NA");
+  props.configFiltro.alteraStatus("total");
 
   return (
     <>
       <LogoDisplay />
-      <FiltroDisplay configFiltro={props.configFiltro}/>
-      <PokemonDisplay pokemonName={props.pokemonName}/>
+      <FiltroDisplay configFiltro={props.configFiltro} />
+      <PokemonDisplay pokemonName={props.pokemonName} />
     </>
   );
 }

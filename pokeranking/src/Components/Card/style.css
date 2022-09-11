@@ -59,6 +59,7 @@
   display: inline-block;
   font-size: large;
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .remover-button {
@@ -73,6 +74,7 @@
   margin: 4px 2px;
   cursor: pointer;
   margin-top: 20px;
+  border-radius: 25px;
 }
 
 .display-none {

@@ -20,55 +20,58 @@ function Equipe() {
   }, []);
 
   return (
-    <div className="equipe-page">
-      <div className="pokemon-column">
-        <Card
-          pokemon={setFirstPokemon}
-          pokemonData={pokemonData}
-          setCompare={setCompare}
-          cardName="Primeiro Pokemon"
+    <div>
+      <div style={{ height: "65px" }}></div>
+      <div className="equipe-page">
+        <div className="pokemon-column">
+          <Card
+            pokemon={setFirstPokemon}
+            pokemonData={pokemonData}
+            setCompare={setCompare}
+            cardName="Primeiro Pokemon"
+          />
+          <Card
+            pokemon={setSecondPokemon}
+            pokemonData={pokemonData}
+            setCompare={setCompare}
+            cardName="Segundo Pokemon"
+          />
+          <Card
+            pokemon={setThirdPokemon}
+            pokemonData={pokemonData}
+            setCompare={setCompare}
+            cardName="Terceiro Pokemon"
+          />
+        </div>
+        <AttributeEquipe
+          firstPokemon={firstPokemon}
+          secondPokemon={secondPokemon}
+          thirdPokemon={thirdPokemon}
+          fourthPokemon={fourthPokemon}
+          fifthPokemon={fifthPokemon}
+          sixthPokemon={sixthPokemon}
+          compare={compare}
         />
-        <Card
-          pokemon={setSecondPokemon}
-          pokemonData={pokemonData}
-          setCompare={setCompare}
-          cardName="Segundo Pokemon"
-        />
-        <Card
-          pokemon={setThirdPokemon}
-          pokemonData={pokemonData}
-          setCompare={setCompare}
-          cardName="Terceiro Pokemon"
-        />
-      </div>
-      <AttributeEquipe
-        firstPokemon={firstPokemon}
-        secondPokemon={secondPokemon}
-        thirdPokemon={thirdPokemon}
-        fourthPokemon={fourthPokemon}
-        fifthPokemon={fifthPokemon}
-        sixthPokemon={sixthPokemon}
-        compare={compare}
-      />
-      <div className="pokemon-column">
-        <Card
-          pokemon={setFourthPokemon}
-          pokemonData={pokemonData}
-          setCompare={setCompare}
-          cardName="Quarto Pokemon"
-        />
-        <Card
-          pokemon={setFifthPokemon}
-          pokemonData={pokemonData}
-          setCompare={setCompare}
-          cardName="Quinto Pokemon"
-        />
-        <Card
-          pokemon={setSixthPokemon}
-          pokemonData={pokemonData}
-          setCompare={setCompare}
-          cardName="Sexto Pokemon"
-        />
+        <div className="pokemon-column">
+          <Card
+            pokemon={setFourthPokemon}
+            pokemonData={pokemonData}
+            setCompare={setCompare}
+            cardName="Quarto Pokemon"
+          />
+          <Card
+            pokemon={setFifthPokemon}
+            pokemonData={pokemonData}
+            setCompare={setCompare}
+            cardName="Quinto Pokemon"
+          />
+          <Card
+            pokemon={setSixthPokemon}
+            pokemonData={pokemonData}
+            setCompare={setCompare}
+            cardName="Sexto Pokemon"
+          />
+        </div>
       </div>
     </div>
   );

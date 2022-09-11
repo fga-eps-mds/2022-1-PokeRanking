@@ -5,10 +5,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* position: fixed; */
-  /* z-index: 3; */
+  position: fixed;
+  z-index: 3;
   /* border: 2px solid black; */
   /* padding: 0px 15px 0px 15px; */
+  margin-bottom: 65px;
 }
 
 .container-menu,
