@@ -1,6 +1,6 @@
-allPokemons = [
+const allPokemons = [
     {
-        "_id": "62f57bc978902fc16628b64f",
+        "_id": "631e1188299e38b65d0808c5",
         "codigo": 1,
         "name": "bulbasaur",
         "type_1": "grass",
@@ -18,7 +18,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b650",
+        "_id": "631e1188299e38b65d0808c6",
         "codigo": 2,
         "name": "ivysaur",
         "type_1": "grass",
@@ -36,7 +36,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b651",
+        "_id": "631e1188299e38b65d0808c7",
         "codigo": 3,
         "name": "venusaur",
         "type_1": "grass",
@@ -54,7 +54,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b652",
+        "_id": "631e1188299e38b65d0808c8",
         "codigo": 4,
         "name": "charmander",
         "type_1": "fire",
@@ -72,7 +72,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b653",
+        "_id": "631e1188299e38b65d0808c9",
         "codigo": 5,
         "name": "charmeleon",
         "type_1": "fire",
@@ -90,7 +90,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b654",
+        "_id": "631e1188299e38b65d0808ca",
         "codigo": 6,
         "name": "charizard",
         "type_1": "fire",
@@ -108,7 +108,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b655",
+        "_id": "631e1188299e38b65d0808cb",
         "codigo": 7,
         "name": "squirtle",
         "type_1": "water",
@@ -126,7 +126,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b656",
+        "_id": "631e1188299e38b65d0808cc",
         "codigo": 8,
         "name": "wartortle",
         "type_1": "water",
@@ -144,7 +144,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b657",
+        "_id": "631e1188299e38b65d0808cd",
         "codigo": 9,
         "name": "blastoise",
         "type_1": "water",
@@ -162,7 +162,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b658",
+        "_id": "631e1188299e38b65d0808ce",
         "codigo": 10,
         "name": "caterpie",
         "type_1": "bug",
@@ -180,7 +180,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b659",
+        "_id": "631e1188299e38b65d0808cf",
         "codigo": 11,
         "name": "metapod",
         "type_1": "bug",
@@ -198,7 +198,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65a",
+        "_id": "631e1188299e38b65d0808d0",
         "codigo": 12,
         "name": "butterfree",
         "type_1": "bug",
@@ -216,7 +216,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65b",
+        "_id": "631e1188299e38b65d0808d1",
         "codigo": 13,
         "name": "weedle",
         "type_1": "bug",
@@ -234,7 +234,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65c",
+        "_id": "631e1188299e38b65d0808d2",
         "codigo": 14,
         "name": "kakuna",
         "type_1": "bug",
@@ -252,7 +252,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65d",
+        "_id": "631e1188299e38b65d0808d3",
         "codigo": 15,
         "name": "beedrill",
         "type_1": "bug",
@@ -270,7 +270,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65e",
+        "_id": "631e1188299e38b65d0808d4",
         "codigo": 16,
         "name": "pidgey",
         "type_1": "normal",
@@ -288,7 +288,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65f",
+        "_id": "631e1188299e38b65d0808d5",
         "codigo": 17,
         "name": "pidgeotto",
         "type_1": "normal",
@@ -306,7 +306,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b660",
+        "_id": "631e1188299e38b65d0808d6",
         "codigo": 18,
         "name": "pidgeot",
         "type_1": "normal",
@@ -324,7 +324,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b661",
+        "_id": "631e1188299e38b65d0808d7",
         "codigo": 19,
         "name": "rattata",
         "type_1": "normal",
@@ -342,7 +342,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b662",
+        "_id": "631e1188299e38b65d0808d8",
         "codigo": 20,
         "name": "raticate",
         "type_1": "normal",
@@ -360,7 +360,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b663",
+        "_id": "631e1188299e38b65d0808d9",
         "codigo": 21,
         "name": "spearow",
         "type_1": "normal",
@@ -378,7 +378,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b664",
+        "_id": "631e1188299e38b65d0808da",
         "codigo": 22,
         "name": "fearow",
         "type_1": "normal",
@@ -396,7 +396,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b665",
+        "_id": "631e1188299e38b65d0808db",
         "codigo": 23,
         "name": "ekans",
         "type_1": "poison",
@@ -414,7 +414,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b666",
+        "_id": "631e1188299e38b65d0808dc",
         "codigo": 24,
         "name": "arbok",
         "type_1": "poison",
@@ -432,7 +432,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b667",
+        "_id": "631e1188299e38b65d0808dd",
         "codigo": 25,
         "name": "pikachu",
         "type_1": "electric",
@@ -450,7 +450,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b668",
+        "_id": "631e1188299e38b65d0808de",
         "codigo": 26,
         "name": "raichu",
         "type_1": "electric",
@@ -468,7 +468,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b669",
+        "_id": "631e1188299e38b65d0808df",
         "codigo": 27,
         "name": "sandshrew",
         "type_1": "ground",
@@ -486,7 +486,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66a",
+        "_id": "631e1188299e38b65d0808e0",
         "codigo": 28,
         "name": "sandslash",
         "type_1": "ground",
@@ -504,7 +504,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66b",
+        "_id": "631e1188299e38b65d0808e1",
         "codigo": 29,
         "name": "nidoran-f",
         "type_1": "poison",
@@ -522,7 +522,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66c",
+        "_id": "631e1188299e38b65d0808e2",
         "codigo": 30,
         "name": "nidorina",
         "type_1": "poison",
@@ -540,7 +540,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66d",
+        "_id": "631e1188299e38b65d0808e3",
         "codigo": 31,
         "name": "nidoqueen",
         "type_1": "poison",
@@ -558,7 +558,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66e",
+        "_id": "631e1188299e38b65d0808e4",
         "codigo": 32,
         "name": "nidoran-m",
         "type_1": "poison",
@@ -576,7 +576,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66f",
+        "_id": "631e1188299e38b65d0808e5",
         "codigo": 33,
         "name": "nidorino",
         "type_1": "poison",
@@ -594,7 +594,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b670",
+        "_id": "631e1188299e38b65d0808e6",
         "codigo": 34,
         "name": "nidoking",
         "type_1": "poison",
@@ -612,7 +612,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b671",
+        "_id": "631e1188299e38b65d0808e7",
         "codigo": 35,
         "name": "clefairy",
         "type_1": "fairy",
@@ -630,7 +630,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b672",
+        "_id": "631e1188299e38b65d0808e8",
         "codigo": 36,
         "name": "clefable",
         "type_1": "fairy",
@@ -648,7 +648,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b673",
+        "_id": "631e1188299e38b65d0808e9",
         "codigo": 37,
         "name": "vulpix",
         "type_1": "fire",
@@ -666,7 +666,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b674",
+        "_id": "631e1188299e38b65d0808ea",
         "codigo": 38,
         "name": "ninetales",
         "type_1": "fire",
@@ -684,7 +684,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b675",
+        "_id": "631e1188299e38b65d0808eb",
         "codigo": 39,
         "name": "jigglypuff",
         "type_1": "normal",
@@ -702,7 +702,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b676",
+        "_id": "631e1188299e38b65d0808ec",
         "codigo": 40,
         "name": "wigglytuff",
         "type_1": "normal",
@@ -720,7 +720,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b677",
+        "_id": "631e1188299e38b65d0808ed",
         "codigo": 41,
         "name": "zubat",
         "type_1": "poison",
@@ -738,7 +738,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b678",
+        "_id": "631e1188299e38b65d0808ee",
         "codigo": 42,
         "name": "golbat",
         "type_1": "poison",
@@ -756,7 +756,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b679",
+        "_id": "631e1188299e38b65d0808ef",
         "codigo": 43,
         "name": "oddish",
         "type_1": "grass",
@@ -774,7 +774,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67a",
+        "_id": "631e1188299e38b65d0808f0",
         "codigo": 44,
         "name": "gloom",
         "type_1": "grass",
@@ -792,7 +792,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67b",
+        "_id": "631e1188299e38b65d0808f1",
         "codigo": 45,
         "name": "vileplume",
         "type_1": "grass",
@@ -810,7 +810,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67c",
+        "_id": "631e1188299e38b65d0808f2",
         "codigo": 46,
         "name": "paras",
         "type_1": "bug",
@@ -828,7 +828,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67d",
+        "_id": "631e1188299e38b65d0808f3",
         "codigo": 47,
         "name": "parasect",
         "type_1": "bug",
@@ -846,7 +846,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67e",
+        "_id": "631e1188299e38b65d0808f4",
         "codigo": 48,
         "name": "venonat",
         "type_1": "bug",
@@ -864,7 +864,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67f",
+        "_id": "631e1188299e38b65d0808f5",
         "codigo": 49,
         "name": "venomoth",
         "type_1": "bug",
@@ -882,7 +882,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b680",
+        "_id": "631e1188299e38b65d0808f6",
         "codigo": 50,
         "name": "diglett",
         "type_1": "ground",
@@ -900,7 +900,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b681",
+        "_id": "631e1188299e38b65d0808f7",
         "codigo": 51,
         "name": "dugtrio",
         "type_1": "ground",
@@ -918,7 +918,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b682",
+        "_id": "631e1188299e38b65d0808f8",
         "codigo": 52,
         "name": "meowth",
         "type_1": "normal",
@@ -936,7 +936,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b683",
+        "_id": "631e1188299e38b65d0808f9",
         "codigo": 53,
         "name": "persian",
         "type_1": "normal",
@@ -954,7 +954,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b684",
+        "_id": "631e1188299e38b65d0808fa",
         "codigo": 54,
         "name": "psyduck",
         "type_1": "water",
@@ -972,7 +972,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b685",
+        "_id": "631e1188299e38b65d0808fb",
         "codigo": 55,
         "name": "golduck",
         "type_1": "water",
@@ -990,7 +990,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b686",
+        "_id": "631e1188299e38b65d0808fc",
         "codigo": 56,
         "name": "mankey",
         "type_1": "fighting",
@@ -1008,7 +1008,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b687",
+        "_id": "631e1188299e38b65d0808fd",
         "codigo": 57,
         "name": "primeape",
         "type_1": "fighting",
@@ -1026,7 +1026,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b688",
+        "_id": "631e1188299e38b65d0808fe",
         "codigo": 58,
         "name": "growlithe",
         "type_1": "fire",
@@ -1044,7 +1044,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b689",
+        "_id": "631e1188299e38b65d0808ff",
         "codigo": 59,
         "name": "arcanine",
         "type_1": "fire",
@@ -1062,7 +1062,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68a",
+        "_id": "631e1188299e38b65d080900",
         "codigo": 60,
         "name": "poliwag",
         "type_1": "water",
@@ -1080,7 +1080,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68b",
+        "_id": "631e1188299e38b65d080901",
         "codigo": 61,
         "name": "poliwhirl",
         "type_1": "water",
@@ -1098,7 +1098,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68c",
+        "_id": "631e1188299e38b65d080902",
         "codigo": 62,
         "name": "poliwrath",
         "type_1": "water",
@@ -1116,7 +1116,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68d",
+        "_id": "631e1188299e38b65d080903",
         "codigo": 63,
         "name": "abra",
         "type_1": "psychic",
@@ -1134,7 +1134,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68e",
+        "_id": "631e1188299e38b65d080904",
         "codigo": 64,
         "name": "kadabra",
         "type_1": "psychic",
@@ -1152,7 +1152,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68f",
+        "_id": "631e1188299e38b65d080905",
         "codigo": 65,
         "name": "alakazam",
         "type_1": "psychic",
@@ -1170,7 +1170,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b690",
+        "_id": "631e1188299e38b65d080906",
         "codigo": 66,
         "name": "machop",
         "type_1": "fighting",
@@ -1188,7 +1188,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b691",
+        "_id": "631e1188299e38b65d080907",
         "codigo": 67,
         "name": "machoke",
         "type_1": "fighting",
@@ -1206,7 +1206,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b692",
+        "_id": "631e1188299e38b65d080908",
         "codigo": 68,
         "name": "machamp",
         "type_1": "fighting",
@@ -1224,7 +1224,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b693",
+        "_id": "631e1188299e38b65d080909",
         "codigo": 69,
         "name": "bellsprout",
         "type_1": "grass",
@@ -1242,7 +1242,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b694",
+        "_id": "631e1188299e38b65d08090a",
         "codigo": 70,
         "name": "weepinbell",
         "type_1": "grass",
@@ -1260,7 +1260,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b695",
+        "_id": "631e1188299e38b65d08090b",
         "codigo": 71,
         "name": "victreebel",
         "type_1": "grass",
@@ -1278,7 +1278,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b696",
+        "_id": "631e1188299e38b65d08090c",
         "codigo": 72,
         "name": "tentacool",
         "type_1": "water",
@@ -1296,7 +1296,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b697",
+        "_id": "631e1188299e38b65d08090d",
         "codigo": 73,
         "name": "tentacruel",
         "type_1": "water",
@@ -1314,7 +1314,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b698",
+        "_id": "631e1188299e38b65d08090e",
         "codigo": 74,
         "name": "geodude",
         "type_1": "rock",
@@ -1332,7 +1332,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b699",
+        "_id": "631e1188299e38b65d08090f",
         "codigo": 75,
         "name": "graveler",
         "type_1": "rock",
@@ -1350,7 +1350,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69a",
+        "_id": "631e1188299e38b65d080910",
         "codigo": 76,
         "name": "golem",
         "type_1": "rock",
@@ -1368,7 +1368,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69b",
+        "_id": "631e1188299e38b65d080911",
         "codigo": 77,
         "name": "ponyta",
         "type_1": "fire",
@@ -1386,7 +1386,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69c",
+        "_id": "631e1188299e38b65d080912",
         "codigo": 78,
         "name": "rapidash",
         "type_1": "fire",
@@ -1404,7 +1404,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69d",
+        "_id": "631e1188299e38b65d080913",
         "codigo": 79,
         "name": "slowpoke",
         "type_1": "water",
@@ -1422,7 +1422,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69e",
+        "_id": "631e1188299e38b65d080914",
         "codigo": 80,
         "name": "slowbro",
         "type_1": "water",
@@ -1440,7 +1440,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69f",
+        "_id": "631e1188299e38b65d080915",
         "codigo": 81,
         "name": "magnemite",
         "type_1": "electric",
@@ -1458,7 +1458,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a0",
+        "_id": "631e1188299e38b65d080916",
         "codigo": 82,
         "name": "magneton",
         "type_1": "electric",
@@ -1476,7 +1476,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a1",
+        "_id": "631e1188299e38b65d080917",
         "codigo": 83,
         "name": "farfetchd",
         "type_1": "normal",
@@ -1494,7 +1494,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a2",
+        "_id": "631e1188299e38b65d080918",
         "codigo": 84,
         "name": "doduo",
         "type_1": "normal",
@@ -1512,7 +1512,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a3",
+        "_id": "631e1188299e38b65d080919",
         "codigo": 85,
         "name": "dodrio",
         "type_1": "normal",
@@ -1530,7 +1530,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a4",
+        "_id": "631e1188299e38b65d08091a",
         "codigo": 86,
         "name": "seel",
         "type_1": "water",
@@ -1548,7 +1548,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a5",
+        "_id": "631e1188299e38b65d08091b",
         "codigo": 87,
         "name": "dewgong",
         "type_1": "water",
@@ -1566,7 +1566,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a6",
+        "_id": "631e1188299e38b65d08091c",
         "codigo": 88,
         "name": "grimer",
         "type_1": "poison",
@@ -1584,7 +1584,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a7",
+        "_id": "631e1188299e38b65d08091d",
         "codigo": 89,
         "name": "muk",
         "type_1": "poison",
@@ -1602,7 +1602,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a8",
+        "_id": "631e1188299e38b65d08091e",
         "codigo": 90,
         "name": "shellder",
         "type_1": "water",
@@ -1620,7 +1620,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a9",
+        "_id": "631e1188299e38b65d08091f",
         "codigo": 91,
         "name": "cloyster",
         "type_1": "water",
@@ -1638,7 +1638,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6aa",
+        "_id": "631e1188299e38b65d080920",
         "codigo": 92,
         "name": "gastly",
         "type_1": "ghost",
@@ -1656,7 +1656,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ab",
+        "_id": "631e1188299e38b65d080921",
         "codigo": 93,
         "name": "haunter",
         "type_1": "ghost",
@@ -1674,7 +1674,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ac",
+        "_id": "631e1188299e38b65d080922",
         "codigo": 94,
         "name": "gengar",
         "type_1": "ghost",
@@ -1692,7 +1692,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ad",
+        "_id": "631e1188299e38b65d080923",
         "codigo": 95,
         "name": "onix",
         "type_1": "rock",
@@ -1710,7 +1710,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ae",
+        "_id": "631e1188299e38b65d080924",
         "codigo": 96,
         "name": "drowzee",
         "type_1": "psychic",
@@ -1728,7 +1728,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6af",
+        "_id": "631e1188299e38b65d080925",
         "codigo": 97,
         "name": "hypno",
         "type_1": "psychic",
@@ -1746,7 +1746,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b0",
+        "_id": "631e1188299e38b65d080926",
         "codigo": 98,
         "name": "krabby",
         "type_1": "water",
@@ -1764,7 +1764,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b1",
+        "_id": "631e1188299e38b65d080927",
         "codigo": 99,
         "name": "kingler",
         "type_1": "water",
@@ -1782,7 +1782,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b2",
+        "_id": "631e1188299e38b65d080928",
         "codigo": 100,
         "name": "voltorb",
         "type_1": "electric",
@@ -1800,7 +1800,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b3",
+        "_id": "631e1188299e38b65d080929",
         "codigo": 101,
         "name": "electrode",
         "type_1": "electric",
@@ -1818,7 +1818,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b4",
+        "_id": "631e1188299e38b65d08092a",
         "codigo": 102,
         "name": "exeggcute",
         "type_1": "grass",
@@ -1836,7 +1836,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b5",
+        "_id": "631e1188299e38b65d08092b",
         "codigo": 103,
         "name": "exeggutor",
         "type_1": "grass",
@@ -1854,7 +1854,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b6",
+        "_id": "631e1188299e38b65d08092c",
         "codigo": 104,
         "name": "cubone",
         "type_1": "ground",
@@ -1872,7 +1872,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b7",
+        "_id": "631e1188299e38b65d08092d",
         "codigo": 105,
         "name": "marowak",
         "type_1": "ground",
@@ -1890,7 +1890,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b8",
+        "_id": "631e1188299e38b65d08092e",
         "codigo": 106,
         "name": "hitmonlee",
         "type_1": "fighting",
@@ -1908,7 +1908,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b9",
+        "_id": "631e1188299e38b65d08092f",
         "codigo": 107,
         "name": "hitmonchan",
         "type_1": "fighting",
@@ -1926,7 +1926,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ba",
+        "_id": "631e1188299e38b65d080930",
         "codigo": 108,
         "name": "lickitung",
         "type_1": "normal",
@@ -1944,7 +1944,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bb",
+        "_id": "631e1188299e38b65d080931",
         "codigo": 109,
         "name": "koffing",
         "type_1": "poison",
@@ -1962,7 +1962,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bc",
+        "_id": "631e1188299e38b65d080932",
         "codigo": 110,
         "name": "weezing",
         "type_1": "poison",
@@ -1980,7 +1980,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bd",
+        "_id": "631e1188299e38b65d080933",
         "codigo": 111,
         "name": "rhyhorn",
         "type_1": "ground",
@@ -1998,7 +1998,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6be",
+        "_id": "631e1188299e38b65d080934",
         "codigo": 112,
         "name": "rhydon",
         "type_1": "ground",
@@ -2016,7 +2016,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bf",
+        "_id": "631e1188299e38b65d080935",
         "codigo": 113,
         "name": "chansey",
         "type_1": "normal",
@@ -2034,7 +2034,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c0",
+        "_id": "631e1188299e38b65d080936",
         "codigo": 114,
         "name": "tangela",
         "type_1": "grass",
@@ -2052,7 +2052,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c1",
+        "_id": "631e1188299e38b65d080937",
         "codigo": 115,
         "name": "kangaskhan",
         "type_1": "normal",
@@ -2070,7 +2070,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c2",
+        "_id": "631e1188299e38b65d080938",
         "codigo": 116,
         "name": "horsea",
         "type_1": "water",
@@ -2088,7 +2088,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c3",
+        "_id": "631e1188299e38b65d080939",
         "codigo": 117,
         "name": "seadra",
         "type_1": "water",
@@ -2106,7 +2106,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c4",
+        "_id": "631e1188299e38b65d08093a",
         "codigo": 118,
         "name": "goldeen",
         "type_1": "water",
@@ -2124,7 +2124,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c5",
+        "_id": "631e1188299e38b65d08093b",
         "codigo": 119,
         "name": "seaking",
         "type_1": "water",
@@ -2142,7 +2142,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c6",
+        "_id": "631e1188299e38b65d08093c",
         "codigo": 120,
         "name": "staryu",
         "type_1": "water",
@@ -2160,7 +2160,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c7",
+        "_id": "631e1188299e38b65d08093d",
         "codigo": 121,
         "name": "starmie",
         "type_1": "water",
@@ -2178,7 +2178,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c8",
+        "_id": "631e1188299e38b65d08093e",
         "codigo": 122,
         "name": "mr-mime",
         "type_1": "psychic",
@@ -2196,7 +2196,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c9",
+        "_id": "631e1188299e38b65d08093f",
         "codigo": 123,
         "name": "scyther",
         "type_1": "bug",
@@ -2214,7 +2214,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ca",
+        "_id": "631e1188299e38b65d080940",
         "codigo": 124,
         "name": "jynx",
         "type_1": "ice",
@@ -2232,7 +2232,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cb",
+        "_id": "631e1188299e38b65d080941",
         "codigo": 125,
         "name": "electabuzz",
         "type_1": "electric",
@@ -2250,7 +2250,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cc",
+        "_id": "631e1188299e38b65d080942",
         "codigo": 126,
         "name": "magmar",
         "type_1": "fire",
@@ -2268,7 +2268,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cd",
+        "_id": "631e1188299e38b65d080943",
         "codigo": 127,
         "name": "pinsir",
         "type_1": "bug",
@@ -2286,7 +2286,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ce",
+        "_id": "631e1188299e38b65d080944",
         "codigo": 128,
         "name": "tauros",
         "type_1": "normal",
@@ -2304,7 +2304,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cf",
+        "_id": "631e1188299e38b65d080945",
         "codigo": 129,
         "name": "magikarp",
         "type_1": "water",
@@ -2322,7 +2322,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d0",
+        "_id": "631e1188299e38b65d080946",
         "codigo": 130,
         "name": "gyarados",
         "type_1": "water",
@@ -2340,7 +2340,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d1",
+        "_id": "631e1188299e38b65d080947",
         "codigo": 131,
         "name": "lapras",
         "type_1": "water",
@@ -2358,7 +2358,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d2",
+        "_id": "631e1188299e38b65d080948",
         "codigo": 132,
         "name": "ditto",
         "type_1": "normal",
@@ -2376,7 +2376,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d3",
+        "_id": "631e1188299e38b65d080949",
         "codigo": 133,
         "name": "eevee",
         "type_1": "normal",
@@ -2394,7 +2394,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d4",
+        "_id": "631e1188299e38b65d08094a",
         "codigo": 134,
         "name": "vaporeon",
         "type_1": "water",
@@ -2412,7 +2412,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d5",
+        "_id": "631e1188299e38b65d08094b",
         "codigo": 135,
         "name": "jolteon",
         "type_1": "electric",
@@ -2430,7 +2430,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d6",
+        "_id": "631e1188299e38b65d08094c",
         "codigo": 136,
         "name": "flareon",
         "type_1": "fire",
@@ -2448,7 +2448,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d7",
+        "_id": "631e1188299e38b65d08094d",
         "codigo": 137,
         "name": "porygon",
         "type_1": "normal",
@@ -2466,7 +2466,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d8",
+        "_id": "631e1188299e38b65d08094e",
         "codigo": 138,
         "name": "omanyte",
         "type_1": "rock",
@@ -2484,7 +2484,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d9",
+        "_id": "631e1188299e38b65d08094f",
         "codigo": 139,
         "name": "omastar",
         "type_1": "rock",
@@ -2502,7 +2502,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6da",
+        "_id": "631e1188299e38b65d080950",
         "codigo": 140,
         "name": "kabuto",
         "type_1": "rock",
@@ -2520,7 +2520,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6db",
+        "_id": "631e1188299e38b65d080951",
         "codigo": 141,
         "name": "kabutops",
         "type_1": "rock",
@@ -2538,7 +2538,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6dc",
+        "_id": "631e1188299e38b65d080952",
         "codigo": 142,
         "name": "aerodactyl",
         "type_1": "rock",
@@ -2556,7 +2556,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6dd",
+        "_id": "631e1188299e38b65d080953",
         "codigo": 143,
         "name": "snorlax",
         "type_1": "normal",
@@ -2574,7 +2574,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6de",
+        "_id": "631e1188299e38b65d080954",
         "codigo": 144,
         "name": "articuno",
         "type_1": "ice",
@@ -2592,7 +2592,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6df",
+        "_id": "631e1188299e38b65d080955",
         "codigo": 145,
         "name": "zapdos",
         "type_1": "electric",
@@ -2610,7 +2610,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e0",
+        "_id": "631e1188299e38b65d080956",
         "codigo": 146,
         "name": "moltres",
         "type_1": "fire",
@@ -2628,7 +2628,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e1",
+        "_id": "631e1188299e38b65d080957",
         "codigo": 147,
         "name": "dratini",
         "type_1": "dragon",
@@ -2646,7 +2646,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e2",
+        "_id": "631e1188299e38b65d080958",
         "codigo": 148,
         "name": "dragonair",
         "type_1": "dragon",
@@ -2664,7 +2664,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e3",
+        "_id": "631e1188299e38b65d080959",
         "codigo": 149,
         "name": "dragonite",
         "type_1": "dragon",
@@ -2682,7 +2682,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e4",
+        "_id": "631e1188299e38b65d08095a",
         "codigo": 150,
         "name": "mewtwo",
         "type_1": "psychic",
@@ -2700,7 +2700,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e5",
+        "_id": "631e1188299e38b65d08095b",
         "codigo": 151,
         "name": "mew",
         "type_1": "psychic",
@@ -2718,7 +2718,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e6",
+        "_id": "631e1188299e38b65d08095c",
         "codigo": 152,
         "name": "chikorita",
         "type_1": "grass",
@@ -2736,7 +2736,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e7",
+        "_id": "631e1188299e38b65d08095d",
         "codigo": 153,
         "name": "bayleef",
         "type_1": "grass",
@@ -2754,7 +2754,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e8",
+        "_id": "631e1188299e38b65d08095e",
         "codigo": 154,
         "name": "meganium",
         "type_1": "grass",
@@ -2772,7 +2772,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e9",
+        "_id": "631e1188299e38b65d08095f",
         "codigo": 155,
         "name": "cyndaquil",
         "type_1": "fire",
@@ -2790,7 +2790,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ea",
+        "_id": "631e1188299e38b65d080960",
         "codigo": 156,
         "name": "quilava",
         "type_1": "fire",
@@ -2808,7 +2808,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6eb",
+        "_id": "631e1188299e38b65d080961",
         "codigo": 157,
         "name": "typhlosion",
         "type_1": "fire",
@@ -2826,7 +2826,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ec",
+        "_id": "631e1188299e38b65d080962",
         "codigo": 158,
         "name": "totodile",
         "type_1": "water",
@@ -2844,7 +2844,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ed",
+        "_id": "631e1188299e38b65d080963",
         "codigo": 159,
         "name": "croconaw",
         "type_1": "water",
@@ -2862,7 +2862,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ee",
+        "_id": "631e1188299e38b65d080964",
         "codigo": 160,
         "name": "feraligatr",
         "type_1": "water",
@@ -2880,7 +2880,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ef",
+        "_id": "631e1188299e38b65d080965",
         "codigo": 161,
         "name": "sentret",
         "type_1": "normal",
@@ -2898,7 +2898,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f0",
+        "_id": "631e1188299e38b65d080966",
         "codigo": 162,
         "name": "furret",
         "type_1": "normal",
@@ -2916,7 +2916,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f1",
+        "_id": "631e1188299e38b65d080967",
         "codigo": 163,
         "name": "hoothoot",
         "type_1": "normal",
@@ -2934,7 +2934,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f2",
+        "_id": "631e1188299e38b65d080968",
         "codigo": 164,
         "name": "noctowl",
         "type_1": "normal",
@@ -2952,7 +2952,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f3",
+        "_id": "631e1188299e38b65d080969",
         "codigo": 165,
         "name": "ledyba",
         "type_1": "bug",
@@ -2970,7 +2970,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f4",
+        "_id": "631e1188299e38b65d08096a",
         "codigo": 166,
         "name": "ledian",
         "type_1": "bug",
@@ -2988,7 +2988,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f5",
+        "_id": "631e1188299e38b65d08096b",
         "codigo": 167,
         "name": "spinarak",
         "type_1": "bug",
@@ -3006,7 +3006,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f6",
+        "_id": "631e1188299e38b65d08096c",
         "codigo": 168,
         "name": "ariados",
         "type_1": "bug",
@@ -3024,7 +3024,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f7",
+        "_id": "631e1188299e38b65d08096d",
         "codigo": 169,
         "name": "crobat",
         "type_1": "poison",
@@ -3042,7 +3042,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f8",
+        "_id": "631e1188299e38b65d08096e",
         "codigo": 170,
         "name": "chinchou",
         "type_1": "water",
@@ -3060,7 +3060,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6f9",
+        "_id": "631e1188299e38b65d08096f",
         "codigo": 171,
         "name": "lanturn",
         "type_1": "water",
@@ -3078,7 +3078,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6fa",
+        "_id": "631e1188299e38b65d080970",
         "codigo": 172,
         "name": "pichu",
         "type_1": "electric",
@@ -3096,7 +3096,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6fb",
+        "_id": "631e1188299e38b65d080971",
         "codigo": 173,
         "name": "cleffa",
         "type_1": "fairy",
@@ -3114,7 +3114,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6fc",
+        "_id": "631e1188299e38b65d080972",
         "codigo": 174,
         "name": "igglybuff",
         "type_1": "normal",
@@ -3132,7 +3132,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6fd",
+        "_id": "631e1188299e38b65d080973",
         "codigo": 175,
         "name": "togepi",
         "type_1": "fairy",
@@ -3150,7 +3150,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6fe",
+        "_id": "631e1188299e38b65d080974",
         "codigo": 176,
         "name": "togetic",
         "type_1": "fairy",
@@ -3168,7 +3168,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ff",
+        "_id": "631e1188299e38b65d080975",
         "codigo": 177,
         "name": "natu",
         "type_1": "psychic",
@@ -3186,7 +3186,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b700",
+        "_id": "631e1188299e38b65d080976",
         "codigo": 178,
         "name": "xatu",
         "type_1": "psychic",
@@ -3204,7 +3204,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b701",
+        "_id": "631e1188299e38b65d080977",
         "codigo": 179,
         "name": "mareep",
         "type_1": "electric",
@@ -3222,7 +3222,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b702",
+        "_id": "631e1188299e38b65d080978",
         "codigo": 180,
         "name": "flaaffy",
         "type_1": "electric",
@@ -3240,7 +3240,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b703",
+        "_id": "631e1188299e38b65d080979",
         "codigo": 181,
         "name": "ampharos",
         "type_1": "electric",
@@ -3258,7 +3258,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b704",
+        "_id": "631e1188299e38b65d08097a",
         "codigo": 182,
         "name": "bellossom",
         "type_1": "grass",
@@ -3276,7 +3276,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b705",
+        "_id": "631e1188299e38b65d08097b",
         "codigo": 183,
         "name": "marill",
         "type_1": "water",
@@ -3294,7 +3294,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b706",
+        "_id": "631e1188299e38b65d08097c",
         "codigo": 184,
         "name": "azumarill",
         "type_1": "water",
@@ -3312,7 +3312,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b707",
+        "_id": "631e1188299e38b65d08097d",
         "codigo": 185,
         "name": "sudowoodo",
         "type_1": "rock",
@@ -3330,7 +3330,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b708",
+        "_id": "631e1188299e38b65d08097e",
         "codigo": 186,
         "name": "politoed",
         "type_1": "water",
@@ -3348,7 +3348,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b709",
+        "_id": "631e1188299e38b65d08097f",
         "codigo": 187,
         "name": "hoppip",
         "type_1": "grass",
@@ -3366,7 +3366,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b70a",
+        "_id": "631e1188299e38b65d080980",
         "codigo": 188,
         "name": "skiploom",
         "type_1": "grass",
@@ -3384,7 +3384,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b70b",
+        "_id": "631e1188299e38b65d080981",
         "codigo": 189,
         "name": "jumpluff",
         "type_1": "grass",
@@ -3402,7 +3402,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b70c",
+        "_id": "631e1188299e38b65d080982",
         "codigo": 190,
         "name": "aipom",
         "type_1": "normal",
@@ -3420,7 +3420,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b70d",
+        "_id": "631e1188299e38b65d080983",
         "codigo": 191,
         "name": "sunkern",
         "type_1": "grass",
@@ -3438,7 +3438,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b70e",
+        "_id": "631e1188299e38b65d080984",
         "codigo": 192,
         "name": "sunflora",
         "type_1": "grass",
@@ -3456,7 +3456,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b70f",
+        "_id": "631e1188299e38b65d080985",
         "codigo": 193,
         "name": "yanma",
         "type_1": "bug",
@@ -3474,7 +3474,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b710",
+        "_id": "631e1188299e38b65d080986",
         "codigo": 194,
         "name": "wooper",
         "type_1": "water",
@@ -3492,7 +3492,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b711",
+        "_id": "631e1188299e38b65d080987",
         "codigo": 195,
         "name": "quagsire",
         "type_1": "water",
@@ -3510,7 +3510,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b712",
+        "_id": "631e1188299e38b65d080988",
         "codigo": 196,
         "name": "espeon",
         "type_1": "psychic",
@@ -3528,7 +3528,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b713",
+        "_id": "631e1188299e38b65d080989",
         "codigo": 197,
         "name": "umbreon",
         "type_1": "dark",
@@ -3546,7 +3546,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b714",
+        "_id": "631e1188299e38b65d08098a",
         "codigo": 198,
         "name": "murkrow",
         "type_1": "dark",
@@ -3564,7 +3564,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b715",
+        "_id": "631e1188299e38b65d08098b",
         "codigo": 199,
         "name": "slowking",
         "type_1": "water",
@@ -3582,7 +3582,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b716",
+        "_id": "631e1188299e38b65d08098c",
         "codigo": 200,
         "name": "misdreavus",
         "type_1": "ghost",
@@ -3600,7 +3600,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b717",
+        "_id": "631e1188299e38b65d08098d",
         "codigo": 201,
         "name": "unown",
         "type_1": "psychic",
@@ -3618,7 +3618,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b718",
+        "_id": "631e1188299e38b65d08098e",
         "codigo": 202,
         "name": "wobbuffet",
         "type_1": "psychic",
@@ -3636,7 +3636,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b719",
+        "_id": "631e1188299e38b65d08098f",
         "codigo": 203,
         "name": "girafarig",
         "type_1": "normal",
@@ -3654,7 +3654,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b71a",
+        "_id": "631e1188299e38b65d080990",
         "codigo": 204,
         "name": "pineco",
         "type_1": "bug",
@@ -3672,7 +3672,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b71b",
+        "_id": "631e1188299e38b65d080991",
         "codigo": 205,
         "name": "forretress",
         "type_1": "bug",
@@ -3690,7 +3690,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b71c",
+        "_id": "631e1188299e38b65d080992",
         "codigo": 206,
         "name": "dunsparce",
         "type_1": "normal",
@@ -3708,7 +3708,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b71d",
+        "_id": "631e1188299e38b65d080993",
         "codigo": 207,
         "name": "gligar",
         "type_1": "ground",
@@ -3726,7 +3726,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b71e",
+        "_id": "631e1188299e38b65d080994",
         "codigo": 208,
         "name": "steelix",
         "type_1": "steel",
@@ -3744,7 +3744,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b71f",
+        "_id": "631e1188299e38b65d080995",
         "codigo": 209,
         "name": "snubbull",
         "type_1": "fairy",
@@ -3762,7 +3762,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b720",
+        "_id": "631e1188299e38b65d080996",
         "codigo": 210,
         "name": "granbull",
         "type_1": "fairy",
@@ -3780,7 +3780,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b721",
+        "_id": "631e1188299e38b65d080997",
         "codigo": 211,
         "name": "qwilfish",
         "type_1": "water",
@@ -3798,7 +3798,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b722",
+        "_id": "631e1188299e38b65d080998",
         "codigo": 212,
         "name": "scizor",
         "type_1": "bug",
@@ -3816,7 +3816,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b723",
+        "_id": "631e1188299e38b65d080999",
         "codigo": 213,
         "name": "shuckle",
         "type_1": "bug",
@@ -3834,7 +3834,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b724",
+        "_id": "631e1188299e38b65d08099a",
         "codigo": 214,
         "name": "heracross",
         "type_1": "bug",
@@ -3852,7 +3852,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b725",
+        "_id": "631e1188299e38b65d08099b",
         "codigo": 215,
         "name": "sneasel",
         "type_1": "dark",
@@ -3870,7 +3870,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b726",
+        "_id": "631e1188299e38b65d08099c",
         "codigo": 216,
         "name": "teddiursa",
         "type_1": "normal",
@@ -3888,7 +3888,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b727",
+        "_id": "631e1188299e38b65d08099d",
         "codigo": 217,
         "name": "ursaring",
         "type_1": "normal",
@@ -3906,7 +3906,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b728",
+        "_id": "631e1188299e38b65d08099e",
         "codigo": 218,
         "name": "slugma",
         "type_1": "fire",
@@ -3924,7 +3924,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b729",
+        "_id": "631e1188299e38b65d08099f",
         "codigo": 219,
         "name": "magcargo",
         "type_1": "fire",
@@ -3942,7 +3942,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b72a",
+        "_id": "631e1188299e38b65d0809a0",
         "codigo": 220,
         "name": "swinub",
         "type_1": "ice",
@@ -3960,7 +3960,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b72b",
+        "_id": "631e1188299e38b65d0809a1",
         "codigo": 221,
         "name": "piloswine",
         "type_1": "ice",
@@ -3978,7 +3978,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b72c",
+        "_id": "631e1188299e38b65d0809a2",
         "codigo": 222,
         "name": "corsola",
         "type_1": "water",
@@ -3996,7 +3996,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b72d",
+        "_id": "631e1188299e38b65d0809a3",
         "codigo": 223,
         "name": "remoraid",
         "type_1": "water",
@@ -4014,7 +4014,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b72e",
+        "_id": "631e1188299e38b65d0809a4",
         "codigo": 224,
         "name": "octillery",
         "type_1": "water",
@@ -4032,7 +4032,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b72f",
+        "_id": "631e1188299e38b65d0809a5",
         "codigo": 225,
         "name": "delibird",
         "type_1": "ice",
@@ -4050,7 +4050,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b730",
+        "_id": "631e1188299e38b65d0809a6",
         "codigo": 226,
         "name": "mantine",
         "type_1": "water",
@@ -4068,7 +4068,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b731",
+        "_id": "631e1188299e38b65d0809a7",
         "codigo": 227,
         "name": "skarmory",
         "type_1": "steel",
@@ -4086,7 +4086,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b732",
+        "_id": "631e1188299e38b65d0809a8",
         "codigo": 228,
         "name": "houndour",
         "type_1": "dark",
@@ -4104,7 +4104,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b733",
+        "_id": "631e1188299e38b65d0809a9",
         "codigo": 229,
         "name": "houndoom",
         "type_1": "dark",
@@ -4122,7 +4122,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b734",
+        "_id": "631e1188299e38b65d0809aa",
         "codigo": 230,
         "name": "kingdra",
         "type_1": "water",
@@ -4140,7 +4140,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b735",
+        "_id": "631e1188299e38b65d0809ab",
         "codigo": 231,
         "name": "phanpy",
         "type_1": "ground",
@@ -4158,7 +4158,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b736",
+        "_id": "631e1188299e38b65d0809ac",
         "codigo": 232,
         "name": "donphan",
         "type_1": "ground",
@@ -4176,7 +4176,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b737",
+        "_id": "631e1188299e38b65d0809ad",
         "codigo": 233,
         "name": "porygon2",
         "type_1": "normal",
@@ -4194,7 +4194,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b738",
+        "_id": "631e1188299e38b65d0809ae",
         "codigo": 234,
         "name": "stantler",
         "type_1": "normal",
@@ -4212,7 +4212,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b739",
+        "_id": "631e1188299e38b65d0809af",
         "codigo": 235,
         "name": "smeargle",
         "type_1": "normal",
@@ -4230,7 +4230,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b73a",
+        "_id": "631e1188299e38b65d0809b0",
         "codigo": 236,
         "name": "tyrogue",
         "type_1": "fighting",
@@ -4248,7 +4248,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b73b",
+        "_id": "631e1188299e38b65d0809b1",
         "codigo": 237,
         "name": "hitmontop",
         "type_1": "fighting",
@@ -4266,7 +4266,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b73c",
+        "_id": "631e1188299e38b65d0809b2",
         "codigo": 238,
         "name": "smoochum",
         "type_1": "ice",
@@ -4284,7 +4284,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b73d",
+        "_id": "631e1188299e38b65d0809b3",
         "codigo": 239,
         "name": "elekid",
         "type_1": "electric",
@@ -4302,7 +4302,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b73e",
+        "_id": "631e1188299e38b65d0809b4",
         "codigo": 240,
         "name": "magby",
         "type_1": "fire",
@@ -4320,7 +4320,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b73f",
+        "_id": "631e1188299e38b65d0809b5",
         "codigo": 241,
         "name": "miltank",
         "type_1": "normal",
@@ -4338,7 +4338,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b740",
+        "_id": "631e1188299e38b65d0809b6",
         "codigo": 242,
         "name": "blissey",
         "type_1": "normal",
@@ -4356,7 +4356,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b741",
+        "_id": "631e1188299e38b65d0809b7",
         "codigo": 243,
         "name": "raikou",
         "type_1": "electric",
@@ -4374,7 +4374,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b742",
+        "_id": "631e1188299e38b65d0809b8",
         "codigo": 244,
         "name": "entei",
         "type_1": "fire",
@@ -4392,7 +4392,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b743",
+        "_id": "631e1188299e38b65d0809b9",
         "codigo": 245,
         "name": "suicune",
         "type_1": "water",
@@ -4410,7 +4410,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b744",
+        "_id": "631e1188299e38b65d0809ba",
         "codigo": 246,
         "name": "larvitar",
         "type_1": "rock",
@@ -4428,7 +4428,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b745",
+        "_id": "631e1188299e38b65d0809bb",
         "codigo": 247,
         "name": "pupitar",
         "type_1": "rock",
@@ -4446,7 +4446,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b746",
+        "_id": "631e1188299e38b65d0809bc",
         "codigo": 248,
         "name": "tyranitar",
         "type_1": "rock",
@@ -4464,7 +4464,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b747",
+        "_id": "631e1188299e38b65d0809bd",
         "codigo": 249,
         "name": "lugia",
         "type_1": "psychic",
@@ -4482,7 +4482,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b748",
+        "_id": "631e1188299e38b65d0809be",
         "codigo": 250,
         "name": "ho-oh",
         "type_1": "fire",
@@ -4500,7 +4500,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b749",
+        "_id": "631e1188299e38b65d0809bf",
         "codigo": 251,
         "name": "celebi",
         "type_1": "psychic",
@@ -4518,7 +4518,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74a",
+        "_id": "631e1188299e38b65d0809c0",
         "codigo": 252,
         "name": "treecko",
         "type_1": "grass",
@@ -4536,7 +4536,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74b",
+        "_id": "631e1188299e38b65d0809c1",
         "codigo": 253,
         "name": "grovyle",
         "type_1": "grass",
@@ -4554,7 +4554,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74c",
+        "_id": "631e1188299e38b65d0809c2",
         "codigo": 254,
         "name": "sceptile",
         "type_1": "grass",
@@ -4572,7 +4572,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74d",
+        "_id": "631e1188299e38b65d0809c3",
         "codigo": 255,
         "name": "torchic",
         "type_1": "fire",
@@ -4590,7 +4590,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74e",
+        "_id": "631e1188299e38b65d0809c4",
         "codigo": 256,
         "name": "combusken",
         "type_1": "fire",
@@ -4608,7 +4608,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74f",
+        "_id": "631e1188299e38b65d0809c5",
         "codigo": 257,
         "name": "blaziken",
         "type_1": "fire",
@@ -4626,7 +4626,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b750",
+        "_id": "631e1188299e38b65d0809c6",
         "codigo": 258,
         "name": "mudkip",
         "type_1": "water",
@@ -4644,7 +4644,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b751",
+        "_id": "631e1188299e38b65d0809c7",
         "codigo": 259,
         "name": "marshtomp",
         "type_1": "water",
@@ -4662,7 +4662,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b752",
+        "_id": "631e1188299e38b65d0809c8",
         "codigo": 260,
         "name": "swampert",
         "type_1": "water",
@@ -4680,7 +4680,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b753",
+        "_id": "631e1188299e38b65d0809c9",
         "codigo": 261,
         "name": "poochyena",
         "type_1": "dark",
@@ -4698,7 +4698,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b754",
+        "_id": "631e1188299e38b65d0809ca",
         "codigo": 262,
         "name": "mightyena",
         "type_1": "dark",
@@ -4716,7 +4716,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b755",
+        "_id": "631e1188299e38b65d0809cb",
         "codigo": 263,
         "name": "zigzagoon",
         "type_1": "normal",
@@ -4734,7 +4734,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b756",
+        "_id": "631e1188299e38b65d0809cc",
         "codigo": 264,
         "name": "linoone",
         "type_1": "normal",
@@ -4752,7 +4752,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b757",
+        "_id": "631e1188299e38b65d0809cd",
         "codigo": 265,
         "name": "wurmple",
         "type_1": "bug",
@@ -4770,7 +4770,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b758",
+        "_id": "631e1188299e38b65d0809ce",
         "codigo": 266,
         "name": "silcoon",
         "type_1": "bug",
@@ -4788,7 +4788,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b759",
+        "_id": "631e1188299e38b65d0809cf",
         "codigo": 267,
         "name": "beautifly",
         "type_1": "bug",
@@ -4806,7 +4806,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b75a",
+        "_id": "631e1188299e38b65d0809d0",
         "codigo": 268,
         "name": "cascoon",
         "type_1": "bug",
@@ -4824,7 +4824,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b75b",
+        "_id": "631e1188299e38b65d0809d1",
         "codigo": 269,
         "name": "dustox",
         "type_1": "bug",
@@ -4842,7 +4842,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b75c",
+        "_id": "631e1188299e38b65d0809d2",
         "codigo": 270,
         "name": "lotad",
         "type_1": "water",
@@ -4860,7 +4860,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b75d",
+        "_id": "631e1188299e38b65d0809d3",
         "codigo": 271,
         "name": "lombre",
         "type_1": "water",
@@ -4878,7 +4878,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b75e",
+        "_id": "631e1188299e38b65d0809d4",
         "codigo": 272,
         "name": "ludicolo",
         "type_1": "water",
@@ -4896,7 +4896,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b75f",
+        "_id": "631e1188299e38b65d0809d5",
         "codigo": 273,
         "name": "seedot",
         "type_1": "grass",
@@ -4914,7 +4914,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b760",
+        "_id": "631e1188299e38b65d0809d6",
         "codigo": 274,
         "name": "nuzleaf",
         "type_1": "grass",
@@ -4932,7 +4932,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b761",
+        "_id": "631e1188299e38b65d0809d7",
         "codigo": 275,
         "name": "shiftry",
         "type_1": "grass",
@@ -4950,7 +4950,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b762",
+        "_id": "631e1188299e38b65d0809d8",
         "codigo": 276,
         "name": "taillow",
         "type_1": "normal",
@@ -4968,7 +4968,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b763",
+        "_id": "631e1188299e38b65d0809d9",
         "codigo": 277,
         "name": "swellow",
         "type_1": "normal",
@@ -4986,7 +4986,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b764",
+        "_id": "631e1188299e38b65d0809da",
         "codigo": 278,
         "name": "wingull",
         "type_1": "water",
@@ -5004,7 +5004,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b765",
+        "_id": "631e1188299e38b65d0809db",
         "codigo": 279,
         "name": "pelipper",
         "type_1": "water",
@@ -5022,7 +5022,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b766",
+        "_id": "631e1188299e38b65d0809dc",
         "codigo": 280,
         "name": "ralts",
         "type_1": "psychic",
@@ -5040,7 +5040,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b767",
+        "_id": "631e1188299e38b65d0809dd",
         "codigo": 281,
         "name": "kirlia",
         "type_1": "psychic",
@@ -5058,7 +5058,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b768",
+        "_id": "631e1188299e38b65d0809de",
         "codigo": 282,
         "name": "gardevoir",
         "type_1": "psychic",
@@ -5076,7 +5076,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b769",
+        "_id": "631e1188299e38b65d0809df",
         "codigo": 283,
         "name": "surskit",
         "type_1": "bug",
@@ -5094,7 +5094,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b76a",
+        "_id": "631e1188299e38b65d0809e0",
         "codigo": 284,
         "name": "masquerain",
         "type_1": "bug",
@@ -5112,7 +5112,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b76b",
+        "_id": "631e1188299e38b65d0809e1",
         "codigo": 285,
         "name": "shroomish",
         "type_1": "grass",
@@ -5130,7 +5130,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b76c",
+        "_id": "631e1188299e38b65d0809e2",
         "codigo": 286,
         "name": "breloom",
         "type_1": "grass",
@@ -5148,7 +5148,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b76d",
+        "_id": "631e1188299e38b65d0809e3",
         "codigo": 287,
         "name": "slakoth",
         "type_1": "normal",
@@ -5166,7 +5166,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b76e",
+        "_id": "631e1188299e38b65d0809e4",
         "codigo": 288,
         "name": "vigoroth",
         "type_1": "normal",
@@ -5184,7 +5184,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b76f",
+        "_id": "631e1188299e38b65d0809e5",
         "codigo": 289,
         "name": "slaking",
         "type_1": "normal",
@@ -5202,7 +5202,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b770",
+        "_id": "631e1188299e38b65d0809e6",
         "codigo": 290,
         "name": "nincada",
         "type_1": "bug",
@@ -5220,7 +5220,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b771",
+        "_id": "631e1188299e38b65d0809e7",
         "codigo": 291,
         "name": "ninjask",
         "type_1": "bug",
@@ -5238,7 +5238,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b772",
+        "_id": "631e1188299e38b65d0809e8",
         "codigo": 292,
         "name": "shedinja",
         "type_1": "bug",
@@ -5256,7 +5256,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b773",
+        "_id": "631e1188299e38b65d0809e9",
         "codigo": 293,
         "name": "whismur",
         "type_1": "normal",
@@ -5274,7 +5274,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b774",
+        "_id": "631e1188299e38b65d0809ea",
         "codigo": 294,
         "name": "loudred",
         "type_1": "normal",
@@ -5292,7 +5292,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b775",
+        "_id": "631e1188299e38b65d0809eb",
         "codigo": 295,
         "name": "exploud",
         "type_1": "normal",
@@ -5310,7 +5310,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b776",
+        "_id": "631e1188299e38b65d0809ec",
         "codigo": 296,
         "name": "makuhita",
         "type_1": "fighting",
@@ -5328,7 +5328,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b777",
+        "_id": "631e1188299e38b65d0809ed",
         "codigo": 297,
         "name": "hariyama",
         "type_1": "fighting",
@@ -5346,7 +5346,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b778",
+        "_id": "631e1188299e38b65d0809ee",
         "codigo": 298,
         "name": "azurill",
         "type_1": "normal",
@@ -5364,7 +5364,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b779",
+        "_id": "631e1188299e38b65d0809ef",
         "codigo": 299,
         "name": "nosepass",
         "type_1": "rock",
@@ -5382,7 +5382,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b77a",
+        "_id": "631e1188299e38b65d0809f0",
         "codigo": 300,
         "name": "skitty",
         "type_1": "normal",
@@ -5400,7 +5400,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b77b",
+        "_id": "631e1188299e38b65d0809f1",
         "codigo": 301,
         "name": "delcatty",
         "type_1": "normal",
@@ -5418,7 +5418,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b77c",
+        "_id": "631e1188299e38b65d0809f2",
         "codigo": 302,
         "name": "sableye",
         "type_1": "dark",
@@ -5436,7 +5436,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b77d",
+        "_id": "631e1188299e38b65d0809f3",
         "codigo": 303,
         "name": "mawile",
         "type_1": "steel",
@@ -5454,7 +5454,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b77e",
+        "_id": "631e1188299e38b65d0809f4",
         "codigo": 304,
         "name": "aron",
         "type_1": "steel",
@@ -5472,7 +5472,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b77f",
+        "_id": "631e1188299e38b65d0809f5",
         "codigo": 305,
         "name": "lairon",
         "type_1": "steel",
@@ -5490,7 +5490,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b780",
+        "_id": "631e1188299e38b65d0809f6",
         "codigo": 306,
         "name": "aggron",
         "type_1": "steel",
@@ -5508,7 +5508,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b781",
+        "_id": "631e1188299e38b65d0809f7",
         "codigo": 307,
         "name": "meditite",
         "type_1": "fighting",
@@ -5526,7 +5526,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b782",
+        "_id": "631e1188299e38b65d0809f8",
         "codigo": 308,
         "name": "medicham",
         "type_1": "fighting",
@@ -5544,7 +5544,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b783",
+        "_id": "631e1188299e38b65d0809f9",
         "codigo": 309,
         "name": "electrike",
         "type_1": "electric",
@@ -5562,7 +5562,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b784",
+        "_id": "631e1188299e38b65d0809fa",
         "codigo": 310,
         "name": "manectric",
         "type_1": "electric",
@@ -5580,7 +5580,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b785",
+        "_id": "631e1188299e38b65d0809fb",
         "codigo": 311,
         "name": "plusle",
         "type_1": "electric",
@@ -5598,7 +5598,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b786",
+        "_id": "631e1188299e38b65d0809fc",
         "codigo": 312,
         "name": "minun",
         "type_1": "electric",
@@ -5616,7 +5616,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b787",
+        "_id": "631e1188299e38b65d0809fd",
         "codigo": 313,
         "name": "volbeat",
         "type_1": "bug",
@@ -5634,7 +5634,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b788",
+        "_id": "631e1188299e38b65d0809fe",
         "codigo": 314,
         "name": "illumise",
         "type_1": "bug",
@@ -5652,7 +5652,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b789",
+        "_id": "631e1188299e38b65d0809ff",
         "codigo": 315,
         "name": "roselia",
         "type_1": "grass",
@@ -5670,7 +5670,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b78a",
+        "_id": "631e1188299e38b65d080a00",
         "codigo": 316,
         "name": "gulpin",
         "type_1": "poison",
@@ -5688,7 +5688,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b78b",
+        "_id": "631e1188299e38b65d080a01",
         "codigo": 317,
         "name": "swalot",
         "type_1": "poison",
@@ -5706,7 +5706,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b78c",
+        "_id": "631e1188299e38b65d080a02",
         "codigo": 318,
         "name": "carvanha",
         "type_1": "water",
@@ -5724,7 +5724,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b78d",
+        "_id": "631e1188299e38b65d080a03",
         "codigo": 319,
         "name": "sharpedo",
         "type_1": "water",
@@ -5742,7 +5742,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b78e",
+        "_id": "631e1188299e38b65d080a04",
         "codigo": 320,
         "name": "wailmer",
         "type_1": "water",
@@ -5760,7 +5760,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b78f",
+        "_id": "631e1188299e38b65d080a05",
         "codigo": 321,
         "name": "wailord",
         "type_1": "water",
@@ -5778,7 +5778,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b790",
+        "_id": "631e1188299e38b65d080a06",
         "codigo": 322,
         "name": "numel",
         "type_1": "fire",
@@ -5796,7 +5796,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b791",
+        "_id": "631e1188299e38b65d080a07",
         "codigo": 323,
         "name": "camerupt",
         "type_1": "fire",
@@ -5814,7 +5814,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b792",
+        "_id": "631e1188299e38b65d080a08",
         "codigo": 324,
         "name": "torkoal",
         "type_1": "fire",
@@ -5832,7 +5832,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b793",
+        "_id": "631e1188299e38b65d080a09",
         "codigo": 325,
         "name": "spoink",
         "type_1": "psychic",
@@ -5850,7 +5850,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b794",
+        "_id": "631e1188299e38b65d080a0a",
         "codigo": 326,
         "name": "grumpig",
         "type_1": "psychic",
@@ -5868,7 +5868,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b795",
+        "_id": "631e1188299e38b65d080a0b",
         "codigo": 327,
         "name": "spinda",
         "type_1": "normal",
@@ -5886,7 +5886,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b796",
+        "_id": "631e1188299e38b65d080a0c",
         "codigo": 328,
         "name": "trapinch",
         "type_1": "ground",
@@ -5904,7 +5904,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b797",
+        "_id": "631e1188299e38b65d080a0d",
         "codigo": 329,
         "name": "vibrava",
         "type_1": "ground",
@@ -5922,7 +5922,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b798",
+        "_id": "631e1188299e38b65d080a0e",
         "codigo": 330,
         "name": "flygon",
         "type_1": "ground",
@@ -5940,7 +5940,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b799",
+        "_id": "631e1188299e38b65d080a0f",
         "codigo": 331,
         "name": "cacnea",
         "type_1": "grass",
@@ -5958,7 +5958,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b79a",
+        "_id": "631e1188299e38b65d080a10",
         "codigo": 332,
         "name": "cacturne",
         "type_1": "grass",
@@ -5976,7 +5976,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b79b",
+        "_id": "631e1188299e38b65d080a11",
         "codigo": 333,
         "name": "swablu",
         "type_1": "normal",
@@ -5994,7 +5994,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b79c",
+        "_id": "631e1188299e38b65d080a12",
         "codigo": 334,
         "name": "altaria",
         "type_1": "dragon",
@@ -6012,7 +6012,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b79d",
+        "_id": "631e1188299e38b65d080a13",
         "codigo": 335,
         "name": "zangoose",
         "type_1": "normal",
@@ -6030,7 +6030,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b79e",
+        "_id": "631e1188299e38b65d080a14",
         "codigo": 336,
         "name": "seviper",
         "type_1": "poison",
@@ -6048,7 +6048,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b79f",
+        "_id": "631e1188299e38b65d080a15",
         "codigo": 337,
         "name": "lunatone",
         "type_1": "rock",
@@ -6066,7 +6066,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a0",
+        "_id": "631e1188299e38b65d080a16",
         "codigo": 338,
         "name": "solrock",
         "type_1": "rock",
@@ -6084,7 +6084,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a1",
+        "_id": "631e1188299e38b65d080a17",
         "codigo": 339,
         "name": "barboach",
         "type_1": "water",
@@ -6102,7 +6102,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a2",
+        "_id": "631e1188299e38b65d080a18",
         "codigo": 340,
         "name": "whiscash",
         "type_1": "water",
@@ -6120,7 +6120,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a3",
+        "_id": "631e1188299e38b65d080a19",
         "codigo": 341,
         "name": "corphish",
         "type_1": "water",
@@ -6138,7 +6138,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a4",
+        "_id": "631e1188299e38b65d080a1a",
         "codigo": 342,
         "name": "crawdaunt",
         "type_1": "water",
@@ -6156,7 +6156,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a5",
+        "_id": "631e1188299e38b65d080a1b",
         "codigo": 343,
         "name": "baltoy",
         "type_1": "ground",
@@ -6174,7 +6174,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a6",
+        "_id": "631e1188299e38b65d080a1c",
         "codigo": 344,
         "name": "claydol",
         "type_1": "ground",
@@ -6192,7 +6192,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a7",
+        "_id": "631e1188299e38b65d080a1d",
         "codigo": 345,
         "name": "lileep",
         "type_1": "rock",
@@ -6210,7 +6210,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a8",
+        "_id": "631e1188299e38b65d080a1e",
         "codigo": 346,
         "name": "cradily",
         "type_1": "rock",
@@ -6228,7 +6228,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7a9",
+        "_id": "631e1188299e38b65d080a1f",
         "codigo": 347,
         "name": "anorith",
         "type_1": "rock",
@@ -6246,7 +6246,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7aa",
+        "_id": "631e1188299e38b65d080a20",
         "codigo": 348,
         "name": "armaldo",
         "type_1": "rock",
@@ -6264,7 +6264,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ab",
+        "_id": "631e1188299e38b65d080a21",
         "codigo": 349,
         "name": "feebas",
         "type_1": "water",
@@ -6282,7 +6282,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ac",
+        "_id": "631e1188299e38b65d080a22",
         "codigo": 350,
         "name": "milotic",
         "type_1": "water",
@@ -6300,7 +6300,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ad",
+        "_id": "631e1188299e38b65d080a23",
         "codigo": 351,
         "name": "castform",
         "type_1": "normal",
@@ -6318,7 +6318,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ae",
+        "_id": "631e1188299e38b65d080a24",
         "codigo": 352,
         "name": "kecleon",
         "type_1": "normal",
@@ -6336,7 +6336,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7af",
+        "_id": "631e1188299e38b65d080a25",
         "codigo": 353,
         "name": "shuppet",
         "type_1": "ghost",
@@ -6354,7 +6354,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b0",
+        "_id": "631e1188299e38b65d080a26",
         "codigo": 354,
         "name": "banette",
         "type_1": "ghost",
@@ -6372,7 +6372,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b1",
+        "_id": "631e1188299e38b65d080a27",
         "codigo": 355,
         "name": "duskull",
         "type_1": "ghost",
@@ -6390,7 +6390,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b2",
+        "_id": "631e1188299e38b65d080a28",
         "codigo": 356,
         "name": "dusclops",
         "type_1": "ghost",
@@ -6408,7 +6408,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b3",
+        "_id": "631e1188299e38b65d080a29",
         "codigo": 357,
         "name": "tropius",
         "type_1": "grass",
@@ -6426,7 +6426,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b4",
+        "_id": "631e1188299e38b65d080a2a",
         "codigo": 358,
         "name": "chimecho",
         "type_1": "psychic",
@@ -6444,7 +6444,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b5",
+        "_id": "631e1188299e38b65d080a2b",
         "codigo": 359,
         "name": "absol",
         "type_1": "dark",
@@ -6462,7 +6462,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b6",
+        "_id": "631e1188299e38b65d080a2c",
         "codigo": 360,
         "name": "wynaut",
         "type_1": "psychic",
@@ -6480,7 +6480,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b7",
+        "_id": "631e1188299e38b65d080a2d",
         "codigo": 361,
         "name": "snorunt",
         "type_1": "ice",
@@ -6498,7 +6498,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b8",
+        "_id": "631e1188299e38b65d080a2e",
         "codigo": 362,
         "name": "glalie",
         "type_1": "ice",
@@ -6516,7 +6516,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7b9",
+        "_id": "631e1188299e38b65d080a2f",
         "codigo": 363,
         "name": "spheal",
         "type_1": "ice",
@@ -6534,7 +6534,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ba",
+        "_id": "631e1188299e38b65d080a30",
         "codigo": 364,
         "name": "sealeo",
         "type_1": "ice",
@@ -6552,7 +6552,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7bb",
+        "_id": "631e1188299e38b65d080a31",
         "codigo": 365,
         "name": "walrein",
         "type_1": "ice",
@@ -6570,7 +6570,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7bc",
+        "_id": "631e1188299e38b65d080a32",
         "codigo": 366,
         "name": "clamperl",
         "type_1": "water",
@@ -6588,7 +6588,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7bd",
+        "_id": "631e1188299e38b65d080a33",
         "codigo": 367,
         "name": "huntail",
         "type_1": "water",
@@ -6606,7 +6606,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7be",
+        "_id": "631e1188299e38b65d080a34",
         "codigo": 368,
         "name": "gorebyss",
         "type_1": "water",
@@ -6624,7 +6624,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7bf",
+        "_id": "631e1188299e38b65d080a35",
         "codigo": 369,
         "name": "relicanth",
         "type_1": "water",
@@ -6642,7 +6642,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c0",
+        "_id": "631e1188299e38b65d080a36",
         "codigo": 370,
         "name": "luvdisc",
         "type_1": "water",
@@ -6660,7 +6660,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c1",
+        "_id": "631e1188299e38b65d080a37",
         "codigo": 371,
         "name": "bagon",
         "type_1": "dragon",
@@ -6678,7 +6678,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c2",
+        "_id": "631e1188299e38b65d080a38",
         "codigo": 372,
         "name": "shelgon",
         "type_1": "dragon",
@@ -6696,7 +6696,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c3",
+        "_id": "631e1188299e38b65d080a39",
         "codigo": 373,
         "name": "salamence",
         "type_1": "dragon",
@@ -6714,7 +6714,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c4",
+        "_id": "631e1188299e38b65d080a3a",
         "codigo": 374,
         "name": "beldum",
         "type_1": "steel",
@@ -6732,7 +6732,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c5",
+        "_id": "631e1188299e38b65d080a3b",
         "codigo": 375,
         "name": "metang",
         "type_1": "steel",
@@ -6750,7 +6750,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c6",
+        "_id": "631e1188299e38b65d080a3c",
         "codigo": 376,
         "name": "metagross",
         "type_1": "steel",
@@ -6768,7 +6768,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c7",
+        "_id": "631e1188299e38b65d080a3d",
         "codigo": 377,
         "name": "regirock",
         "type_1": "rock",
@@ -6786,7 +6786,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c8",
+        "_id": "631e1188299e38b65d080a3e",
         "codigo": 378,
         "name": "regice",
         "type_1": "ice",
@@ -6804,7 +6804,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7c9",
+        "_id": "631e1188299e38b65d080a3f",
         "codigo": 379,
         "name": "registeel",
         "type_1": "steel",
@@ -6822,7 +6822,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ca",
+        "_id": "631e1188299e38b65d080a40",
         "codigo": 380,
         "name": "latias",
         "type_1": "dragon",
@@ -6840,7 +6840,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7cb",
+        "_id": "631e1188299e38b65d080a41",
         "codigo": 381,
         "name": "latios",
         "type_1": "dragon",
@@ -6858,7 +6858,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7cc",
+        "_id": "631e1188299e38b65d080a42",
         "codigo": 382,
         "name": "kyogre",
         "type_1": "water",
@@ -6876,7 +6876,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7cd",
+        "_id": "631e1188299e38b65d080a43",
         "codigo": 383,
         "name": "groudon",
         "type_1": "ground",
@@ -6894,7 +6894,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ce",
+        "_id": "631e1188299e38b65d080a44",
         "codigo": 384,
         "name": "rayquaza",
         "type_1": "dragon",
@@ -6912,7 +6912,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7cf",
+        "_id": "631e1188299e38b65d080a45",
         "codigo": 385,
         "name": "jirachi",
         "type_1": "steel",
@@ -6930,7 +6930,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d0",
+        "_id": "631e1188299e38b65d080a46",
         "codigo": 386,
         "name": "deoxys-normal",
         "type_1": "psychic",
@@ -6948,7 +6948,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d1",
+        "_id": "631e1188299e38b65d080a47",
         "codigo": 387,
         "name": "turtwig",
         "type_1": "grass",
@@ -6966,7 +6966,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d2",
+        "_id": "631e1188299e38b65d080a48",
         "codigo": 388,
         "name": "grotle",
         "type_1": "grass",
@@ -6984,7 +6984,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d3",
+        "_id": "631e1188299e38b65d080a49",
         "codigo": 389,
         "name": "torterra",
         "type_1": "grass",
@@ -7002,7 +7002,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d4",
+        "_id": "631e1188299e38b65d080a4a",
         "codigo": 390,
         "name": "chimchar",
         "type_1": "fire",
@@ -7020,7 +7020,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d5",
+        "_id": "631e1188299e38b65d080a4b",
         "codigo": 391,
         "name": "monferno",
         "type_1": "fire",
@@ -7038,7 +7038,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d6",
+        "_id": "631e1188299e38b65d080a4c",
         "codigo": 392,
         "name": "infernape",
         "type_1": "fire",
@@ -7056,7 +7056,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d7",
+        "_id": "631e1188299e38b65d080a4d",
         "codigo": 393,
         "name": "piplup",
         "type_1": "water",
@@ -7074,7 +7074,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d8",
+        "_id": "631e1188299e38b65d080a4e",
         "codigo": 394,
         "name": "prinplup",
         "type_1": "water",
@@ -7092,7 +7092,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d9",
+        "_id": "631e1188299e38b65d080a4f",
         "codigo": 395,
         "name": "empoleon",
         "type_1": "water",
@@ -7110,7 +7110,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7da",
+        "_id": "631e1188299e38b65d080a50",
         "codigo": 396,
         "name": "starly",
         "type_1": "normal",
@@ -7128,7 +7128,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7db",
+        "_id": "631e1188299e38b65d080a51",
         "codigo": 397,
         "name": "staravia",
         "type_1": "normal",
@@ -7146,7 +7146,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7dc",
+        "_id": "631e1188299e38b65d080a52",
         "codigo": 398,
         "name": "staraptor",
         "type_1": "normal",
@@ -7164,7 +7164,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7dd",
+        "_id": "631e1188299e38b65d080a53",
         "codigo": 399,
         "name": "bidoof",
         "type_1": "normal",
@@ -7182,7 +7182,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7de",
+        "_id": "631e1188299e38b65d080a54",
         "codigo": 400,
         "name": "bibarel",
         "type_1": "normal",
@@ -7200,7 +7200,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7df",
+        "_id": "631e1188299e38b65d080a55",
         "codigo": 401,
         "name": "kricketot",
         "type_1": "bug",
@@ -7218,7 +7218,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e0",
+        "_id": "631e1188299e38b65d080a56",
         "codigo": 402,
         "name": "kricketune",
         "type_1": "bug",
@@ -7236,7 +7236,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e1",
+        "_id": "631e1188299e38b65d080a57",
         "codigo": 403,
         "name": "shinx",
         "type_1": "electric",
@@ -7254,7 +7254,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e2",
+        "_id": "631e1188299e38b65d080a58",
         "codigo": 404,
         "name": "luxio",
         "type_1": "electric",
@@ -7272,7 +7272,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e3",
+        "_id": "631e1188299e38b65d080a59",
         "codigo": 405,
         "name": "luxray",
         "type_1": "electric",
@@ -7290,7 +7290,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e4",
+        "_id": "631e1188299e38b65d080a5a",
         "codigo": 406,
         "name": "budew",
         "type_1": "grass",
@@ -7308,7 +7308,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e5",
+        "_id": "631e1188299e38b65d080a5b",
         "codigo": 407,
         "name": "roserade",
         "type_1": "grass",
@@ -7326,7 +7326,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e6",
+        "_id": "631e1188299e38b65d080a5c",
         "codigo": 408,
         "name": "cranidos",
         "type_1": "rock",
@@ -7344,7 +7344,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e7",
+        "_id": "631e1188299e38b65d080a5d",
         "codigo": 409,
         "name": "rampardos",
         "type_1": "rock",
@@ -7362,7 +7362,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e8",
+        "_id": "631e1188299e38b65d080a5e",
         "codigo": 410,
         "name": "shieldon",
         "type_1": "rock",
@@ -7380,7 +7380,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7e9",
+        "_id": "631e1188299e38b65d080a5f",
         "codigo": 411,
         "name": "bastiodon",
         "type_1": "rock",
@@ -7398,7 +7398,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ea",
+        "_id": "631e1188299e38b65d080a60",
         "codigo": 412,
         "name": "burmy",
         "type_1": "bug",
@@ -7416,7 +7416,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7eb",
+        "_id": "631e1188299e38b65d080a61",
         "codigo": 413,
         "name": "wormadam-plant",
         "type_1": "bug",
@@ -7434,7 +7434,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ec",
+        "_id": "631e1188299e38b65d080a62",
         "codigo": 414,
         "name": "mothim",
         "type_1": "bug",
@@ -7452,7 +7452,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ed",
+        "_id": "631e1188299e38b65d080a63",
         "codigo": 415,
         "name": "combee",
         "type_1": "bug",
@@ -7470,7 +7470,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ee",
+        "_id": "631e1188299e38b65d080a64",
         "codigo": 416,
         "name": "vespiquen",
         "type_1": "bug",
@@ -7488,7 +7488,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ef",
+        "_id": "631e1188299e38b65d080a65",
         "codigo": 417,
         "name": "pachirisu",
         "type_1": "electric",
@@ -7506,7 +7506,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f0",
+        "_id": "631e1188299e38b65d080a66",
         "codigo": 418,
         "name": "buizel",
         "type_1": "water",
@@ -7524,7 +7524,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f1",
+        "_id": "631e1188299e38b65d080a67",
         "codigo": 419,
         "name": "floatzel",
         "type_1": "water",
@@ -7542,7 +7542,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f2",
+        "_id": "631e1188299e38b65d080a68",
         "codigo": 420,
         "name": "cherubi",
         "type_1": "grass",
@@ -7560,7 +7560,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f3",
+        "_id": "631e1188299e38b65d080a69",
         "codigo": 421,
         "name": "cherrim",
         "type_1": "grass",
@@ -7578,7 +7578,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f4",
+        "_id": "631e1188299e38b65d080a6a",
         "codigo": 422,
         "name": "shellos",
         "type_1": "water",
@@ -7596,7 +7596,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f5",
+        "_id": "631e1188299e38b65d080a6b",
         "codigo": 423,
         "name": "gastrodon",
         "type_1": "water",
@@ -7614,7 +7614,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f6",
+        "_id": "631e1188299e38b65d080a6c",
         "codigo": 424,
         "name": "ambipom",
         "type_1": "normal",
@@ -7632,7 +7632,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f7",
+        "_id": "631e1188299e38b65d080a6d",
         "codigo": 425,
         "name": "drifloon",
         "type_1": "ghost",
@@ -7650,7 +7650,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f8",
+        "_id": "631e1188299e38b65d080a6e",
         "codigo": 426,
         "name": "drifblim",
         "type_1": "ghost",
@@ -7668,7 +7668,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7f9",
+        "_id": "631e1188299e38b65d080a6f",
         "codigo": 427,
         "name": "buneary",
         "type_1": "normal",
@@ -7686,7 +7686,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7fa",
+        "_id": "631e1188299e38b65d080a70",
         "codigo": 428,
         "name": "lopunny",
         "type_1": "normal",
@@ -7704,7 +7704,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7fb",
+        "_id": "631e1188299e38b65d080a71",
         "codigo": 429,
         "name": "mismagius",
         "type_1": "ghost",
@@ -7722,7 +7722,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7fc",
+        "_id": "631e1188299e38b65d080a72",
         "codigo": 430,
         "name": "honchkrow",
         "type_1": "dark",
@@ -7740,7 +7740,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7fd",
+        "_id": "631e1188299e38b65d080a73",
         "codigo": 431,
         "name": "glameow",
         "type_1": "normal",
@@ -7758,7 +7758,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7fe",
+        "_id": "631e1188299e38b65d080a74",
         "codigo": 432,
         "name": "purugly",
         "type_1": "normal",
@@ -7776,7 +7776,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7ff",
+        "_id": "631e1188299e38b65d080a75",
         "codigo": 433,
         "name": "chingling",
         "type_1": "psychic",
@@ -7794,7 +7794,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b800",
+        "_id": "631e1188299e38b65d080a76",
         "codigo": 434,
         "name": "stunky",
         "type_1": "poison",
@@ -7812,7 +7812,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b801",
+        "_id": "631e1188299e38b65d080a77",
         "codigo": 435,
         "name": "skuntank",
         "type_1": "poison",
@@ -7830,7 +7830,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b802",
+        "_id": "631e1188299e38b65d080a78",
         "codigo": 436,
         "name": "bronzor",
         "type_1": "steel",
@@ -7848,7 +7848,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b803",
+        "_id": "631e1188299e38b65d080a79",
         "codigo": 437,
         "name": "bronzong",
         "type_1": "steel",
@@ -7866,7 +7866,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b804",
+        "_id": "631e1188299e38b65d080a7a",
         "codigo": 438,
         "name": "bonsly",
         "type_1": "rock",
@@ -7884,7 +7884,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b805",
+        "_id": "631e1188299e38b65d080a7b",
         "codigo": 439,
         "name": "mime-jr",
         "type_1": "psychic",
@@ -7902,7 +7902,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b806",
+        "_id": "631e1188299e38b65d080a7c",
         "codigo": 440,
         "name": "happiny",
         "type_1": "normal",
@@ -7920,7 +7920,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b807",
+        "_id": "631e1188299e38b65d080a7d",
         "codigo": 441,
         "name": "chatot",
         "type_1": "normal",
@@ -7938,7 +7938,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b808",
+        "_id": "631e1188299e38b65d080a7e",
         "codigo": 442,
         "name": "spiritomb",
         "type_1": "ghost",
@@ -7956,7 +7956,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b809",
+        "_id": "631e1188299e38b65d080a7f",
         "codigo": 443,
         "name": "gible",
         "type_1": "dragon",
@@ -7974,7 +7974,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b80a",
+        "_id": "631e1188299e38b65d080a80",
         "codigo": 444,
         "name": "gabite",
         "type_1": "dragon",
@@ -7992,7 +7992,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b80b",
+        "_id": "631e1188299e38b65d080a81",
         "codigo": 445,
         "name": "garchomp",
         "type_1": "dragon",
@@ -8010,7 +8010,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b80c",
+        "_id": "631e1188299e38b65d080a82",
         "codigo": 446,
         "name": "munchlax",
         "type_1": "normal",
@@ -8028,7 +8028,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b80d",
+        "_id": "631e1188299e38b65d080a83",
         "codigo": 447,
         "name": "riolu",
         "type_1": "fighting",
@@ -8046,7 +8046,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b80e",
+        "_id": "631e1188299e38b65d080a84",
         "codigo": 448,
         "name": "lucario",
         "type_1": "fighting",
@@ -8064,7 +8064,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b80f",
+        "_id": "631e1188299e38b65d080a85",
         "codigo": 449,
         "name": "hippopotas",
         "type_1": "ground",
@@ -8082,7 +8082,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b810",
+        "_id": "631e1188299e38b65d080a86",
         "codigo": 450,
         "name": "hippowdon",
         "type_1": "ground",
@@ -8100,7 +8100,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b811",
+        "_id": "631e1188299e38b65d080a87",
         "codigo": 451,
         "name": "skorupi",
         "type_1": "poison",
@@ -8118,7 +8118,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b812",
+        "_id": "631e1188299e38b65d080a88",
         "codigo": 452,
         "name": "drapion",
         "type_1": "poison",
@@ -8136,7 +8136,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b813",
+        "_id": "631e1188299e38b65d080a89",
         "codigo": 453,
         "name": "croagunk",
         "type_1": "poison",
@@ -8154,7 +8154,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b814",
+        "_id": "631e1188299e38b65d080a8a",
         "codigo": 454,
         "name": "toxicroak",
         "type_1": "poison",
@@ -8172,7 +8172,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b815",
+        "_id": "631e1188299e38b65d080a8b",
         "codigo": 455,
         "name": "carnivine",
         "type_1": "grass",
@@ -8190,7 +8190,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b816",
+        "_id": "631e1188299e38b65d080a8c",
         "codigo": 456,
         "name": "finneon",
         "type_1": "water",
@@ -8208,7 +8208,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b817",
+        "_id": "631e1188299e38b65d080a8d",
         "codigo": 457,
         "name": "lumineon",
         "type_1": "water",
@@ -8226,7 +8226,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b818",
+        "_id": "631e1188299e38b65d080a8e",
         "codigo": 458,
         "name": "mantyke",
         "type_1": "water",
@@ -8244,7 +8244,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b819",
+        "_id": "631e1188299e38b65d080a8f",
         "codigo": 459,
         "name": "snover",
         "type_1": "grass",
@@ -8262,7 +8262,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b81a",
+        "_id": "631e1188299e38b65d080a90",
         "codigo": 460,
         "name": "abomasnow",
         "type_1": "grass",
@@ -8280,7 +8280,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b81b",
+        "_id": "631e1188299e38b65d080a91",
         "codigo": 461,
         "name": "weavile",
         "type_1": "dark",
@@ -8298,7 +8298,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b81c",
+        "_id": "631e1188299e38b65d080a92",
         "codigo": 462,
         "name": "magnezone",
         "type_1": "electric",
@@ -8316,7 +8316,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b81d",
+        "_id": "631e1188299e38b65d080a93",
         "codigo": 463,
         "name": "lickilicky",
         "type_1": "normal",
@@ -8334,7 +8334,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b81e",
+        "_id": "631e1188299e38b65d080a94",
         "codigo": 464,
         "name": "rhyperior",
         "type_1": "ground",
@@ -8352,7 +8352,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b81f",
+        "_id": "631e1188299e38b65d080a95",
         "codigo": 465,
         "name": "tangrowth",
         "type_1": "grass",
@@ -8370,7 +8370,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b820",
+        "_id": "631e1188299e38b65d080a96",
         "codigo": 466,
         "name": "electivire",
         "type_1": "electric",
@@ -8388,7 +8388,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b821",
+        "_id": "631e1188299e38b65d080a97",
         "codigo": 467,
         "name": "magmortar",
         "type_1": "fire",
@@ -8406,7 +8406,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b822",
+        "_id": "631e1188299e38b65d080a98",
         "codigo": 468,
         "name": "togekiss",
         "type_1": "fairy",
@@ -8424,7 +8424,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b823",
+        "_id": "631e1188299e38b65d080a99",
         "codigo": 469,
         "name": "yanmega",
         "type_1": "bug",
@@ -8442,7 +8442,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b824",
+        "_id": "631e1188299e38b65d080a9a",
         "codigo": 470,
         "name": "leafeon",
         "type_1": "grass",
@@ -8460,7 +8460,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b825",
+        "_id": "631e1188299e38b65d080a9b",
         "codigo": 471,
         "name": "glaceon",
         "type_1": "ice",
@@ -8478,7 +8478,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b826",
+        "_id": "631e1188299e38b65d080a9c",
         "codigo": 472,
         "name": "gliscor",
         "type_1": "ground",
@@ -8496,7 +8496,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b827",
+        "_id": "631e1188299e38b65d080a9d",
         "codigo": 473,
         "name": "mamoswine",
         "type_1": "ice",
@@ -8514,7 +8514,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b828",
+        "_id": "631e1188299e38b65d080a9e",
         "codigo": 474,
         "name": "porygon-z",
         "type_1": "normal",
@@ -8532,7 +8532,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b829",
+        "_id": "631e1188299e38b65d080a9f",
         "codigo": 475,
         "name": "gallade",
         "type_1": "psychic",
@@ -8550,7 +8550,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b82a",
+        "_id": "631e1188299e38b65d080aa0",
         "codigo": 476,
         "name": "probopass",
         "type_1": "rock",
@@ -8568,7 +8568,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b82b",
+        "_id": "631e1188299e38b65d080aa1",
         "codigo": 477,
         "name": "dusknoir",
         "type_1": "ghost",
@@ -8586,7 +8586,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b82c",
+        "_id": "631e1188299e38b65d080aa2",
         "codigo": 478,
         "name": "froslass",
         "type_1": "ice",
@@ -8604,7 +8604,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b82d",
+        "_id": "631e1188299e38b65d080aa3",
         "codigo": 479,
         "name": "rotom",
         "type_1": "electric",
@@ -8622,7 +8622,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b82e",
+        "_id": "631e1188299e38b65d080aa4",
         "codigo": 480,
         "name": "uxie",
         "type_1": "psychic",
@@ -8640,7 +8640,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b82f",
+        "_id": "631e1188299e38b65d080aa5",
         "codigo": 481,
         "name": "mesprit",
         "type_1": "psychic",
@@ -8658,7 +8658,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b830",
+        "_id": "631e1188299e38b65d080aa6",
         "codigo": 482,
         "name": "azelf",
         "type_1": "psychic",
@@ -8676,7 +8676,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b831",
+        "_id": "631e1188299e38b65d080aa7",
         "codigo": 483,
         "name": "dialga",
         "type_1": "steel",
@@ -8694,7 +8694,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b832",
+        "_id": "631e1188299e38b65d080aa8",
         "codigo": 484,
         "name": "palkia",
         "type_1": "water",
@@ -8712,7 +8712,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b833",
+        "_id": "631e1188299e38b65d080aa9",
         "codigo": 485,
         "name": "heatran",
         "type_1": "fire",
@@ -8730,7 +8730,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b834",
+        "_id": "631e1188299e38b65d080aaa",
         "codigo": 486,
         "name": "regigigas",
         "type_1": "normal",
@@ -8748,7 +8748,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b835",
+        "_id": "631e1188299e38b65d080aab",
         "codigo": 487,
         "name": "giratina-altered",
         "type_1": "ghost",
@@ -8766,7 +8766,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b836",
+        "_id": "631e1188299e38b65d080aac",
         "codigo": 488,
         "name": "cresselia",
         "type_1": "psychic",
@@ -8784,7 +8784,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b837",
+        "_id": "631e1188299e38b65d080aad",
         "codigo": 489,
         "name": "phione",
         "type_1": "water",
@@ -8802,7 +8802,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b838",
+        "_id": "631e1188299e38b65d080aae",
         "codigo": 490,
         "name": "manaphy",
         "type_1": "water",
@@ -8820,7 +8820,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b839",
+        "_id": "631e1188299e38b65d080aaf",
         "codigo": 491,
         "name": "darkrai",
         "type_1": "dark",
@@ -8838,7 +8838,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b83a",
+        "_id": "631e1188299e38b65d080ab0",
         "codigo": 492,
         "name": "shaymin-land",
         "type_1": "grass",
@@ -8856,7 +8856,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b83b",
+        "_id": "631e1188299e38b65d080ab1",
         "codigo": 493,
         "name": "arceus",
         "type_1": "normal",
@@ -8874,7 +8874,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b83c",
+        "_id": "631e1188299e38b65d080ab2",
         "codigo": 494,
         "name": "victini",
         "type_1": "psychic",
@@ -8892,7 +8892,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b83d",
+        "_id": "631e1188299e38b65d080ab3",
         "codigo": 495,
         "name": "snivy",
         "type_1": "grass",
@@ -8910,7 +8910,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b83e",
+        "_id": "631e1188299e38b65d080ab4",
         "codigo": 496,
         "name": "servine",
         "type_1": "grass",
@@ -8928,7 +8928,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b83f",
+        "_id": "631e1188299e38b65d080ab5",
         "codigo": 497,
         "name": "serperior",
         "type_1": "grass",
@@ -8946,7 +8946,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b840",
+        "_id": "631e1188299e38b65d080ab6",
         "codigo": 498,
         "name": "tepig",
         "type_1": "fire",
@@ -8964,7 +8964,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b841",
+        "_id": "631e1188299e38b65d080ab7",
         "codigo": 499,
         "name": "pignite",
         "type_1": "fire",
@@ -8982,7 +8982,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b842",
+        "_id": "631e1188299e38b65d080ab8",
         "codigo": 500,
         "name": "emboar",
         "type_1": "fire",
@@ -9000,7 +9000,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b843",
+        "_id": "631e1188299e38b65d080ab9",
         "codigo": 501,
         "name": "oshawott",
         "type_1": "water",
@@ -9018,7 +9018,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b844",
+        "_id": "631e1188299e38b65d080aba",
         "codigo": 502,
         "name": "dewott",
         "type_1": "water",
@@ -9036,7 +9036,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b845",
+        "_id": "631e1188299e38b65d080abb",
         "codigo": 503,
         "name": "samurott",
         "type_1": "water",
@@ -9054,7 +9054,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b846",
+        "_id": "631e1188299e38b65d080abc",
         "codigo": 504,
         "name": "patrat",
         "type_1": "normal",
@@ -9072,7 +9072,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b847",
+        "_id": "631e1188299e38b65d080abd",
         "codigo": 505,
         "name": "watchog",
         "type_1": "normal",
@@ -9090,7 +9090,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b848",
+        "_id": "631e1188299e38b65d080abe",
         "codigo": 506,
         "name": "lillipup",
         "type_1": "normal",
@@ -9108,7 +9108,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b849",
+        "_id": "631e1188299e38b65d080abf",
         "codigo": 507,
         "name": "herdier",
         "type_1": "normal",
@@ -9126,7 +9126,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b84a",
+        "_id": "631e1188299e38b65d080ac0",
         "codigo": 508,
         "name": "stoutland",
         "type_1": "normal",
@@ -9144,7 +9144,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b84b",
+        "_id": "631e1188299e38b65d080ac1",
         "codigo": 509,
         "name": "purrloin",
         "type_1": "dark",
@@ -9162,7 +9162,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b84c",
+        "_id": "631e1188299e38b65d080ac2",
         "codigo": 510,
         "name": "liepard",
         "type_1": "dark",
@@ -9180,7 +9180,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b84d",
+        "_id": "631e1188299e38b65d080ac3",
         "codigo": 511,
         "name": "pansage",
         "type_1": "grass",
@@ -9198,7 +9198,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b84e",
+        "_id": "631e1188299e38b65d080ac4",
         "codigo": 512,
         "name": "simisage",
         "type_1": "grass",
@@ -9216,7 +9216,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b84f",
+        "_id": "631e1188299e38b65d080ac5",
         "codigo": 513,
         "name": "pansear",
         "type_1": "fire",
@@ -9234,7 +9234,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b850",
+        "_id": "631e1188299e38b65d080ac6",
         "codigo": 514,
         "name": "simisear",
         "type_1": "fire",
@@ -9252,7 +9252,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b851",
+        "_id": "631e1188299e38b65d080ac7",
         "codigo": 515,
         "name": "panpour",
         "type_1": "water",
@@ -9270,7 +9270,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b852",
+        "_id": "631e1188299e38b65d080ac8",
         "codigo": 516,
         "name": "simipour",
         "type_1": "water",
@@ -9288,7 +9288,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b853",
+        "_id": "631e1188299e38b65d080ac9",
         "codigo": 517,
         "name": "munna",
         "type_1": "psychic",
@@ -9306,7 +9306,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b854",
+        "_id": "631e1188299e38b65d080aca",
         "codigo": 518,
         "name": "musharna",
         "type_1": "psychic",
@@ -9324,7 +9324,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b855",
+        "_id": "631e1188299e38b65d080acb",
         "codigo": 519,
         "name": "pidove",
         "type_1": "normal",
@@ -9342,7 +9342,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b856",
+        "_id": "631e1188299e38b65d080acc",
         "codigo": 520,
         "name": "tranquill",
         "type_1": "normal",
@@ -9360,7 +9360,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b857",
+        "_id": "631e1188299e38b65d080acd",
         "codigo": 521,
         "name": "unfezant",
         "type_1": "normal",
@@ -9378,7 +9378,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b858",
+        "_id": "631e1188299e38b65d080ace",
         "codigo": 522,
         "name": "blitzle",
         "type_1": "electric",
@@ -9396,7 +9396,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b859",
+        "_id": "631e1188299e38b65d080acf",
         "codigo": 523,
         "name": "zebstrika",
         "type_1": "electric",
@@ -9414,7 +9414,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b85a",
+        "_id": "631e1188299e38b65d080ad0",
         "codigo": 524,
         "name": "roggenrola",
         "type_1": "rock",
@@ -9432,7 +9432,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b85b",
+        "_id": "631e1188299e38b65d080ad1",
         "codigo": 525,
         "name": "boldore",
         "type_1": "rock",
@@ -9450,7 +9450,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b85c",
+        "_id": "631e1188299e38b65d080ad2",
         "codigo": 526,
         "name": "gigalith",
         "type_1": "rock",
@@ -9468,7 +9468,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b85d",
+        "_id": "631e1188299e38b65d080ad3",
         "codigo": 527,
         "name": "woobat",
         "type_1": "psychic",
@@ -9486,7 +9486,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b85e",
+        "_id": "631e1188299e38b65d080ad4",
         "codigo": 528,
         "name": "swoobat",
         "type_1": "psychic",
@@ -9504,7 +9504,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b85f",
+        "_id": "631e1188299e38b65d080ad5",
         "codigo": 529,
         "name": "drilbur",
         "type_1": "ground",
@@ -9522,7 +9522,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b860",
+        "_id": "631e1188299e38b65d080ad6",
         "codigo": 530,
         "name": "excadrill",
         "type_1": "ground",
@@ -9540,7 +9540,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b861",
+        "_id": "631e1188299e38b65d080ad7",
         "codigo": 531,
         "name": "audino",
         "type_1": "normal",
@@ -9558,7 +9558,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b862",
+        "_id": "631e1188299e38b65d080ad8",
         "codigo": 532,
         "name": "timburr",
         "type_1": "fighting",
@@ -9576,7 +9576,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b863",
+        "_id": "631e1188299e38b65d080ad9",
         "codigo": 533,
         "name": "gurdurr",
         "type_1": "fighting",
@@ -9594,7 +9594,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b864",
+        "_id": "631e1188299e38b65d080ada",
         "codigo": 534,
         "name": "conkeldurr",
         "type_1": "fighting",
@@ -9612,7 +9612,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b865",
+        "_id": "631e1188299e38b65d080adb",
         "codigo": 535,
         "name": "tympole",
         "type_1": "water",
@@ -9630,7 +9630,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b866",
+        "_id": "631e1188299e38b65d080adc",
         "codigo": 536,
         "name": "palpitoad",
         "type_1": "water",
@@ -9648,7 +9648,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b867",
+        "_id": "631e1188299e38b65d080add",
         "codigo": 537,
         "name": "seismitoad",
         "type_1": "water",
@@ -9666,7 +9666,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b868",
+        "_id": "631e1188299e38b65d080ade",
         "codigo": 538,
         "name": "throh",
         "type_1": "fighting",
@@ -9684,7 +9684,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b869",
+        "_id": "631e1188299e38b65d080adf",
         "codigo": 539,
         "name": "sawk",
         "type_1": "fighting",
@@ -9702,7 +9702,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b86a",
+        "_id": "631e1188299e38b65d080ae0",
         "codigo": 540,
         "name": "sewaddle",
         "type_1": "bug",
@@ -9720,7 +9720,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b86b",
+        "_id": "631e1188299e38b65d080ae1",
         "codigo": 541,
         "name": "swadloon",
         "type_1": "bug",
@@ -9738,7 +9738,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b86c",
+        "_id": "631e1188299e38b65d080ae2",
         "codigo": 542,
         "name": "leavanny",
         "type_1": "bug",
@@ -9756,7 +9756,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b86d",
+        "_id": "631e1188299e38b65d080ae3",
         "codigo": 543,
         "name": "venipede",
         "type_1": "bug",
@@ -9774,7 +9774,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b86e",
+        "_id": "631e1188299e38b65d080ae4",
         "codigo": 544,
         "name": "whirlipede",
         "type_1": "bug",
@@ -9792,7 +9792,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b86f",
+        "_id": "631e1188299e38b65d080ae5",
         "codigo": 545,
         "name": "scolipede",
         "type_1": "bug",
@@ -9810,7 +9810,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b870",
+        "_id": "631e1188299e38b65d080ae6",
         "codigo": 546,
         "name": "cottonee",
         "type_1": "grass",
@@ -9828,7 +9828,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b871",
+        "_id": "631e1188299e38b65d080ae7",
         "codigo": 547,
         "name": "whimsicott",
         "type_1": "grass",
@@ -9846,7 +9846,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b872",
+        "_id": "631e1188299e38b65d080ae8",
         "codigo": 548,
         "name": "petilil",
         "type_1": "grass",
@@ -9864,7 +9864,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b873",
+        "_id": "631e1188299e38b65d080ae9",
         "codigo": 549,
         "name": "lilligant",
         "type_1": "grass",
@@ -9882,7 +9882,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b874",
+        "_id": "631e1188299e38b65d080aea",
         "codigo": 550,
         "name": "basculin-red-striped",
         "type_1": "water",
@@ -9900,7 +9900,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b875",
+        "_id": "631e1188299e38b65d080aeb",
         "codigo": 551,
         "name": "sandile",
         "type_1": "ground",
@@ -9918,7 +9918,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b876",
+        "_id": "631e1188299e38b65d080aec",
         "codigo": 552,
         "name": "krokorok",
         "type_1": "ground",
@@ -9936,7 +9936,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b877",
+        "_id": "631e1188299e38b65d080aed",
         "codigo": 553,
         "name": "krookodile",
         "type_1": "ground",
@@ -9954,7 +9954,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b878",
+        "_id": "631e1188299e38b65d080aee",
         "codigo": 554,
         "name": "darumaka",
         "type_1": "fire",
@@ -9972,7 +9972,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b879",
+        "_id": "631e1188299e38b65d080aef",
         "codigo": 555,
         "name": "darmanitan-standard",
         "type_1": "fire",
@@ -9990,7 +9990,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b87a",
+        "_id": "631e1188299e38b65d080af0",
         "codigo": 556,
         "name": "maractus",
         "type_1": "grass",
@@ -10008,7 +10008,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b87b",
+        "_id": "631e1188299e38b65d080af1",
         "codigo": 557,
         "name": "dwebble",
         "type_1": "bug",
@@ -10026,7 +10026,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b87c",
+        "_id": "631e1188299e38b65d080af2",
         "codigo": 558,
         "name": "crustle",
         "type_1": "bug",
@@ -10044,7 +10044,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b87d",
+        "_id": "631e1188299e38b65d080af3",
         "codigo": 559,
         "name": "scraggy",
         "type_1": "dark",
@@ -10062,7 +10062,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b87e",
+        "_id": "631e1188299e38b65d080af4",
         "codigo": 560,
         "name": "scrafty",
         "type_1": "dark",
@@ -10080,7 +10080,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b87f",
+        "_id": "631e1188299e38b65d080af5",
         "codigo": 561,
         "name": "sigilyph",
         "type_1": "psychic",
@@ -10098,7 +10098,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b880",
+        "_id": "631e1188299e38b65d080af6",
         "codigo": 562,
         "name": "yamask",
         "type_1": "ghost",
@@ -10116,7 +10116,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b881",
+        "_id": "631e1188299e38b65d080af7",
         "codigo": 563,
         "name": "cofagrigus",
         "type_1": "ghost",
@@ -10134,7 +10134,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b882",
+        "_id": "631e1188299e38b65d080af8",
         "codigo": 564,
         "name": "tirtouga",
         "type_1": "water",
@@ -10152,7 +10152,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b883",
+        "_id": "631e1188299e38b65d080af9",
         "codigo": 565,
         "name": "carracosta",
         "type_1": "water",
@@ -10170,7 +10170,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b884",
+        "_id": "631e1188299e38b65d080afa",
         "codigo": 566,
         "name": "archen",
         "type_1": "rock",
@@ -10188,7 +10188,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b885",
+        "_id": "631e1188299e38b65d080afb",
         "codigo": 567,
         "name": "archeops",
         "type_1": "rock",
@@ -10206,7 +10206,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b886",
+        "_id": "631e1188299e38b65d080afc",
         "codigo": 568,
         "name": "trubbish",
         "type_1": "poison",
@@ -10224,7 +10224,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b887",
+        "_id": "631e1188299e38b65d080afd",
         "codigo": 569,
         "name": "garbodor",
         "type_1": "poison",
@@ -10242,7 +10242,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b888",
+        "_id": "631e1188299e38b65d080afe",
         "codigo": 570,
         "name": "zorua",
         "type_1": "dark",
@@ -10260,7 +10260,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b889",
+        "_id": "631e1188299e38b65d080aff",
         "codigo": 571,
         "name": "zoroark",
         "type_1": "dark",
@@ -10278,7 +10278,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b88a",
+        "_id": "631e1188299e38b65d080b00",
         "codigo": 572,
         "name": "minccino",
         "type_1": "normal",
@@ -10296,7 +10296,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b88b",
+        "_id": "631e1188299e38b65d080b01",
         "codigo": 573,
         "name": "cinccino",
         "type_1": "normal",
@@ -10314,7 +10314,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b88c",
+        "_id": "631e1188299e38b65d080b02",
         "codigo": 574,
         "name": "gothita",
         "type_1": "psychic",
@@ -10332,7 +10332,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b88d",
+        "_id": "631e1188299e38b65d080b03",
         "codigo": 575,
         "name": "gothorita",
         "type_1": "psychic",
@@ -10350,7 +10350,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b88e",
+        "_id": "631e1188299e38b65d080b04",
         "codigo": 576,
         "name": "gothitelle",
         "type_1": "psychic",
@@ -10368,7 +10368,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b88f",
+        "_id": "631e1188299e38b65d080b05",
         "codigo": 577,
         "name": "solosis",
         "type_1": "psychic",
@@ -10386,7 +10386,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b890",
+        "_id": "631e1188299e38b65d080b06",
         "codigo": 578,
         "name": "duosion",
         "type_1": "psychic",
@@ -10404,7 +10404,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b891",
+        "_id": "631e1188299e38b65d080b07",
         "codigo": 579,
         "name": "reuniclus",
         "type_1": "psychic",
@@ -10422,7 +10422,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b892",
+        "_id": "631e1188299e38b65d080b08",
         "codigo": 580,
         "name": "ducklett",
         "type_1": "water",
@@ -10440,7 +10440,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b893",
+        "_id": "631e1188299e38b65d080b09",
         "codigo": 581,
         "name": "swanna",
         "type_1": "water",
@@ -10458,7 +10458,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b894",
+        "_id": "631e1188299e38b65d080b0a",
         "codigo": 582,
         "name": "vanillite",
         "type_1": "ice",
@@ -10476,7 +10476,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b895",
+        "_id": "631e1188299e38b65d080b0b",
         "codigo": 583,
         "name": "vanillish",
         "type_1": "ice",
@@ -10494,7 +10494,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b896",
+        "_id": "631e1188299e38b65d080b0c",
         "codigo": 584,
         "name": "vanilluxe",
         "type_1": "ice",
@@ -10512,7 +10512,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b897",
+        "_id": "631e1188299e38b65d080b0d",
         "codigo": 585,
         "name": "deerling",
         "type_1": "normal",
@@ -10530,7 +10530,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b898",
+        "_id": "631e1188299e38b65d080b0e",
         "codigo": 586,
         "name": "sawsbuck",
         "type_1": "normal",
@@ -10548,7 +10548,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b899",
+        "_id": "631e1188299e38b65d080b0f",
         "codigo": 587,
         "name": "emolga",
         "type_1": "electric",
@@ -10566,7 +10566,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b89a",
+        "_id": "631e1188299e38b65d080b10",
         "codigo": 588,
         "name": "karrablast",
         "type_1": "bug",
@@ -10584,7 +10584,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b89b",
+        "_id": "631e1188299e38b65d080b11",
         "codigo": 589,
         "name": "escavalier",
         "type_1": "bug",
@@ -10602,7 +10602,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b89c",
+        "_id": "631e1188299e38b65d080b12",
         "codigo": 590,
         "name": "foongus",
         "type_1": "grass",
@@ -10620,7 +10620,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b89d",
+        "_id": "631e1188299e38b65d080b13",
         "codigo": 591,
         "name": "amoonguss",
         "type_1": "grass",
@@ -10638,7 +10638,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b89e",
+        "_id": "631e1188299e38b65d080b14",
         "codigo": 592,
         "name": "frillish",
         "type_1": "water",
@@ -10656,7 +10656,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b89f",
+        "_id": "631e1188299e38b65d080b15",
         "codigo": 593,
         "name": "jellicent",
         "type_1": "water",
@@ -10674,7 +10674,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a0",
+        "_id": "631e1188299e38b65d080b16",
         "codigo": 594,
         "name": "alomomola",
         "type_1": "water",
@@ -10692,7 +10692,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a1",
+        "_id": "631e1188299e38b65d080b17",
         "codigo": 595,
         "name": "joltik",
         "type_1": "bug",
@@ -10710,7 +10710,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a2",
+        "_id": "631e1188299e38b65d080b18",
         "codigo": 596,
         "name": "galvantula",
         "type_1": "bug",
@@ -10728,7 +10728,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a3",
+        "_id": "631e1188299e38b65d080b19",
         "codigo": 597,
         "name": "ferroseed",
         "type_1": "grass",
@@ -10746,7 +10746,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a4",
+        "_id": "631e1188299e38b65d080b1a",
         "codigo": 598,
         "name": "ferrothorn",
         "type_1": "grass",
@@ -10764,7 +10764,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a5",
+        "_id": "631e1188299e38b65d080b1b",
         "codigo": 599,
         "name": "klink",
         "type_1": "steel",
@@ -10782,7 +10782,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a6",
+        "_id": "631e1188299e38b65d080b1c",
         "codigo": 600,
         "name": "klang",
         "type_1": "steel",
@@ -10800,7 +10800,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a7",
+        "_id": "631e1188299e38b65d080b1d",
         "codigo": 601,
         "name": "klinklang",
         "type_1": "steel",
@@ -10818,7 +10818,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a8",
+        "_id": "631e1188299e38b65d080b1e",
         "codigo": 602,
         "name": "tynamo",
         "type_1": "electric",
@@ -10836,7 +10836,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8a9",
+        "_id": "631e1188299e38b65d080b1f",
         "codigo": 603,
         "name": "eelektrik",
         "type_1": "electric",
@@ -10854,7 +10854,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8aa",
+        "_id": "631e1188299e38b65d080b20",
         "codigo": 604,
         "name": "eelektross",
         "type_1": "electric",
@@ -10872,7 +10872,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ab",
+        "_id": "631e1188299e38b65d080b21",
         "codigo": 605,
         "name": "elgyem",
         "type_1": "psychic",
@@ -10890,7 +10890,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ac",
+        "_id": "631e1188299e38b65d080b22",
         "codigo": 606,
         "name": "beheeyem",
         "type_1": "psychic",
@@ -10908,7 +10908,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ad",
+        "_id": "631e1188299e38b65d080b23",
         "codigo": 607,
         "name": "litwick",
         "type_1": "ghost",
@@ -10926,7 +10926,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ae",
+        "_id": "631e1188299e38b65d080b24",
         "codigo": 608,
         "name": "lampent",
         "type_1": "ghost",
@@ -10944,7 +10944,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8af",
+        "_id": "631e1188299e38b65d080b25",
         "codigo": 609,
         "name": "chandelure",
         "type_1": "ghost",
@@ -10962,7 +10962,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b0",
+        "_id": "631e1188299e38b65d080b26",
         "codigo": 610,
         "name": "axew",
         "type_1": "dragon",
@@ -10980,7 +10980,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b1",
+        "_id": "631e1188299e38b65d080b27",
         "codigo": 611,
         "name": "fraxure",
         "type_1": "dragon",
@@ -10998,7 +10998,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b2",
+        "_id": "631e1188299e38b65d080b28",
         "codigo": 612,
         "name": "haxorus",
         "type_1": "dragon",
@@ -11016,7 +11016,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b3",
+        "_id": "631e1188299e38b65d080b29",
         "codigo": 613,
         "name": "cubchoo",
         "type_1": "ice",
@@ -11034,7 +11034,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b4",
+        "_id": "631e1188299e38b65d080b2a",
         "codigo": 614,
         "name": "beartic",
         "type_1": "ice",
@@ -11052,7 +11052,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b5",
+        "_id": "631e1188299e38b65d080b2b",
         "codigo": 615,
         "name": "cryogonal",
         "type_1": "ice",
@@ -11070,7 +11070,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b6",
+        "_id": "631e1188299e38b65d080b2c",
         "codigo": 616,
         "name": "shelmet",
         "type_1": "bug",
@@ -11088,7 +11088,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b7",
+        "_id": "631e1188299e38b65d080b2d",
         "codigo": 617,
         "name": "accelgor",
         "type_1": "bug",
@@ -11106,7 +11106,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b8",
+        "_id": "631e1188299e38b65d080b2e",
         "codigo": 618,
         "name": "stunfisk",
         "type_1": "ground",
@@ -11124,7 +11124,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8b9",
+        "_id": "631e1188299e38b65d080b2f",
         "codigo": 619,
         "name": "mienfoo",
         "type_1": "fighting",
@@ -11142,7 +11142,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ba",
+        "_id": "631e1188299e38b65d080b30",
         "codigo": 620,
         "name": "mienshao",
         "type_1": "fighting",
@@ -11160,7 +11160,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8bb",
+        "_id": "631e1188299e38b65d080b31",
         "codigo": 621,
         "name": "druddigon",
         "type_1": "dragon",
@@ -11178,7 +11178,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8bc",
+        "_id": "631e1188299e38b65d080b32",
         "codigo": 622,
         "name": "golett",
         "type_1": "ground",
@@ -11196,7 +11196,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8bd",
+        "_id": "631e1188299e38b65d080b33",
         "codigo": 623,
         "name": "golurk",
         "type_1": "ground",
@@ -11214,7 +11214,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8be",
+        "_id": "631e1188299e38b65d080b34",
         "codigo": 624,
         "name": "pawniard",
         "type_1": "dark",
@@ -11232,7 +11232,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8bf",
+        "_id": "631e1188299e38b65d080b35",
         "codigo": 625,
         "name": "bisharp",
         "type_1": "dark",
@@ -11250,7 +11250,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c0",
+        "_id": "631e1188299e38b65d080b36",
         "codigo": 626,
         "name": "bouffalant",
         "type_1": "normal",
@@ -11268,7 +11268,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c1",
+        "_id": "631e1188299e38b65d080b37",
         "codigo": 627,
         "name": "rufflet",
         "type_1": "normal",
@@ -11286,7 +11286,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c2",
+        "_id": "631e1188299e38b65d080b38",
         "codigo": 628,
         "name": "braviary",
         "type_1": "normal",
@@ -11304,7 +11304,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c3",
+        "_id": "631e1188299e38b65d080b39",
         "codigo": 629,
         "name": "vullaby",
         "type_1": "dark",
@@ -11322,7 +11322,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c4",
+        "_id": "631e1188299e38b65d080b3a",
         "codigo": 630,
         "name": "mandibuzz",
         "type_1": "dark",
@@ -11340,7 +11340,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c5",
+        "_id": "631e1188299e38b65d080b3b",
         "codigo": 631,
         "name": "heatmor",
         "type_1": "fire",
@@ -11358,7 +11358,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c6",
+        "_id": "631e1188299e38b65d080b3c",
         "codigo": 632,
         "name": "durant",
         "type_1": "bug",
@@ -11376,7 +11376,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c7",
+        "_id": "631e1188299e38b65d080b3d",
         "codigo": 633,
         "name": "deino",
         "type_1": "dark",
@@ -11394,7 +11394,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c8",
+        "_id": "631e1188299e38b65d080b3e",
         "codigo": 634,
         "name": "zweilous",
         "type_1": "dark",
@@ -11412,7 +11412,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c9",
+        "_id": "631e1188299e38b65d080b3f",
         "codigo": 635,
         "name": "hydreigon",
         "type_1": "dark",
@@ -11430,7 +11430,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ca",
+        "_id": "631e1188299e38b65d080b40",
         "codigo": 636,
         "name": "larvesta",
         "type_1": "bug",
@@ -11448,7 +11448,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8cb",
+        "_id": "631e1188299e38b65d080b41",
         "codigo": 637,
         "name": "volcarona",
         "type_1": "bug",
@@ -11466,7 +11466,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8cc",
+        "_id": "631e1188299e38b65d080b42",
         "codigo": 638,
         "name": "cobalion",
         "type_1": "steel",
@@ -11484,7 +11484,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8cd",
+        "_id": "631e1188299e38b65d080b43",
         "codigo": 639,
         "name": "terrakion",
         "type_1": "rock",
@@ -11502,7 +11502,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ce",
+        "_id": "631e1188299e38b65d080b44",
         "codigo": 640,
         "name": "virizion",
         "type_1": "grass",
@@ -11520,7 +11520,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8cf",
+        "_id": "631e1188299e38b65d080b45",
         "codigo": 641,
         "name": "tornadus-incarnate",
         "type_1": "flying",
@@ -11538,7 +11538,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d0",
+        "_id": "631e1188299e38b65d080b46",
         "codigo": 642,
         "name": "thundurus-incarnate",
         "type_1": "electric",
@@ -11556,7 +11556,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d1",
+        "_id": "631e1188299e38b65d080b47",
         "codigo": 643,
         "name": "reshiram",
         "type_1": "dragon",
@@ -11574,7 +11574,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d2",
+        "_id": "631e1188299e38b65d080b48",
         "codigo": 644,
         "name": "zekrom",
         "type_1": "dragon",
@@ -11592,7 +11592,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d3",
+        "_id": "631e1188299e38b65d080b49",
         "codigo": 645,
         "name": "landorus-incarnate",
         "type_1": "ground",
@@ -11610,7 +11610,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d4",
+        "_id": "631e1188299e38b65d080b4a",
         "codigo": 646,
         "name": "kyurem",
         "type_1": "dragon",
@@ -11628,7 +11628,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d5",
+        "_id": "631e1188299e38b65d080b4b",
         "codigo": 647,
         "name": "keldeo-ordinary",
         "type_1": "water",
@@ -11646,7 +11646,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d6",
+        "_id": "631e1188299e38b65d080b4c",
         "codigo": 648,
         "name": "meloetta-aria",
         "type_1": "normal",
@@ -11664,7 +11664,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d7",
+        "_id": "631e1188299e38b65d080b4d",
         "codigo": 649,
         "name": "genesect",
         "type_1": "bug",
@@ -11682,7 +11682,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d8",
+        "_id": "631e1188299e38b65d080b4e",
         "codigo": 650,
         "name": "chespin",
         "type_1": "grass",
@@ -11700,7 +11700,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d9",
+        "_id": "631e1188299e38b65d080b4f",
         "codigo": 651,
         "name": "quilladin",
         "type_1": "grass",
@@ -11718,7 +11718,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8da",
+        "_id": "631e1188299e38b65d080b50",
         "codigo": 652,
         "name": "chesnaught",
         "type_1": "grass",
@@ -11736,7 +11736,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8db",
+        "_id": "631e1188299e38b65d080b51",
         "codigo": 653,
         "name": "fennekin",
         "type_1": "fire",
@@ -11754,7 +11754,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8dc",
+        "_id": "631e1188299e38b65d080b52",
         "codigo": 654,
         "name": "braixen",
         "type_1": "fire",
@@ -11772,7 +11772,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8dd",
+        "_id": "631e1188299e38b65d080b53",
         "codigo": 655,
         "name": "delphox",
         "type_1": "fire",
@@ -11790,7 +11790,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8de",
+        "_id": "631e1188299e38b65d080b54",
         "codigo": 656,
         "name": "froakie",
         "type_1": "water",
@@ -11808,7 +11808,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8df",
+        "_id": "631e1188299e38b65d080b55",
         "codigo": 657,
         "name": "frogadier",
         "type_1": "water",
@@ -11826,7 +11826,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e0",
+        "_id": "631e1188299e38b65d080b56",
         "codigo": 658,
         "name": "greninja",
         "type_1": "water",
@@ -11844,7 +11844,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e1",
+        "_id": "631e1188299e38b65d080b57",
         "codigo": 659,
         "name": "bunnelby",
         "type_1": "normal",
@@ -11862,7 +11862,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e2",
+        "_id": "631e1188299e38b65d080b58",
         "codigo": 660,
         "name": "diggersby",
         "type_1": "normal",
@@ -11880,7 +11880,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e3",
+        "_id": "631e1188299e38b65d080b59",
         "codigo": 661,
         "name": "fletchling",
         "type_1": "normal",
@@ -11898,7 +11898,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e4",
+        "_id": "631e1188299e38b65d080b5a",
         "codigo": 662,
         "name": "fletchinder",
         "type_1": "fire",
@@ -11916,7 +11916,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e5",
+        "_id": "631e1188299e38b65d080b5b",
         "codigo": 663,
         "name": "talonflame",
         "type_1": "fire",
@@ -11934,7 +11934,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e6",
+        "_id": "631e1188299e38b65d080b5c",
         "codigo": 664,
         "name": "scatterbug",
         "type_1": "bug",
@@ -11952,7 +11952,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e7",
+        "_id": "631e1188299e38b65d080b5d",
         "codigo": 665,
         "name": "spewpa",
         "type_1": "bug",
@@ -11970,7 +11970,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e8",
+        "_id": "631e1188299e38b65d080b5e",
         "codigo": 666,
         "name": "vivillon",
         "type_1": "bug",
@@ -11988,7 +11988,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e9",
+        "_id": "631e1188299e38b65d080b5f",
         "codigo": 667,
         "name": "litleo",
         "type_1": "fire",
@@ -12006,7 +12006,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ea",
+        "_id": "631e1188299e38b65d080b60",
         "codigo": 668,
         "name": "pyroar",
         "type_1": "fire",
@@ -12024,7 +12024,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8eb",
+        "_id": "631e1188299e38b65d080b61",
         "codigo": 669,
         "name": "flabebe",
         "type_1": "fairy",
@@ -12042,7 +12042,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ec",
+        "_id": "631e1188299e38b65d080b62",
         "codigo": 670,
         "name": "floette",
         "type_1": "fairy",
@@ -12060,7 +12060,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ed",
+        "_id": "631e1188299e38b65d080b63",
         "codigo": 671,
         "name": "florges",
         "type_1": "fairy",
@@ -12078,7 +12078,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ee",
+        "_id": "631e1188299e38b65d080b64",
         "codigo": 672,
         "name": "skiddo",
         "type_1": "grass",
@@ -12096,7 +12096,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ef",
+        "_id": "631e1188299e38b65d080b65",
         "codigo": 673,
         "name": "gogoat",
         "type_1": "grass",
@@ -12114,7 +12114,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f0",
+        "_id": "631e1188299e38b65d080b66",
         "codigo": 674,
         "name": "pancham",
         "type_1": "fighting",
@@ -12132,7 +12132,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f1",
+        "_id": "631e1188299e38b65d080b67",
         "codigo": 675,
         "name": "pangoro",
         "type_1": "fighting",
@@ -12150,7 +12150,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f2",
+        "_id": "631e1188299e38b65d080b68",
         "codigo": 676,
         "name": "furfrou",
         "type_1": "normal",
@@ -12168,7 +12168,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f3",
+        "_id": "631e1188299e38b65d080b69",
         "codigo": 677,
         "name": "espurr",
         "type_1": "psychic",
@@ -12186,7 +12186,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f4",
+        "_id": "631e1188299e38b65d080b6a",
         "codigo": 678,
         "name": "meowstic-male",
         "type_1": "psychic",
@@ -12204,7 +12204,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f5",
+        "_id": "631e1188299e38b65d080b6b",
         "codigo": 679,
         "name": "honedge",
         "type_1": "steel",
@@ -12222,7 +12222,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f6",
+        "_id": "631e1188299e38b65d080b6c",
         "codigo": 680,
         "name": "doublade",
         "type_1": "steel",
@@ -12240,7 +12240,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f7",
+        "_id": "631e1188299e38b65d080b6d",
         "codigo": 681,
         "name": "aegislash-shield",
         "type_1": "steel",
@@ -12258,7 +12258,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f8",
+        "_id": "631e1188299e38b65d080b6e",
         "codigo": 682,
         "name": "spritzee",
         "type_1": "fairy",
@@ -12276,7 +12276,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8f9",
+        "_id": "631e1188299e38b65d080b6f",
         "codigo": 683,
         "name": "aromatisse",
         "type_1": "fairy",
@@ -12294,7 +12294,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8fa",
+        "_id": "631e1188299e38b65d080b70",
         "codigo": 684,
         "name": "swirlix",
         "type_1": "fairy",
@@ -12312,7 +12312,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8fb",
+        "_id": "631e1188299e38b65d080b71",
         "codigo": 685,
         "name": "slurpuff",
         "type_1": "fairy",
@@ -12330,7 +12330,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8fc",
+        "_id": "631e1188299e38b65d080b72",
         "codigo": 686,
         "name": "inkay",
         "type_1": "dark",
@@ -12348,7 +12348,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8fd",
+        "_id": "631e1188299e38b65d080b73",
         "codigo": 687,
         "name": "malamar",
         "type_1": "dark",
@@ -12366,7 +12366,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8fe",
+        "_id": "631e1188299e38b65d080b74",
         "codigo": 688,
         "name": "binacle",
         "type_1": "rock",
@@ -12384,7 +12384,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ff",
+        "_id": "631e1188299e38b65d080b75",
         "codigo": 689,
         "name": "barbaracle",
         "type_1": "rock",
@@ -12402,7 +12402,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b900",
+        "_id": "631e1188299e38b65d080b76",
         "codigo": 690,
         "name": "skrelp",
         "type_1": "poison",
@@ -12420,7 +12420,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b901",
+        "_id": "631e1188299e38b65d080b77",
         "codigo": 691,
         "name": "dragalge",
         "type_1": "poison",
@@ -12438,7 +12438,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b902",
+        "_id": "631e1188299e38b65d080b78",
         "codigo": 692,
         "name": "clauncher",
         "type_1": "water",
@@ -12456,7 +12456,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b903",
+        "_id": "631e1188299e38b65d080b79",
         "codigo": 693,
         "name": "clawitzer",
         "type_1": "water",
@@ -12474,7 +12474,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b904",
+        "_id": "631e1188299e38b65d080b7a",
         "codigo": 694,
         "name": "helioptile",
         "type_1": "electric",
@@ -12492,7 +12492,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b905",
+        "_id": "631e1188299e38b65d080b7b",
         "codigo": 695,
         "name": "heliolisk",
         "type_1": "electric",
@@ -12510,7 +12510,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b906",
+        "_id": "631e1188299e38b65d080b7c",
         "codigo": 696,
         "name": "tyrunt",
         "type_1": "rock",
@@ -12528,7 +12528,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b907",
+        "_id": "631e1188299e38b65d080b7d",
         "codigo": 697,
         "name": "tyrantrum",
         "type_1": "rock",
@@ -12546,7 +12546,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b908",
+        "_id": "631e1188299e38b65d080b7e",
         "codigo": 698,
         "name": "amaura",
         "type_1": "rock",
@@ -12564,7 +12564,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b909",
+        "_id": "631e1188299e38b65d080b7f",
         "codigo": 699,
         "name": "aurorus",
         "type_1": "rock",
@@ -12582,7 +12582,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b90a",
+        "_id": "631e1188299e38b65d080b80",
         "codigo": 700,
         "name": "sylveon",
         "type_1": "fairy",
@@ -12600,7 +12600,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b90b",
+        "_id": "631e1188299e38b65d080b81",
         "codigo": 701,
         "name": "hawlucha",
         "type_1": "fighting",
@@ -12618,7 +12618,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b90c",
+        "_id": "631e1188299e38b65d080b82",
         "codigo": 702,
         "name": "dedenne",
         "type_1": "electric",
@@ -12636,7 +12636,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b90d",
+        "_id": "631e1188299e38b65d080b83",
         "codigo": 703,
         "name": "carbink",
         "type_1": "rock",
@@ -12654,7 +12654,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b90e",
+        "_id": "631e1188299e38b65d080b84",
         "codigo": 704,
         "name": "goomy",
         "type_1": "dragon",
@@ -12672,7 +12672,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b90f",
+        "_id": "631e1188299e38b65d080b85",
         "codigo": 705,
         "name": "sliggoo",
         "type_1": "dragon",
@@ -12690,7 +12690,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b910",
+        "_id": "631e1188299e38b65d080b86",
         "codigo": 706,
         "name": "goodra",
         "type_1": "dragon",
@@ -12708,7 +12708,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b911",
+        "_id": "631e1188299e38b65d080b87",
         "codigo": 707,
         "name": "klefki",
         "type_1": "steel",
@@ -12726,7 +12726,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b912",
+        "_id": "631e1188299e38b65d080b88",
         "codigo": 708,
         "name": "phantump",
         "type_1": "ghost",
@@ -12744,7 +12744,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b913",
+        "_id": "631e1188299e38b65d080b89",
         "codigo": 709,
         "name": "trevenant",
         "type_1": "ghost",
@@ -12762,7 +12762,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b914",
+        "_id": "631e1188299e38b65d080b8a",
         "codigo": 710,
         "name": "pumpkaboo-average",
         "type_1": "ghost",
@@ -12780,7 +12780,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b915",
+        "_id": "631e1188299e38b65d080b8b",
         "codigo": 711,
         "name": "gourgeist-average",
         "type_1": "ghost",
@@ -12798,7 +12798,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b916",
+        "_id": "631e1188299e38b65d080b8c",
         "codigo": 712,
         "name": "bergmite",
         "type_1": "ice",
@@ -12816,7 +12816,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b917",
+        "_id": "631e1188299e38b65d080b8d",
         "codigo": 713,
         "name": "avalugg",
         "type_1": "ice",
@@ -12834,7 +12834,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b918",
+        "_id": "631e1188299e38b65d080b8e",
         "codigo": 714,
         "name": "noibat",
         "type_1": "flying",
@@ -12852,7 +12852,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b919",
+        "_id": "631e1188299e38b65d080b8f",
         "codigo": 715,
         "name": "noivern",
         "type_1": "flying",
@@ -12870,7 +12870,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b91a",
+        "_id": "631e1188299e38b65d080b90",
         "codigo": 716,
         "name": "xerneas",
         "type_1": "fairy",
@@ -12888,7 +12888,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b91b",
+        "_id": "631e1188299e38b65d080b91",
         "codigo": 717,
         "name": "yveltal",
         "type_1": "dark",
@@ -12906,7 +12906,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b91c",
+        "_id": "631e1188299e38b65d080b92",
         "codigo": 718,
         "name": "zygarde",
         "type_1": "dragon",
@@ -12924,7 +12924,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b91d",
+        "_id": "631e1188299e38b65d080b93",
         "codigo": 719,
         "name": "diancie",
         "type_1": "rock",
@@ -12942,7 +12942,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b91e",
+        "_id": "631e1188299e38b65d080b94",
         "codigo": 720,
         "name": "hoopa",
         "type_1": "psychic",
@@ -12960,7 +12960,7 @@ allPokemons = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b91f",
+        "_id": "631e1188299e38b65d080b95",
         "codigo": 721,
         "name": "volcanion",
         "type_1": "fire",
@@ -12977,6 +12977,7 @@ allPokemons = [
         "total": 600,
         "__v": 0
     }
-]
+] 
+
 
 module.exports = allPokemons
