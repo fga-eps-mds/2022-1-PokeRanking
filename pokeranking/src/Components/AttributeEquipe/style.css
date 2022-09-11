@@ -1,0 +1,25 @@
+.attribute-wraper-equipe {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.attribute-line-equipe {
+  display: flex;
+  gap: 15px;
+}
+
+.percentage-bar-equipe {
+  display: flex;
+  border: 2px solid rgb(61, 61, 61);
+}
+
+.percentage {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid rgb(61, 61, 61);
+  color: white;
+}
