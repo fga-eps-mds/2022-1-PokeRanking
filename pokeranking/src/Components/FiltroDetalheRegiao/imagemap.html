@@ -8,7 +8,14 @@
                document.myform.stage.value = name
             }
 
+            function hover(name) {
+               document.getElementById(name).style.backgroundColor = "#FF0000";
+               document.getElementById(name).style.visibility = "visible";
+            }     
+
       </script>
+
+
    </head>
    
    <body>
@@ -19,14 +26,17 @@
     <img src="mapa-sem-nome.png" usemap="#image-map">
 
     <map name="image-map">
-
-
-        <area target="" 
+  
+          <!--    href="javascript:showTutorial('Rio de Janeiro')" 
+  -->  
+        <area target=""
         alt="hoenn" 
         title="hoenn" 
         href="regiao-hoenn" 
         coords="467,493,439,481,411,489,427,545,427,568,403,584,396,624,388,644,399,692,427,704,447,712,463,739,479,759,427,831,423,863,471,867,499,875,531,879,582,886,618,886,658,886,694,871,737,859,769,819,813,791,837,815,873,843,912,847,940,847,972,839,996,831,1008,807,1051,791,1091,783,1123,795,1147,815,1147,759,1135,712,1095,688,1083,656,1075,632,1051,604,948,576,912,549,873,521,825,505,757,489,702,477,622,465,578,437,523,457,491,465" 
-        onMouseOver="showTutorial('hoenn')"
+        onMouseOver="hover('hoenn')"
+        onMouseOut="hover('hoenn')"
+        onClick="showTutorial('hoenn')"
         shape="poly">
 
         <area target="" 

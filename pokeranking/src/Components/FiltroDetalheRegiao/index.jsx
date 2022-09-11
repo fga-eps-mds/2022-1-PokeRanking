@@ -4,9 +4,14 @@ function FiltroDetalheRegiao() {
   
     return (
       <ul className="bodyFiltroDetalhesRegiao">
-      <div className="Tipos">
+      <div className="Mapa">
 
-        <p>Mapa Pokemon</p>
+      <imagemap className="html">
+      <area shape="rect" coords="0,0,100,100" href="https://www.google.com.br/" alt="Google" />
+      
+      </imagemap>
+
+     
 
       </div>
     </ul>
