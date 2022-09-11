@@ -1,5 +1,6 @@
 const { Ordenacao_de_pokemon_por_status } = require('../Controller/services/Ordenacao_de_pokemon_por_status')
 const { Validacao_de_tipo_pokemon } = require('../Controller/services/Validacao_de_tipo_pokemon')
+const { Validacao_de_geracao_pokemon } = require('../Controller/services/Validacao_de_geracao_pokemon')
 
 describe("testes unitários de funções", () => {
     describe("função: Ordenacao_de_pokemon_por_status", () => {
@@ -32,5 +33,20 @@ describe("testes unitários de funções", () => {
 
             expect(response).toStrictEqual(false)
         });
-    })
+    });
+    describe("função: Validacao_de_geracao_pokemon", () => {
+        it("deve retornar um status igual a true, caso a geração de pokemon buscada seja validada", async () => {
+            let geracao = 3;
+            const response = Validacao_de_geracao_pokemon(geracao)
+
+            expect(response).toStrictEqual(true)
+        });
+
+        it("ERRO: deve retornar um status igual a false, caso a geração de pokemon buscada seja inexistente", async () => {
+            let geracao = 8;
+            const response = Validacao_de_geracao_pokemon(geracao)
+
+            expect(response).toStrictEqual(false)
+        });
+    });
 })

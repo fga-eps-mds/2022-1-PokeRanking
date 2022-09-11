@@ -6,6 +6,7 @@ const allPokemons = require('./mocks/allPokemons')
 const pokemon_001 = require('./mocks/pokemon_001')
 const pokemons_type_ranking = require('./mocks/pokemon_type_ranking')
 const pokemon_type = require('./mocks/pokemon_type')
+const pokemon_generation = require('./mocks/pokemon_generation')
 
 beforeAll(done => {
     done()
@@ -45,6 +46,14 @@ describe("listagem de pokemons", () => {
 
         expect(response.statusCode).toEqual(200)
         expect(response.body).toStrictEqual(pokemon_type)
+    });
+
+    it("deve ser possivel visualizar todas as criaturas dado um numero de geracao", async () => {
+
+        const response = await request(app).get("/criaturas/geracao/1")
+
+        expect(response.statusCode).toEqual(200)
+        expect(response.body).toStrictEqual(pokemon_generation)
     });
 
     it("deve ser possivel visualizar todas as criaturas por ranking de atributo e dado um de mesmo tipo", async () => {
