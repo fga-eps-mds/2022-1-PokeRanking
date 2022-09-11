@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import Card from "../../Components/Card";
 import Attribute from "../../Components/Attribute";
 
-function CompararAtual() {
+function Comparar() {
   const [pokemonData, setPokemonData] = useState([]);
   const [firstPokemon, setFirstPokemon] = useState({});
   const [secondPokemon, setSecondPokemon] = useState({});
@@ -17,6 +17,14 @@ function CompararAtual() {
       .then((data) => setPokemonData(data));
   }, []);
 
+  const verify = () => {
+    if (
+      Object.keys(firstPokemon).length !== 0 &&
+      Object.keys(secondPokemon).length !== 0
+    )
+      setCompare(true);
+  };
+
   return (
     <div className="comparar-page">
       <div className="card-wraper">
@@ -27,14 +35,13 @@ function CompararAtual() {
           cardName="Primeiro Pokemon"
         />
         <button
-          className="comparar-button"
-          onClick={() => {
-            if (
-              Object.keys(firstPokemon).length !== 0 &&
-              Object.keys(secondPokemon).length !== 0
-            )
-              setCompare(true);
-          }}
+          className={
+            Object.keys(firstPokemon).length !== 0 &&
+            Object.keys(secondPokemon).length !== 0
+              ? "comparar-button"
+              : "display-none"
+          }
+          onClick={verify}
         >
           Comparar
         </button>
@@ -50,20 +57,8 @@ function CompararAtual() {
         secondPokemon={secondPokemon}
         compare={compare}
       />
-      {/* <button
-        className="comparar-button"
-        onClick={() => {
-          if (
-            Object.keys(firstPokemon).length !== 0 &&
-            Object.keys(secondPokemon).length !== 0
-          )
-            setCompare(true);
-        }}
-      >
-        Comparar
-      </button> */}
     </div>
   );
 }
 
-export default CompararAtual;
+export default Comparar;
