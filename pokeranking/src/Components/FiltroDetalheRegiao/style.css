@@ -1,21 +1,21 @@
 .bodyFiltroDetalhesRegiao {
-    height: 680px;
-    width: 1595px;
-    margin: auto;
-    margin-bottom: 22px;
-    margin-top: 22px;
-    background: linear-gradient(to right, rgb(82, 74, 74), rgb(136, 128, 128), rgb(82, 74, 74));
-  
-    font: normal 30px Arial;
-    line-height: 60px;
-    text-align: center;
-    color: black;
-  
-    border-right: 3px solid black;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    border-top: 3px solid black;
-    border-radius: 30px 30px 30px 30px;
-  
-    box-shadow: inset 0px 0px 10px #000;
+  height: 680px;
+  width: 1595px;
+  margin: auto;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  background: rgb(136, 128, 128);
+
+  font: normal 30px Arial;
+  line-height: 60px;
+  text-align: center;
+  color: black;
+
+  /* border-right: 3px solid black;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  border-radius: 30px 30px 30px 30px; */
+
+  /* box-shadow: inset 0px 0px 10px #000; */
 }

@@ -1,6 +1,7 @@
 .search-card {
   font-family: "Roboto", sans-serif;
   background-color: #ffece4;
+  background-color: #d8dbe2;
   width: 344.74px;
   height: 376.67px;
   border-radius: 10px;
@@ -24,7 +25,7 @@
 .search-input {
   width: 225px;
   padding: 12px;
-  background: #ffece4;
+  background: #d8dbe2;
   border-radius: 2px;
   outline: none;
   color: #222222;
@@ -46,13 +47,15 @@
 .search-input:focus + .placeholder,
 .search-input:not(:placeholder-shown) + .placeholder {
   top: -10px;
-  background-color: #ffece4;
+  background-color: #d8dbe2;
 }
 
 .adicionar-button {
   background-color: #222222;
+  background-color: #a9bcd0;
   border: none;
   color: #ffece4;
+  color: #222222;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -60,6 +63,7 @@
   font-size: large;
   cursor: pointer;
   border-radius: 25px;
+  border: 1px solid #222222;
 }
 
 .remover-button {

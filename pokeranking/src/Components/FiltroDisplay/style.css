@@ -1,12 +1,5 @@
 .bodyFiltro {
   min-height: 65px;
-  background: linear-gradient(
-    to top,
-    rgb(56, 56, 56),
-    rgb(95, 95, 95),
-    rgb(56, 56, 56)
-  );
-  /* background: #a9bcd0; */
 
   font: normal 30px Arial;
   text-align: center;
@@ -17,8 +10,8 @@
   margin-bottom: 0px;
 
   box-shadow: inset 0px 0px 10px #000;
-  /* margin-top: 65px; */
-  /* background: #58a4b0; */
+
+  background: rgb(136, 128, 128);
 }
 
 .filtro {
@@ -57,7 +50,9 @@
   width: 265px;
   height: 45px;
   background: linear-gradient(to top, #2f1212, #c63838, #2f1212);
+  background: #daa49a;
   text-align: center;
+  color: #000;
 
   border: 2px solid black;
   border-radius: 50px;
