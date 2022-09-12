@@ -11,7 +11,7 @@ function FiltroDetalheTipo(props) {
         {FiltroTipoData.map((item, index) => {
           return (
             <Link to={item.path} style={{ textDecoration: 'none', color: 'black' }}>
-              <li key={index} className={item.Cname} onClick={() => props.alteraFiltro(item.pathAPI)}>
+              <li key={index} className={item.Cname} onClick={() => { props.alteraFiltro(item.pathAPI) ; props.setShowElement("") }}>
                 <img src={item.icon} alt={""} />
                 <span>{item.title}</span>
               </li>

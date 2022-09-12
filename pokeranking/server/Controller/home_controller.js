@@ -42,6 +42,7 @@ module.exports = {
             */
             let pokemon = await Criatura
 
+            // eslint-disable-next-line eqeqeq
             if (juiz == true) {
                 pokemon = await Criatura.findOne({ name: id })
             } else {
@@ -152,6 +153,7 @@ module.exports = {
             * NA = nao tem um valor de "tipo" a ser buscado. Ele
             * engloba todas as criaturas.
             */
+            // eslint-disable-next-line eqeqeq
             if (type != "NA") {
                 const pokemons = await Criatura.find({
                     $or: [
