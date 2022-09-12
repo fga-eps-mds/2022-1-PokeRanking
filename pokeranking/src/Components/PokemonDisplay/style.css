@@ -1,9 +1,5 @@
 body {
   background: #020202;
-  /*
-  Colocar uma imagem de fundo no site.
-  background: url();
-  */
   background: linear-gradient(to bottom, #3b859d, #63337a);
   color: rgb(0, 0, 0);
   margin: 0;
@@ -22,13 +18,12 @@ h1 {
 
 .display-container {
   width: 1589px;
-  background: white;
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   margin-left: auto;
   margin-right: auto;
   margin-top: 22px;
   margin-bottom: 22px;
-  padding-top: 22px;
-  padding-bottom: 22px;
   border: 3px solid black;
   border-radius: 30px;
 }
@@ -40,6 +35,8 @@ h1 {
   justify-content: center;
   align-items: stretch;
   gap: 22px;
+  padding-top: 22px;
+  border-radius: 30px;
   background-color: white;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
 }
@@ -190,6 +187,10 @@ h1 {
   flex-direction: row;
   justify-content: center;
   padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
 }
 
 .mostrar-mais-button {
