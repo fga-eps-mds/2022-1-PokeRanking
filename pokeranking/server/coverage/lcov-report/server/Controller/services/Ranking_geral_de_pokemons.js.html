@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for server/Controller/services/Ranking_de_pokemon_por_atributo.js</title>
+    <title>Code coverage report for server/Controller/services/Ranking_geral_de_pokemons.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../../prettify.css" />
     <link rel="stylesheet" href="../../../base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../../index.html">All files</a> / <a href="index.html">server/Controller/services</a> Ranking_de_pokemon_por_atributo.js</h1>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">server/Controller/services</a> Ranking_geral_de_pokemons.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">65.11% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>35/35</span>
+                <span class='fraction'>28/43</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>2/4</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">65.11% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>35/35</span>
+                <span class='fraction'>28/43</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -97,7 +97,15 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -109,61 +117,77 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">//acessa o model de criaturas
 const Criatura = require('../../Models/Criatura');
 &nbsp;
 module.exports = {
-    async Ranking_de_pokemon_por_atributo(pokemon) {
+    async Ranking_geral_de_pokemons(ordenacao, type, geracao) {
 &nbsp;
-        /* 
-        *  O metodo busca os pokemons com valor de atributo superior ao do pokemon selecionado.
+        /*
+        * NA = nao tem um valor de "tipo" a ser buscado. Ele
+        * engloba todas as criaturas.
         */
-        let comparacao_total = await Criatura.find({ total: { $gt: `${pokemon.total}` } }).distinct("total")
-        let comparacao_attack = await Criatura.find({ attack: { $gt: `${pokemon.attack}` } }).distinct("attack")
-        let comparacao_defense = await Criatura.find({ defense: { $gt: `${pokemon.defense}` } }).distinct("defense")
-        let comparacao_hp = await Criatura.find({ hp: { $gt: `${pokemon.hp}` } }).distinct("hp")
-        let comparacao_special_attack = await Criatura.find({ special_attack: { $gt: `${pokemon.special_attack}` } }).distinct("special_attack")
-        let comparacao_special_defense = await Criatura.find({ special_defense: { $gt: `${pokemon.special_defense}` } }).distinct("special_defense")
-        let comparacao_speed = await Criatura.find({ speed: { $gt: `${pokemon.speed}` } }).distinct("speed")
-&nbsp;
-        /*  
-        * -&gt; A variavel de (comparacao_atributo.length + 1) recebe a qtde de criaturas 
-        * a frente do pokemon selecionado.  
-        * -&gt; O array JSON "Ranking" unifica as colocacoes do pokemon em cada atributo
-        */
-        let Ranking = {
-            "colocado_total": `${(comparacao_total.length + 1)}`,
-            "colocado_attack": `${(comparacao_attack.length + 1)}`,
-            "colocado_defense": `${(comparacao_defense.length + 1)}`,
-            "colocado_hp": `${(comparacao_hp.length + 1)}`,
-            "colocado_special_attack": `${(comparacao_special_attack.length + 1)}`,
-            "colocado_special_defense": `${(comparacao_special_defense.length + 1)}`,
-            "colocado_speed": `${(comparacao_speed.length + 1)}`
+       
+        if (geracao != 0) {
+            if (type != "NA") <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >                const pokemons = await Criatura.find({</span>
+<span class="cstat-no" title="statement not covered" >                    $or: [</span>
+<span class="cstat-no" title="statement not covered" >                        { "type_1": `${type}` },</span>
+<span class="cstat-no" title="statement not covered" >                        { "type_2": `${type}` },</span>
+<span class="cstat-no" title="statement not covered" >                    ],</span>
+<span class="cstat-no" title="statement not covered" >                    "generation": `${geracao}`</span>
+<span class="cstat-no" title="statement not covered" >                }).sort(ordenacao)</span>
+<span class="cstat-no" title="statement not covered" >                return pokemons;</span>
+            } else {
+                const pokemons = await Criatura.find({ "generation": `${geracao}` })
+                    .sort(ordenacao)
+                return pokemons;
+            }
+        } else {
+            if (type != "NA") <span class="branch-0 cbranch-no" title="branch not covered" >{</span>
+<span class="cstat-no" title="statement not covered" >                const pokemons = await Criatura.find({</span>
+<span class="cstat-no" title="statement not covered" >                    $or: [</span>
+<span class="cstat-no" title="statement not covered" >                        { "type_1": `${type}` },</span>
+<span class="cstat-no" title="statement not covered" >                        { "type_2": `${type}` },</span>
+<span class="cstat-no" title="statement not covered" >                    ],</span>
+<span class="cstat-no" title="statement not covered" >                }).sort(ordenacao)</span>
+<span class="cstat-no" title="statement not covered" >                return pokemons;</span>
+            } else {
+                const pokemons = await Criatura.find().sort(ordenacao)
+                return pokemons;
+            }
         }
 &nbsp;
-        return Ranking
     }
 }</pre></td></tr></table></pre>
 

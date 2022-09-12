@@ -1,6 +1,6 @@
 const pokemon_generation = [
     {
-        "_id": "62f57bc978902fc16628b64f",
+        "_id": "631e1188299e38b65d0808c5",
         "codigo": 1,
         "name": "bulbasaur",
         "type_1": "grass",
@@ -18,7 +18,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b650",
+        "_id": "631e1188299e38b65d0808c6",
         "codigo": 2,
         "name": "ivysaur",
         "type_1": "grass",
@@ -36,7 +36,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b651",
+        "_id": "631e1188299e38b65d0808c7",
         "codigo": 3,
         "name": "venusaur",
         "type_1": "grass",
@@ -54,7 +54,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b652",
+        "_id": "631e1188299e38b65d0808c8",
         "codigo": 4,
         "name": "charmander",
         "type_1": "fire",
@@ -72,7 +72,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b653",
+        "_id": "631e1188299e38b65d0808c9",
         "codigo": 5,
         "name": "charmeleon",
         "type_1": "fire",
@@ -90,7 +90,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b654",
+        "_id": "631e1188299e38b65d0808ca",
         "codigo": 6,
         "name": "charizard",
         "type_1": "fire",
@@ -108,7 +108,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b655",
+        "_id": "631e1188299e38b65d0808cb",
         "codigo": 7,
         "name": "squirtle",
         "type_1": "water",
@@ -126,7 +126,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b656",
+        "_id": "631e1188299e38b65d0808cc",
         "codigo": 8,
         "name": "wartortle",
         "type_1": "water",
@@ -144,7 +144,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b657",
+        "_id": "631e1188299e38b65d0808cd",
         "codigo": 9,
         "name": "blastoise",
         "type_1": "water",
@@ -162,7 +162,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b658",
+        "_id": "631e1188299e38b65d0808ce",
         "codigo": 10,
         "name": "caterpie",
         "type_1": "bug",
@@ -180,7 +180,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b659",
+        "_id": "631e1188299e38b65d0808cf",
         "codigo": 11,
         "name": "metapod",
         "type_1": "bug",
@@ -198,7 +198,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65a",
+        "_id": "631e1188299e38b65d0808d0",
         "codigo": 12,
         "name": "butterfree",
         "type_1": "bug",
@@ -216,7 +216,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65b",
+        "_id": "631e1188299e38b65d0808d1",
         "codigo": 13,
         "name": "weedle",
         "type_1": "bug",
@@ -234,7 +234,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65c",
+        "_id": "631e1188299e38b65d0808d2",
         "codigo": 14,
         "name": "kakuna",
         "type_1": "bug",
@@ -252,7 +252,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65d",
+        "_id": "631e1188299e38b65d0808d3",
         "codigo": 15,
         "name": "beedrill",
         "type_1": "bug",
@@ -270,7 +270,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65e",
+        "_id": "631e1188299e38b65d0808d4",
         "codigo": 16,
         "name": "pidgey",
         "type_1": "normal",
@@ -288,7 +288,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b65f",
+        "_id": "631e1188299e38b65d0808d5",
         "codigo": 17,
         "name": "pidgeotto",
         "type_1": "normal",
@@ -306,7 +306,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b660",
+        "_id": "631e1188299e38b65d0808d6",
         "codigo": 18,
         "name": "pidgeot",
         "type_1": "normal",
@@ -324,7 +324,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b661",
+        "_id": "631e1188299e38b65d0808d7",
         "codigo": 19,
         "name": "rattata",
         "type_1": "normal",
@@ -342,7 +342,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b662",
+        "_id": "631e1188299e38b65d0808d8",
         "codigo": 20,
         "name": "raticate",
         "type_1": "normal",
@@ -360,7 +360,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b663",
+        "_id": "631e1188299e38b65d0808d9",
         "codigo": 21,
         "name": "spearow",
         "type_1": "normal",
@@ -378,7 +378,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b664",
+        "_id": "631e1188299e38b65d0808da",
         "codigo": 22,
         "name": "fearow",
         "type_1": "normal",
@@ -396,7 +396,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b665",
+        "_id": "631e1188299e38b65d0808db",
         "codigo": 23,
         "name": "ekans",
         "type_1": "poison",
@@ -414,7 +414,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b666",
+        "_id": "631e1188299e38b65d0808dc",
         "codigo": 24,
         "name": "arbok",
         "type_1": "poison",
@@ -432,7 +432,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b667",
+        "_id": "631e1188299e38b65d0808dd",
         "codigo": 25,
         "name": "pikachu",
         "type_1": "electric",
@@ -450,7 +450,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b668",
+        "_id": "631e1188299e38b65d0808de",
         "codigo": 26,
         "name": "raichu",
         "type_1": "electric",
@@ -468,7 +468,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b669",
+        "_id": "631e1188299e38b65d0808df",
         "codigo": 27,
         "name": "sandshrew",
         "type_1": "ground",
@@ -486,7 +486,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66a",
+        "_id": "631e1188299e38b65d0808e0",
         "codigo": 28,
         "name": "sandslash",
         "type_1": "ground",
@@ -504,7 +504,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66b",
+        "_id": "631e1188299e38b65d0808e1",
         "codigo": 29,
         "name": "nidoran-f",
         "type_1": "poison",
@@ -522,7 +522,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66c",
+        "_id": "631e1188299e38b65d0808e2",
         "codigo": 30,
         "name": "nidorina",
         "type_1": "poison",
@@ -540,7 +540,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66d",
+        "_id": "631e1188299e38b65d0808e3",
         "codigo": 31,
         "name": "nidoqueen",
         "type_1": "poison",
@@ -558,7 +558,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66e",
+        "_id": "631e1188299e38b65d0808e4",
         "codigo": 32,
         "name": "nidoran-m",
         "type_1": "poison",
@@ -576,7 +576,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b66f",
+        "_id": "631e1188299e38b65d0808e5",
         "codigo": 33,
         "name": "nidorino",
         "type_1": "poison",
@@ -594,7 +594,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b670",
+        "_id": "631e1188299e38b65d0808e6",
         "codigo": 34,
         "name": "nidoking",
         "type_1": "poison",
@@ -612,7 +612,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b671",
+        "_id": "631e1188299e38b65d0808e7",
         "codigo": 35,
         "name": "clefairy",
         "type_1": "fairy",
@@ -630,7 +630,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b672",
+        "_id": "631e1188299e38b65d0808e8",
         "codigo": 36,
         "name": "clefable",
         "type_1": "fairy",
@@ -648,7 +648,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b673",
+        "_id": "631e1188299e38b65d0808e9",
         "codigo": 37,
         "name": "vulpix",
         "type_1": "fire",
@@ -666,7 +666,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b674",
+        "_id": "631e1188299e38b65d0808ea",
         "codigo": 38,
         "name": "ninetales",
         "type_1": "fire",
@@ -684,7 +684,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b675",
+        "_id": "631e1188299e38b65d0808eb",
         "codigo": 39,
         "name": "jigglypuff",
         "type_1": "normal",
@@ -702,7 +702,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b676",
+        "_id": "631e1188299e38b65d0808ec",
         "codigo": 40,
         "name": "wigglytuff",
         "type_1": "normal",
@@ -720,7 +720,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b677",
+        "_id": "631e1188299e38b65d0808ed",
         "codigo": 41,
         "name": "zubat",
         "type_1": "poison",
@@ -738,7 +738,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b678",
+        "_id": "631e1188299e38b65d0808ee",
         "codigo": 42,
         "name": "golbat",
         "type_1": "poison",
@@ -756,7 +756,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b679",
+        "_id": "631e1188299e38b65d0808ef",
         "codigo": 43,
         "name": "oddish",
         "type_1": "grass",
@@ -774,7 +774,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67a",
+        "_id": "631e1188299e38b65d0808f0",
         "codigo": 44,
         "name": "gloom",
         "type_1": "grass",
@@ -792,7 +792,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67b",
+        "_id": "631e1188299e38b65d0808f1",
         "codigo": 45,
         "name": "vileplume",
         "type_1": "grass",
@@ -810,7 +810,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67c",
+        "_id": "631e1188299e38b65d0808f2",
         "codigo": 46,
         "name": "paras",
         "type_1": "bug",
@@ -828,7 +828,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67d",
+        "_id": "631e1188299e38b65d0808f3",
         "codigo": 47,
         "name": "parasect",
         "type_1": "bug",
@@ -846,7 +846,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67e",
+        "_id": "631e1188299e38b65d0808f4",
         "codigo": 48,
         "name": "venonat",
         "type_1": "bug",
@@ -864,7 +864,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b67f",
+        "_id": "631e1188299e38b65d0808f5",
         "codigo": 49,
         "name": "venomoth",
         "type_1": "bug",
@@ -882,7 +882,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b680",
+        "_id": "631e1188299e38b65d0808f6",
         "codigo": 50,
         "name": "diglett",
         "type_1": "ground",
@@ -900,7 +900,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b681",
+        "_id": "631e1188299e38b65d0808f7",
         "codigo": 51,
         "name": "dugtrio",
         "type_1": "ground",
@@ -918,7 +918,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b682",
+        "_id": "631e1188299e38b65d0808f8",
         "codigo": 52,
         "name": "meowth",
         "type_1": "normal",
@@ -936,7 +936,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b683",
+        "_id": "631e1188299e38b65d0808f9",
         "codigo": 53,
         "name": "persian",
         "type_1": "normal",
@@ -954,7 +954,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b684",
+        "_id": "631e1188299e38b65d0808fa",
         "codigo": 54,
         "name": "psyduck",
         "type_1": "water",
@@ -972,7 +972,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b685",
+        "_id": "631e1188299e38b65d0808fb",
         "codigo": 55,
         "name": "golduck",
         "type_1": "water",
@@ -990,7 +990,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b686",
+        "_id": "631e1188299e38b65d0808fc",
         "codigo": 56,
         "name": "mankey",
         "type_1": "fighting",
@@ -1008,7 +1008,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b687",
+        "_id": "631e1188299e38b65d0808fd",
         "codigo": 57,
         "name": "primeape",
         "type_1": "fighting",
@@ -1026,7 +1026,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b688",
+        "_id": "631e1188299e38b65d0808fe",
         "codigo": 58,
         "name": "growlithe",
         "type_1": "fire",
@@ -1044,7 +1044,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b689",
+        "_id": "631e1188299e38b65d0808ff",
         "codigo": 59,
         "name": "arcanine",
         "type_1": "fire",
@@ -1062,7 +1062,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68a",
+        "_id": "631e1188299e38b65d080900",
         "codigo": 60,
         "name": "poliwag",
         "type_1": "water",
@@ -1080,7 +1080,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68b",
+        "_id": "631e1188299e38b65d080901",
         "codigo": 61,
         "name": "poliwhirl",
         "type_1": "water",
@@ -1098,7 +1098,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68c",
+        "_id": "631e1188299e38b65d080902",
         "codigo": 62,
         "name": "poliwrath",
         "type_1": "water",
@@ -1116,7 +1116,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68d",
+        "_id": "631e1188299e38b65d080903",
         "codigo": 63,
         "name": "abra",
         "type_1": "psychic",
@@ -1134,7 +1134,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68e",
+        "_id": "631e1188299e38b65d080904",
         "codigo": 64,
         "name": "kadabra",
         "type_1": "psychic",
@@ -1152,7 +1152,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b68f",
+        "_id": "631e1188299e38b65d080905",
         "codigo": 65,
         "name": "alakazam",
         "type_1": "psychic",
@@ -1170,7 +1170,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b690",
+        "_id": "631e1188299e38b65d080906",
         "codigo": 66,
         "name": "machop",
         "type_1": "fighting",
@@ -1188,7 +1188,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b691",
+        "_id": "631e1188299e38b65d080907",
         "codigo": 67,
         "name": "machoke",
         "type_1": "fighting",
@@ -1206,7 +1206,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b692",
+        "_id": "631e1188299e38b65d080908",
         "codigo": 68,
         "name": "machamp",
         "type_1": "fighting",
@@ -1224,7 +1224,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b693",
+        "_id": "631e1188299e38b65d080909",
         "codigo": 69,
         "name": "bellsprout",
         "type_1": "grass",
@@ -1242,7 +1242,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b694",
+        "_id": "631e1188299e38b65d08090a",
         "codigo": 70,
         "name": "weepinbell",
         "type_1": "grass",
@@ -1260,7 +1260,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b695",
+        "_id": "631e1188299e38b65d08090b",
         "codigo": 71,
         "name": "victreebel",
         "type_1": "grass",
@@ -1278,7 +1278,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b696",
+        "_id": "631e1188299e38b65d08090c",
         "codigo": 72,
         "name": "tentacool",
         "type_1": "water",
@@ -1296,7 +1296,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b697",
+        "_id": "631e1188299e38b65d08090d",
         "codigo": 73,
         "name": "tentacruel",
         "type_1": "water",
@@ -1314,7 +1314,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b698",
+        "_id": "631e1188299e38b65d08090e",
         "codigo": 74,
         "name": "geodude",
         "type_1": "rock",
@@ -1332,7 +1332,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b699",
+        "_id": "631e1188299e38b65d08090f",
         "codigo": 75,
         "name": "graveler",
         "type_1": "rock",
@@ -1350,7 +1350,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69a",
+        "_id": "631e1188299e38b65d080910",
         "codigo": 76,
         "name": "golem",
         "type_1": "rock",
@@ -1368,7 +1368,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69b",
+        "_id": "631e1188299e38b65d080911",
         "codigo": 77,
         "name": "ponyta",
         "type_1": "fire",
@@ -1386,7 +1386,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69c",
+        "_id": "631e1188299e38b65d080912",
         "codigo": 78,
         "name": "rapidash",
         "type_1": "fire",
@@ -1404,7 +1404,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69d",
+        "_id": "631e1188299e38b65d080913",
         "codigo": 79,
         "name": "slowpoke",
         "type_1": "water",
@@ -1422,7 +1422,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69e",
+        "_id": "631e1188299e38b65d080914",
         "codigo": 80,
         "name": "slowbro",
         "type_1": "water",
@@ -1440,7 +1440,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69f",
+        "_id": "631e1188299e38b65d080915",
         "codigo": 81,
         "name": "magnemite",
         "type_1": "electric",
@@ -1458,7 +1458,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a0",
+        "_id": "631e1188299e38b65d080916",
         "codigo": 82,
         "name": "magneton",
         "type_1": "electric",
@@ -1476,7 +1476,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a1",
+        "_id": "631e1188299e38b65d080917",
         "codigo": 83,
         "name": "farfetchd",
         "type_1": "normal",
@@ -1494,7 +1494,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a2",
+        "_id": "631e1188299e38b65d080918",
         "codigo": 84,
         "name": "doduo",
         "type_1": "normal",
@@ -1512,7 +1512,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a3",
+        "_id": "631e1188299e38b65d080919",
         "codigo": 85,
         "name": "dodrio",
         "type_1": "normal",
@@ -1530,7 +1530,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a4",
+        "_id": "631e1188299e38b65d08091a",
         "codigo": 86,
         "name": "seel",
         "type_1": "water",
@@ -1548,7 +1548,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a5",
+        "_id": "631e1188299e38b65d08091b",
         "codigo": 87,
         "name": "dewgong",
         "type_1": "water",
@@ -1566,7 +1566,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a6",
+        "_id": "631e1188299e38b65d08091c",
         "codigo": 88,
         "name": "grimer",
         "type_1": "poison",
@@ -1584,7 +1584,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a7",
+        "_id": "631e1188299e38b65d08091d",
         "codigo": 89,
         "name": "muk",
         "type_1": "poison",
@@ -1602,7 +1602,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a8",
+        "_id": "631e1188299e38b65d08091e",
         "codigo": 90,
         "name": "shellder",
         "type_1": "water",
@@ -1620,7 +1620,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6a9",
+        "_id": "631e1188299e38b65d08091f",
         "codigo": 91,
         "name": "cloyster",
         "type_1": "water",
@@ -1638,7 +1638,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6aa",
+        "_id": "631e1188299e38b65d080920",
         "codigo": 92,
         "name": "gastly",
         "type_1": "ghost",
@@ -1656,7 +1656,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ab",
+        "_id": "631e1188299e38b65d080921",
         "codigo": 93,
         "name": "haunter",
         "type_1": "ghost",
@@ -1674,7 +1674,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ac",
+        "_id": "631e1188299e38b65d080922",
         "codigo": 94,
         "name": "gengar",
         "type_1": "ghost",
@@ -1692,7 +1692,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ad",
+        "_id": "631e1188299e38b65d080923",
         "codigo": 95,
         "name": "onix",
         "type_1": "rock",
@@ -1710,7 +1710,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ae",
+        "_id": "631e1188299e38b65d080924",
         "codigo": 96,
         "name": "drowzee",
         "type_1": "psychic",
@@ -1728,7 +1728,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6af",
+        "_id": "631e1188299e38b65d080925",
         "codigo": 97,
         "name": "hypno",
         "type_1": "psychic",
@@ -1746,7 +1746,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b0",
+        "_id": "631e1188299e38b65d080926",
         "codigo": 98,
         "name": "krabby",
         "type_1": "water",
@@ -1764,7 +1764,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b1",
+        "_id": "631e1188299e38b65d080927",
         "codigo": 99,
         "name": "kingler",
         "type_1": "water",
@@ -1782,7 +1782,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b2",
+        "_id": "631e1188299e38b65d080928",
         "codigo": 100,
         "name": "voltorb",
         "type_1": "electric",
@@ -1800,7 +1800,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b3",
+        "_id": "631e1188299e38b65d080929",
         "codigo": 101,
         "name": "electrode",
         "type_1": "electric",
@@ -1818,7 +1818,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b4",
+        "_id": "631e1188299e38b65d08092a",
         "codigo": 102,
         "name": "exeggcute",
         "type_1": "grass",
@@ -1836,7 +1836,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b5",
+        "_id": "631e1188299e38b65d08092b",
         "codigo": 103,
         "name": "exeggutor",
         "type_1": "grass",
@@ -1854,7 +1854,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b6",
+        "_id": "631e1188299e38b65d08092c",
         "codigo": 104,
         "name": "cubone",
         "type_1": "ground",
@@ -1872,7 +1872,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b7",
+        "_id": "631e1188299e38b65d08092d",
         "codigo": 105,
         "name": "marowak",
         "type_1": "ground",
@@ -1890,7 +1890,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b8",
+        "_id": "631e1188299e38b65d08092e",
         "codigo": 106,
         "name": "hitmonlee",
         "type_1": "fighting",
@@ -1908,7 +1908,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6b9",
+        "_id": "631e1188299e38b65d08092f",
         "codigo": 107,
         "name": "hitmonchan",
         "type_1": "fighting",
@@ -1926,7 +1926,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ba",
+        "_id": "631e1188299e38b65d080930",
         "codigo": 108,
         "name": "lickitung",
         "type_1": "normal",
@@ -1944,7 +1944,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bb",
+        "_id": "631e1188299e38b65d080931",
         "codigo": 109,
         "name": "koffing",
         "type_1": "poison",
@@ -1962,7 +1962,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bc",
+        "_id": "631e1188299e38b65d080932",
         "codigo": 110,
         "name": "weezing",
         "type_1": "poison",
@@ -1980,7 +1980,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bd",
+        "_id": "631e1188299e38b65d080933",
         "codigo": 111,
         "name": "rhyhorn",
         "type_1": "ground",
@@ -1998,7 +1998,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6be",
+        "_id": "631e1188299e38b65d080934",
         "codigo": 112,
         "name": "rhydon",
         "type_1": "ground",
@@ -2016,7 +2016,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6bf",
+        "_id": "631e1188299e38b65d080935",
         "codigo": 113,
         "name": "chansey",
         "type_1": "normal",
@@ -2034,7 +2034,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c0",
+        "_id": "631e1188299e38b65d080936",
         "codigo": 114,
         "name": "tangela",
         "type_1": "grass",
@@ -2052,7 +2052,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c1",
+        "_id": "631e1188299e38b65d080937",
         "codigo": 115,
         "name": "kangaskhan",
         "type_1": "normal",
@@ -2070,7 +2070,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c2",
+        "_id": "631e1188299e38b65d080938",
         "codigo": 116,
         "name": "horsea",
         "type_1": "water",
@@ -2088,7 +2088,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c3",
+        "_id": "631e1188299e38b65d080939",
         "codigo": 117,
         "name": "seadra",
         "type_1": "water",
@@ -2106,7 +2106,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c4",
+        "_id": "631e1188299e38b65d08093a",
         "codigo": 118,
         "name": "goldeen",
         "type_1": "water",
@@ -2124,7 +2124,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c5",
+        "_id": "631e1188299e38b65d08093b",
         "codigo": 119,
         "name": "seaking",
         "type_1": "water",
@@ -2142,7 +2142,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c6",
+        "_id": "631e1188299e38b65d08093c",
         "codigo": 120,
         "name": "staryu",
         "type_1": "water",
@@ -2160,7 +2160,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c7",
+        "_id": "631e1188299e38b65d08093d",
         "codigo": 121,
         "name": "starmie",
         "type_1": "water",
@@ -2178,7 +2178,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c8",
+        "_id": "631e1188299e38b65d08093e",
         "codigo": 122,
         "name": "mr-mime",
         "type_1": "psychic",
@@ -2196,7 +2196,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6c9",
+        "_id": "631e1188299e38b65d08093f",
         "codigo": 123,
         "name": "scyther",
         "type_1": "bug",
@@ -2214,7 +2214,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ca",
+        "_id": "631e1188299e38b65d080940",
         "codigo": 124,
         "name": "jynx",
         "type_1": "ice",
@@ -2232,7 +2232,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cb",
+        "_id": "631e1188299e38b65d080941",
         "codigo": 125,
         "name": "electabuzz",
         "type_1": "electric",
@@ -2250,7 +2250,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cc",
+        "_id": "631e1188299e38b65d080942",
         "codigo": 126,
         "name": "magmar",
         "type_1": "fire",
@@ -2268,7 +2268,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cd",
+        "_id": "631e1188299e38b65d080943",
         "codigo": 127,
         "name": "pinsir",
         "type_1": "bug",
@@ -2286,7 +2286,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ce",
+        "_id": "631e1188299e38b65d080944",
         "codigo": 128,
         "name": "tauros",
         "type_1": "normal",
@@ -2304,7 +2304,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cf",
+        "_id": "631e1188299e38b65d080945",
         "codigo": 129,
         "name": "magikarp",
         "type_1": "water",
@@ -2322,7 +2322,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d0",
+        "_id": "631e1188299e38b65d080946",
         "codigo": 130,
         "name": "gyarados",
         "type_1": "water",
@@ -2340,7 +2340,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d1",
+        "_id": "631e1188299e38b65d080947",
         "codigo": 131,
         "name": "lapras",
         "type_1": "water",
@@ -2358,7 +2358,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d2",
+        "_id": "631e1188299e38b65d080948",
         "codigo": 132,
         "name": "ditto",
         "type_1": "normal",
@@ -2376,7 +2376,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d3",
+        "_id": "631e1188299e38b65d080949",
         "codigo": 133,
         "name": "eevee",
         "type_1": "normal",
@@ -2394,7 +2394,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d4",
+        "_id": "631e1188299e38b65d08094a",
         "codigo": 134,
         "name": "vaporeon",
         "type_1": "water",
@@ -2412,7 +2412,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d5",
+        "_id": "631e1188299e38b65d08094b",
         "codigo": 135,
         "name": "jolteon",
         "type_1": "electric",
@@ -2430,7 +2430,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d6",
+        "_id": "631e1188299e38b65d08094c",
         "codigo": 136,
         "name": "flareon",
         "type_1": "fire",
@@ -2448,7 +2448,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d7",
+        "_id": "631e1188299e38b65d08094d",
         "codigo": 137,
         "name": "porygon",
         "type_1": "normal",
@@ -2466,7 +2466,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d8",
+        "_id": "631e1188299e38b65d08094e",
         "codigo": 138,
         "name": "omanyte",
         "type_1": "rock",
@@ -2484,7 +2484,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d9",
+        "_id": "631e1188299e38b65d08094f",
         "codigo": 139,
         "name": "omastar",
         "type_1": "rock",
@@ -2502,7 +2502,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6da",
+        "_id": "631e1188299e38b65d080950",
         "codigo": 140,
         "name": "kabuto",
         "type_1": "rock",
@@ -2520,7 +2520,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6db",
+        "_id": "631e1188299e38b65d080951",
         "codigo": 141,
         "name": "kabutops",
         "type_1": "rock",
@@ -2538,7 +2538,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6dc",
+        "_id": "631e1188299e38b65d080952",
         "codigo": 142,
         "name": "aerodactyl",
         "type_1": "rock",
@@ -2556,7 +2556,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6dd",
+        "_id": "631e1188299e38b65d080953",
         "codigo": 143,
         "name": "snorlax",
         "type_1": "normal",
@@ -2574,7 +2574,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6de",
+        "_id": "631e1188299e38b65d080954",
         "codigo": 144,
         "name": "articuno",
         "type_1": "ice",
@@ -2592,7 +2592,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6df",
+        "_id": "631e1188299e38b65d080955",
         "codigo": 145,
         "name": "zapdos",
         "type_1": "electric",
@@ -2610,7 +2610,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e0",
+        "_id": "631e1188299e38b65d080956",
         "codigo": 146,
         "name": "moltres",
         "type_1": "fire",
@@ -2628,7 +2628,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e1",
+        "_id": "631e1188299e38b65d080957",
         "codigo": 147,
         "name": "dratini",
         "type_1": "dragon",
@@ -2646,7 +2646,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e2",
+        "_id": "631e1188299e38b65d080958",
         "codigo": 148,
         "name": "dragonair",
         "type_1": "dragon",
@@ -2664,7 +2664,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e3",
+        "_id": "631e1188299e38b65d080959",
         "codigo": 149,
         "name": "dragonite",
         "type_1": "dragon",
@@ -2682,7 +2682,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e4",
+        "_id": "631e1188299e38b65d08095a",
         "codigo": 150,
         "name": "mewtwo",
         "type_1": "psychic",
@@ -2700,7 +2700,7 @@ const pokemon_generation = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e5",
+        "_id": "631e1188299e38b65d08095b",
         "codigo": 151,
         "name": "mew",
         "type_1": "psychic",
