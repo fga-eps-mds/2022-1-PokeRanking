@@ -13,12 +13,12 @@ Início | Fim | Duração
 <!-- adicionar a issue, sua descrição, o responsavel e se a issue foi terminada ou não -->
 Issues | Descrição | Responsáveis
 ------ | --------- | -----------
-01 | Documentar Sprint 07 | [Thiago](https://github.com/Thiago-Cerq)
-02 | Diagrama MVC do Node | [Artur](https://github.com/artur-seppa)
-03 | Atualizar os gráficos nas reviews das Sprints | [João](https://github.com/JoaoSchmitz)
-04 | Criar o Roadmap | [João](https://github.com/JoaoSchmitz)
-05 | Atualizar o documento de arquitetura  | [Kallyne](https://github.com/kazpmcd/), e [Leonardo](https://github.com/Leonardo0o0)
-06 | Atualizar o documento de visão  | [Charles](https://github.com/charles-serafim)
+01 | Documentar Sprint 08 | [Thiago](https://github.com/Thiago-Cerq)
+02 | Guia de Estilo | [Kallyne](https://github.com/kazpmcd) e [Leonardo](https://github.com/Leonardo0o0)
+03 | US02, US03 e US04 - BackEnd | [Artur](https://github.com/artur-seppa)
+04 | Relação de Documentos | [Kallyne](https://github.com/kazpmcd)
+05 | Atualizar README  | [Leonardo](https://github.com/Leonardo0o0)
+06 | Imagens no banco de dados  | [Charles](https://github.com/charles-serafim) e [Joao](https://github.com/JoaoSchmitz)
 
 ## 3. FeedBack
 <!--
