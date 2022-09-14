@@ -1,16 +1,19 @@
 import "./style.css";
 import { useState } from "react";
 
-function CardCompara(props) {
+function Card(props) {
+
   const [pokemon, setPokemon] = useState({});
   const [pokemonName, setPokemonName] = useState("");
   const [pokemonExist, setPokemonExist] = useState(false);
 
   const handlePokemonName = (e) => {
-    setPokemonName(e.target.value);
+    setPokemonName(e.target.value.toLowerCase());
   };
 
-  const handleCompare = () => {
+  const handleCompare = (e) => {
+    e.preventDefault();
+    
     props.pokemonData.map((pokemon) => {
       if (pokemon.name == pokemonName) {
         props.pokemon(pokemon);
@@ -25,17 +28,22 @@ function CardCompara(props) {
   return (
     <>
       {/* card com a barra de pesquisa */}
-      <div className={pokemonExist ? "display-none" : "search-card"}>
-        <p>{props.cardName}</p>
-        <input
-          className={pokemonExist ? "display-none" : "search-input"}
-          type="text"
-          onChange={handlePokemonName}
-        />
-        <button className="adicionar-button" onClick={handleCompare}>
-          Adicionar
-        </button>
-      </div>
+      <form
+        onSubmit={handleCompare}
+        className={pokemonExist ? "display-none" : "search-card"}
+      >
+        <p className="card-name">{props.cardName}</p>
+        <div className="input-group">
+          <input
+            className={pokemonExist ? "display-none" : "search-input"}
+            type="text"
+            placeholder=" "
+            onChange={handlePokemonName}
+          />
+          <label className="placeholder">Nome do Pokemon</label>
+        </div>
+        <button className="adicionar-button">Adicionar</button>
+      </form>
 
       {/* card com a imagem do pokemon */}
       <div className={pokemonExist ? cardCss : "display-none"}>
@@ -65,4 +73,4 @@ function CardCompara(props) {
   );
 }
 
-export default CardCompara;
+export default Card;

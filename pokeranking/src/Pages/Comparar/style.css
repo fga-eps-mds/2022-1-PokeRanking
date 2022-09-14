@@ -1,7 +1,7 @@
 .comparar-page {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
   gap: 50px;
   padding: 50px 0px 50px 0px;
@@ -16,14 +16,14 @@
 }
 
 .comparar-button {
-  background-color: #f8c658;
+  background-color: #222222;
   border: none;
-  color: white;
+  color: #e0e0e0;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: large;
   margin: 4px 2px;
   cursor: pointer;
 }

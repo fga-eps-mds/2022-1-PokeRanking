@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   gap: 17px;
+  font-family: "Roboto", sans-serif;
 }
 
 .attribute-line {
@@ -18,25 +19,32 @@
 .attribute-name {
   width: 145px;
   height: 37px;
-  background-color: #41BC52;
+  background-color: #41bc52;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: medium;
+  border: 2px solid rgb(61, 61, 61);
 }
 
-.attribute-value{
+.attribute-value {
   width: 101px;
   height: 37px;
-  background-color: #C63838;
+  background-color: #c63838;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: medium;
+  border: 2px solid rgb(61, 61, 61);
 }
 
-.percentage-bar{
+.percentage-bar {
   width: 249px;
   height: 37px;
   border-radius: 50px;
+  border: 2px solid rgb(61, 61, 61);
 }
