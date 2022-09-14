@@ -1,25 +1,32 @@
+## Histórico de Revisão
+
+| Data | Versão | Descrição | Autor(es) |
+|:----------:|:--------:|:----------------------:|:---------------------------:|
+02/08/2022 | 1.0 | Versão inicial para Release 1 | [Artur](https://github.com/artur-seppa)
+14/09/2022 | 2.0 | Versão final para Release 2 | [João Matheus](https://github.com/JoaoSchmitz)
+
 # Logotipo
 
-![Logo Principal](Imagens/logo-principal.png)
+![Logo Principal](Imagens/LogoPrincipal6.png)
 
 
 # Telas
 
-![tela01](Imagens/tela01.png)
+![tela01](Imagens/tela01-V2.png)
 
-![tela02](Imagens/tela02.png)
+![tela02](Imagens/tela02-V2.png)
 
-![tela03](Imagens/tela03.png)
+![tela03](Imagens/tela03-V2.png)
 
-![tela04](Imagens/tela04.png)
+![tela04](Imagens/tela04-V2.png)
 
-![tela05](Imagens/tela05.png)
+![tela05](Imagens/tela05-V2.png)
 
-![tela06](Imagens/tela06.png)
+![tela06](Imagens/tela06-V2.png)
 
-![tela07](Imagens/tela07.png)
+![tela07](Imagens/tela07-V2.png)
 
-![tela08](Imagens/tela08.png)
+![tela08](Imagens/tela08-V2.png)
 
 
 
