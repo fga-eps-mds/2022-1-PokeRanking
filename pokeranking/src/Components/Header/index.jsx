@@ -51,7 +51,7 @@ function Header(props) {
         />
       </header>
 
-      <ComoUsar 
+      <ComoUsar
         opened={modalOpened}
         setOpened={setModalOpened}
       />
@@ -83,7 +83,7 @@ function Header(props) {
         </ul>
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="nav-text">
-            <Link to="" onClick={handleComoUsarClick}>
+            <Link to="#" onClick={handleComoUsarClick}>
               <img src={comoUsarIcon} alt="Como Usar" />
               <span className="nav-title">Como Usar</span>
             </Link>
