@@ -7,14 +7,13 @@ function PokemonDisplay(props) {
   const [displaySize, setDisplaySize] = useState(50);
   const [modalOpened, setModalOpened] = useState(false);
   const [pokemonInfo, setPokemonInfo] = useState(null);
-  
 
   useEffect(() => {
     fetch("http://localhost:5000/criaturas")
       .then((response) => response.json())
       .then((data) => setPokemonData(data));
   }, []);
-  
+
   function handlePokemonClick(data) {
     setModalOpened(true);
     setPokemonInfo(data);
@@ -29,15 +28,23 @@ function PokemonDisplay(props) {
 
   return (
     <>
-      <PokemonDetails opened={modalOpened} setOpened={setModalOpened} pokemonInfo={pokemonInfo} />
-      
+      <PokemonDetails
+        opened={modalOpened}
+        setOpened={setModalOpened}
+        pokemonInfo={pokemonInfo}
+      />
+
       <div className="display-container">
         <ul className="PokeRanking">
           {pokemonDataFilter
             .map((pokemon) => {
               const liCss = "card " + pokemon.type_1;
               return (
-                <li className={liCss} key={pokemon._id} onClick={() => handlePokemonClick(pokemon)}>
+                <li
+                  className={liCss}
+                  key={pokemon._id}
+                  onClick={() => handlePokemonClick(pokemon)}
+                >
                   <p className="card-title number">#{pokemon.codigo}</p>
                   <img
                     className="card-image"
@@ -50,9 +57,9 @@ function PokemonDisplay(props) {
             })
             .slice(0, displaySize)}
         </ul>
-        <div className="show-more-container">
+        <div className="mostrar-mais-button-wraper">
           <button
-            className="show-more"
+            className="mostrar-mais-button"
             onClick={() => setDisplaySize(displaySize + 50)}
           >
             MOSTRAR MAIS

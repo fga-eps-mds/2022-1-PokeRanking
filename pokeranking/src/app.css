@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 .page-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
+  /* font-family: "Roboto", sans-serif; */
+  /* background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/hexellence.png"); */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
