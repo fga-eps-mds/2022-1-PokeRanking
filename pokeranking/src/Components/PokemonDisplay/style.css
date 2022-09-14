@@ -19,7 +19,7 @@ h1 {
 .display-container {
   width: 1289px;
   background-color: white;
-  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-image: url("https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/main/pokeranking/src/Assets/fundoSite.png?raw=true");
   margin-left: auto;
   margin-right: auto;
   margin-top: 22px;
@@ -38,7 +38,7 @@ h1 {
   padding-top: 22px;
   border-radius: 30px;
   background-color: white;
-  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-image: url("https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/main/pokeranking/src/Assets/fundoSite.png?raw=true");
 }
 
 .card {
@@ -193,7 +193,7 @@ h1 {
   padding-bottom: 22px;
   border-radius: 0px 0px 30px 30px;
   background-color: white;
-  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background-image: url("https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/main/pokeranking/src/Assets/fundoSite.png?raw=true");
 }
 
 .mostrar-mais-button {
