@@ -2,6 +2,7 @@ import "./style.css";
 import { useState } from "react";
 
 function Card(props) {
+
   const [pokemon, setPokemon] = useState({});
   const [pokemonName, setPokemonName] = useState("");
   const [pokemonExist, setPokemonExist] = useState(false);
@@ -12,6 +13,7 @@ function Card(props) {
 
   const handleCompare = (e) => {
     e.preventDefault();
+    
     props.pokemonData.map((pokemon) => {
       if (pokemon.name == pokemonName) {
         props.pokemon(pokemon);

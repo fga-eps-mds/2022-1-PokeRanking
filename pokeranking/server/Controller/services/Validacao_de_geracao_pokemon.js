@@ -3,7 +3,7 @@ module.exports = {
 
         let geracao = geracao_extraida_pela_URL;
 
-        for (let contador = 1; contador <= 6; contador++) {
+        for (let contador = 0; contador <= 6; contador++) {
             if (geracao == contador) {
                 return true;
             }
