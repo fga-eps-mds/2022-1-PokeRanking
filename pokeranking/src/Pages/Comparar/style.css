@@ -33,6 +33,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: large;
+  border-radius: 25px;
   margin: 4px 2px;
   cursor: pointer;
 }

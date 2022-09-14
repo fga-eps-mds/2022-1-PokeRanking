@@ -22,12 +22,12 @@
 .attribute-name {
   width: 160px;
   height: 40px;
-  background-color: #41bc52;
+  background-color: #58A4B0;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   /* font-size: medium; */
   border: 2px solid rgb(61, 61, 61);
 }
@@ -35,12 +35,12 @@
 .attribute-value {
   width: 101px;
   height: 40px;
-  background-color: #c63838;
+  background-color: #A9BCD0;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   /* font-size: medium; */
   border: 2px solid rgb(61, 61, 61);
 }
