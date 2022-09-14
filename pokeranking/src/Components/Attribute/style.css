@@ -1,50 +1,53 @@
 .attribute-wraper {
   /* width: 796px; */
-  width: 927.34px;
+  /* width: 927.34px; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
   gap: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .attribute-line {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 11px;
+  gap: 10px;
 }
 
 .attribute-name {
-  width: 145px;
-  height: 37px;
-  background-color: #41bc52;
+  width: 160px;
+  height: 40px;
+  background-color: #58A4B0;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: medium;
+  color: black;
+  /* font-size: medium; */
   border: 2px solid rgb(61, 61, 61);
 }
 
 .attribute-value {
   width: 101px;
-  height: 37px;
-  background-color: #c63838;
+  height: 40px;
+  background-color: #A9BCD0;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: medium;
+  color: black;
+  /* font-size: medium; */
   border: 2px solid rgb(61, 61, 61);
 }
 
 .percentage-bar {
-  width: 249px;
-  height: 37px;
+  width: 355px;
+  height: 40px;
   border-radius: 50px;
   border: 2px solid rgb(61, 61, 61);
 }

@@ -43,6 +43,7 @@ module.exports = {
             */
             let pokemon = await Criatura
 
+            // eslint-disable-next-line eqeqeq
             if (juiz == true) {
                 pokemon = await Criatura.findOne({ name: id })
             } else {
@@ -156,11 +157,7 @@ module.exports = {
                 res.status(422).json({ message: "tipo de geração de pokémon não encontrada" })
                 return
             }
-
-            /*
-            * NA = nao tem um valor de "tipo" a ser buscado. Ele
-            * engloba todas as criaturas.
-            */
+            
             let pokemons = await Ranking_geral_de_pokemons(ordenacao, type, geracao)
             res.status(200).json(pokemons)
             

@@ -117,12 +117,14 @@ function AttributeEquipe(props) {
       {attribute.map((item) => {
         return (
           <li className="attribute-line-equipe" key={item.key}>
-            <p className="attribute-name">{item.name}</p>
+            <p className="attribute-name" style={{ width: "200px" }}>
+              {item.name}
+            </p>
             <p className="attribute-value">{item.total}</p>
             <p
               className="percentage-bar percentage-bar-equipe"
               style={{
-                width: "450px",
+                width: "795px",
                 background: "rgb(59,157,122)",
                 background: `linear-gradient(90deg, rgba(59,157,122,1) ${item.teamClassification}%, rgb(167, 167, 167) ${item.teamClassification}%)`,
               }}

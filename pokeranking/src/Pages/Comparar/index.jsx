@@ -27,37 +27,40 @@ function Comparar() {
   };
 
   return (
-    <div className="comparar-page">
-      <div className="card-wraper">
-        <Card
-          pokemon={setFirstPokemon}
-          pokemonData={pokemonData}
-          setCompare={setCompare}
-          cardName="Primeiro Pokemon"
-        />
-        <button
-          className={
-            Object.keys(firstPokemon).length !== 0 &&
-            Object.keys(secondPokemon).length !== 0
-              ? "comparar-button"
-              : "display-none"
-          }
-          onClick={verify}
-        >
-          Comparar
-        </button>
-        <Card
-          pokemon={setSecondPokemon}
-          pokemonData={pokemonData}
-          cardName="Segundo Pokemon"
-          setCompare={setCompare}
+    <div>
+      <div style={{ height: "65px" }}></div>
+      <div className="comparar-page">
+        <div className="card-wraper">
+          <Card
+            pokemon={setFirstPokemon}
+            pokemonData={pokemonData}
+            setCompare={setCompare}
+            cardName="Primeiro Pokemon"
+          />
+          <button
+            className={
+              Object.keys(firstPokemon).length !== 0 &&
+              Object.keys(secondPokemon).length !== 0
+                ? "comparar-button"
+                : "display-none"
+            }
+            onClick={verify}
+          >
+            Comparar
+          </button>
+          <Card
+            pokemon={setSecondPokemon}
+            pokemonData={pokemonData}
+            cardName="Segundo Pokemon"
+            setCompare={setCompare}
+          />
+        </div>
+        <Attribute
+          firstPokemon={firstPokemon}
+          secondPokemon={secondPokemon}
+          compare={compare}
         />
       </div>
-      <Attribute
-        firstPokemon={firstPokemon}
-        secondPokemon={secondPokemon}
-        compare={compare}
-      />
     </div>
   );
 }

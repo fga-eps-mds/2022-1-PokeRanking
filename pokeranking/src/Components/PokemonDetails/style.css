@@ -101,13 +101,13 @@ text-shadow:
 
 .card-title-name {
   width: 206px;
-  height: 33px;
+  height: 55px;
   
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 16px;
+  line-height: 32px;
   /* or 80% */
   
   display: flex;
@@ -176,7 +176,7 @@ text-shadow:
   width: 145px;
   height: 37px;
   /* Linear Verde */
-  background: linear-gradient(180deg, #41BC52 0%, #113516 100%);
+  background: #58A4B0;
   border: 2px solid #000000;
   border-radius: 50px;
   font-family: "Press Start 2P";
@@ -192,7 +192,7 @@ text-shadow:
 width: 145px;
 height: 37px;
 /* Linear Vermelho */
-background: linear-gradient(180deg, #C63838 0%, #2F1212 100%);
+background: #A9BCD0;
 border: 2px solid #000000;
 border-radius: 50px;
 font-family: "Press Start 2P";
@@ -208,7 +208,7 @@ text-shadow:
   width: 145px;
   height: 37px;
   /* Linear Ranking */
-  background: linear-gradient(180deg, #3B9D8B 0%, #2D2121 100%);
+  background: linear-gradient(180deg, #3B9D8B 0%, #363B81 100%);
   border: 2px solid #000000;
   border-radius: 50px;
   font-family: "Press Start 2P";
