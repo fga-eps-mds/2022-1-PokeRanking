@@ -16,7 +16,7 @@ function RankingDisplay(props) {
   var liCss, isFirst, isSecond, isThird
 
   useEffect(() => {
-    fetch(`http://localhost:5000/criaturas/`+tipo+`/Ranking/`+status)
+    fetch(`http://localhost:5000/criaturas/`+tipo+`/Ranking/`+status+`/Geracao/0`)
       .then((response) => response.json())
       .then((data) => setPokemonData(data));
   }, [tipo, status]);
