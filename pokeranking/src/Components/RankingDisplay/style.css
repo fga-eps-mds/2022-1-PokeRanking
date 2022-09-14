@@ -52,6 +52,7 @@ h1 {
   border-radius: 20px;
   position: relative;
   width: 189.75px;
+  cursor: pointer;
 }
 
 .cardPrimeiro {
@@ -71,6 +72,7 @@ h1 {
   position: relative;
   height: 279px;
   width: 269.75px;
+  cursor: pointer;
 }
 
 .cardSegundo {
@@ -90,6 +92,7 @@ h1 {
   position: relative;
   height: 279px;
   width: 269.75px;
+  cursor: pointer;
 }
 
 .cardTerceiro {
@@ -109,6 +112,7 @@ h1 {
   position: relative;
   height: 279px;
   width: 269.75px;
+  cursor: pointer;
 }
 
 .card::after {
@@ -332,6 +336,7 @@ h1 {
   20% {
     transform: translateY(-6px);
   }
+
   40% {
     transform: translateY(0px);
   }
@@ -339,6 +344,7 @@ h1 {
   80% {
     transform: translateY(-2px);
   }
+
   100% {
     transform: translateY(0);
   }

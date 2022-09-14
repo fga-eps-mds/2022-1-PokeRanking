@@ -1,8 +1,22 @@
 import { Link } from "react-router-dom";
 import "./style.css";
+import { useState } from "react";
+import ComoUsar from "../ComoUsar";
 
 function Footer() {
+  const [modalOpened, setModalOpened] = useState(false);
+
+  function handleComoUsarClick() {
+    setModalOpened(true);
+  }
+  
   return (
+    <>
+    <ComoUsar 
+      opened={modalOpened}
+      setOpened={setModalOpened}
+    />
+    
     <div className="main-footer">
       <div className="row">
         <div className="col">
@@ -25,9 +39,9 @@ function Footer() {
         <div className="col">
           <h4 className="footer-title">Sobre</h4>
           <div className="container-link">
-            <Link className="link" to="como-usar">
+            <div className="link" onClick={handleComoUsarClick}>
               Como usar
-            </Link>
+            </div>
             <a
               className="link"
               href="https://fga-eps-mds.github.io/2022-1-PokeRanking/"
@@ -42,6 +56,7 @@ function Footer() {
         <p>&copy;{new Date().getFullYear()} PokéRanking</p>
       </div>
     </div>
+    </>
   );
 }
 
