@@ -59,8 +59,8 @@ O processo do desenvolvimento deste projeto é baseado na metodologia ágil Scru
 | Marco | Data | Atividade | 
 | :--: | :---: | :--------: | 
 | Começo do Projeto | 15/06/2022 | Início do projeto | 
-| Release 01 |  | Primeiro ponto de avaliação do projeto | 
-| Release 02 |  | Segundo ponto de avaliação do projeto | 
+| Release 01 | 02/08/2022 | Primeiro ponto de avaliação do projeto | 
+| Release 02 | 15/09/2022 | Segundo ponto de avaliação do projeto | 
 
 # 8. Estratégia de Comunicação
 
