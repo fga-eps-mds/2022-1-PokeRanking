@@ -2,7 +2,11 @@
 
 | Data  | Versão   | Descrição                    |  Autor(es) |
 | ------ | ---------- | ------------------------------ |  ----- |
+| 14/09/2022   | 1.1 | Adição da política de pull requests e issues  | [Kallyne M. Passos](https://github.com/kazpmcd) |
 | 05/09/2022   | 1.0 | Criação do documento  | [Kallyne M. Passos](https://github.com/kazpmcd) |
+
+
+O documento presente exibe o processo de desenvolvimento do projeto PokeRanking, de forma a viabilizar contribuições externas vindas de quem desejar fazer parte.
 
 
 # Politica de branches
@@ -99,4 +103,17 @@ Se é necessário contextualizar o commit e explicar o porquê das mudanças, de
 - Máximo de 72 caracteres por linha
 
 
+# Issues
+   As issues podem ser iniciadas para resolução de dúvidas e problemas, sinalização de bugs, sugestão de melhorias e também para registro de atividades realizadas. Ao desenvolver novas features do projeto, corrigir erros ou documentar alterações, é necessária a criação de issue que apresente:
+   - Um problema inédito, ou seja, não se deve repetir issues que já existem e já estão abertas.
+   -  Título e descrição claras e coesas.
+   -  O template do projeto (para [bug](https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/main/.github/ISSUE_TEMPLATE/bug.md) e para [task](https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/main/.github/ISSUE_TEMPLATE/task.md)).
+   -  Pessoa atribuída e revisador (mantenedor do repositório). 
+
+
 # Política de pull requests
+O pull request  deve ser feito assim que a atividade desenvolvida na branch for concluída, seguindo os seguintes padrões:
+
+- O título, descrição e o comentário devem ser claros e coesos.
+- Funcionalidades incluídas no pull request devem ter sido testadas anteriormente e exibirem funcionamento pleno. 
+- Uso e preenchimento correto do [template](https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/main/.github/pull_request_template.md) de pull request para issues.
