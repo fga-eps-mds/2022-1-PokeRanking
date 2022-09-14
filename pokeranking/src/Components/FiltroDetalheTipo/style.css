@@ -1,5 +1,4 @@
 .bodyFiltroDetalhesTipo {
-  /* width: 1595px; */
   margin: auto;
   margin-bottom: 22px;
   margin-top: 22px;
@@ -10,9 +9,6 @@
   color: black;
 
   border-top: 2px solid black;
-  /* border-radius: 30px 30px 30px 30px; */
-
-  /* box-shadow: inset 0px 0px 10px #000; */
 }
 
 .Tipos {
@@ -24,7 +20,7 @@
 
   gap: 22px;
   column-gap: 132px;
-  width: 1590px;
+  width: 1290px;
 
   padding-top: 22px;
   padding-bottom: 22px;
@@ -60,7 +56,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -77,7 +73,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -94,7 +90,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -111,7 +107,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -128,7 +124,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -145,7 +141,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -162,7 +158,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -180,7 +176,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -197,7 +193,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -214,7 +210,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -231,7 +227,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -248,7 +244,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -266,7 +262,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -283,7 +279,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -301,7 +297,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -318,7 +314,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -335,7 +331,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;
@@ -352,7 +348,7 @@
   border-radius: 20px;
 
   position: relative;
-  width: 300px;
+  width: 250px;
   height: 60px;
 
   color: #000;

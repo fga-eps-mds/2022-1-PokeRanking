@@ -1,12 +1,12 @@
 .bodyLogo {
-  background: linear-gradient(to top, #58a4b0, #a9bcd0, #58a4b0);
+  background: linear-gradient(to left, #58a4b0, #a9bcd0, #58a4b0);
   height: 650px;
   color: rgb(0, 0, 0);
   text-align: center;
 }
 
 .logoPrincipal {
-  padding-top: 61px;
+  padding-top: 105px;
   height: 600px;
   width: auto;
   margin: auto;

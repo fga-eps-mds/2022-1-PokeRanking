@@ -17,7 +17,7 @@ h1 {
 }
 
 .display-container {
-  width: 1589px;
+  width: 1289px;
   background-color: white;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
   margin-left: auto;
@@ -43,12 +43,15 @@ h1 {
 
 .card {
   list-style: none;
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   color: #222;
   text-align: center;
   border-radius: 20px;
   position: relative;
-  width: 264.75px;
+  width: 189.75px;
 }
 
 .card::after {

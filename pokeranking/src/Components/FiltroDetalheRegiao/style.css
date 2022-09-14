@@ -1,6 +1,5 @@
 .bodyFiltroDetalhesRegiao {
   height: 680px;
-  width: 1595px;
   margin: auto;
   margin-bottom: 22px;
   margin-top: 22px;
@@ -11,11 +10,5 @@
   text-align: center;
   color: black;
 
-  /* border-right: 3px solid black;
-  border-left: 3px solid black;
-  border-bottom: 3px solid black;
-  border-top: 3px solid black;
-  border-radius: 30px 30px 30px 30px; */
-
-  /* box-shadow: inset 0px 0px 10px #000; */
+  border-top: 2px solid black;
 }

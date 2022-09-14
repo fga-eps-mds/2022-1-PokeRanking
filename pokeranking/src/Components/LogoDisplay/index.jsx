@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Logo_Principal from "../../Assets/Logo_Principal.png";
+import Logo_Principal from "../../Assets/LogoPrincipal6.png";
 
 function LogoDisplay() {
   return (
