@@ -6,6 +6,7 @@ import Card from "../../Components/Card";
 import Attribute from "../../Components/Attribute";
 
 function Comparar() {
+
   const [pokemonData, setPokemonData] = useState([]);
   const [firstPokemon, setFirstPokemon] = useState({});
   const [secondPokemon, setSecondPokemon] = useState({});
