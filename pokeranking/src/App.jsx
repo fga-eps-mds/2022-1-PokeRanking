@@ -32,22 +32,8 @@ function App() {
       <Router>
         <Header setPokemonName={setPokemonName} />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <Home configFiltro={configFiltro} pokemonName={pokemonName} />
-            }
-          />
-          <Route
-            path="/ranking"
-            element={
-              <Ranking
-                configFiltro={configFiltro}
-                tipoSelecionado={tipoSelecionado}
-                statusSelecionado={statusSelecionado}
-              />
-            }
-          />
+          <Route path="/" element={<Home configFiltro={configFiltro} pokemonName={pokemonName}/>} />
+          <Route path="/ranking" element={<Ranking configFiltro={configFiltro} tipoSelecionado={tipoSelecionado} statusSelecionado={statusSelecionado} pokemonName={pokemonName}/>} />
           <Route path="/equipe" element={""} />
           <Route path="/comparar" element={<Comparar />} />
           <Route path="/como-usar" element={""} />

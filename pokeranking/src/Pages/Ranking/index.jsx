@@ -1,12 +1,12 @@
 import RankingDisplay from "../../Components/RankingDisplay";
 import FiltroDisplay from "../../Components/FiltroDisplay";
 
-function Ranking({configFiltro, tipoSelecionado, statusSelecionado}) {
+function Ranking(props) {
 
   return (
     <ul>
-      <FiltroDisplay configFiltro={configFiltro}/>
-      <RankingDisplay tipoSelecionado={tipoSelecionado} statusSelecionado={statusSelecionado}/>
+      <FiltroDisplay configFiltro={props.configFiltro}/>
+      <RankingDisplay tipoSelecionado={props.tipoSelecionado} statusSelecionado={props.statusSelecionado} pokemonName={props.pokemonName}/>
     </ul>
   );
 

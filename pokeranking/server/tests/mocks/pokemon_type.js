@@ -1,7 +1,7 @@
 //retorna todas as criaturas de tipo fogo
 pokemon_type = [
     {
-        "_id": "62f57bc978902fc16628b652",
+        "_id": "631e1188299e38b65d0808c8",
         "codigo": 4,
         "name": "charmander",
         "type_1": "fire",
@@ -19,7 +19,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b653",
+        "_id": "631e1188299e38b65d0808c9",
         "codigo": 5,
         "name": "charmeleon",
         "type_1": "fire",
@@ -37,7 +37,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b654",
+        "_id": "631e1188299e38b65d0808ca",
         "codigo": 6,
         "name": "charizard",
         "type_1": "fire",
@@ -55,7 +55,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b673",
+        "_id": "631e1188299e38b65d0808e9",
         "codigo": 37,
         "name": "vulpix",
         "type_1": "fire",
@@ -73,7 +73,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b674",
+        "_id": "631e1188299e38b65d0808ea",
         "codigo": 38,
         "name": "ninetales",
         "type_1": "fire",
@@ -91,7 +91,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b688",
+        "_id": "631e1188299e38b65d0808fe",
         "codigo": 58,
         "name": "growlithe",
         "type_1": "fire",
@@ -109,7 +109,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b689",
+        "_id": "631e1188299e38b65d0808ff",
         "codigo": 59,
         "name": "arcanine",
         "type_1": "fire",
@@ -127,7 +127,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69b",
+        "_id": "631e1188299e38b65d080911",
         "codigo": 77,
         "name": "ponyta",
         "type_1": "fire",
@@ -145,7 +145,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b69c",
+        "_id": "631e1188299e38b65d080912",
         "codigo": 78,
         "name": "rapidash",
         "type_1": "fire",
@@ -163,7 +163,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6cc",
+        "_id": "631e1188299e38b65d080942",
         "codigo": 126,
         "name": "magmar",
         "type_1": "fire",
@@ -181,7 +181,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6d6",
+        "_id": "631e1188299e38b65d08094c",
         "codigo": 136,
         "name": "flareon",
         "type_1": "fire",
@@ -199,7 +199,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e0",
+        "_id": "631e1188299e38b65d080956",
         "codigo": 146,
         "name": "moltres",
         "type_1": "fire",
@@ -217,7 +217,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6e9",
+        "_id": "631e1188299e38b65d08095f",
         "codigo": 155,
         "name": "cyndaquil",
         "type_1": "fire",
@@ -235,7 +235,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6ea",
+        "_id": "631e1188299e38b65d080960",
         "codigo": 156,
         "name": "quilava",
         "type_1": "fire",
@@ -253,7 +253,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b6eb",
+        "_id": "631e1188299e38b65d080961",
         "codigo": 157,
         "name": "typhlosion",
         "type_1": "fire",
@@ -271,7 +271,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b728",
+        "_id": "631e1188299e38b65d08099e",
         "codigo": 218,
         "name": "slugma",
         "type_1": "fire",
@@ -289,7 +289,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b729",
+        "_id": "631e1188299e38b65d08099f",
         "codigo": 219,
         "name": "magcargo",
         "type_1": "fire",
@@ -307,7 +307,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b732",
+        "_id": "631e1188299e38b65d0809a8",
         "codigo": 228,
         "name": "houndour",
         "type_1": "dark",
@@ -325,7 +325,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b733",
+        "_id": "631e1188299e38b65d0809a9",
         "codigo": 229,
         "name": "houndoom",
         "type_1": "dark",
@@ -343,7 +343,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b73e",
+        "_id": "631e1188299e38b65d0809b4",
         "codigo": 240,
         "name": "magby",
         "type_1": "fire",
@@ -361,7 +361,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b742",
+        "_id": "631e1188299e38b65d0809b8",
         "codigo": 244,
         "name": "entei",
         "type_1": "fire",
@@ -379,7 +379,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b748",
+        "_id": "631e1188299e38b65d0809be",
         "codigo": 250,
         "name": "ho-oh",
         "type_1": "fire",
@@ -397,7 +397,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74d",
+        "_id": "631e1188299e38b65d0809c3",
         "codigo": 255,
         "name": "torchic",
         "type_1": "fire",
@@ -415,7 +415,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74e",
+        "_id": "631e1188299e38b65d0809c4",
         "codigo": 256,
         "name": "combusken",
         "type_1": "fire",
@@ -433,7 +433,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b74f",
+        "_id": "631e1188299e38b65d0809c5",
         "codigo": 257,
         "name": "blaziken",
         "type_1": "fire",
@@ -451,7 +451,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b790",
+        "_id": "631e1188299e38b65d080a06",
         "codigo": 322,
         "name": "numel",
         "type_1": "fire",
@@ -469,7 +469,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b791",
+        "_id": "631e1188299e38b65d080a07",
         "codigo": 323,
         "name": "camerupt",
         "type_1": "fire",
@@ -487,7 +487,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b792",
+        "_id": "631e1188299e38b65d080a08",
         "codigo": 324,
         "name": "torkoal",
         "type_1": "fire",
@@ -505,7 +505,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d4",
+        "_id": "631e1188299e38b65d080a4a",
         "codigo": 390,
         "name": "chimchar",
         "type_1": "fire",
@@ -523,7 +523,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d5",
+        "_id": "631e1188299e38b65d080a4b",
         "codigo": 391,
         "name": "monferno",
         "type_1": "fire",
@@ -541,7 +541,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b7d6",
+        "_id": "631e1188299e38b65d080a4c",
         "codigo": 392,
         "name": "infernape",
         "type_1": "fire",
@@ -559,7 +559,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b821",
+        "_id": "631e1188299e38b65d080a97",
         "codigo": 467,
         "name": "magmortar",
         "type_1": "fire",
@@ -577,7 +577,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b833",
+        "_id": "631e1188299e38b65d080aa9",
         "codigo": 485,
         "name": "heatran",
         "type_1": "fire",
@@ -595,7 +595,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b83c",
+        "_id": "631e1188299e38b65d080ab2",
         "codigo": 494,
         "name": "victini",
         "type_1": "psychic",
@@ -613,7 +613,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b840",
+        "_id": "631e1188299e38b65d080ab6",
         "codigo": 498,
         "name": "tepig",
         "type_1": "fire",
@@ -631,7 +631,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b841",
+        "_id": "631e1188299e38b65d080ab7",
         "codigo": 499,
         "name": "pignite",
         "type_1": "fire",
@@ -649,7 +649,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b842",
+        "_id": "631e1188299e38b65d080ab8",
         "codigo": 500,
         "name": "emboar",
         "type_1": "fire",
@@ -667,7 +667,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b84f",
+        "_id": "631e1188299e38b65d080ac5",
         "codigo": 513,
         "name": "pansear",
         "type_1": "fire",
@@ -685,7 +685,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b850",
+        "_id": "631e1188299e38b65d080ac6",
         "codigo": 514,
         "name": "simisear",
         "type_1": "fire",
@@ -703,7 +703,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b878",
+        "_id": "631e1188299e38b65d080aee",
         "codigo": 554,
         "name": "darumaka",
         "type_1": "fire",
@@ -721,7 +721,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b879",
+        "_id": "631e1188299e38b65d080aef",
         "codigo": 555,
         "name": "darmanitan-standard",
         "type_1": "fire",
@@ -739,7 +739,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ad",
+        "_id": "631e1188299e38b65d080b23",
         "codigo": 607,
         "name": "litwick",
         "type_1": "ghost",
@@ -757,7 +757,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ae",
+        "_id": "631e1188299e38b65d080b24",
         "codigo": 608,
         "name": "lampent",
         "type_1": "ghost",
@@ -775,7 +775,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8af",
+        "_id": "631e1188299e38b65d080b25",
         "codigo": 609,
         "name": "chandelure",
         "type_1": "ghost",
@@ -793,7 +793,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8c5",
+        "_id": "631e1188299e38b65d080b3b",
         "codigo": 631,
         "name": "heatmor",
         "type_1": "fire",
@@ -811,7 +811,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ca",
+        "_id": "631e1188299e38b65d080b40",
         "codigo": 636,
         "name": "larvesta",
         "type_1": "bug",
@@ -829,7 +829,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8cb",
+        "_id": "631e1188299e38b65d080b41",
         "codigo": 637,
         "name": "volcarona",
         "type_1": "bug",
@@ -847,7 +847,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8d1",
+        "_id": "631e1188299e38b65d080b47",
         "codigo": 643,
         "name": "reshiram",
         "type_1": "dragon",
@@ -865,7 +865,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8db",
+        "_id": "631e1188299e38b65d080b51",
         "codigo": 653,
         "name": "fennekin",
         "type_1": "fire",
@@ -883,7 +883,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8dc",
+        "_id": "631e1188299e38b65d080b52",
         "codigo": 654,
         "name": "braixen",
         "type_1": "fire",
@@ -901,7 +901,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8dd",
+        "_id": "631e1188299e38b65d080b53",
         "codigo": 655,
         "name": "delphox",
         "type_1": "fire",
@@ -919,7 +919,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e4",
+        "_id": "631e1188299e38b65d080b5a",
         "codigo": 662,
         "name": "fletchinder",
         "type_1": "fire",
@@ -937,7 +937,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e5",
+        "_id": "631e1188299e38b65d080b5b",
         "codigo": 663,
         "name": "talonflame",
         "type_1": "fire",
@@ -955,7 +955,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8e9",
+        "_id": "631e1188299e38b65d080b5f",
         "codigo": 667,
         "name": "litleo",
         "type_1": "fire",
@@ -973,7 +973,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b8ea",
+        "_id": "631e1188299e38b65d080b60",
         "codigo": 668,
         "name": "pyroar",
         "type_1": "fire",
@@ -991,7 +991,7 @@ pokemon_type = [
         "__v": 0
     },
     {
-        "_id": "62f57bc978902fc16628b91f",
+        "_id": "631e1188299e38b65d080b95",
         "codigo": 721,
         "name": "volcanion",
         "type_1": "fire",
