@@ -37,12 +37,14 @@ nav:
     - Termo de Abertura do Projeto: "Documentação/Termo-de-Abertura.md"
     - Documento de Visão: "Documentação/documento-de-visao.md"
     - Documento de Arquitetura: "Documentação/documento-de-arquitetura.md"
+    - Documento de Metodologia: "Documentação/Doc_metodologia.md"
     - Backlog do Produto: "Documentação/product-backlog.md"
     - Gerenciamento de riscos: "Documentação/Doc-risks.md"
     - Estrutura Analítica do Projeto: "Documentação/estrutura-analitica.md"
     - Roadmaps: "Documentação/roadmap.md"
     - Protótipo de Baixa Fidelidade: "Protótipos/prototipo-de-baixa-fidelidade.md"
     - Protótipo de Alta Fidelidade: "Protótipos/prototipo-de-alta-fidelidade.md"
+    - Guia de Estilo e Identidade Visual: "Documentação/Guia-de-estilo-e-identidade-visual.md"
     - Código de Conduta para Colaboradores: "Documentação/CODE_OF_CONDUCT.md"
     - Canvas: "Documentação/canvas.md"
   - Sprints:
@@ -77,17 +79,19 @@ nav:
       - Planning: "Sprints/Sprint_09/Sprint09_Planning.md"
       - Review: "Sprints/Sprint_09/Sprint09_Review.md"
     - Sprint 10:
-      - Planning: "Sprints/Sprint_10/Sprint10_Planning.md"
-      - Review: "Sprints/Sprint_10/Sprint10_Review.md"
+      - Planning: "Sprints/Sprint_10/Sprint10_planning.md"
+      - Review: "Sprints/Sprint_10/Sprint10_review.md"
     - Sprint 11:
-      - Planning: "Sprints/Sprint_11/Sprint11_Planning.md"
-      - Review: "Sprints/Sprint_11/Sprint11_Review.md"
+      - Planning: "Sprints/Sprint_11/Sprint11_planning.md"
+      - Review: "Sprints/Sprint_11/Sprint11_review.md"
     - Sprint 12:
-      - Planning: "Sprints/Sprint_12/Sprint12_Planning.md"
-      - Review: "Sprints/Sprint_12/Sprint12_Review.md"
+      - Planning: "Sprints/Sprint_12/Sprint12_planning.md"
+      - Review: "Sprints/Sprint_12/Sprint12_review.md"
     - Sprint 13:
-      - Planning: "Sprints/Sprint_13/Sprint13_Planning.md"
-      - Review: "Sprints/Sprint_13/Sprint13_Review.md"
+      - Planning: "Sprints/Sprint_13/Sprint13_planning.md"
+      - Review: "Sprints/Sprint_13/Sprint13_review.md"
+  - Como contribuir: "Documentação/pol-contribuicao.md"
+
     
 
 repo_url: https://github.com/fga-eps-mds/2022-1-PokeRanking
