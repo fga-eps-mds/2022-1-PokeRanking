@@ -28,10 +28,10 @@ export const FiltroRegiaoData = [
     },
 
     {
-        title: "Unnova",
+        title: "Unova",
         pathAPI: "5",
         path: "/ranking",
-        Cname: "RegUnnova"
+        Cname: "RegUnova"
     },
 
     {
