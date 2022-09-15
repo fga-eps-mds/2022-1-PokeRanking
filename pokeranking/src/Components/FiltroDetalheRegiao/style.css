@@ -4,20 +4,15 @@
     margin: auto;
     margin-bottom: 22px;
     margin-top: 22px;
-    background: linear-gradient(to right, rgb(82, 74, 74), rgb(136, 128, 128), rgb(82, 74, 74));
+    background: rgb(136, 128, 128);
   
     font: normal 30px Arial;
     line-height: 60px;
     text-align: center;
     color: black;
   
-    border-right: 3px solid black;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    border-top: 3px solid black;
-    border-radius: 30px 30px 30px 30px;
-  
-    box-shadow: inset 0px 0px 10px #000;
+    border-top: 2px solid black;
+
 /*
     display: none;
     opacity: 0;
@@ -36,7 +31,7 @@
 
     gap: 22px;
     column-gap: 132px;
-    width: 1590px;
+    width: 1290px;
 
     padding-top: 22px;
     padding-bottom: 22px;
@@ -72,7 +67,7 @@
     border-radius: 20px;
 
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 60px;
 
     color: #000;
@@ -89,7 +84,7 @@
     border-radius: 20px;
 
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 60px;
 
     color: #000;
@@ -106,7 +101,7 @@
     border-radius: 20px;
 
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 60px;
 
     color: #000;
@@ -123,7 +118,7 @@
     border-radius: 20px;
 
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 60px;
 
     color: #000;
@@ -140,7 +135,7 @@
     border-radius: 20px;
 
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 60px;
 
     color: #000;
@@ -157,7 +152,7 @@
     border-radius: 20px;
 
     position: relative;
-    width: 300px;
+    width: 250px;
     height: 60px;
 
     color: #000;
