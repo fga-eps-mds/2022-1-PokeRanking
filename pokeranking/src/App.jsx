@@ -13,7 +13,7 @@ import Comparar from "./Pages/Comparar";
 function App() {
   const [tipoSelecionado, setTipoSelecionado] = useState("NA");
   const [statusSelecionado, setStatusSelecionado] = useState("total");
-
+  const [regiaoSelecionada, setRegiaoSelecionada] = useState("0");
   const [pokemonName, setPokemonName] = useState("");
 
   const configFiltro = {
@@ -25,6 +25,11 @@ function App() {
     alteraStatus(statusFiltro) {
       console.log("O status selecionado é: ", statusFiltro);
       setStatusSelecionado(statusFiltro);
+    },
+
+    alteraRegiao(regiaoFiltro) {
+      console.log("A região selecionada é: ", regiaoFiltro);
+      setRegiaoSelecionada(regiaoFiltro);
     },
   };
 
@@ -46,6 +51,7 @@ function App() {
                 configFiltro={configFiltro}
                 tipoSelecionado={tipoSelecionado}
                 statusSelecionado={statusSelecionado}
+                regiaoSelecionada={regiaoSelecionada}
                 pokemonName={pokemonName}
               />
             }

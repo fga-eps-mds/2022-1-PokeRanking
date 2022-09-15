@@ -12,7 +12,7 @@ function FiltroDetalheRegiao(props) {
         {FiltroRegiaoData.map((item, index) => {
           return (
             <Link to={item.path} style={{ textDecoration: 'none', color: 'black' }}>
-              <li key={index} className={item.Cname} onClick= {() => props.alteraRegiao(item.pathAPI)}>
+              <li key={index} className={item.Cname} onClick= {() => { props.alteraRegiao(item.pathAPI) ; props.setShowElement("") }}>
                 <span>{item.title}</span>
               </li>
             </Link>

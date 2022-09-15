@@ -8,42 +8,42 @@ export const FiltroRegiaoData = [
 
     {
         title: "Johto",
-        pathAPI: "attack",
+        pathAPI: "2",
         path: "/ranking",
         Cname: "RegJohto"
     },
 
     {
         title: "Hoenn",
-        pathAPI: "defense",
+        pathAPI: "3",
         path: "/ranking",
         Cname: "RegHoenn"
     },
 
     {
         title: "Sinnoh",
-        pathAPI: "special_attack",
+        pathAPI: "4",
         path: "/ranking",
         Cname: "RegSinnoh"
     },
 
     {
         title: "Unnova",
-        pathAPI: "special_defense",
+        pathAPI: "5",
         path: "/ranking",
         Cname: "RegUnnova"
     },
 
     {
         title: "Kalos",
-        pathAPI: "speed",
+        pathAPI: "6",
         path: "/ranking",
         Cname: "RegKalos"
     },
 
     {
-        title: "Ranking Geral",
-        pathAPI: "total",
+        title: "Todas as regiões",
+        pathAPI: "0",
         path: "/ranking",
         Cname: "StatusTodos"
     },
