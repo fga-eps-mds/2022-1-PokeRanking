@@ -5,6 +5,7 @@
 
 | Data   | Versão | Modificação  | Autor  |
 | :- | :- | :- | :- |
+| 14/09/2022 | 0.3 | Paleta de cores e Footer | Júlio César |
 | 05/09/2022 | 0.3 | Componentes adicionais | Kallyne M. Passos |
 | 25/08/2022 | 0.3 | Legendas, descrições e componentes | Kallyne M. Passos |
 | 20/08/2022 | 0.2 | Estruturação do Guia | Kallyne M. Passos |
@@ -79,7 +80,7 @@ Para melhor adaptação visual e configuração de contrastes na página, a logo
 
 # 3. Paleta de cores
 
-| <center> ![img](https://i.ibb.co/V3kHmNL/pokeranking.png) </center> |
+| <center> ![palette](https://user-images.githubusercontent.com/78378116/190285606-060ce9c1-9e5f-48b3-8ca3-ba71f060b75a.png) </center> |
 | :- | 
 | <b><center>Paleta de Cores - PokéRanking </center></b> |
 
@@ -143,5 +144,8 @@ Para que não ocorra disturbância visual ou quebra de identidade, as cores apre
 | <b><center>Barra de navegação do site.</center></b> |
 
 ## 4.4. Footer
+| <center> ![footer](https://user-images.githubusercontent.com/78378116/190285692-54b39b01-880f-48bf-9f14-f305c1574392.PNG) </center> | 
+| :- | 
+| <b><center>Rodapé do site.</center></b> |
 
 
