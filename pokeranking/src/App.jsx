@@ -59,6 +59,8 @@ function App() {
           <Route path="/equipe" element={<Equipe />} />
           <Route path="/comparar" element={<Comparar />} />
           <Route path="/como-usar" element={""} />
+          <Route path="/mapa" element={""} />
+          
         </Routes>
         <Footer />
       </Router>

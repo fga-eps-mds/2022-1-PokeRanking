@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import { useState } from "react";
 import ComoUsar from "../ComoUsar";
+import Mapa from "../Mapa";
 
 function Footer() {
   const [modalOpened, setModalOpened] = useState(false);
@@ -9,10 +10,18 @@ function Footer() {
   function handleComoUsarClick() {
     setModalOpened(true);
   }
+
+  function handleMapaClick() {
+    setModalOpened(true);
+  }
   
   return (
     <>
     <ComoUsar 
+      opened={modalOpened}
+      setOpened={setModalOpened}
+    />
+    <Mapa 
       opened={modalOpened}
       setOpened={setModalOpened}
     />
@@ -41,6 +50,9 @@ function Footer() {
           <div className="container-link">
             <div className="link" onClick={handleComoUsarClick}>
               Como usar
+            </div>
+            <div className="link" onClick={handleMapaClick}>
+              Mapa de regiões Pokémon
             </div>
             <a
               className="link"
