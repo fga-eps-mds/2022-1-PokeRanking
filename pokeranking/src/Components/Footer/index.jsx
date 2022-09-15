@@ -6,22 +6,25 @@ import Mapa from "../Mapa";
 
 function Footer() {
   const [modalOpened, setModalOpened] = useState(false);
+  const [modalOpened2, setModalOpened2] = useState(false);
 
   function handleComoUsarClick() {
     setModalOpened(true);
   }
 
   function handleMapaClick() {
-    setModalOpened(true);
+    setModalOpened2(true);
   }
+  
   
   return (
     <>
-    <ComoUsar 
-      opened={modalOpened}
-      setOpened={setModalOpened}
+   <Mapa 
+      opened={modalOpened2}
+      setOpened={setModalOpened2}
     />
-    <Mapa 
+
+    <ComoUsar 
       opened={modalOpened}
       setOpened={setModalOpened}
     />

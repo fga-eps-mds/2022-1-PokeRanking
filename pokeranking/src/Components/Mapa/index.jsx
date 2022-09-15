@@ -6,8 +6,8 @@ function Mapa({ opened, setOpened }) {
   if (!opened) return null;
 
   return (
-    <div id="modal-braba" className="modal">
-      <div className="modal-content">
+    <div id="modal-map" className="modal">
+      <div className="modal-content-map">
         <div className="modal-header">
           <span className="close" onClick={() => setOpened(false)}>&times;</span>
         </div>
