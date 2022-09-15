@@ -6,6 +6,7 @@ import "./style.css";
 function Home(props) {
   props.configFiltro.alteraFiltro("NA");
   props.configFiltro.alteraStatus("total");
+  props.configFiltro.alteraRegiao("0");
 
   return (
     <>

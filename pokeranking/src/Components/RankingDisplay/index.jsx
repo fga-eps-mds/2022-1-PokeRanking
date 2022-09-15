@@ -12,14 +12,15 @@ function RankingDisplay(props) {
   const [pokemonInfo, setPokemonInfo] = useState(null);
   let tipo = props.tipoSelecionado
   let status = props.statusSelecionado
+  let regiao = props.regiaoSelecionada
   let contador = 0
   var liCss, isFirst, isSecond, isThird
 
   useEffect(() => {
-    fetch(`http://localhost:5000/criaturas/`+tipo+`/Ranking/`+status+`/Geracao/0`)
+    fetch(`http://localhost:5000/criaturas/`+tipo+`/Ranking/`+status+`/Geracao/`+regiao)
       .then((response) => response.json())
       .then((data) => setPokemonData(data));
-  }, [tipo, status]);
+  }, [tipo, status, regiao]);
 
   function handlePokemonClick(data) {
     setModalOpened(true);

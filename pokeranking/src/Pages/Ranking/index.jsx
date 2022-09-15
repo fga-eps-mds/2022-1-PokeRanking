@@ -9,6 +9,7 @@ function Ranking(props) {
       <RankingDisplay
         tipoSelecionado={props.tipoSelecionado}
         statusSelecionado={props.statusSelecionado}
+        regiaoSelecionada={props.regiaoSelecionada}
         pokemonName={props.pokemonName}
       />
     </ul>

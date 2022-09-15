@@ -49,7 +49,7 @@ function FiltroDisplay({configFiltro}) {
       </div>
       {showElement==="tipo" ? <FiltroDetalheTipo alteraFiltro={configFiltro.alteraFiltro} setShowElement={setShowElement}/> : null}
       {showElement==="status" ? <FiltroDetalheStatus alteraStatus={configFiltro.alteraStatus} setShowElement={setShowElement}/> : null}
-      {showElement==="regiao" ? <FiltroDetalheRegiao /> : null}
+      {showElement==="regiao" ? <FiltroDetalheRegiao alteraRegiao={configFiltro.alteraRegiao} setShowElement={setShowElement}/> : null}
     </ul>
   );
 }

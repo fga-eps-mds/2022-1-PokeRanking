@@ -1,14 +1,164 @@
 .bodyFiltroDetalhesRegiao {
-  height: 680px;
-  margin: auto;
-  margin-bottom: 22px;
-  margin-top: 22px;
-  background: rgb(136, 128, 128);
+    height: 360px;
+    width: 1395px;
+    margin: auto;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    background: rgb(136, 128, 128);
+  
+    font: normal 30px Arial;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+  
+    border-top: 2px solid black;
 
-  font: normal 30px Arial;
-  line-height: 60px;
-  text-align: center;
-  color: black;
+/*
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    z-index: -1;
+*/
+}
 
-  border-top: 2px solid black;
+.Regiao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 22px;
+    column-gap: 132px;
+    width: 1290px;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.StatusTodos {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 50px;
+
+    margin-top: 50px;
+    position: relative;
+    width: 550px;
+    height: 50px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background: linear-gradient(to top, #2f1212, #c63838, #2f1212);
+    box-shadow: rgba(0, 0, 0, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.RegKanto {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 250px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #b97fc9;
+    box-shadow: rgba(56, 24, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.RegJohto {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 250px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #fd7d24;
+    box-shadow: rgba(139, 79, 44, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.RegHoenn {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 250px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #4592c4;
+    box-shadow: rgba(24, 43, 71, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.RegSinnoh {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 250px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #f16e57;
+    box-shadow: #58281f 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.RegUnova {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 250px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #729f3f;
+    box-shadow: rgba(41, 71, 24, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
+}
+
+.RegKalos {
+    list-style: none;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    width: 250px;
+    height: 60px;
+
+    color: #000;
+    border: 2px solid #cccccc;
+    background-color: #eed535;
+    box-shadow: rgba(122, 121, 38, 0.788) 5px 5px 5px;
+
+    cursor: pointer;
 }
