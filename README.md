@@ -5,17 +5,8 @@
 
 
 <p align="center">
-    <a href="https://app.travis-ci.com/github/fga-eps-mds/2022-1-PokeRanking" alt="Status da build" >
-        <img src="https://app.travis-ci.com/fga-eps-mds/2022-1-PokeRanking.svg?branch=main" />
-    </a>
     <a href="https://codeclimate.com/github/fga-eps-mds/2022-1-PokeRanking" alt="Manutenibilidade" >
         <img src="https://api.codeclimate.com/v1/badges/c6ad709789de6e0bfc0b/maintainability" />
-    </a>
-    <a href="https://isitmaintained.com/project/fga-eps-mds/2022-1-PokeRanking" alt="Porcentagem de issues abertas" >
-        <img src="http://isitmaintained.com/badge/open/fga-eps-mds/2022-1-PokeRanking.svg" />
-    </a>
-    <a href="https://isitmaintained.com/project/fga-eps-mds/2022-1-PokeRanking" alt="Tempo médio para fechar uma issue" >
-        <img src="http://isitmaintained.com/badge/resolution/fga-eps-mds/2022-1-PokeRanking.svg" />
     </a>
     <a href="https://opensource.org/licenses/MIT" alt="Licença: GPL v3" >
         <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
@@ -26,7 +17,6 @@
     <img src='https://bettercodehub.com/edge/badge/Thiago-Cerq/2022-1-PokeRanking?branch=main'>
     <a href="https://www.codacy.com/gh/Thiago-Cerq/2022-1-PokeRanking/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Thiago-Cerq/2022-1-PokeRanking&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/47d88209fd5c41a98808ebfa6ba8286d"/></a>
     <a href="https://sonarcloud.io/api/project_badges/measure?project=Thiago-Cerq_2022-1-PokeRanking&metric=alert_status"></a>
-    <img src='https://sonarcloud.io/api/project_badges/measure?project=Thiago-Cerq_2022-1-PokeRanking&metric=alert_status'>
 </p>
 
 ## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Sobre o projeto
@@ -86,3 +76,8 @@ Após iniciar o servidor e o front-end, o programa irá iniciar e sempre que qui
 
 ## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Licença
 Este projeto está licenciado sob os termos estabelecidos pela MIT License.
+
+## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Deploy do Projeto
+<p align="center">
+    <a href="https://pokeranking.herokuapp.com/"><strong>Poke Ranking</strong></a> <img src="https://media.giphy.com/media/8YEgM3ih5TdJOIMxzf/giphy.gif" width="20" height="20" />
+</p>
