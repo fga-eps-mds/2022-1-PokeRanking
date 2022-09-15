@@ -119,11 +119,6 @@ function PokemonDetails({ opened, setOpened, pokemonInfo }) {
         </main>
         </div>
 
-        <div className="modal-footer">
-          <div className="linha-horizontal"></div>
-            <div className="adicionar">+</div>
-              <p className="textFoot">Adicionar à comparação</p>
-          </div>
       </div>
     </div>
   );

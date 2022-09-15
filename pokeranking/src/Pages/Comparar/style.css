@@ -1,0 +1,39 @@
+.comparar-page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 50px 50px;
+  background-color: white;
+  background-image: url("https://github.com/fga-eps-mds/2022-1-PokeRanking/blob/main/pokeranking/src/Assets/fundoSite.png?raw=true");
+  border: 3px solid black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  width: 70%;
+}
+
+.card-wraper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.comparar-button {
+  background-color: #222222;
+  border: none;
+  color: #e0e0e0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  border-radius: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

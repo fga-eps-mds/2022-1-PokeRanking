@@ -5,6 +5,7 @@
 
 | Data   | Versão | Modificação  | Autor  |
 | :- | :- | :- | :- |
+| 05/09/2022 | 0.3 | Componentes adicionais | Kallyne M. Passos |
 | 25/08/2022 | 0.3 | Legendas, descrições e componentes | Kallyne M. Passos |
 | 20/08/2022 | 0.2 | Estruturação do Guia | Kallyne M. Passos |
 | 08/08/2022 | 0.1 | Criação da versão inicial do documento | Leonardo S. Aguiar |
@@ -131,7 +132,15 @@ Para que não ocorra disturbância visual ou quebra de identidade, as cores apre
 
 ## 4.2. Ícones
 
+| <center> ![icones](https://i.ibb.co/y8j4jt0/Pokemon-Type-Avatar.png) </center> | 
+| :- | 
+| <b><center>Ícones que representam os tipos de Pokémon, da esquerda para direita: Inseto, terra, sombrio, gelo, dragão, normal, elétrico, veneno, fada, psíquico, lutador, pedra, fogo, ferro, água, voador, fantasma e grama. </center></b> |
+
 ## 4.3. Navbar
+
+| <center> ![nav](https://i.ibb.co/BsGN21w/navbar.png) </center> | 
+| :- | 
+| <b><center>Barra de navegação do site.</center></b> |
 
 ## 4.4. Footer
 

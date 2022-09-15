@@ -5,6 +5,8 @@ const Criatura = require('../Models/Criatura');
 const {Validacao_de_tipo_pokemon} = require('../Controller/services/Validacao_de_tipo_pokemon')
 const {Ranking_de_pokemon_por_atributo} = require('../Controller/services/Ranking_de_pokemon_por_atributo')
 const {Ordenacao_de_pokemon_por_status} = require('./services/Ordenacao_de_pokemon_por_status')
+const {Validacao_de_geracao_pokemon} = require('../Controller/services/Validacao_de_geracao_pokemon')
+const {Ranking_geral_de_pokemons} = require('../Controller/services/Ranking_geral_de_pokemons')
 
 module.exports = {
 
@@ -41,6 +43,7 @@ module.exports = {
             */
             let pokemon = await Criatura
 
+            // eslint-disable-next-line eqeqeq
             if (juiz == true) {
                 pokemon = await Criatura.findOne({ name: id })
             } else {
@@ -99,6 +102,30 @@ module.exports = {
         }
     },
 
+    // BUSCA DE CRIATURAS PELA GERAÇÃO
+    async busca_criaturas_por_geracao(req, res) {
+
+        // extrai o dado da requisicao pela url = req.params
+        const geracao = req.params.geracao
+
+        const geracao_criatura_verificado = Validacao_de_geracao_pokemon(geracao)
+
+        if (!geracao_criatura_verificado) {
+            res.status(422).json({ message: "tipo de geração de pokémon não encontrada" })
+            return
+        }
+
+        // ordena pela ordem crescente de atributo "codigo"
+        let ordenacao = { codigo: 1 }
+        try {
+
+            const pokemons = await Criatura.find({"generation": `${geracao}`}).sort(ordenacao)
+            res.status(200).json(pokemons)
+        } catch (error) {
+            res.status(500).json({ error: error })
+        }
+    },
+
     // BUSCA DE CRIATURAS POR TIPO E COM ORDENACAO DE RANKING POR ATRIBUTO
     async busca_criaturas_por_tipo_atributo(req, res) {
 
@@ -123,22 +150,17 @@ module.exports = {
                 return
             }
 
-            /*
-            * NA = nao tem um valor de "tipo" a ser buscado. Ele
-            * engloba todas as criaturas.
-            */
-            if (type != "NA") {
-                const pokemons = await Criatura.find({
-                    $or: [
-                        { "type_1": `${type}` },
-                        { "type_2": `${type}` }
-                    ]
-                }).sort(ordenacao)
-                res.status(200).json(pokemons)
-            } else {
-                const pokemons = await Criatura.find().sort(ordenacao)
-                res.status(200).json(pokemons)
+            const geracao = req.params.geracao
+            const geracao_criatura_verificado = Validacao_de_geracao_pokemon(geracao)
+
+            if (!geracao_criatura_verificado) {
+                res.status(422).json({ message: "tipo de geração de pokémon não encontrada" })
+                return
             }
+            
+            let pokemons = await Ranking_geral_de_pokemons(ordenacao, type, geracao)
+            res.status(200).json(pokemons)
+            
         } catch (error) {
             res.status(500).json({ error: error })
         }
