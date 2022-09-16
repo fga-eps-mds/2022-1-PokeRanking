@@ -74,10 +74,10 @@ Issues | Descrição | Responsáveis
 
 
  ## 1.5. Planning Poker
-![Planning Poker](Imagens/PlanningPoker.png)
+![Planning Poker](imagens/PlanningPoker.png)
 
 
-![Padrao de Estimativa](Imagens/padrao_estimativa_complexidade.jpeg)
+![Padrao de Estimativa](imagens/padrao_estimativa_complexidade.jpeg)
 
 <!--
 [Thiago](https://github.com/Thiago-Cerq) 
