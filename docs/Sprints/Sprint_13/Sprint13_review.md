@@ -45,9 +45,10 @@ O Backlog do Produto pode ser visualizado neste [link](https://github.com/fga-ep
 ---------
 
 ## 5. Gráfico - BurnDown
-![BurnDown](Imagens/BurndownReport.png)
+![BurnDown](imagens/BurndownReport.png)
+![BurnDown](imagens/BurnDown13.png)
 
 ---------
 
 ## 6. Gráfico - Velocity
-![Velocity](Imagens/VelocityReport.png)
+![Velocity](imagens/Velocity.png)
