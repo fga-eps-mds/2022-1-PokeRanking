@@ -47,6 +47,7 @@ nav:
     - Guia de Estilo e Identidade Visual: "Documentação/Guia-de-estilo-e-identidade-visual.md"
     - Código de Conduta para Colaboradores: "Documentação/CODE_OF_CONDUCT.md"
     - Canvas: "Documentação/canvas.md"
+    - Post Mortem: "Documentação/post-mortem.md"
   - Sprints:
     - Sprint 00:
       - Planning: "Sprints/Sprint_00/planning.md"
