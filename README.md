@@ -32,6 +32,11 @@ O projeto tem como intuito promover uma melhor experiência para Jogadores de Po
     <a href="https://fga-eps-mds.github.io/2022-1-PokeRanking/"><strong>PokeRanking Docs</strong></a> <img src="https://media.giphy.com/media/8YEgM3ih5TdJOIMxzf/giphy.gif" width="20" height="20" />
 </p>
 
+## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Link da apresentação da Release 2
+<p align="center">
+    <a href="https://www.youtube.com/watch?v=zA2kxFY4Eu8"><strong>Apresentação Release 2</strong></a> <img src="https://media.giphy.com/media/8YEgM3ih5TdJOIMxzf/giphy.gif" width="20" height="20" />
+</p>
+
 ## <img src="https://pa1.narvii.com/6277/2d50304dcabc3e0b7d7ef186c7f5d2b77ad578c5_hq.gif" width="30" height="30" /> Tecnologias utilizadas
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
