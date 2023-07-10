@@ -12,6 +12,8 @@ router.get('/geracao/:geracao',HomeController.busca_criaturas_por_geracao)
 router.get('/:type/Ranking/:atributo/Geracao/:geracao',HomeController.busca_criaturas_por_tipo_atributo)
 
 router.post('/', HomeController.Create)
+router.post('/updatePokemon/:codigo', HomeController.update_criatura)
+router.post('/recupera_criatura_de_teste/:codigo', HomeController.recupera_criatura_de_teste)
 router.post('/CSV_file', HomeController.CreateParser)
 
 module.exports = router
