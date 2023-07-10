@@ -2,11 +2,11 @@
 const Criatura = require('../Models/Criatura');
 
 //Algoritmos
-const {Validacao_de_tipo_pokemon} = require('../Controller/services/Validacao_de_tipo_pokemon')
-const {Ranking_de_pokemon_por_atributo} = require('../Controller/services/Ranking_de_pokemon_por_atributo')
-const {Ordenacao_de_pokemon_por_status} = require('./services/Ordenacao_de_pokemon_por_status')
-const {Validacao_de_geracao_pokemon} = require('../Controller/services/Validacao_de_geracao_pokemon')
-const {Ranking_geral_de_pokemons} = require('../Controller/services/Ranking_geral_de_pokemons')
+const { Validacao_de_tipo_pokemon } = require('../Controller/services/Validacao_de_tipo_pokemon')
+const { Ranking_de_pokemon_por_atributo } = require('../Controller/services/Ranking_de_pokemon_por_atributo')
+const { Ordenacao_de_pokemon_por_status } = require('./services/Ordenacao_de_pokemon_por_status')
+const { Validacao_de_geracao_pokemon } = require('../Controller/services/Validacao_de_geracao_pokemon')
+const { Ranking_geral_de_pokemons } = require('../Controller/services/Ranking_geral_de_pokemons')
 
 module.exports = {
 
@@ -119,7 +119,7 @@ module.exports = {
         let ordenacao = { codigo: 1 }
         try {
 
-            const pokemons = await Criatura.find({"generation": `${geracao}`}).sort(ordenacao)
+            const pokemons = await Criatura.find({ "generation": `${geracao}` }).sort(ordenacao)
             res.status(200).json(pokemons)
         } catch (error) {
             res.status(500).json({ error: error })
@@ -157,10 +157,10 @@ module.exports = {
                 res.status(422).json({ message: "tipo de geração de pokémon não encontrada" })
                 return
             }
-            
+
             let pokemons = await Ranking_geral_de_pokemons(ordenacao, type, geracao)
             res.status(200).json(pokemons)
-            
+
         } catch (error) {
             res.status(500).json({ error: error })
         }
@@ -193,6 +193,172 @@ module.exports = {
         }
 
     },
+
+    //CASO 1
+    // UPDATE DE CRIATURA
+    /*async update_criatura(req, res) {
+
+        // extrai o dado da requisicao pela url = req.params
+        const id = req.params.codigo
+
+        if (id == '' || id == 'null') {
+            res.status(404).json({ message: "código vazio ou nulo" })
+            return
+        }
+
+        try {
+            res.status(200).json({ message: "código não vazio" })
+        } catch (error) {
+            res.status(500).json({ error: error })
+        }
+
+        return
+
+    },*/
+
+    //CASO 2
+    /*async update_criatura(req, res) {
+        // extrai o dado da requisicao pela url = req.params
+        const id = req.params.codigo
+
+        if (id == '' || id == 'null') {
+            res.status(404).json({ message: "código vazio ou nulo" })
+            return
+        } else {
+            try {
+
+                let pokemon = await Criatura
+                pokemon = await Criatura.findOne({ codigo: id })
+
+                //  Caso de pokemon com nome ou id nao encontrado na busca 
+                if (!pokemon) {
+                    res.status(422).json({ message: "Pokémon não encontrado" })
+                    return
+                } else {
+                    res.status(200).json({ message: "Criatura encontrada/atualizada com sucesso" })
+                    return
+                }
+            } catch (error) {
+                res.status(500).send(error)
+            }
+        }
+    },*/
+
+    //CASO 3
+    async update_criatura(req, res) {
+        // extrai o dado da requisicao pela url = req.params
+        const id = req.params.codigo
+
+        if (id == '' || id == 'null') {
+            res.status(404).json({ message: "código vazio ou nulo" })
+            return
+        } else {
+            try {
+
+                let pokemon = await Criatura
+                pokemon = await Criatura.findOne({ codigo: id })
+
+                //  Caso de pokemon com nome ou id nao encontrado na busca 
+                if (!pokemon) {
+                    res.status(422).json({ message: "Pokémon não encontrado" })
+                    return
+                } else {
+                    const {
+                        codigo,
+                        name,
+                        type_1,
+                        type_2,
+                        hp,
+                        attack,
+                        defense,
+                        special_attack,
+                        special_defense,
+                        speed,
+                        generation,
+                        url_image,
+                        shape,
+                        total
+                    } = req.body
+
+                    if (!codigo || !name || !type_1 || !type_2 || !hp || !attack || !defense || !special_attack ||
+                        !special_defense || !speed || !generation || !shape || !total) {
+                        res.status(422).json({ message: "Atributo(s) obrigatório(s) para realizar o update" })
+                        return
+                    }
+
+                    const obj = {
+                        codigo: codigo, name: name, type_1: type_1,
+                        type_2: type_2, hp: hp, attack: attack, defense: defense,
+                        special_attack: special_attack, special_defense: special_defense,
+                        speed: speed, generation: generation, url_image: url_image,
+                        shape: shape, total: total
+                    }
+
+                    try {
+                        let result = await Criatura.updateOne({ codigo: id }, obj)
+                        if (result.modifiedCount === 1) {
+                            res.status(200).json({ message: "Criatura encontrada/atualizada com sucesso" })
+                        } else {
+                            res.status(404).json({ message: "Falha na atualizacao" })
+                        }
+                    } catch (error) {
+                        res.status(500).send(error)
+                    }
+
+                }
+            } catch (error) {
+                res.status(500).send(error)
+            }
+        }
+    },
+
+    async recupera_criatura_de_teste(req, res) {
+        // extrai o dado da requisicao pela url = req.params
+        const id = req.params.codigo
+
+        try {
+            const {
+                codigo,
+                name,
+                type_1,
+                type_2,
+                hp,
+                attack,
+                defense,
+                special_attack,
+                special_defense,
+                speed,
+                generation,
+                url_image,
+                shape,
+                total
+            } = req.body
+
+            const obj = {
+                codigo: codigo, name: name, type_1: type_1,
+                type_2: type_2, hp: hp, attack: attack, defense: defense,
+                special_attack: special_attack, special_defense: special_defense,
+                speed: speed, generation: generation, url_image: url_image,
+                shape: shape, total: total
+            }
+
+            try {
+                let result = await Criatura.updateOne({ codigo: id }, obj)
+                if (result.modifiedCount === 1) {
+                    res.status(200).json({ message: "Criatura encontrada/atualizada com sucesso" })
+                } else {
+                    res.status(404).json({ message: "Falha na atualizacao" })
+                }
+            } catch (error) {
+                res.status(500).send(error)
+            }
+
+
+        } catch (error) {
+            res.status(500).send(error)
+        }
+    },
+
 
     // CREATE CSV-PARSER DE CRIATURA(S)
     async CreateParser(req, res) {

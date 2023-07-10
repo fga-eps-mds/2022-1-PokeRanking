@@ -4,6 +4,7 @@ const { app, url, mongoose } = require('../index')
 //MOCKS
 const allPokemons = require('./mocks/allPokemons')
 const pokemon_001 = require('./mocks/pokemon_001')
+const dados_pokemon_01 = require('./mocks/dados_pokemon_01')
 const pokemons_type_ranking = require('./mocks/pokemon_type_ranking')
 const pokemon_type = require('./mocks/pokemon_type')
 const pokemon_generation = require('./mocks/pokemon_generation')
@@ -118,4 +119,94 @@ describe("busca de pokemon", () => {
         expect(response.statusCode).toEqual(422)
         expect(response.body).toHaveProperty('message')
     });
+})
+
+//UPDATE DE POKEMON
+describe("update de pokemon", () => {
+    it("Deve retorna uma mensagem de erro caso o código de pokémon procurado seja igual a null", async () => {
+
+        const response = await request(app).post("/criaturas/updatePokemon/null")
+
+        expect(response.statusCode).toEqual(404)
+    });
+
+    it("Deve retornar erro ao não encontrar uma criatura pelo seu id", async () => {
+
+        const response = await request(app).post("/criaturas/updatePokemon/-1")
+
+        expect(response.statusCode).toEqual(422)
+        expect(response.body).toEqual({ message: "Pokémon não encontrado" });
+    });
+
+    it("Deve conter mensagem de erro ao passar algum atributo obrigatorio como nulo", async () => {
+
+        const response = await request(app).post("/criaturas/updatePokemon/1")
+            .send({
+                codigo: null,
+                name: "bulbasaur",
+                type_1: "grass",
+                type_2: null,
+                hp: 45,
+                attack: 49,
+                defense: 49,
+                special_attack: null,
+                special_defense: 65,
+                speed: 45,
+                generation: "1",
+                url_image: "https://raw.githubusercontent.com/fga-eps-mds/2022-1-PokeRanking/main/docs/Imagens/Pokemons/475p/001.png",
+                shape: "quadruped",
+                total: 318
+            });
+
+        expect(response.statusCode).toEqual(422)
+        expect(response.body).toEqual({ message: "Atributo(s) obrigatório(s) para realizar o update" });
+    });
+
+    it("Deve apresentar mensagem de sucesso ao fazer o update do pokemon", async () => {
+
+        const response = await request(app).post("/criaturas/updatePokemon/1")
+            .send({
+                codigo: 999,
+                name: "Artus",
+                type_1: "vidro",
+                type_2: "veneno",
+                hp: 2,
+                attack: 50,
+                defense: 60,
+                special_attack: 70,
+                special_defense: 70,
+                speed: 8,
+                generation: "2",
+                url_image: "null",
+                shape: "humanoid",
+                total: 500
+            });
+
+        expect(response.statusCode).toEqual(200)
+        expect(response.body).toEqual({ message: "Criatura encontrada/atualizada com sucesso" });
+    });
+
+    it("Realiza a restauração do update da criatura para o estado original", async () => {
+
+        const response = await request(app).post("/criaturas/recupera_criatura_de_teste/999")
+            .send({
+                codigo: 1,
+                name: "bulbasaur",
+                type_1: "grass",
+                type_2: "poison",
+                hp: 45,
+                attack: 49,
+                defense: 49,
+                special_attack: 65,
+                special_defense: 65,
+                speed: 45,
+                generation: "1",
+                url_image: "https://raw.githubusercontent.com/fga-eps-mds/2022-1-PokeRanking/main/docs/Imagens/Pokemons/475p/001.png",
+                shape: "quadruped",
+                total: 318
+            });
+
+        expect(response.statusCode).toEqual(200)
+    });
+
 })
